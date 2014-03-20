@@ -3,28 +3,67 @@ import json
 import pkg_resources
 import re
 
+FORMAT_LONG = 0
+FORMAT_SHORT = 1
+
 STRUCTURE = json.loads(pkg_resources.resource_string(__name__, 'data/structure.json'))
 
 def ref(uri):
     return ScriptureRef(uri)
 
-def format(ref, lang='eng'):
+def format(ref_or_refs, lang='eng', include_book=True, book_format=FORMAT_LONG):
     # Load the language definition
     try:
         language = json.loads(pkg_resources.resource_string(__name__, 'data/{}.json'.format(lang)))
     except:
         language = json.loads(pkg_resources.resource_string(__name__, 'data/{}.json'.format('eng')))
-    
-    # Get the book
-    book = language['testaments'][ref.testament]['books'][ref.book]['title']
-    
-    # Format the ref
-    response = book
-    if ref.chapter:
-        response += ' ' + str(ref.chapter)
-        if ref.verse_ranges:
-            response += ':' + ', '.join(str(x[0]) if x[0] == x[1] else u'{}\u2013{}'.format(x[0], x[1]) for x in ref.verse_ranges) if ref.verse_ranges else None
-    return response
+        
+    if isinstance(ref_or_refs, ScriptureRef):
+        ref = ref_or_refs
+        
+        # Get the book
+        language_book =  language['testaments'][ref.testament]['books'][ref.book]
+        book = language_book['title']
+        if book_format == FORMAT_SHORT and 'shortTitle' in language_book:
+            book = language_book['shortTitle']
+        
+        # Format the ref
+        response = book if include_book else ''
+        if ref.chapter:
+            if response:
+                response += ' '
+            response += str(ref.chapter)
+            if ref.verse_ranges:
+                response += ':' + ', '.join(str(x[0]) if x[0] == x[1] else u'{}\u2013{}'.format(x[0], x[1]) for x in ref.verse_ranges) if ref.verse_ranges else None
+        return response
+    else:
+        refs = merged(ref_or_refs)
+        
+        response = ''
+        
+        prev_book = None
+        pending_chapter_range = None
+        for ref in refs:
+            if prev_book == ref.book and not ref.verse_ranges and pending_chapter_range and pending_chapter_range[1] == ref.chapter - 1:
+                pending_chapter_range = (pending_chapter_range[0], ref.chapter)
+            else:
+                if pending_chapter_range:
+                    if pending_chapter_range[0] != pending_chapter_range[1]:
+                        response += u'\u2013{}'.format(pending_chapter_range[1])
+                    pending_chapter_range = None
+                
+                if response:
+                    response += '; '
+                response += format(ref, lang=lang, include_book=(prev_book != ref.book), book_format=book_format)
+                
+                prev_book = ref.book
+                if ref.chapter and not ref.verse_ranges:
+                    pending_chapter_range = (ref.chapter, ref.chapter)
+                
+        if pending_chapter_range and pending_chapter_range[0] != pending_chapter_range[1]:
+            response += u'\u2013{}'.format(pending_chapter_range[1])
+        
+        return response
 
 def merged(refs):
     merged_refs = []
@@ -45,7 +84,7 @@ def merged(refs):
     
     return merged_refs
 
-class ScriptureRef:
+class ScriptureRef:    
     SCRIPTURE_URI_REGEX = re.compile(r'''
         ^/scriptures
         /([^/]+)                      # testament
@@ -202,6 +241,34 @@ class ScriptureRef:
                 verse_ranges = list(ranges(sorted(verses)))
         
         return ScriptureRef(testament=testament, book=book, chapter=chapter, verse_ranges=verse_ranges)
+    
+    def chapters(self):
+        testament_structure = next((x for x in STRUCTURE['testaments'] if x['name'] == self.testament), None)
+        book_structure = next((x for x in testament_structure['books'] if x['name'] == self.book), None)
+            
+        if not self.chapter:
+            return range(1, len(book_structure['chapters']) + 1)
+        
+        if not self.verse_ranges:
+            return [ self.chapter ]
+        
+        chapter_structure = book_structure['chapters'][self.chapter - 1]
+        if len(self.verses()) == chapter_structure['verses']:
+            return [ self.chapter ]
+        
+        return []
+    
+    def verses(self):
+        if not self.chapter:
+            return []
+        
+        if not self.verse_ranges:
+            testament_structure = next((x for x in STRUCTURE['testaments'] if x['name'] == self.testament), None)
+            book_structure = next((x for x in testament_structure['books'] if x['name'] == self.book), None)
+            chapter_structure = book_structure['chapters'][self.chapter - 1]
+            return range(1, chapter_structure['verses'] + 1)
+        
+        return sorted(set(itertools.chain.from_iterable(range(start, stop + 1) for start, stop in self.verse_ranges)))
 
 def ranges(i):
     for a, b in itertools.groupby(enumerate(i), lambda (x, y): y - x):

@@ -53,13 +53,16 @@
         "dc-testament": {
             "books": {
                 "dc": {
-                    "title": "Doctrine and Covenants"
+                    "title": "Doctrine and Covenants",
+                    "shortTitle": "D&C"
                 },
                 "od": {
-                    "title": "Official Declaration"
+                    "title": "Official Declaration",
+                    "shortTitle": "OD"
                 }
             },
-            "title": "Doctrine and Covenants"
+            "title": "Doctrine and Covenants",
+            "shortTitle": "D&C"
         },
         "nt": {
             "books": {

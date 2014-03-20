@@ -1,7 +1,7 @@
 # coding=utf-8
 
 import unittest
-from scriptures import ref, format
+from scriptures import ref, format, FORMAT_LONG, FORMAT_SHORT
 
 class TestFormat(unittest.TestCase):
     def test_format_general(self):
@@ -32,3 +32,45 @@ class TestFormat(unittest.TestCase):
         self.assertEqual(format(ref('/scriptures/bofm/2-ne/5'), lang='spa'), u'2\u00a0Nefi 5')
         self.assertEqual(format(ref('/scriptures/dc-testament/dc/110'), lang='spa'), u'Doctrina y Convenios 110')
         self.assertEqual(format(ref('/scriptures/pgp/moses/2'), lang='spa'), u'Moisés 2')
+        
+    def test_format_dc_variations(self):
+        self.assertEqual(format(ref('/scriptures/dc-testament/dc/110'), book_format=FORMAT_LONG), 'Doctrine and Covenants 110')
+        self.assertEqual(format(ref('/scriptures/dc-testament/dc/110'), book_format=FORMAT_SHORT), 'D&C 110')
+
+    def test_format_multiple_refs_in_chapter(self):
+        self.assertEqual(format([ref('/scriptures/ot/gen/40.1'), ref('/scriptures/ot/gen/40.1-5')]), u'Genesis 40:1–5')
+        self.assertEqual(format([ref('/scriptures/ot/gen/40.1'), ref('/scriptures/ot/gen/40.3-5')]), u'Genesis 40:1, 3–5')
+
+    def test_format_multiple_refs_in_book(self):
+        self.assertEqual(format([ref('/scriptures/ot/gen/39.1'), ref('/scriptures/ot/gen/40.1-5')]), u'Genesis 39:1; 40:1–5')
+        self.assertEqual(format([ref('/scriptures/ot/gen/39'), ref('/scriptures/ot/gen/40.3-5')]), u'Genesis 39; 40:3–5')
+        self.assertEqual(format([ref('/scriptures/ot/gen/39'), ref('/scriptures/ot/gen/40')]), u'Genesis 39–40')
+        self.assertEqual(format([ref('/scriptures/ot/gen/39'), ref('/scriptures/ot/gen/41')]), u'Genesis 39; 41')
+        self.assertEqual(format([ref('/scriptures/ot/gen/39'), ref('/scriptures/ot/gen/41'), ref('/scriptures/ot/gen/42')]), u'Genesis 39; 41–42')
+
+    def test_format_multiple_refs_across_books(self):
+        self.assertEqual(format([ref('/scriptures/ot/gen/39.1'), ref('/scriptures/ot/ex/10.1-5')]), u'Genesis 39:1; Exodus 10:1–5')
+        self.assertEqual(format([ref('/scriptures/ot/gen/39'), ref('/scriptures/ot/ex/40.3-5')]), u'Genesis 39; Exodus 40:3–5')
+        self.assertEqual(format([ref('/scriptures/ot/gen/39'), ref('/scriptures/ot/ex/21'), ref('/scriptures/ot/ex/22')]), u'Genesis 39; Exodus 21–22')
+        
+    def test_short_format(self):
+        self.assertEqual(format([
+            ref("/scriptures/nt/matt/23"),
+            ref("/scriptures/nt/matt/24"),
+            ref("/scriptures/nt/acts/3"),
+            ref("/scriptures/nt/acts/6"),
+            ref("/scriptures/nt/acts/11"),
+            ref("/scriptures/nt/rom/8"),
+            ref("/scriptures/nt/1-cor/4"),
+            ref("/scriptures/nt/gal/1"),
+            ref("/scriptures/nt/2-thes/2"),
+            ref("/scriptures/nt/2-tim/4"),
+            ref("/scriptures/nt/titus/1"),
+            ref("/scriptures/nt/1-pet/4"),
+            ref("/scriptures/nt/1-jn/2"),
+            ref("/scriptures/dc-testament/dc/1"),
+            ref("/scriptures/dc-testament/dc/102"),
+            ref("/scriptures/dc-testament/dc/107"),
+            ref("/scriptures/dc-testament/dc/115"),
+            ref("/scriptures/pgp/js-h/1")
+        ], book_format=FORMAT_SHORT), u'Matthew 23–24; Acts 3; 6; 11; Romans 8; 1\u00a0Corinthians 4; Galatians 1; 2\u00a0Thessalonians 2; 2 Timothy 4; Titus 1; 1\u00a0Peter 4; 1\u00a0John 2; D&C 1; 102; 107; 115; Joseph Smith—History 1')

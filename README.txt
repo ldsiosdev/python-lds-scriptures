@@ -36,3 +36,12 @@ Manipulate references::
     >>> ref.verse_ranges = None
     >>> ref
     ScriptureRef("/scriptures/bofm/2-ne")
+    
+Query references::
+
+    >>> scriptures.ref('/scriptures/ot/ruth').chapters()
+    [1, 2, 3, 4]
+    >>> scriptures.ref('/scriptures/nt/2-cor/12').verses()
+    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    >>> scriptures.ref('/scriptures/dc-testament/dc/46.11-12,15').verses()
+    [11, 12, 15]
