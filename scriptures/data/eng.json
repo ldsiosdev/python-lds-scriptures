@@ -3,16 +3,20 @@
         "bofm": {
             "books": {
                 "1-ne": {
-                    "title": "1\u00a0Nephi"
+                    "title": "1\u00a0Nephi",
+                    "shortTitle": "1\u00a0Ne."
                 },
                 "2-ne": {
-                    "title": "2\u00a0Nephi"
+                    "title": "2\u00a0Nephi",
+                    "shortTitle": "2\u00a0Ne."
                 },
                 "3-ne": {
-                    "title": "3\u00a0Nephi"
+                    "title": "3\u00a0Nephi",
+                    "shortTitle": "3\u00a0Ne."
                 },
                 "4-ne": {
-                    "title": "4\u00a0Nephi"
+                    "title": "4\u00a0Nephi",
+                    "shortTitle": "4\u00a0Ne."
                 },
                 "alma": {
                     "title": "Alma"
@@ -24,7 +28,8 @@
                     "title": "Ether"
                 },
                 "hel": {
-                    "title": "Helaman"
+                    "title": "Helaman",
+                    "shortTitle": "Hel."
                 },
                 "jacob": {
                     "title": "Jacob"
@@ -33,10 +38,12 @@
                     "title": "Jarom"
                 },
                 "morm": {
-                    "title": "Mormon"
+                    "title": "Mormon",
+                    "shortTitle": "Morm."
                 },
                 "moro": {
-                    "title": "Moroni"
+                    "title": "Moroni",
+                    "shortTitle": "Moro."
                 },
                 "mosiah": {
                     "title": "Mosiah"
@@ -45,7 +52,8 @@
                     "title": "Omni"
                 },
                 "w-of-m": {
-                    "title": "Words of Mormon"
+                    "title": "Words of Mormon",
+                    "shortTitle": "W of M"
                 }
             },
             "title": "Book of Mormon"
@@ -67,37 +75,48 @@
         "nt": {
             "books": {
                 "1-cor": {
-                    "title": "1\u00a0Corinthians"
+                    "title": "1\u00a0Corinthians",
+                    "shortTitle": "1\u00a0Cor."
                 },
                 "1-jn": {
-                    "title": "1\u00a0John"
+                    "title": "1\u00a0John",
+                    "shortTitle": "1\u00a0Jn."
                 },
                 "1-pet": {
-                    "title": "1\u00a0Peter"
+                    "title": "1\u00a0Peter",
+                    "shortTitle": "1\u00a0Pet."
                 },
                 "1-thes": {
-                    "title": "1\u00a0Thessalonians"
+                    "title": "1\u00a0Thessalonians",
+                    "shortTitle": "1\u00a0Thes."
                 },
                 "1-tim": {
-                    "title": "1\u00a0Timothy"
+                    "title": "1\u00a0Timothy",
+                    "shortTitle": "1\u00a0Tim."
                 },
                 "2-cor": {
-                    "title": "2\u00a0Corinthians"
+                    "title": "2\u00a0Corinthians",
+                    "shortTitle": "2\u00a0Cor."
                 },
                 "2-jn": {
-                    "title": "2\u00a0John"
+                    "title": "2\u00a0John",
+                    "shortTitle": "2\u00a0Jn."
                 },
                 "2-pet": {
-                    "title": "2\u00a0Peter"
+                    "title": "2\u00a0Peter",
+                    "shortTitle": "2\u00a0Pet."
                 },
                 "2-thes": {
-                    "title": "2\u00a0Thessalonians"
+                    "title": "2\u00a0Thessalonians",
+                    "shortTitle": "2\u00a0Thes."
                 },
                 "2-tim": {
-                    "title": "2\u00a0Timothy"
+                    "title": "2\u00a0Timothy",
+                    "shortTitle": "2\u00a0Tim."
                 },
                 "3-jn": {
-                    "title": "3\u00a0John"
+                    "title": "3\u00a0John",
+                    "shortTitle": "3\u00a0Jn."
                 },
                 "acts": {
                     "title": "Acts"
@@ -106,13 +125,16 @@
                     "title": "Colossians"
                 },
                 "eph": {
-                    "title": "Ephesians"
+                    "title": "Ephesians",
+                    "shortTitle": "Eph."
                 },
                 "gal": {
-                    "title": "Galatians"
+                    "title": "Galatians",
+                    "shortTitle": "Gal."
                 },
                 "heb": {
-                    "title": "Hebrews"
+                    "title": "Hebrews",
+                    "shortTitle": "Heb."
                 },
                 "james": {
                     "title": "James"
@@ -130,87 +152,110 @@
                     "title": "Mark"
                 },
                 "matt": {
-                    "title": "Matthew"
+                    "title": "Matthew",
+                    "shortTitle": "Matt."
                 },
                 "philem": {
-                    "title": "Philemon"
+                    "title": "Philemon",
+                    "shortTitle": "Philem."
                 },
                 "philip": {
-                    "title": "Philippians"
+                    "title": "Philippians",
+                    "shortTitle": "Philip."
                 },
                 "rev": {
-                    "title": "Revelation"
+                    "title": "Revelation",
+                    "shortTitle": "Rev."
                 },
                 "rom": {
-                    "title": "Romans"
+                    "title": "Romans",
+                    "shortTitle": "Rom."
                 },
                 "titus": {
                     "title": "Titus"
                 }
             },
-            "title": "New Testament"
+            "title": "New Testament",
+            "shortTitle": "NT"
         },
         "ot": {
             "books": {
                 "1-chr": {
-                    "title": "1\u00a0Chronicles"
+                    "title": "1\u00a0Chronicles",
+                    "shortTitle": "1\u00a0Chr."
                 },
                 "1-kgs": {
-                    "title": "1\u00a0Kings"
+                    "title": "1\u00a0Kings",
+                    "shortTitle": "1\u00a0Kgs."
                 },
                 "1-sam": {
-                    "title": "1\u00a0Samuel"
+                    "title": "1\u00a0Samuel",
+                    "shortTitle": "1\u00a0Sam."
                 },
                 "2-chr": {
-                    "title": "2\u00a0Chronicles"
+                    "title": "2\u00a0Chronicles",
+                    "shortTitle": "2\u00a0Chr."
                 },
                 "2-kgs": {
-                    "title": "2\u00a0Kings"
+                    "title": "2\u00a0Kings",
+                    "shortTitle": "2\u00a0Kgs."
                 },
                 "2-sam": {
-                    "title": "2\u00a0Samuel"
+                    "title": "2\u00a0Samuel",
+                    "shortTitle": "2\u00a0Sam."
                 },
                 "amos": {
                     "title": "Amos"
                 },
                 "dan": {
-                    "title": "Daniel"
+                    "title": "Daniel",
+                    "shortTitle": "Dan."
                 },
                 "deut": {
-                    "title": "Deuteronomy"
+                    "title": "Deuteronomy",
+                    "shortTitle": "Deut."
                 },
                 "eccl": {
-                    "title": "Ecclesiastes"
+                    "title": "Ecclesiastes",
+                    "shortTitle": "Eccl."
                 },
                 "esth": {
-                    "title": "Esther"
+                    "title": "Esther",
+                    "shortTitle": "Esth."
                 },
                 "ex": {
-                    "title": "Exodus"
+                    "title": "Exodus",
+                    "shortTitle": "Ex."
                 },
                 "ezek": {
-                    "title": "Ezekiel"
+                    "title": "Ezekiel",
+                    "shortTitle": "Ezek."
                 },
                 "ezra": {
                     "title": "Ezra"
                 },
                 "gen": {
-                    "title": "Genesis"
+                    "title": "Genesis",
+                    "shortTitle": "Gen."
                 },
                 "hab": {
-                    "title": "Habakkuk"
+                    "title": "Habakkuk",
+                    "shortTitle": "Hab."
                 },
                 "hag": {
-                    "title": "Haggai"
+                    "title": "Haggai",
+                    "shortTitle": "Hag."
                 },
                 "hosea": {
                     "title": "Hosea"
                 },
                 "isa": {
-                    "title": "Isaiah"
+                    "title": "Isaiah",
+                    "shortTitle": "Isa."
                 },
                 "jer": {
-                    "title": "Jeremiah"
+                    "title": "Jeremiah",
+                    "shortTitle": "Jer."
                 },
                 "job": {
                     "title": "Job"
@@ -222,19 +267,24 @@
                     "title": "Jonah"
                 },
                 "josh": {
-                    "title": "Joshua"
+                    "title": "Joshua",
+                    "shortTitle": "Josh."
                 },
                 "judg": {
-                    "title": "Judges"
+                    "title": "Judges",
+                    "shortTitle": "Judg."
                 },
                 "lam": {
-                    "title": "Lamentations"
+                    "title": "Lamentations",
+                    "shortTitle": "Lam."
                 },
                 "lev": {
-                    "title": "Leviticus"
+                    "title": "Leviticus",
+                    "shortTitle": "Lev."
                 },
                 "mal": {
-                    "title": "Malachi"
+                    "title": "Malachi",
+                    "shortTitle": "Mal."
                 },
                 "micah": {
                     "title": "Micah"
@@ -243,54 +293,68 @@
                     "title": "Nahum"
                 },
                 "neh": {
-                    "title": "Nehemiah"
+                    "title": "Nehemiah",
+                    "shortTitle": "Neh."
                 },
                 "num": {
-                    "title": "Numbers"
+                    "title": "Numbers",
+                    "shortTitle": "Num."
                 },
                 "obad": {
-                    "title": "Obadiah"
+                    "title": "Obadiah",
+                    "shortTitle": "Obad."
                 },
                 "prov": {
-                    "title": "Proverbs"
+                    "title": "Proverbs",
+                    "shortTitle": "Prov."
                 },
                 "ps": {
-                    "title": "Psalms"
+                    "title": "Psalms",
+                    "shortTitle": "Ps."
                 },
                 "ruth": {
                     "title": "Ruth"
                 },
                 "song": {
-                    "title": "Song of Solomon"
+                    "title": "Song of Solomon",
+                    "shortTitle": "Song"
                 },
                 "zech": {
-                    "title": "Zechariah"
+                    "title": "Zechariah",
+                    "shortTitle": "Zech."
                 },
                 "zeph": {
-                    "title": "Zephaniah"
+                    "title": "Zephaniah",
+                    "shortTitle": "Zeph."
                 }
             },
-            "title": "Old Testament"
+            "title": "Old Testament",
+            "shortTitle": "OT"
         },
         "pgp": {
             "books": {
                 "a-of-f": {
-                    "title": "Articles of Faith"
+                    "title": "Articles of Faith",
+                    "shortTitle": "A of F"
                 },
                 "abr": {
-                    "title": "Abraham"
+                    "title": "Abraham",
+                    "shortTitle": "Abr."
                 },
                 "js-h": {
-                    "title": "Joseph Smith\u2014History"
+                    "title": "Joseph Smith\u2014History",
+                    "shortTitle": "JS\u2014H"
                 },
                 "js-m": {
-                    "title": "Joseph Smith\u2014Matthew"
+                    "title": "Joseph Smith\u2014Matthew",
+                    "shortTitle": "JS\u2014M"
                 },
                 "moses": {
                     "title": "Moses"
                 }
             },
-            "title": "Pearl of Great Price"
+            "title": "Pearl of Great Price",
+            "shortTitle": "PGP"
         }
     }
 }

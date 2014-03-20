@@ -73,4 +73,4 @@ class TestFormat(unittest.TestCase):
             ref("/scriptures/dc-testament/dc/107"),
             ref("/scriptures/dc-testament/dc/115"),
             ref("/scriptures/pgp/js-h/1")
-        ], book_format=FORMAT_SHORT), u'Matthew 23–24; Acts 3; 6; 11; Romans 8; 1\u00a0Corinthians 4; Galatians 1; 2\u00a0Thessalonians 2; 2 Timothy 4; Titus 1; 1\u00a0Peter 4; 1\u00a0John 2; D&C 1; 102; 107; 115; Joseph Smith—History 1')
+        ], book_format=FORMAT_SHORT), u'Matt. 23–24; Acts 3; 6; 11; Rom. 8; 1\u00a0Cor. 4; Gal. 1; 2\u00a0Thes. 2; 2\u00a0Tim. 4; Titus 1; 1\u00a0Pet. 4; 1\u00a0Jn. 2; D&C 1; 102; 107; 115; JS—H 1')
