@@ -1,0 +1,343 @@
+{
+    "testaments": {
+        "bible": {
+            "books": {},
+            "title": "Bibeln: Svenska Folkbibelen"
+        },
+        "bofm": {
+            "books": {
+                "1-ne": {
+                    "title": ""
+                },
+                "2-ne": {
+                    "title": ""
+                },
+                "3-ne": {
+                    "title": ""
+                },
+                "4-ne": {
+                    "title": ""
+                },
+                "alma": {
+                    "title": ""
+                },
+                "enos": {
+                    "title": ""
+                },
+                "ether": {
+                    "title": ""
+                },
+                "hel": {
+                    "title": ""
+                },
+                "jacob": {
+                    "title": ""
+                },
+                "jarom": {
+                    "title": ""
+                },
+                "morm": {
+                    "title": ""
+                },
+                "moro": {
+                    "title": ""
+                },
+                "mosiah": {
+                    "title": ""
+                },
+                "omni": {
+                    "title": ""
+                },
+                "w-of-m": {
+                    "title": ""
+                }
+            },
+            "title": ""
+        },
+        "dc-testament": {
+            "books": {
+                "dc": {
+                    "title": ""
+                },
+                "od/1": {
+                    "title": ""
+                },
+                "od/2": {
+                    "title": ""
+                }
+            },
+            "title": ""
+        },
+        "nt": {
+            "books": {
+                "1-cor": {
+                    "title": ""
+                },
+                "1-jn": {
+                    "title": ""
+                },
+                "1-pet": {
+                    "title": ""
+                },
+                "1-thes": {
+                    "title": ""
+                },
+                "1-tim": {
+                    "title": ""
+                },
+                "2-cor": {
+                    "title": ""
+                },
+                "2-jn": {
+                    "title": ""
+                },
+                "2-pet": {
+                    "title": ""
+                },
+                "2-thes": {
+                    "title": ""
+                },
+                "2-tim": {
+                    "title": ""
+                },
+                "3-jn": {
+                    "title": ""
+                },
+                "acts": {
+                    "title": ""
+                },
+                "col": {
+                    "title": ""
+                },
+                "eph": {
+                    "title": ""
+                },
+                "gal": {
+                    "title": ""
+                },
+                "heb": {
+                    "title": ""
+                },
+                "james": {
+                    "title": ""
+                },
+                "john": {
+                    "shortTitle": "Joh",
+                    "title": "Johannes"
+                },
+                "jude": {
+                    "title": ""
+                },
+                "luke": {
+                    "shortTitle": "Luk",
+                    "title": "Lukas"
+                },
+                "mark": {
+                    "shortTitle": "Mark",
+                    "title": "Markus"
+                },
+                "matt": {
+                    "shortTitle": "Matt",
+                    "title": "Matteus"
+                },
+                "philem": {
+                    "title": ""
+                },
+                "philip": {
+                    "title": ""
+                },
+                "rev": {
+                    "title": ""
+                },
+                "rom": {
+                    "title": ""
+                },
+                "titus": {
+                    "title": ""
+                }
+            },
+            "title": ""
+        },
+        "ot": {
+            "books": {
+                "1-chr": {
+                    "shortTitle": "1\u00a0Kr\u00f6n",
+                    "title": "F\u00f6rsta Kr\u00f6nikeboken"
+                },
+                "1-kgs": {
+                    "shortTitle": "1\u00a0Kung",
+                    "title": "F\u00f6rsta Kungaboken"
+                },
+                "1-sam": {
+                    "shortTitle": "1\u00a0Sam",
+                    "title": "F\u00f6rsta Samuelsboken"
+                },
+                "2-chr": {
+                    "shortTitle": "2\u00a0Kr\u00f6n",
+                    "title": "Andra Kr\u00f6nikeboken"
+                },
+                "2-kgs": {
+                    "shortTitle": "2\u00a0Kung",
+                    "title": "Andra Kungaboken"
+                },
+                "2-sam": {
+                    "shortTitle": "2\u00a0Sam",
+                    "title": "Andra Samuelsboken"
+                },
+                "amos": {
+                    "shortTitle": "Amos",
+                    "title": "Amos"
+                },
+                "dan": {
+                    "shortTitle": "Dan",
+                    "title": "Daniel"
+                },
+                "deut": {
+                    "shortTitle": "5\u00a0Mos.",
+                    "title": "Femte Moseboken"
+                },
+                "eccl": {
+                    "shortTitle": "Pred",
+                    "title": "Predikaren"
+                },
+                "esth": {
+                    "shortTitle": "Est",
+                    "title": "Ester"
+                },
+                "ex": {
+                    "shortTitle": "2\u00a0Mos.",
+                    "title": "Andra Moseboken"
+                },
+                "ezek": {
+                    "shortTitle": "Hes",
+                    "title": "Hesekiel"
+                },
+                "ezra": {
+                    "shortTitle": "Esra",
+                    "title": "Esra"
+                },
+                "gen": {
+                    "shortTitle": "1\u00a0Mos.",
+                    "title": "F\u00f6rsta Moseboken"
+                },
+                "hab": {
+                    "shortTitle": "Hab",
+                    "title": "Habakkuk"
+                },
+                "hag": {
+                    "shortTitle": "Hagg",
+                    "title": "Haggai"
+                },
+                "hosea": {
+                    "shortTitle": "Hos",
+                    "title": "Hosea"
+                },
+                "isa": {
+                    "shortTitle": "Jos",
+                    "title": "Jesaja"
+                },
+                "jer": {
+                    "shortTitle": "Jer",
+                    "title": "Jeremia"
+                },
+                "job": {
+                    "shortTitle": "Job",
+                    "title": "Job"
+                },
+                "joel": {
+                    "shortTitle": "Joel",
+                    "title": "Joel"
+                },
+                "jonah": {
+                    "shortTitle": "Jona",
+                    "title": "Jonah"
+                },
+                "josh": {
+                    "shortTitle": "Jos",
+                    "title": "Josua"
+                },
+                "judg": {
+                    "shortTitle": "Dom",
+                    "title": "Domarboken"
+                },
+                "lam": {
+                    "shortTitle": "Klag",
+                    "title": "Klagovisorna"
+                },
+                "lev": {
+                    "shortTitle": "3\u00a0Mos.",
+                    "title": "Tredje Moseboken"
+                },
+                "mal": {
+                    "shortTitle": "Mal",
+                    "title": "Malaki"
+                },
+                "micah": {
+                    "shortTitle": "Mika",
+                    "title": "Mika"
+                },
+                "nahum": {
+                    "shortTitle": "Nah",
+                    "title": "Nahum"
+                },
+                "neh": {
+                    "shortTitle": "Neh",
+                    "title": "Nehemja"
+                },
+                "num": {
+                    "shortTitle": "4\u00a0Mos.",
+                    "title": "Fj\u00e4rde Moseboken"
+                },
+                "obad": {
+                    "shortTitle": "Ob",
+                    "title": "Obadja"
+                },
+                "prov": {
+                    "shortTitle": "Ords",
+                    "title": "Ordspr\u00e5ksboken"
+                },
+                "ps": {
+                    "shortTitle": "Ps",
+                    "title": "Psaltaren"
+                },
+                "ruth": {
+                    "shortTitle": "Rut",
+                    "title": "Rut"
+                },
+                "song": {
+                    "shortTitle": "H\u00f6ga V",
+                    "title": "H\u00f6ga Visan"
+                },
+                "zech": {
+                    "shortTitle": "Sak",
+                    "title": "Sakarja"
+                },
+                "zeph": {
+                    "shortTitle": "Sef",
+                    "title": "Sefanja"
+                }
+            },
+            "title": ""
+        },
+        "pgp": {
+            "books": {
+                "a-of-f": {
+                    "title": ""
+                },
+                "abr": {
+                    "title": ""
+                },
+                "js-h": {
+                    "title": ""
+                },
+                "js-m": {
+                    "title": ""
+                },
+                "moses": {
+                    "title": ""
+                }
+            },
+            "title": ""
+        }
+    }
+}

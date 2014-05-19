@@ -1,0 +1,300 @@
+{
+    "testaments": {
+        "bible": {
+            "books": {},
+            "title": "O le Tusi Paia"
+        },
+        "bofm": {
+            "books": {
+                "1-ne": {
+                    "title": "I\u00a0Nifae"
+                },
+                "2-ne": {
+                    "title": "II\u00a0Nifae"
+                },
+                "3-ne": {
+                    "title": "III\u00a0Nifae"
+                },
+                "4-ne": {
+                    "title": "IV Nifae"
+                },
+                "alma": {
+                    "title": "Alema"
+                },
+                "enos": {
+                    "title": "Enosa"
+                },
+                "ether": {
+                    "title": "Eteru"
+                },
+                "hel": {
+                    "title": "Helamana"
+                },
+                "jacob": {
+                    "title": "Iakopo"
+                },
+                "jarom": {
+                    "title": "Iaroma"
+                },
+                "morm": {
+                    "title": "Mamona"
+                },
+                "moro": {
+                    "title": "Moronae"
+                },
+                "mosiah": {
+                    "title": "Mosaea"
+                },
+                "omni": {
+                    "title": "Ominae"
+                },
+                "w-of-m": {
+                    "title": "Upu a Mamona"
+                }
+            },
+            "title": ""
+        },
+        "dc-testament": {
+            "books": {
+                "dc": {
+                    "title": "Mata'upu Fa'avae ma Feagaiga"
+                },
+                "od/1": {
+                    "title": "Folafolaga Aloaia"
+                },
+                "od/2": {
+                    "title": "Folafolaga Aloaia"
+                }
+            },
+            "title": ""
+        },
+        "nt": {
+            "books": {
+                "1-cor": {
+                    "title": "I. Korinito"
+                },
+                "1-jn": {
+                    "title": "I. Ioane"
+                },
+                "1-pet": {
+                    "title": "I. Peteru"
+                },
+                "1-thes": {
+                    "title": "I. Tesalonia"
+                },
+                "1-tim": {
+                    "title": "I. Timoteo"
+                },
+                "2-cor": {
+                    "title": "II. Korinito"
+                },
+                "2-jn": {
+                    "title": "II. Ioane"
+                },
+                "2-pet": {
+                    "title": "II. Peteru"
+                },
+                "2-thes": {
+                    "title": "II. Tesalonia"
+                },
+                "2-tim": {
+                    "title": "II. Timoteo"
+                },
+                "3-jn": {
+                    "title": "III. Ioane"
+                },
+                "acts": {
+                    "title": "Galuega"
+                },
+                "col": {
+                    "title": "Kolose"
+                },
+                "eph": {
+                    "title": "Efeso"
+                },
+                "gal": {
+                    "title": "Kalatia"
+                },
+                "heb": {
+                    "title": "Eperu"
+                },
+                "james": {
+                    "title": "Iakopo"
+                },
+                "john": {
+                    "title": "Ioane"
+                },
+                "jude": {
+                    "title": "Iuta"
+                },
+                "luke": {
+                    "title": "Luka"
+                },
+                "mark": {
+                    "title": "Mareko"
+                },
+                "matt": {
+                    "title": "Mataio"
+                },
+                "philem": {
+                    "title": "Filemoni"
+                },
+                "philip": {
+                    "title": "Filipi"
+                },
+                "rev": {
+                    "title": "Faaaliga"
+                },
+                "rom": {
+                    "title": "Roma"
+                },
+                "titus": {
+                    "title": "Tito"
+                }
+            },
+            "title": ""
+        },
+        "ot": {
+            "books": {
+                "1-chr": {
+                    "title": "I. Nofoaiga a Tupu"
+                },
+                "1-kgs": {
+                    "title": "I. Tupu"
+                },
+                "1-sam": {
+                    "title": "I. Samuelu"
+                },
+                "2-chr": {
+                    "title": "II. Nofoaiga a Tupu"
+                },
+                "2-kgs": {
+                    "title": "II. Tupu"
+                },
+                "2-sam": {
+                    "title": "II. Samuelu"
+                },
+                "amos": {
+                    "title": "Amosa"
+                },
+                "dan": {
+                    "title": "Tanielu"
+                },
+                "deut": {
+                    "title": "Teuteronome"
+                },
+                "eccl": {
+                    "title": "Failauga"
+                },
+                "esth": {
+                    "title": "Eseta"
+                },
+                "ex": {
+                    "title": "Esoto"
+                },
+                "ezek": {
+                    "title": "Esekielu"
+                },
+                "ezra": {
+                    "title": "Esera"
+                },
+                "gen": {
+                    "title": "Kenese"
+                },
+                "hab": {
+                    "title": "Sapakuka"
+                },
+                "hag": {
+                    "title": "Hakai"
+                },
+                "hosea": {
+                    "title": "Hosea"
+                },
+                "isa": {
+                    "title": "Isaia"
+                },
+                "jer": {
+                    "title": "Ieremia"
+                },
+                "job": {
+                    "title": "Iopu"
+                },
+                "joel": {
+                    "title": "Ioelu"
+                },
+                "jonah": {
+                    "title": "Iona"
+                },
+                "josh": {
+                    "title": "Iosua"
+                },
+                "judg": {
+                    "title": "Faamasino"
+                },
+                "lam": {
+                    "title": "Auega"
+                },
+                "lev": {
+                    "title": "Levitiko"
+                },
+                "mal": {
+                    "title": "Malaki"
+                },
+                "micah": {
+                    "title": "Mika"
+                },
+                "nahum": {
+                    "title": "Nauma"
+                },
+                "neh": {
+                    "title": "Neemia"
+                },
+                "num": {
+                    "title": "Numera"
+                },
+                "obad": {
+                    "title": "Opetaia"
+                },
+                "prov": {
+                    "title": "Faataoto"
+                },
+                "ps": {
+                    "title": "Salamo"
+                },
+                "ruth": {
+                    "title": "Ruta"
+                },
+                "song": {
+                    "title": "Le Pese a Solomona"
+                },
+                "zech": {
+                    "title": "Sakaria"
+                },
+                "zeph": {
+                    "title": "Sefanaia"
+                }
+            },
+            "title": ""
+        },
+        "pgp": {
+            "books": {
+                "a-of-f": {
+                    "title": "Mata'upu Fa'avae o le Fa'atuatua"
+                },
+                "abr": {
+                    "title": "Aperaamo"
+                },
+                "js-h": {
+                    "title": "Iosefa Samita - Talafa'asolopito"
+                },
+                "js-m": {
+                    "title": "Iosefa Samita - Mataio"
+                },
+                "moses": {
+                    "title": "Moses"
+                }
+            },
+            "title": ""
+        }
+    }
+}

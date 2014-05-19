@@ -1,0 +1,389 @@
+{
+    "testaments": {
+        "bible": {
+            "books": {},
+            "title": "Bib La"
+        },
+        "bofm": {
+            "books": {
+                "1-ne": {
+                    "shortTitle": "1\u00a0Ne.",
+                    "title": "1\u00a0Nefi"
+                },
+                "2-ne": {
+                    "shortTitle": "2\u00a0Ne.",
+                    "title": "2\u00a0Nefi"
+                },
+                "3-ne": {
+                    "shortTitle": "3\u00a0Ne.",
+                    "title": "3\u00a0Nefi"
+                },
+                "4-ne": {
+                    "shortTitle": "4\u00a0Ne.",
+                    "title": "4\u00a0Nefi"
+                },
+                "alma": {
+                    "shortTitle": "Alma",
+                    "title": "Alma"
+                },
+                "enos": {
+                    "shortTitle": "En\u00f2s",
+                    "title": "En\u00f2s"
+                },
+                "ether": {
+                    "shortTitle": "Et\u00e8",
+                    "title": "Et\u00e8"
+                },
+                "hel": {
+                    "shortTitle": "Ela.",
+                    "title": "Elaman"
+                },
+                "jacob": {
+                    "shortTitle": "Jak\u00f2b",
+                    "title": "Jak\u00f2b"
+                },
+                "jarom": {
+                    "shortTitle": "Jaw\u00f2m",
+                    "title": "Jaw\u00f2m"
+                },
+                "morm": {
+                    "shortTitle": "M\u00f2m.",
+                    "title": "M\u00f2mon"
+                },
+                "moro": {
+                    "shortTitle": "Mowo.",
+                    "title": "Mowoni"
+                },
+                "mosiah": {
+                    "shortTitle": "Mozya",
+                    "title": "Mozya"
+                },
+                "omni": {
+                    "shortTitle": "Omni",
+                    "title": "Omni"
+                },
+                "w-of-m": {
+                    "shortTitle": "P\u2014M",
+                    "title": "Paw\u00f2l M\u00f2mon yo"
+                }
+            },
+            "title": "Liv M\u00f2mon"
+        },
+        "dc-testament": {
+            "books": {
+                "dc": {
+                    "shortTitle": "D&A",
+                    "title": "Doktrin ak Alyans"
+                },
+                "od/1": {
+                    "shortTitle": "DO\u20141",
+                    "title": "Deklarasyon Ofisy\u00e8l\u20141"
+                },
+                "od/2": {
+                    "shortTitle": "DO\u20142",
+                    "title": "Deklarasyon Ofisy\u00e8l\u20142"
+                }
+            },
+            "title": "Doktrin ak Alyans"
+        },
+        "nt": {
+            "books": {
+                "1-cor": {
+                    "shortTitle": "1\u00a0Kor.",
+                    "title": "1\u00a0Korentyen"
+                },
+                "1-jn": {
+                    "shortTitle": "1\u00a0Jan",
+                    "title": "1\u00a0Jan"
+                },
+                "1-pet": {
+                    "shortTitle": "1\u00a0Py\u00e8",
+                    "title": "1\u00a0Py\u00e8"
+                },
+                "1-thes": {
+                    "shortTitle": "1\u00a0Tes.",
+                    "title": "1\u00a0Tesalonisyen"
+                },
+                "1-tim": {
+                    "shortTitle": "1\u00a0Tim.",
+                    "title": "1\u00a0Timote"
+                },
+                "2-cor": {
+                    "shortTitle": "2\u00a0Kor.",
+                    "title": "2\u00a0Korentyen"
+                },
+                "2-jn": {
+                    "shortTitle": "2\u00a0Jan",
+                    "title": "2\u00a0Jan"
+                },
+                "2-pet": {
+                    "shortTitle": "2\u00a0Py\u00e8",
+                    "title": "2\u00a0Py\u00e8"
+                },
+                "2-thes": {
+                    "shortTitle": "2\u00a0Tes.",
+                    "title": "2\u00a0Tesalonisyen"
+                },
+                "2-tim": {
+                    "shortTitle": "2\u00a0Tim.",
+                    "title": "2\u00a0Timote"
+                },
+                "3-jn": {
+                    "shortTitle": "3\u00a0Jan",
+                    "title": "3\u00a0Jan"
+                },
+                "acts": {
+                    "shortTitle": "Tra.",
+                    "title": "Travay Apot yo"
+                },
+                "col": {
+                    "shortTitle": "Kol.",
+                    "title": "Kolosyen"
+                },
+                "eph": {
+                    "shortTitle": "Efe.",
+                    "title": "Efezyen"
+                },
+                "gal": {
+                    "shortTitle": "Gal.",
+                    "title": "Galat"
+                },
+                "heb": {
+                    "shortTitle": "Ebre",
+                    "title": "Ebre"
+                },
+                "james": {
+                    "shortTitle": "Jak",
+                    "title": "Jak"
+                },
+                "john": {
+                    "shortTitle": "Jan",
+                    "title": "Jan"
+                },
+                "jude": {
+                    "shortTitle": "Jid",
+                    "title": "Jid"
+                },
+                "luke": {
+                    "shortTitle": "Lik",
+                    "title": "Lik"
+                },
+                "mark": {
+                    "shortTitle": "Mak",
+                    "title": "Mak"
+                },
+                "matt": {
+                    "shortTitle": "Mat.",
+                    "title": "Matye"
+                },
+                "philem": {
+                    "shortTitle": "Fil.",
+                    "title": "Filemon"
+                },
+                "philip": {
+                    "shortTitle": "Filip.",
+                    "title": "Filipyen"
+                },
+                "rev": {
+                    "shortTitle": "Apok.",
+                    "title": "Apokalips"
+                },
+                "rom": {
+                    "shortTitle": "Wom.",
+                    "title": "Women"
+                },
+                "titus": {
+                    "shortTitle": "Tit",
+                    "title": "Tit"
+                }
+            },
+            "title": "Nouvo Testaman"
+        },
+        "ot": {
+            "books": {
+                "1-chr": {
+                    "shortTitle": "1\u00a0Kwo.",
+                    "title": "1\u00a0Kwonik"
+                },
+                "1-kgs": {
+                    "shortTitle": "1\u00a0Wa",
+                    "title": "1\u00a0Wa"
+                },
+                "1-sam": {
+                    "shortTitle": "1\u00a0Sam.",
+                    "title": "1\u00a0Samy\u00e8l"
+                },
+                "2-chr": {
+                    "shortTitle": "2\u00a0Kwo.",
+                    "title": "2\u00a0Kwonik"
+                },
+                "2-kgs": {
+                    "shortTitle": "2\u00a0Wa",
+                    "title": "2\u00a0Wa"
+                },
+                "2-sam": {
+                    "shortTitle": "2\u00a0Sam.",
+                    "title": "2\u00a0Samy\u00e8l"
+                },
+                "amos": {
+                    "shortTitle": "Am\u00f2s",
+                    "title": "Am\u00f2s"
+                },
+                "dan": {
+                    "shortTitle": "Dan.",
+                    "title": "Dany\u00e8l"
+                },
+                "deut": {
+                    "shortTitle": "Det.",
+                    "title": "Detewon\u00f2m"
+                },
+                "eccl": {
+                    "shortTitle": "Ekl.",
+                    "title": "Eklezyas"
+                },
+                "esth": {
+                    "shortTitle": "Est\u00e8",
+                    "title": "Est\u00e8"
+                },
+                "ex": {
+                    "shortTitle": "Egz.",
+                    "title": "Egz\u00f2d"
+                },
+                "ezek": {
+                    "shortTitle": "Ezek.",
+                    "title": "Ezeky\u00e8l"
+                },
+                "ezra": {
+                    "shortTitle": "Esd.",
+                    "title": "Esdras"
+                },
+                "gen": {
+                    "shortTitle": "Jen.",
+                    "title": "Jen\u00e8z"
+                },
+                "hab": {
+                    "shortTitle": "Aba.",
+                    "title": "Abakik"
+                },
+                "hag": {
+                    "shortTitle": "Aje",
+                    "title": "Aje"
+                },
+                "hosea": {
+                    "shortTitle": "Oze",
+                    "title": "Oze"
+                },
+                "isa": {
+                    "shortTitle": "Eza.",
+                    "title": "Ezayi"
+                },
+                "jer": {
+                    "shortTitle": "Jer.",
+                    "title": "Jeremi"
+                },
+                "job": {
+                    "shortTitle": "J\u00f2b",
+                    "title": "J\u00f2b"
+                },
+                "joel": {
+                    "shortTitle": "Jow\u00e8l",
+                    "title": "Jow\u00e8l"
+                },
+                "jonah": {
+                    "shortTitle": "Jonas",
+                    "title": "Jonas"
+                },
+                "josh": {
+                    "shortTitle": "Joz.",
+                    "title": "Jozye"
+                },
+                "judg": {
+                    "shortTitle": "Jij",
+                    "title": "Jij"
+                },
+                "lam": {
+                    "shortTitle": "Lam.",
+                    "title": "Lamantasyon"
+                },
+                "lev": {
+                    "shortTitle": "Lev.",
+                    "title": "Levitik"
+                },
+                "mal": {
+                    "shortTitle": "Mal.",
+                    "title": "Malachi"
+                },
+                "micah": {
+                    "shortTitle": "Miche",
+                    "title": "Miche"
+                },
+                "nahum": {
+                    "shortTitle": "Nawoum",
+                    "title": "Nawoum"
+                },
+                "neh": {
+                    "shortTitle": "Ney.",
+                    "title": "Neyemi"
+                },
+                "num": {
+                    "shortTitle": "Nonb",
+                    "title": "Nonb"
+                },
+                "obad": {
+                    "shortTitle": "Abd.",
+                    "title": "Abdyas"
+                },
+                "prov": {
+                    "shortTitle": "Pwov.",
+                    "title": "Pwov\u00e8b"
+                },
+                "ps": {
+                    "shortTitle": "S\u00f2m",
+                    "title": "S\u00f2m"
+                },
+                "ruth": {
+                    "shortTitle": "Rit",
+                    "title": "Rit"
+                },
+                "song": {
+                    "shortTitle": "Kant.",
+                    "title": "Kantik Salomon yo"
+                },
+                "zech": {
+                    "shortTitle": "Zak.",
+                    "title": "Zakari"
+                },
+                "zeph": {
+                    "shortTitle": "Sof.",
+                    "title": "Sofoni"
+                }
+            },
+            "title": "Ansyen Testaman"
+        },
+        "pgp": {
+            "books": {
+                "a-of-f": {
+                    "shortTitle": "AL",
+                    "title": "Atik Lafwa yo"
+                },
+                "abr": {
+                    "shortTitle": "Abr.",
+                    "title": "Abraram"
+                },
+                "js-h": {
+                    "shortTitle": "I\u2014JS",
+                    "title": "Istwa\u2014Joseph Smith"
+                },
+                "js-m": {
+                    "shortTitle": "M\u2014JS",
+                    "title": "Matye\u2014Joseph Smith"
+                },
+                "moses": {
+                    "shortTitle": "Moyiz",
+                    "title": "Moyiz"
+                }
+            },
+            "title": "P\u00e8l Gran Pri a"
+        }
+    }
+}

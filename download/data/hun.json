@@ -1,0 +1,389 @@
+{
+    "testaments": {
+        "bible": {
+            "books": {},
+            "title": "Szent Biblia"
+        },
+        "bofm": {
+            "books": {
+                "1-ne": {
+                    "shortTitle": "1\u00a0Ne.",
+                    "title": "1\u00a0Nefi"
+                },
+                "2-ne": {
+                    "shortTitle": "2\u00a0Ne.",
+                    "title": "2\u00a0Nefi"
+                },
+                "3-ne": {
+                    "shortTitle": "3\u00a0Ne.",
+                    "title": "3\u00a0Nefi"
+                },
+                "4-ne": {
+                    "shortTitle": "4\u00a0Ne.",
+                    "title": "4\u00a0Nefi"
+                },
+                "alma": {
+                    "shortTitle": "Alma",
+                    "title": "Alma"
+                },
+                "enos": {
+                    "shortTitle": "\u00c9n\u00f3s",
+                    "title": "\u00c9n\u00f3s"
+                },
+                "ether": {
+                    "shortTitle": "Ether",
+                    "title": "Ether"
+                },
+                "hel": {
+                    "shortTitle": "H\u00e9l",
+                    "title": "H\u00e9lam\u00e1n"
+                },
+                "jacob": {
+                    "shortTitle": "J\u00e1k\u00f3b",
+                    "title": "J\u00e1k\u00f3b"
+                },
+                "jarom": {
+                    "shortTitle": "J\u00e1rom",
+                    "title": "J\u00e1rom"
+                },
+                "morm": {
+                    "shortTitle": "Morm.",
+                    "title": "Mormon"
+                },
+                "moro": {
+                    "shortTitle": "Mor\u00f3.",
+                    "title": "Mor\u00f3ni"
+                },
+                "mosiah": {
+                    "shortTitle": "M\u00f3zi\u00e1s",
+                    "title": "M\u00f3zi\u00e1s"
+                },
+                "omni": {
+                    "shortTitle": "Omni",
+                    "title": "Omni"
+                },
+                "w-of-m": {
+                    "shortTitle": "MSz",
+                    "title": "Mormon szavai"
+                }
+            },
+            "title": "A Mormon k\u00f6nyve"
+        },
+        "dc-testament": {
+            "books": {
+                "dc": {
+                    "shortTitle": "T&Sz",
+                    "title": "Tan \u00e9s a sz\u00f6vets\u00e9gek"
+                },
+                "od/1": {
+                    "shortTitle": "1\u00a0HNy",
+                    "title": "1. Hivatalos nyilatkozat"
+                },
+                "od/2": {
+                    "shortTitle": "2\u00a0HNy",
+                    "title": "2. Hivatalos nyilatkozat"
+                }
+            },
+            "title": "Tan \u00e9s a sz\u00f6vets\u00e9gek"
+        },
+        "nt": {
+            "books": {
+                "1-cor": {
+                    "shortTitle": "1\u00a0Kor.",
+                    "title": "1\u00a0Korinthusbeliek"
+                },
+                "1-jn": {
+                    "shortTitle": "1\u00a0J\u00e1n.",
+                    "title": "1\u00a0J\u00e1nos"
+                },
+                "1-pet": {
+                    "shortTitle": "1\u00a0P\u00e9t.",
+                    "title": "1\u00a0P\u00e9ter"
+                },
+                "1-thes": {
+                    "shortTitle": "1\u00a0Thess.",
+                    "title": "1\u00a0Thessalonikabeliek"
+                },
+                "1-tim": {
+                    "shortTitle": "1\u00a0Tim.",
+                    "title": "1\u00a0Tim\u00f3theus"
+                },
+                "2-cor": {
+                    "shortTitle": "2\u00a0Kor.",
+                    "title": "2\u00a0Korinthusbeliek"
+                },
+                "2-jn": {
+                    "shortTitle": "2\u00a0J\u00e1n.",
+                    "title": "2\u00a0J\u00e1nos"
+                },
+                "2-pet": {
+                    "shortTitle": "2\u00a0P\u00e9t.",
+                    "title": "2\u00a0P\u00e9ter"
+                },
+                "2-thes": {
+                    "shortTitle": "2\u00a0Thess.",
+                    "title": "2\u00a0Thessalonikabeliek"
+                },
+                "2-tim": {
+                    "shortTitle": "2\u00a0Tim.",
+                    "title": "2\u00a0Tim\u00f3theus"
+                },
+                "3-jn": {
+                    "shortTitle": "3\u00a0J\u00e1n.",
+                    "title": "3\u00a0J\u00e1nos"
+                },
+                "acts": {
+                    "shortTitle": "Csel.",
+                    "title": "Apostolok cselekedetei"
+                },
+                "col": {
+                    "shortTitle": "Kol.",
+                    "title": "Koloss\u00e9beliek"
+                },
+                "eph": {
+                    "shortTitle": "Ef\u00e9z.",
+                    "title": "Ef\u00e9zusbeliek"
+                },
+                "gal": {
+                    "shortTitle": "Gal.",
+                    "title": "Gal\u00e1tziabeliek"
+                },
+                "heb": {
+                    "shortTitle": "Zsid.",
+                    "title": "Zsid\u00f3k"
+                },
+                "james": {
+                    "shortTitle": "Jak.",
+                    "title": "Jakab"
+                },
+                "john": {
+                    "shortTitle": "J\u00e1n.",
+                    "title": "J\u00e1nos"
+                },
+                "jude": {
+                    "shortTitle": "J\u00fad.",
+                    "title": "J\u00fad\u00e1s"
+                },
+                "luke": {
+                    "shortTitle": "Luk.",
+                    "title": "Luk\u00e1cs"
+                },
+                "mark": {
+                    "shortTitle": "M\u00e1rk",
+                    "title": "M\u00e1rk"
+                },
+                "matt": {
+                    "shortTitle": "M\u00e1t.",
+                    "title": "M\u00e1t\u00e9"
+                },
+                "philem": {
+                    "shortTitle": "Filem.",
+                    "title": "Filemon"
+                },
+                "philip": {
+                    "shortTitle": "Fil.",
+                    "title": "Filippibeliek"
+                },
+                "rev": {
+                    "shortTitle": "Jel.",
+                    "title": "Jelen\u00e9sek"
+                },
+                "rom": {
+                    "shortTitle": "R\u00f3m.",
+                    "title": "R\u00f3mabeliek"
+                },
+                "titus": {
+                    "shortTitle": "Tit.",
+                    "title": "Titus"
+                }
+            },
+            "title": "\u00dajsz\u00f6vets\u00e9g"
+        },
+        "ot": {
+            "books": {
+                "1-chr": {
+                    "shortTitle": "1\u00a0Kr\u00f3n.",
+                    "title": "1\u00a0Kr\u00f3nika"
+                },
+                "1-kgs": {
+                    "shortTitle": "1\u00a0Kir.",
+                    "title": "1\u00a0Kir\u00e1lyok"
+                },
+                "1-sam": {
+                    "shortTitle": "1\u00a0S\u00e1m.",
+                    "title": "1\u00a0S\u00e1muel"
+                },
+                "2-chr": {
+                    "shortTitle": "2\u00a0Kr\u00f3n.",
+                    "title": "2\u00a0Kr\u00f3nika"
+                },
+                "2-kgs": {
+                    "shortTitle": "2\u00a0Kir.",
+                    "title": "2\u00a0Kir\u00e1lyok"
+                },
+                "2-sam": {
+                    "shortTitle": "2\u00a0S\u00e1m.",
+                    "title": "2\u00a0S\u00e1muel"
+                },
+                "amos": {
+                    "shortTitle": "\u00c1m\u00f3s",
+                    "title": "\u00c1m\u00f3s"
+                },
+                "dan": {
+                    "shortTitle": "D\u00e1n.",
+                    "title": "D\u00e1niel"
+                },
+                "deut": {
+                    "shortTitle": "5\u00a0M\u00f3z.",
+                    "title": "5\u00a0M\u00f3zes"
+                },
+                "eccl": {
+                    "shortTitle": "Pr\u00e9d.",
+                    "title": "Pr\u00e9dik\u00e1tor"
+                },
+                "esth": {
+                    "shortTitle": "Eszt.",
+                    "title": "Eszter"
+                },
+                "ex": {
+                    "shortTitle": "2\u00a0M\u00f3z.",
+                    "title": "2\u00a0M\u00f3zes"
+                },
+                "ezek": {
+                    "shortTitle": "Ez\u00e9k.",
+                    "title": "Ez\u00e9kiel"
+                },
+                "ezra": {
+                    "shortTitle": "Ezsdr.",
+                    "title": "Ezsdr\u00e1s"
+                },
+                "gen": {
+                    "shortTitle": "1\u00a0M\u00f3z.",
+                    "title": "1\u00a0M\u00f3zes"
+                },
+                "hab": {
+                    "shortTitle": "Hab.",
+                    "title": "Habakuk"
+                },
+                "hag": {
+                    "shortTitle": "Agg.",
+                    "title": "Aggeus"
+                },
+                "hosea": {
+                    "shortTitle": "H\u00f3s.",
+                    "title": "H\u00f3se\u00e1s"
+                },
+                "isa": {
+                    "shortTitle": "\u00c9sa.",
+                    "title": "\u00c9si\u00e1s"
+                },
+                "jer": {
+                    "shortTitle": "Jer.",
+                    "title": "Jeremi\u00e1s"
+                },
+                "job": {
+                    "shortTitle": "J\u00f3b",
+                    "title": "J\u00f3b"
+                },
+                "joel": {
+                    "shortTitle": "J\u00f3el",
+                    "title": "J\u00f3el"
+                },
+                "jonah": {
+                    "shortTitle": "J\u00f3n.",
+                    "title": "J\u00f3n\u00e1s"
+                },
+                "josh": {
+                    "shortTitle": "J\u00f3zs.",
+                    "title": "J\u00f3zsu\u00e9"
+                },
+                "judg": {
+                    "shortTitle": "B\u00edr.",
+                    "title": "B\u00edr\u00e1k"
+                },
+                "lam": {
+                    "shortTitle": "Sir.",
+                    "title": "Jeremi\u00e1s siralmai"
+                },
+                "lev": {
+                    "shortTitle": "3\u00a0M\u00f3z.",
+                    "title": "3\u00a0M\u00f3zes"
+                },
+                "mal": {
+                    "shortTitle": "Mal.",
+                    "title": "Malaki\u00e1s"
+                },
+                "micah": {
+                    "shortTitle": "Mik.",
+                    "title": "Mike\u00e1s"
+                },
+                "nahum": {
+                    "shortTitle": "N\u00e1h.",
+                    "title": "N\u00e1hum"
+                },
+                "neh": {
+                    "shortTitle": "Neh\u00e9m.",
+                    "title": "Neh\u00e9mi\u00e1s"
+                },
+                "num": {
+                    "shortTitle": "4\u00a0M\u00f3z.",
+                    "title": "4\u00a0M\u00f3zes"
+                },
+                "obad": {
+                    "shortTitle": "Abd.",
+                    "title": "Abdi\u00e1s"
+                },
+                "prov": {
+                    "shortTitle": "P\u00e9ld.",
+                    "title": "P\u00e9ldabesz\u00e9dek"
+                },
+                "ps": {
+                    "shortTitle": "Zsolt.",
+                    "title": "Zsolt\u00e1rok"
+                },
+                "ruth": {
+                    "shortTitle": "Ruth",
+                    "title": "Ruth"
+                },
+                "song": {
+                    "shortTitle": "\u00c9n.",
+                    "title": "\u00c9nekek \u00c9neke"
+                },
+                "zech": {
+                    "shortTitle": "Zak.",
+                    "title": "Zakari\u00e1s"
+                },
+                "zeph": {
+                    "shortTitle": "Sof.",
+                    "title": "Sof\u00f3ni\u00e1s"
+                }
+            },
+            "title": "\u00d3sz\u00f6vets\u00e9g"
+        },
+        "pgp": {
+            "books": {
+                "a-of-f": {
+                    "shortTitle": "Hit.",
+                    "title": "A Hitt\u00e9telek"
+                },
+                "abr": {
+                    "shortTitle": "\u00c1br.",
+                    "title": "\u00c1brah\u00e1m"
+                },
+                "js-h": {
+                    "shortTitle": "JST",
+                    "title": "Joseph Smith t\u00f6rt\u00e9nete"
+                },
+                "js-m": {
+                    "shortTitle": "JS\u2013M",
+                    "title": "Joseph Smith \u2013\u00a0M\u00e1t\u00e9"
+                },
+                "moses": {
+                    "shortTitle": "M\u00f3z.",
+                    "title": "M\u00f3zes"
+                }
+            },
+            "title": "Nagy\u00e9rt\u00e9k\u0171 gy\u00f6jgy"
+        }
+    }
+}

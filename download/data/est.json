@@ -1,0 +1,389 @@
+{
+    "testaments": {
+        "bible": {
+            "books": {},
+            "title": "Piibel"
+        },
+        "bofm": {
+            "books": {
+                "1-ne": {
+                    "shortTitle": "1Ne",
+                    "title": "1. Nefi"
+                },
+                "2-ne": {
+                    "shortTitle": "2Ne",
+                    "title": "2. Nefi"
+                },
+                "3-ne": {
+                    "shortTitle": "3Ne",
+                    "title": "3. Nefi"
+                },
+                "4-ne": {
+                    "shortTitle": "4Ne",
+                    "title": "4. Nefi"
+                },
+                "alma": {
+                    "shortTitle": "Al",
+                    "title": "Alma"
+                },
+                "enos": {
+                    "shortTitle": "En",
+                    "title": "Enose"
+                },
+                "ether": {
+                    "shortTitle": "Et",
+                    "title": "Eteri"
+                },
+                "hel": {
+                    "shortTitle": "Hl",
+                    "title": "Heelamani"
+                },
+                "jacob": {
+                    "shortTitle": "Jb",
+                    "title": "Jaakobi"
+                },
+                "jarom": {
+                    "shortTitle": "Jm",
+                    "title": "Jaaromi"
+                },
+                "morm": {
+                    "shortTitle": "Mrs",
+                    "title": "Mormoni"
+                },
+                "moro": {
+                    "shortTitle": "Mn",
+                    "title": "Moroni"
+                },
+                "mosiah": {
+                    "shortTitle": "Mo",
+                    "title": "Moosia"
+                },
+                "omni": {
+                    "shortTitle": "Om",
+                    "title": "Omni"
+                },
+                "w-of-m": {
+                    "shortTitle": "Mrs",
+                    "title": "Mormoni s\u00f5nad"
+                }
+            },
+            "title": "Mormoni Raamat"
+        },
+        "dc-testament": {
+            "books": {
+                "dc": {
+                    "shortTitle": "\u00d5L",
+                    "title": "\u00d5petus ja Lepingud"
+                },
+                "od/1": {
+                    "shortTitle": "At 1",
+                    "title": "Ametlik teadaane nr 1"
+                },
+                "od/2": {
+                    "shortTitle": "At 2",
+                    "title": "Ametlik teadaane nr 2"
+                }
+            },
+            "title": "\u00d5petus ja Lepingud"
+        },
+        "nt": {
+            "books": {
+                "1-cor": {
+                    "shortTitle": "1Kr",
+                    "title": "1. korintlastele"
+                },
+                "1-jn": {
+                    "shortTitle": "1Jh",
+                    "title": "1. Johannese"
+                },
+                "1-pet": {
+                    "shortTitle": "1Pt",
+                    "title": "1. Peetruse"
+                },
+                "1-thes": {
+                    "shortTitle": "1Ts",
+                    "title": "1. tessalooniklastele"
+                },
+                "1-tim": {
+                    "shortTitle": "1Tm",
+                    "title": "1. Timoteosele"
+                },
+                "2-cor": {
+                    "shortTitle": "2Kr",
+                    "title": "2. korintlastele"
+                },
+                "2-jn": {
+                    "shortTitle": "2Jh",
+                    "title": "2. Johannese"
+                },
+                "2-pet": {
+                    "shortTitle": "2Pt",
+                    "title": "2. Peetruse"
+                },
+                "2-thes": {
+                    "shortTitle": "2Ts",
+                    "title": "2. tessalooniklastele"
+                },
+                "2-tim": {
+                    "shortTitle": "2Tm",
+                    "title": "2. Timoteosele"
+                },
+                "3-jn": {
+                    "shortTitle": "3Jh",
+                    "title": "3. Johannese"
+                },
+                "acts": {
+                    "shortTitle": "Ap",
+                    "title": "Apostlite teod"
+                },
+                "col": {
+                    "shortTitle": "Kl",
+                    "title": "Koloslastele"
+                },
+                "eph": {
+                    "shortTitle": "Ef",
+                    "title": "Efeslastele"
+                },
+                "gal": {
+                    "shortTitle": "Gl",
+                    "title": "Galaatlastele"
+                },
+                "heb": {
+                    "shortTitle": "Hb",
+                    "title": "Heebrealastele"
+                },
+                "james": {
+                    "shortTitle": "Jk",
+                    "title": "Jaakobuse"
+                },
+                "john": {
+                    "shortTitle": "Jh",
+                    "title": "Johannese"
+                },
+                "jude": {
+                    "shortTitle": "Jd",
+                    "title": "Juuda"
+                },
+                "luke": {
+                    "shortTitle": "Lk",
+                    "title": "Luuka"
+                },
+                "mark": {
+                    "shortTitle": "Mk",
+                    "title": "Markuse"
+                },
+                "matt": {
+                    "shortTitle": "Mt",
+                    "title": "Matteuse"
+                },
+                "philem": {
+                    "shortTitle": "Fm",
+                    "title": "Fileemonile"
+                },
+                "philip": {
+                    "shortTitle": "Fl",
+                    "title": "Filiplastele"
+                },
+                "rev": {
+                    "shortTitle": "Ilm",
+                    "title": "Ilmutuse"
+                },
+                "rom": {
+                    "shortTitle": "Rm",
+                    "title": "Roomlastele"
+                },
+                "titus": {
+                    "shortTitle": "Tt",
+                    "title": "Tiitusele"
+                }
+            },
+            "title": "Uus Testament"
+        },
+        "ot": {
+            "books": {
+                "1-chr": {
+                    "shortTitle": "1Aj",
+                    "title": "1. Ajaraamat"
+                },
+                "1-kgs": {
+                    "shortTitle": "1Kn",
+                    "title": "1. Kuningate"
+                },
+                "1-sam": {
+                    "shortTitle": "1Sm",
+                    "title": "1. Saamueli"
+                },
+                "2-chr": {
+                    "shortTitle": "2Aj",
+                    "title": "2. Ajaraamat"
+                },
+                "2-kgs": {
+                    "shortTitle": "2Kn",
+                    "title": "2. Kuningate"
+                },
+                "2-sam": {
+                    "shortTitle": "2Sm",
+                    "title": "2. Saamueli"
+                },
+                "amos": {
+                    "shortTitle": "Am",
+                    "title": "Aamos"
+                },
+                "dan": {
+                    "shortTitle": "Tn",
+                    "title": "Taaniel"
+                },
+                "deut": {
+                    "shortTitle": "5Ms",
+                    "title": "5. Moosese"
+                },
+                "eccl": {
+                    "shortTitle": "Kg",
+                    "title": "Koguja"
+                },
+                "esth": {
+                    "shortTitle": "Est",
+                    "title": "Ester"
+                },
+                "ex": {
+                    "shortTitle": "2Ms",
+                    "title": "2. Moosese"
+                },
+                "ezek": {
+                    "shortTitle": "Hs",
+                    "title": "Hesekiel"
+                },
+                "ezra": {
+                    "shortTitle": "Esr",
+                    "title": "Esra"
+                },
+                "gen": {
+                    "shortTitle": "1Ms",
+                    "title": "1. Moosese"
+                },
+                "hab": {
+                    "shortTitle": "Ha",
+                    "title": "Habakuk"
+                },
+                "hag": {
+                    "shortTitle": "Hg",
+                    "title": "Haggai"
+                },
+                "hosea": {
+                    "shortTitle": "Ho",
+                    "title": "Hoosea"
+                },
+                "isa": {
+                    "shortTitle": "Js",
+                    "title": "Jesaja"
+                },
+                "jer": {
+                    "shortTitle": "Jr",
+                    "title": "Jeremija"
+                },
+                "job": {
+                    "shortTitle": "Ii",
+                    "title": "Iiob"
+                },
+                "joel": {
+                    "shortTitle": "Jl",
+                    "title": "Joel"
+                },
+                "jonah": {
+                    "shortTitle": "Jn",
+                    "title": "Joona"
+                },
+                "josh": {
+                    "shortTitle": "Jos",
+                    "title": "Joosua"
+                },
+                "judg": {
+                    "shortTitle": "Km",
+                    "title": "Kohtum\u00f5istjate"
+                },
+                "lam": {
+                    "shortTitle": "Nl",
+                    "title": "Nutulaulud"
+                },
+                "lev": {
+                    "shortTitle": "3Ms",
+                    "title": "3. Moosese"
+                },
+                "mal": {
+                    "shortTitle": "Ml",
+                    "title": "Malakia"
+                },
+                "micah": {
+                    "shortTitle": "Mi",
+                    "title": "Miika"
+                },
+                "nahum": {
+                    "shortTitle": "Na",
+                    "title": "Nahum"
+                },
+                "neh": {
+                    "shortTitle": "Ne",
+                    "title": "Nehemja"
+                },
+                "num": {
+                    "shortTitle": "4Ms",
+                    "title": "4. Moosese"
+                },
+                "obad": {
+                    "shortTitle": "Ob",
+                    "title": "Obadja"
+                },
+                "prov": {
+                    "shortTitle": "\u00d5p",
+                    "title": "\u00d5petuss\u00f5nad"
+                },
+                "ps": {
+                    "shortTitle": "Ps",
+                    "title": "Psalmid (Laulud)"
+                },
+                "ruth": {
+                    "shortTitle": "Rt",
+                    "title": "Rutt"
+                },
+                "song": {
+                    "shortTitle": "\u00dcl",
+                    "title": "\u00dclemlaul"
+                },
+                "zech": {
+                    "shortTitle": "Sk",
+                    "title": "Sakarja"
+                },
+                "zeph": {
+                    "shortTitle": "Sf",
+                    "title": "Sefanja"
+                }
+            },
+            "title": "Vana Testament"
+        },
+        "pgp": {
+            "books": {
+                "a-of-f": {
+                    "shortTitle": "UA",
+                    "title": "Usuartiklid"
+                },
+                "abr": {
+                    "shortTitle": "Aabr",
+                    "title": "Aabrahami"
+                },
+                "js-h": {
+                    "shortTitle": "JSA",
+                    "title": "Joseph Smith \u2013\u00a0ajalugu"
+                },
+                "js-m": {
+                    "shortTitle": "JSM",
+                    "title": "Joseph Smith \u2013 Matteuse"
+                },
+                "moses": {
+                    "shortTitle": "Ms",
+                    "title": "Moosese"
+                }
+            },
+            "title": "Kallihinnaline P\u00e4rl"
+        }
+    }
+}

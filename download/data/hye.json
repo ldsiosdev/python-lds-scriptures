@@ -1,0 +1,315 @@
+{
+    "testaments": {
+        "bible": {
+            "books": {},
+            "title": "Astvatsashoonch"
+        },
+        "bofm": {
+            "books": {
+                "1-ne": {
+                    "shortTitle": "1\u00a0\u0546\u0565\u0583\u056b",
+                    "title": "1\u00a0\u0546\u0565\u0583\u056b"
+                },
+                "2-ne": {
+                    "shortTitle": "2\u00a0\u0546\u0565\u0583\u056b",
+                    "title": "2\u00a0\u0546\u0565\u0583\u056b"
+                },
+                "3-ne": {
+                    "shortTitle": "3\u00a0\u0546\u0565\u0583\u056b",
+                    "title": "3\u00a0\u0546\u0565\u0583\u056b"
+                },
+                "4-ne": {
+                    "shortTitle": "4\u00a0\u0546\u0565\u0583\u056b",
+                    "title": "4\u00a0\u0546\u0565\u0583\u056b"
+                },
+                "alma": {
+                    "shortTitle": "\u0531\u056c\u0574\u0561",
+                    "title": "\u0531\u056c\u0574\u0561"
+                },
+                "enos": {
+                    "shortTitle": "\u0535\u0576\u0578\u057e\u057d",
+                    "title": "\u0535\u0576\u0578\u057e\u057d"
+                },
+                "ether": {
+                    "shortTitle": "\u0535\u0569\u0565\u0580",
+                    "title": "\u0535\u0569\u0565\u0580"
+                },
+                "hel": {
+                    "shortTitle": "\u0540\u0565\u056c.",
+                    "title": "\u0540\u0565\u056c\u0561\u0574\u0561\u0576"
+                },
+                "jacob": {
+                    "shortTitle": "\u0540\u0561\u056f\u0578\u0562",
+                    "title": "\u0540\u0561\u056f\u0578\u0562"
+                },
+                "jarom": {
+                    "shortTitle": "\u0540\u0561\u0580\u0578\u0574",
+                    "title": "\u0540\u0561\u0580\u0578\u0574"
+                },
+                "morm": {
+                    "shortTitle": "\u0544\u0578\u0580\u0574.",
+                    "title": "\u0544\u0578\u0580\u0574\u0578\u0576"
+                },
+                "moro": {
+                    "shortTitle": "\u0544\u0578\u0580.",
+                    "title": "\u0544\u0578\u0580\u0578\u0576\u056b"
+                },
+                "mosiah": {
+                    "shortTitle": "\u0544\u0578\u057d\u056b\u0561",
+                    "title": "\u0544\u0578\u057d\u056b\u0561"
+                },
+                "omni": {
+                    "shortTitle": "\u0555\u0574\u0576\u056b",
+                    "title": "\u0555\u0574\u0576\u056b"
+                },
+                "w-of-m": {
+                    "shortTitle": "\u0544\u053d",
+                    "title": "\u0544\u0578\u0580\u0574\u0578\u0576\u056b \u053d\u0578\u057d\u0584\u0565\u0580\u0568"
+                }
+            },
+            "title": ""
+        },
+        "dc-testament": {
+            "books": {
+                "dc": {
+                    "title": ""
+                },
+                "od/1": {
+                    "title": ""
+                },
+                "od/2": {
+                    "title": ""
+                }
+            },
+            "title": ""
+        },
+        "nt": {
+            "books": {
+                "1-cor": {
+                    "title": ""
+                },
+                "1-jn": {
+                    "title": ""
+                },
+                "1-pet": {
+                    "title": ""
+                },
+                "1-thes": {
+                    "title": ""
+                },
+                "1-tim": {
+                    "title": ""
+                },
+                "2-cor": {
+                    "title": ""
+                },
+                "2-jn": {
+                    "title": ""
+                },
+                "2-pet": {
+                    "title": ""
+                },
+                "2-thes": {
+                    "title": ""
+                },
+                "2-tim": {
+                    "title": ""
+                },
+                "3-jn": {
+                    "title": ""
+                },
+                "acts": {
+                    "title": ""
+                },
+                "col": {
+                    "title": ""
+                },
+                "eph": {
+                    "title": ""
+                },
+                "gal": {
+                    "title": ""
+                },
+                "heb": {
+                    "title": ""
+                },
+                "james": {
+                    "title": ""
+                },
+                "john": {
+                    "title": ""
+                },
+                "jude": {
+                    "title": ""
+                },
+                "luke": {
+                    "title": ""
+                },
+                "mark": {
+                    "title": ""
+                },
+                "matt": {
+                    "title": ""
+                },
+                "philem": {
+                    "title": ""
+                },
+                "philip": {
+                    "title": ""
+                },
+                "rev": {
+                    "title": ""
+                },
+                "rom": {
+                    "title": ""
+                },
+                "titus": {
+                    "title": ""
+                }
+            },
+            "title": ""
+        },
+        "ot": {
+            "books": {
+                "1-chr": {
+                    "title": ""
+                },
+                "1-kgs": {
+                    "title": ""
+                },
+                "1-sam": {
+                    "title": ""
+                },
+                "2-chr": {
+                    "title": ""
+                },
+                "2-kgs": {
+                    "title": ""
+                },
+                "2-sam": {
+                    "title": ""
+                },
+                "amos": {
+                    "title": ""
+                },
+                "dan": {
+                    "title": ""
+                },
+                "deut": {
+                    "title": ""
+                },
+                "eccl": {
+                    "title": ""
+                },
+                "esth": {
+                    "title": ""
+                },
+                "ex": {
+                    "title": ""
+                },
+                "ezek": {
+                    "title": ""
+                },
+                "ezra": {
+                    "title": ""
+                },
+                "gen": {
+                    "title": ""
+                },
+                "hab": {
+                    "title": ""
+                },
+                "hag": {
+                    "title": ""
+                },
+                "hosea": {
+                    "title": ""
+                },
+                "isa": {
+                    "title": ""
+                },
+                "jer": {
+                    "title": ""
+                },
+                "job": {
+                    "title": ""
+                },
+                "joel": {
+                    "title": ""
+                },
+                "jonah": {
+                    "title": ""
+                },
+                "josh": {
+                    "title": ""
+                },
+                "judg": {
+                    "title": ""
+                },
+                "lam": {
+                    "title": ""
+                },
+                "lev": {
+                    "title": ""
+                },
+                "mal": {
+                    "title": ""
+                },
+                "micah": {
+                    "title": ""
+                },
+                "nahum": {
+                    "title": ""
+                },
+                "neh": {
+                    "title": ""
+                },
+                "num": {
+                    "title": ""
+                },
+                "obad": {
+                    "title": ""
+                },
+                "prov": {
+                    "title": ""
+                },
+                "ps": {
+                    "title": ""
+                },
+                "ruth": {
+                    "title": ""
+                },
+                "song": {
+                    "title": ""
+                },
+                "zech": {
+                    "title": ""
+                },
+                "zeph": {
+                    "title": ""
+                }
+            },
+            "title": ""
+        },
+        "pgp": {
+            "books": {
+                "a-of-f": {
+                    "title": ""
+                },
+                "abr": {
+                    "title": ""
+                },
+                "js-h": {
+                    "title": ""
+                },
+                "js-m": {
+                    "title": ""
+                },
+                "moses": {
+                    "title": ""
+                }
+            },
+            "title": ""
+        }
+    }
+}
