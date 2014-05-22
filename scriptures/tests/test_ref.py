@@ -14,9 +14,10 @@ class TestRef(unittest.TestCase):
         with self.assertRaises(ValueError):
             scriptures.ref('/scriptures')
 
-#    def test_no_book(self):
-#        with self.assertRaises(ValueError):
-#            scriptures.ref('/scriptures/ot')
+    def test_no_book(self):
+        uri = '/scriptures/ot'
+        ref = scriptures.ref(uri)
+        self.assert_scripture_ref(ref, 'ot', None, None, None)
 
     def test_invalid_testament(self):
         with self.assertRaises(ValueError):

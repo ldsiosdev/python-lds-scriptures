@@ -6,9 +6,8 @@ class TestScriptureRef(unittest.TestCase):
         with self.assertRaises(TypeError):
             ScriptureRef()
 
-#    def test_no_book(self):
-#        with self.assertRaises(ValueError):
-#            ScriptureRef(testament='ot')
+    def test_no_book(self):
+        self.assert_scripture_ref(ScriptureRef(testament='ot'), 'ot', None, None, None)
 
     def test_invalid_testament(self):
         with self.assertRaises(ValueError):
