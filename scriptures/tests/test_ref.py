@@ -18,6 +18,7 @@ class TestRef(unittest.TestCase):
         uri = '/scriptures/ot'
         ref = scriptures.ref(uri)
         self.assert_scripture_ref(ref, 'ot', None, None, None)
+        self.assertEqual(ref.uri(), uri)
 
     def test_invalid_testament(self):
         with self.assertRaises(ValueError):
