@@ -12,27 +12,29 @@ class TestFormat(unittest.TestCase):
         self.assertEqual(format(ref('/scriptures/ot/gen/40.1,3-5')), u'Genesis 40:1, 3–5')
         self.assertEqual(format(ref('/scriptures/ot/gen/40.1-3,5')), u'Genesis 40:1–3, 5')
         self.assertEqual(format(ref('/scriptures/ot/gen/40.1-3,5-10')), u'Genesis 40:1–3, 5–10')
-        
+
     def test_single_chapter_book(self):
         self.assertEqual(format(ref('/scriptures/ot/obad/1')), 'Obadiah 1')
         self.assertEqual(format(ref('/scriptures/nt/jude/1')), 'Jude 1')
         self.assertEqual(format(ref('/scriptures/bofm/4-ne/1')), u'4\u00a0Nephi 1')
         self.assertEqual(format(ref('/scriptures/pgp/js-m/1')), u'Joseph Smith—Matthew 1')
-        
+
     def test_format_eng(self):
+        self.assertEqual(format(ref('/scriptures/ot')), 'Old Testament')
         self.assertEqual(format(ref('/scriptures/ot/isa/40')), 'Isaiah 40')
         self.assertEqual(format(ref('/scriptures/nt/rev/11')), 'Revelation 11')
         self.assertEqual(format(ref('/scriptures/bofm/2-ne/5')), u'2\u00a0Nephi 5')
         self.assertEqual(format(ref('/scriptures/dc-testament/dc/110')), 'Doctrine and Covenants 110')
         self.assertEqual(format(ref('/scriptures/pgp/moses/2')), 'Moses 2')
-        
+
     def test_format_spa(self):
+        self.assertEqual(format(ref('/scriptures/ot'), lang='spa'), u'Antiguo Testamento')
         self.assertEqual(format(ref('/scriptures/ot/isa/40'), lang='spa'), u'Isaías 40')
         self.assertEqual(format(ref('/scriptures/nt/rev/11'), lang='spa'), u'Apocalipsis 11')
         self.assertEqual(format(ref('/scriptures/bofm/2-ne/5'), lang='spa'), u'2\u00a0Nefi 5')
         self.assertEqual(format(ref('/scriptures/dc-testament/dc/110'), lang='spa'), u'Doctrina y Convenios 110')
         self.assertEqual(format(ref('/scriptures/pgp/moses/2'), lang='spa'), u'Moisés 2')
-        
+
     def test_format_dc_variations(self):
         self.assertEqual(format(ref('/scriptures/dc-testament/dc/110'), book_format=FORMAT_LONG), 'Doctrine and Covenants 110')
         self.assertEqual(format(ref('/scriptures/dc-testament/dc/110'), book_format=FORMAT_SHORT), 'D&C 110')
@@ -52,7 +54,7 @@ class TestFormat(unittest.TestCase):
         self.assertEqual(format([ref('/scriptures/ot/gen/39.1'), ref('/scriptures/ot/ex/10.1-5')]), u'Genesis 39:1; Exodus 10:1–5')
         self.assertEqual(format([ref('/scriptures/ot/gen/39'), ref('/scriptures/ot/ex/40.3-5')]), u'Genesis 39; Exodus 40:3–5')
         self.assertEqual(format([ref('/scriptures/ot/gen/39'), ref('/scriptures/ot/ex/21'), ref('/scriptures/ot/ex/22')]), u'Genesis 39; Exodus 21–22')
-        
+
     def test_short_format(self):
         self.assertEqual(format([
             ref("/scriptures/nt/matt/23"),
