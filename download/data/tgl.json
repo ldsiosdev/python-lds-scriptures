@@ -75,16 +75,29 @@
                     "shortTitle": "D at T",
                     "title": "Doktrina at mga Tipan"
                 },
-                "od/1": {
-                    "shortTitle": "OP\u20141",
-                    "title": "Opisyal na Pahayag\u20141"
-                },
-                "od/2": {
-                    "shortTitle": "OP\u20142",
-                    "title": "Opisyal na Pahayag\u20142"
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "OP\u20141",
+                            "title": "Opisyal na Pahayag\u20141"
+                        },
+                        "2": {
+                            "shortTitle": "OP\u20142",
+                            "title": "Opisyal na Pahayag\u20142"
+                        }
+                    },
+                    "title": ""
                 }
             },
             "title": "Doktrina at mga Tipan"
+        },
+        "gs": {
+            "books": {},
+            "title": ""
+        },
+        "jst": {
+            "books": {},
+            "title": ""
         },
         "nt": {
             "books": {
@@ -339,6 +352,7 @@
                 },
                 "ps": {
                     "shortTitle": "Awit",
+                    "singularTitle": "",
                     "title": "Mga Awit"
                 },
                 "ruth": {

@@ -75,16 +75,29 @@
                     "shortTitle": "T&Sz",
                     "title": "Tan \u00e9s a sz\u00f6vets\u00e9gek"
                 },
-                "od/1": {
-                    "shortTitle": "1\u00a0HNy",
-                    "title": "1. Hivatalos nyilatkozat"
-                },
-                "od/2": {
-                    "shortTitle": "2\u00a0HNy",
-                    "title": "2. Hivatalos nyilatkozat"
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "1\u00a0HNy",
+                            "title": "1. Hivatalos nyilatkozat"
+                        },
+                        "2": {
+                            "shortTitle": "2\u00a0HNy",
+                            "title": "2. Hivatalos nyilatkozat"
+                        }
+                    },
+                    "title": ""
                 }
             },
             "title": "Tan \u00e9s a sz\u00f6vets\u00e9gek"
+        },
+        "gs": {
+            "books": {},
+            "title": ""
+        },
+        "jst": {
+            "books": {},
+            "title": ""
         },
         "nt": {
             "books": {
@@ -339,6 +352,7 @@
                 },
                 "ps": {
                     "shortTitle": "Zsolt.",
+                    "singularTitle": "",
                     "title": "Zsolt\u00e1rok"
                 },
                 "ruth": {

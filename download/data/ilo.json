@@ -75,16 +75,29 @@
                     "shortTitle": "DkK",
                     "title": "Doktrina ken Katulagan"
                 },
-                "od/1": {
-                    "shortTitle": "OP\u20141",
-                    "title": "Opisial a Palawag\u20141"
-                },
-                "od/2": {
-                    "shortTitle": "OP\u20142",
-                    "title": "Opisial a Palawag\u20142"
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "OP\u20141",
+                            "title": "Opisial a Palawag\u20141"
+                        },
+                        "2": {
+                            "shortTitle": "OP\u20142",
+                            "title": "Opisial a Palawag\u20142"
+                        }
+                    },
+                    "title": ""
                 }
             },
             "title": "Doktrina ken Katulagan"
+        },
+        "gs": {
+            "books": {},
+            "title": ""
+        },
+        "jst": {
+            "books": {},
+            "title": ""
         },
         "nt": {
             "books": {
@@ -339,6 +352,7 @@
                 },
                 "ps": {
                     "shortTitle": "Sal.",
+                    "singularTitle": "",
                     "title": "Dagiti Salmos"
                 },
                 "ruth": {

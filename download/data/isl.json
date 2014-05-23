@@ -75,16 +75,29 @@
                     "shortTitle": "K&S",
                     "title": "Kenning og s\u00e1ttm\u00e1lar"
                 },
-                "od/1": {
-                    "shortTitle": "OY\u20141",
-                    "title": "Opinberyfirl\u00fdsing\u20141"
-                },
-                "od/2": {
-                    "shortTitle": "OY\u20142",
-                    "title": "Opinberyfirl\u00fdsing\u20142"
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "OY\u20141",
+                            "title": "Opinberyfirl\u00fdsing\u20141"
+                        },
+                        "2": {
+                            "shortTitle": "OY\u20142",
+                            "title": "Opinberyfirl\u00fdsing\u20142"
+                        }
+                    },
+                    "title": ""
                 }
             },
             "title": "Kenning og s\u00e1ttm\u00e1lar"
+        },
+        "gs": {
+            "books": {},
+            "title": ""
+        },
+        "jst": {
+            "books": {},
+            "title": ""
         },
         "nt": {
             "books": {
@@ -339,6 +352,7 @@
                 },
                 "ps": {
                     "shortTitle": "S\u00e1lm",
+                    "singularTitle": "",
                     "title": "S\u00e1lmarnir"
                 },
                 "ruth": {

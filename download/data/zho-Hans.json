@@ -75,16 +75,31 @@
                     "shortTitle": "\u6559\u7ea6\u200b",
                     "title": "\u6559\u4e49\u548c\u5723\u7ea6\u200b"
                 },
-                "od/1": {
-                    "shortTitle": "\u5ba3\u4e00",
-                    "title": "\u6b63\u5f0f\u200b\u5ba3\u8a00\u4e00"
-                },
-                "od/2": {
-                    "shortTitle": "\u5ba3\u4e8c",
-                    "title": "\u6b63\u5f0f\u200b\u5ba3\u8a00\u4e8c"
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "\u5ba3\u4e00",
+                            "title": "\u6b63\u5f0f\u200b\u5ba3\u8a00\u4e00"
+                        },
+                        "2": {
+                            "shortTitle": "\u5ba3\u4e8c",
+                            "title": "\u6b63\u5f0f\u200b\u5ba3\u8a00\u4e8c"
+                        }
+                    },
+                    "title": ""
                 }
             },
             "title": "\u6559\u4e49\u548c\u5723\u7ea6\u200b"
+        },
+        "gs": {
+            "books": {},
+            "shortTitle": "\u7ecf\u6587\u6307\u5357",
+            "title": "\u7ecf\u6587\u6307\u5357"
+        },
+        "jst": {
+            "books": {},
+            "shortTitle": "\u7ea6\u745f\u00b7\u65af\u8bd8\u8bd1\u672c",
+            "title": "\u7ea6\u745f\u00b7\u65af\u8bd8\u8bd1\u672c"
         },
         "nt": {
             "books": {
@@ -339,6 +354,7 @@
                 },
                 "ps": {
                     "shortTitle": "\u8bd7",
+                    "singularTitle": "",
                     "title": "\u8bd7\u7bc7"
                 },
                 "ruth": {
@@ -372,11 +388,11 @@
                 },
                 "js-h": {
                     "shortTitle": "\u7ea6\u53f2",
-                    "title": "\u7ea6\u745f \u00b7 \u65af\u5bc6\u2014\u2014\u200b\u6b77\u53f2\u200b"
+                    "title": "\u7ea6\u745f\u00b7\u65af\u5bc6\u2014\u2014\u200b\u6b77\u53f2\u200b"
                 },
                 "js-m": {
                     "shortTitle": "\u7ea6\u592a",
-                    "title": "\u7ea6\u745f \u00b7 \u65af\u5bc6\u2014\u2014\u200b\u9a6c\u592a\u200b"
+                    "title": "\u7ea6\u745f\u00b7\u65af\u5bc6\u2014\u2014\u200b\u9a6c\u592a\u200b"
                 },
                 "moses": {
                     "shortTitle": "\u6469\u897f",

@@ -75,16 +75,30 @@
                     "shortTitle": "L&V",
                     "title": "Leer en Verbonde"
                 },
-                "od/1": {
-                    "shortTitle": "AV\u20141",
-                    "title": "Amptelike Verklaring\u20141"
-                },
-                "od/2": {
-                    "shortTitle": "AV\u20142",
-                    "title": "Amptelike Verklaring\u20142"
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "AV\u20141",
+                            "title": "Amptelike Verklaring\u20141"
+                        },
+                        "2": {
+                            "shortTitle": "AV\u20142",
+                            "title": "Amptelike Verklaring\u20142"
+                        }
+                    },
+                    "title": ""
                 }
             },
             "title": "Die Leer en Verbonde"
+        },
+        "gs": {
+            "books": {},
+            "shortTitle": "Gids tot die Skrifture",
+            "title": "Gids tot die Skrifture"
+        },
+        "jst": {
+            "books": {},
+            "title": ""
         },
         "nt": {
             "books": {
@@ -339,6 +353,7 @@
                 },
                 "ps": {
                     "shortTitle": "Ps.",
+                    "singularTitle": "",
                     "title": "Psalms"
                 },
                 "ruth": {

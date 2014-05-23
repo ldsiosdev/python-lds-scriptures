@@ -75,16 +75,31 @@
                     "shortTitle": "LV",
                     "title": "Leer en Verbonden"
                 },
-                "od/1": {
-                    "shortTitle": "OV 1",
-                    "title": "Offici\u00eble Verklaring 1"
-                },
-                "od/2": {
-                    "shortTitle": "OV 2",
-                    "title": "Offici\u00eble Verklaring 2"
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "OV 1",
+                            "title": "Offici\u00eble Verklaring 1"
+                        },
+                        "2": {
+                            "shortTitle": "OV 2",
+                            "title": "Offici\u00eble Verklaring 2"
+                        }
+                    },
+                    "title": ""
                 }
             },
             "title": "Leer en Verbonden"
+        },
+        "gs": {
+            "books": {},
+            "shortTitle": "Gids bij de Schriften",
+            "title": "Gids bij de Schriften"
+        },
+        "jst": {
+            "books": {},
+            "shortTitle": "Bijbelvertaling van Joseph Smith",
+            "title": "Bijbelvertaling van Joseph Smith"
         },
         "nt": {
             "books": {
@@ -339,6 +354,7 @@
                 },
                 "ps": {
                     "shortTitle": "Ps.",
+                    "singularTitle": "",
                     "title": "Psalmen"
                 },
                 "ruth": {

@@ -75,16 +75,29 @@
                     "shortTitle": "DeA",
                     "title": "Dottrina e Alleanze"
                 },
-                "od/1": {
-                    "shortTitle": "DU \u2014 1",
-                    "title": "Dichiarazione Ufficiale \u2014 1"
-                },
-                "od/2": {
-                    "shortTitle": "DU \u2014 2",
-                    "title": "Dichiarazione Ufficiale \u2014 2"
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "DU \u2014 1",
+                            "title": "Dichiarazione Ufficiale \u2014 1"
+                        },
+                        "2": {
+                            "shortTitle": "DU \u2014 2",
+                            "title": "Dichiarazione Ufficiale \u2014 2"
+                        }
+                    },
+                    "title": ""
                 }
             },
             "title": "Dottrina e Alleanze"
+        },
+        "gs": {
+            "books": {},
+            "title": ""
+        },
+        "jst": {
+            "books": {},
+            "title": ""
         },
         "nt": {
             "books": {
@@ -339,6 +352,7 @@
                 },
                 "ps": {
                     "shortTitle": "Sal.",
+                    "singularTitle": "",
                     "title": "Salmi"
                 },
                 "ruth": {

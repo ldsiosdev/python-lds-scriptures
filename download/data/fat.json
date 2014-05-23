@@ -75,16 +75,31 @@
                     "shortTitle": "N&A",
                     "title": "Nkyer\u025bkyer\u025b na Ahy\u025bmudzi"
                 },
-                "od/1": {
-                    "shortTitle": "AD\u20141",
-                    "title": "As\u0254r Dawurb\u0254\u20141"
-                },
-                "od/2": {
-                    "shortTitle": "AD\u20142",
-                    "title": "As\u0254r Dawurb\u0254\u20142"
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "AD\u20141",
+                            "title": "As\u0254r Dawurb\u0254\u20141"
+                        },
+                        "2": {
+                            "shortTitle": "AD\u20142",
+                            "title": "As\u0254r Dawurb\u0254\u20142"
+                        }
+                    },
+                    "title": ""
                 }
             },
             "title": "Nkyer\u025bkyer\u025b na Ahy\u025bmudzi"
+        },
+        "gs": {
+            "books": {},
+            "shortTitle": "Kyer\u025bws\u025bm no Kwankyer\u025b No",
+            "title": "Kyer\u025bws\u025bm no Kwankyer\u025b No"
+        },
+        "jst": {
+            "books": {},
+            "shortTitle": "Joseph Smith Nkyer\u025base",
+            "title": "Joseph Smith Nkyer\u025base"
         },
         "nt": {
             "books": {
@@ -339,6 +354,7 @@
                 },
                 "ps": {
                     "shortTitle": "Ndw.",
+                    "singularTitle": "",
                     "title": "Ndwom"
                 },
                 "ruth": {

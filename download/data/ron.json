@@ -75,16 +75,29 @@
                     "shortTitle": "D&L",
                     "title": "Doctrin\u0103 \u0219i Leg\u0103minte"
                 },
-                "od/1": {
-                    "shortTitle": "DO\u20141",
-                    "title": "Declara\u021bia oficial\u0103\u20141"
-                },
-                "od/2": {
-                    "shortTitle": "DO\u20142",
-                    "title": "Declara\u021bia oficial\u0103\u20142"
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "DO\u20141",
+                            "title": "Declara\u021bia oficial\u0103\u20141"
+                        },
+                        "2": {
+                            "shortTitle": "DO\u20142",
+                            "title": "Declara\u021bia oficial\u0103\u20142"
+                        }
+                    },
+                    "title": ""
                 }
             },
             "title": "Doctrin\u0103 \u0219i Leg\u0103minte"
+        },
+        "gs": {
+            "books": {},
+            "title": ""
+        },
+        "jst": {
+            "books": {},
+            "title": ""
         },
         "nt": {
             "books": {
@@ -339,6 +352,7 @@
                 },
                 "ps": {
                     "shortTitle": "Ps.",
+                    "singularTitle": "",
                     "title": "Psalmii"
                 },
                 "ruth": {

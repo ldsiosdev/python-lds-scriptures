@@ -75,16 +75,29 @@
                     "shortTitle": "D&C",
                     "title": "Doutrina e Conv\u00eanios"
                 },
-                "od/1": {
-                    "shortTitle": "DO\u20141",
-                    "title": "Declara\u00e7\u00e3o Oficial\u20141"
-                },
-                "od/2": {
-                    "shortTitle": "DO\u20142",
-                    "title": "Declara\u00e7\u00e3o Oficial\u20142"
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "DO\u20141",
+                            "title": "Declara\u00e7\u00e3o Oficial\u20141"
+                        },
+                        "2": {
+                            "shortTitle": "DO\u20142",
+                            "title": "Declara\u00e7\u00e3o Oficial\u20142"
+                        }
+                    },
+                    "title": ""
                 }
             },
             "title": "Doutrina e Conv\u00eanios"
+        },
+        "gs": {
+            "books": {},
+            "title": ""
+        },
+        "jst": {
+            "books": {},
+            "title": ""
         },
         "nt": {
             "books": {
@@ -339,6 +352,7 @@
                 },
                 "ps": {
                     "shortTitle": "Salm.",
+                    "singularTitle": "",
                     "title": "Salmos"
                 },
                 "ruth": {

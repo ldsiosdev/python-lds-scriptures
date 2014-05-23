@@ -75,16 +75,29 @@
                     "shortTitle": "M&D",
                     "title": "Ma\u0304ci\u0304ba un Deri\u0304bas"
                 },
-                "od/1": {
-                    "shortTitle": "OD\u20141",
-                    "title": "Oficia\u0304la\u0304 Deklara\u0304cija\u20141"
-                },
-                "od/2": {
-                    "shortTitle": "OD\u20142",
-                    "title": "Oficia\u0304la\u0304 Deklara\u0304cija\u20142"
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "OD\u20141",
+                            "title": "Oficia\u0304la\u0304 Deklara\u0304cija\u20141"
+                        },
+                        "2": {
+                            "shortTitle": "OD\u20142",
+                            "title": "Oficia\u0304la\u0304 Deklara\u0304cija\u20142"
+                        }
+                    },
+                    "title": ""
                 }
             },
             "title": "Ma\u0304ci\u0304ba un Deri\u0304bas"
+        },
+        "gs": {
+            "books": {},
+            "title": ""
+        },
+        "jst": {
+            "books": {},
+            "title": ""
         },
         "nt": {
             "books": {
@@ -339,6 +352,7 @@
                 },
                 "ps": {
                     "shortTitle": "Psm.",
+                    "singularTitle": "",
                     "title": "Psalmi"
                 },
                 "ruth": {

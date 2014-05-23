@@ -75,16 +75,29 @@
                     "shortTitle": "L&p",
                     "title": "L\u00e6re og pakter"
                 },
-                "od/1": {
-                    "shortTitle": "OE\u20141",
-                    "title": "Offisiell erkl\u00e6ring\u20141"
-                },
-                "od/2": {
-                    "shortTitle": "OE\u20142",
-                    "title": "Offisiell erkl\u00e6ring\u20142"
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "OE\u20141",
+                            "title": "Offisiell erkl\u00e6ring\u20141"
+                        },
+                        "2": {
+                            "shortTitle": "OE\u20142",
+                            "title": "Offisiell erkl\u00e6ring\u20142"
+                        }
+                    },
+                    "title": ""
                 }
             },
             "title": "L\u00e6re og pakter"
+        },
+        "gs": {
+            "books": {},
+            "title": ""
+        },
+        "jst": {
+            "books": {},
+            "title": ""
         },
         "nt": {
             "books": {
@@ -339,6 +352,7 @@
                 },
                 "ps": {
                     "shortTitle": "Sal",
+                    "singularTitle": "",
                     "title": "Salmenes bok"
                 },
                 "ruth": {

@@ -75,16 +75,31 @@
                     "shortTitle": "L&P",
                     "title": "L\u00e6re og Pagter"
                 },
-                "od/1": {
-                    "shortTitle": "OE\u20131",
-                    "title": "Officiel Erkl\u00e6ring\u20131"
-                },
-                "od/2": {
-                    "shortTitle": "OE\u20132",
-                    "title": "Officiel Erkl\u00e6ring\u20132"
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "OE\u20131",
+                            "title": "Officiel Erkl\u00e6ring\u20131"
+                        },
+                        "2": {
+                            "shortTitle": "OE\u20132",
+                            "title": "Officiel Erkl\u00e6ring\u20132"
+                        }
+                    },
+                    "title": ""
                 }
             },
             "title": "L\u00e6re og Pagter"
+        },
+        "gs": {
+            "books": {},
+            "shortTitle": "Guide til Skrifterne",
+            "title": "Guide til Skrifterne"
+        },
+        "jst": {
+            "books": {},
+            "shortTitle": "Joseph Smiths Overs\u00e6ttelse",
+            "title": "Joseph Smiths Overs\u00e6ttelse"
         },
         "nt": {
             "books": {
@@ -339,6 +354,7 @@
                 },
                 "ps": {
                     "shortTitle": "Sl",
+                    "singularTitle": "",
                     "title": "Salmerne"
                 },
                 "ruth": {

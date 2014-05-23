@@ -75,16 +75,31 @@
                     "shortTitle": "NaS",
                     "title": "Nauka a smlouvy"
                 },
-                "od/1": {
-                    "shortTitle": "OP\u20131",
-                    "title": "Ofici\u00e1ln\u00ed prohl\u00e1\u0161en\u00ed\u20131"
-                },
-                "od/2": {
-                    "shortTitle": "OP\u20132",
-                    "title": "Ofici\u00e1ln\u00ed prohl\u00e1\u0161en\u00ed\u20132"
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "OP\u20131",
+                            "title": "Ofici\u00e1ln\u00ed prohl\u00e1\u0161en\u00ed\u20131"
+                        },
+                        "2": {
+                            "shortTitle": "OP\u20132",
+                            "title": "Ofici\u00e1ln\u00ed prohl\u00e1\u0161en\u00ed\u20132"
+                        }
+                    },
+                    "title": ""
                 }
             },
             "title": "Nauka a smlouvy"
+        },
+        "gs": {
+            "books": {},
+            "shortTitle": "Pr\u016fvodce k p\u00edsm\u016fm",
+            "title": "Pr\u016fvodce k p\u00edsm\u016fm"
+        },
+        "jst": {
+            "books": {},
+            "shortTitle": "P\u0159eklad Josepha Smitha",
+            "title": "P\u0159eklad Josepha Smitha"
         },
         "nt": {
             "books": {
@@ -339,6 +354,8 @@
                 },
                 "ps": {
                     "shortTitle": "\u017dalmy",
+                    "singularShortTitle": "\u017dalmy",
+                    "singularTitle": "\u017dalmy",
                     "title": "\u017dalmy"
                 },
                 "ruth": {

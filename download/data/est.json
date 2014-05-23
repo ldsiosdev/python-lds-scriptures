@@ -75,16 +75,31 @@
                     "shortTitle": "\u00d5L",
                     "title": "\u00d5petus ja Lepingud"
                 },
-                "od/1": {
-                    "shortTitle": "At 1",
-                    "title": "Ametlik teadaane nr 1"
-                },
-                "od/2": {
-                    "shortTitle": "At 2",
-                    "title": "Ametlik teadaane nr 2"
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "At 1",
+                            "title": "Ametlik teadaane nr 1"
+                        },
+                        "2": {
+                            "shortTitle": "At 2",
+                            "title": "Ametlik teadaane nr 2"
+                        }
+                    },
+                    "title": ""
                 }
             },
             "title": "\u00d5petus ja Lepingud"
+        },
+        "gs": {
+            "books": {},
+            "shortTitle": "P\u00fchakirjajuht",
+            "title": "P\u00fchakirjajuht"
+        },
+        "jst": {
+            "books": {},
+            "shortTitle": "Joseph Smithi t\u00f5lge",
+            "title": "Joseph Smithi t\u00f5lge"
         },
         "nt": {
             "books": {
@@ -339,6 +354,7 @@
                 },
                 "ps": {
                     "shortTitle": "Ps",
+                    "singularTitle": "",
                     "title": "Psalmid (Laulud)"
                 },
                 "ruth": {

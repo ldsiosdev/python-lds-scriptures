@@ -75,16 +75,29 @@
                     "shortTitle": "LuB",
                     "title": "Lehre und B\u00fcndnisse"
                 },
-                "od/1": {
-                    "shortTitle": "AE\u20141",
-                    "title": "Amtliche Erkl\u00e4rung\u20141"
-                },
-                "od/2": {
-                    "shortTitle": "AE\u20142",
-                    "title": "Amtliche Erkl\u00e4rung\u20142"
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "AE\u20141",
+                            "title": "Amtliche Erkl\u00e4rung\u20141"
+                        },
+                        "2": {
+                            "shortTitle": "AE\u20142",
+                            "title": "Amtliche Erkl\u00e4rung\u20142"
+                        }
+                    },
+                    "title": ""
                 }
             },
             "title": "Lehre und B\u00fcndnisse"
+        },
+        "gs": {
+            "books": {},
+            "title": ""
+        },
+        "jst": {
+            "books": {},
+            "title": ""
         },
         "nt": {
             "books": {
@@ -339,6 +352,7 @@
                 },
                 "ps": {
                     "shortTitle": "Ps",
+                    "singularTitle": "",
                     "title": "Psalmen"
                 },
                 "ruth": {

@@ -75,16 +75,31 @@
                     "shortTitle": "D&P",
                     "title": "Doktrina ug Mga Pakigsaad"
                 },
-                "od/1": {
-                    "shortTitle": "OP\u20141",
-                    "title": "Opisyal nga Pamahayag\u20141"
-                },
-                "od/2": {
-                    "shortTitle": "OP\u20142",
-                    "title": "Opisyal nga Pamahayag\u2014"
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "OP\u20141",
+                            "title": "Opisyal nga Pamahayag\u20141"
+                        },
+                        "2": {
+                            "shortTitle": "OP\u20142",
+                            "title": "Opisyal nga Pamahayag\u2014"
+                        }
+                    },
+                    "title": ""
                 }
             },
             "title": "Doktrina ug Mga Pakigsaad"
+        },
+        "gs": {
+            "books": {},
+            "shortTitle": "Ang Giya ngadto sa mga Kasulatan",
+            "title": "Ang Giya ngadto sa mga Kasulatan"
+        },
+        "jst": {
+            "books": {},
+            "shortTitle": "Hubad ni Joseph Smith",
+            "title": "Hubad ni Joseph Smith"
         },
         "nt": {
             "books": {
@@ -339,6 +354,7 @@
                 },
                 "ps": {
                     "shortTitle": "Sal.",
+                    "singularTitle": "",
                     "title": "Mga Salmo"
                 },
                 "ruth": {

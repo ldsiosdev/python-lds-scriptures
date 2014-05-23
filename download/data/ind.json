@@ -75,16 +75,29 @@
                     "shortTitle": "A&P",
                     "title": "Ajaran dan Perjanjian"
                 },
-                "od/1": {
-                    "shortTitle": "MR\u20141",
-                    "title": "Maklumat Resmi\u20141"
-                },
-                "od/2": {
-                    "shortTitle": "MR\u20142",
-                    "title": "Maklumat Resmi\u20142"
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "MR\u20141",
+                            "title": "Maklumat Resmi\u20141"
+                        },
+                        "2": {
+                            "shortTitle": "MR\u20142",
+                            "title": "Maklumat Resmi\u20142"
+                        }
+                    },
+                    "title": ""
                 }
             },
             "title": "Ajaran dan Perjanjian"
+        },
+        "gs": {
+            "books": {},
+            "title": ""
+        },
+        "jst": {
+            "books": {},
+            "title": ""
         },
         "nt": {
             "books": {
@@ -339,6 +352,7 @@
                 },
                 "ps": {
                     "shortTitle": "Mzm.",
+                    "singularTitle": "",
                     "title": "Mazmur"
                 },
                 "ruth": {

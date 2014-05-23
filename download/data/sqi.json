@@ -75,16 +75,29 @@
                     "shortTitle": "DeB",
                     "title": "Doktrina e Bes\u00eblidhje"
                 },
-                "od/1": {
-                    "shortTitle": "DZ\u20141",
-                    "title": "Deklarata Zyrtare\u20141"
-                },
-                "od/2": {
-                    "shortTitle": "DZ\u20142",
-                    "title": "Deklarata Zyrtare\u20142"
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "DZ\u20141",
+                            "title": "Deklarata Zyrtare\u20141"
+                        },
+                        "2": {
+                            "shortTitle": "DZ\u20142",
+                            "title": "Deklarata Zyrtare\u20142"
+                        }
+                    },
+                    "title": ""
                 }
             },
             "title": "Doktrina e Bes\u00eblidhje"
+        },
+        "gs": {
+            "books": {},
+            "title": ""
+        },
+        "jst": {
+            "books": {},
+            "title": ""
         },
         "nt": {
             "books": {
@@ -339,6 +352,7 @@
                 },
                 "ps": {
                     "shortTitle": "Psa.",
+                    "singularTitle": "",
                     "title": "Psalmet"
                 },
                 "ruth": {

@@ -39,7 +39,7 @@ if __name__ == '__main__':
 
             # Check if translation is complete (length should be 184)
             compressed_list = list(find_key(file_dict, 'title'))
-            if len(compressed_list) == 184:
+            if len(compressed_list) >= 184:
                 with codecs.open(output_filename, "wb", encoding='utf-8') as langFile:
                     output = json.dumps(file_dict, langFile, sort_keys=True, indent=4, separators=(',', ': '))
 
