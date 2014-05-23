@@ -56,7 +56,15 @@
                     "title": "Doctrina y Convenios"
                 },
                 "od": {
-                    "title": "Declaraci\u00f3n Oficial"
+                    "title": "Declaraci\u00f3n Oficial",
+                    "chapters": {
+                        "1": {
+                            "title": "Declaraci\u00f3n Oficial\u20141"
+                        },
+                        "2": {
+                            "title": "Declaraci\u00f3n Oficial\u20142"
+                        }
+                    }
                 }
             },
             "title": "Doctrina y Convenios"
@@ -252,7 +260,8 @@
                     "title": "Proverbios"
                 },
                 "ps": {
-                    "title": "Salmos"
+                    "title": "Salmos",
+                    "singularTitle": "Salmo"
                 },
                 "ruth": {
                     "title": "Rut"
