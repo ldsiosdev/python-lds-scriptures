@@ -65,8 +65,18 @@
                     "shortTitle": "D&C"
                 },
                 "od": {
-                    "title": "Official Declaration",
-                    "shortTitle": "OD"
+                    "title": "Official Declarations",
+                    "shortTitle": "OD",
+                    "chapters": {
+                        "1": {
+                            "title": "Official Declaration\u20141",
+                            "shortTitle": "OD\u20141"
+                        },
+                        "2": {
+                            "title": "Official Declaration\u20142",
+                            "shortTitle": "OD\u20142"
+                        }
+                    }
                 }
             },
             "title": "Doctrine and Covenants",
@@ -310,7 +320,8 @@
                 },
                 "ps": {
                     "title": "Psalms",
-                    "shortTitle": "Ps."
+                    "shortTitle": "Ps.",
+                    "singularTitle": "Psalm"
                 },
                 "ruth": {
                     "title": "Ruth"

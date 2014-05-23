@@ -39,6 +39,24 @@ class TestFormat(unittest.TestCase):
         self.assertEqual(format(ref('/scriptures/dc-testament/dc/110'), book_format=FORMAT_LONG), 'Doctrine and Covenants 110')
         self.assertEqual(format(ref('/scriptures/dc-testament/dc/110'), book_format=FORMAT_SHORT), 'D&C 110')
 
+    def test_format_od(self):
+        self.assertEqual(format(ref('/scriptures/dc-testament/od'), book_format=FORMAT_LONG), 'Official Declarations')
+        self.assertEqual(format(ref('/scriptures/dc-testament/od'), book_format=FORMAT_SHORT), 'OD')
+        self.assertEqual(format(ref('/scriptures/dc-testament/od/1'), book_format=FORMAT_LONG), u'Official Declaration—1')
+        self.assertEqual(format(ref('/scriptures/dc-testament/od/1'), book_format=FORMAT_SHORT), u'OD—1')
+        self.assertEqual(format(ref('/scriptures/dc-testament/od/2'), book_format=FORMAT_LONG), u'Official Declaration—2')
+        self.assertEqual(format(ref('/scriptures/dc-testament/od/2'), book_format=FORMAT_SHORT), u'OD—2')
+
+    def test_format_psalms(self):
+        self.assertEqual(format(ref('/scriptures/ot/ps'), book_format=FORMAT_LONG), 'Psalms')
+        self.assertEqual(format(ref('/scriptures/ot/ps'), book_format=FORMAT_SHORT), 'Ps.')
+        self.assertEqual(format(ref('/scriptures/ot/ps/3'), book_format=FORMAT_LONG), 'Psalm 3')
+        self.assertEqual(format(ref('/scriptures/ot/ps/3'), book_format=FORMAT_SHORT), 'Ps. 3')
+        self.assertEqual(format([ref('/scriptures/ot/ps/3.1'), ref('/scriptures/ot/ps/3.2-3')]), u'Psalm 3:1–3')
+
+        # TODO
+        # self.assertEqual(format([ref('/scriptures/ot/ps/3'), ref('/scriptures/ot/ps/4')]), u'Psalms 3–4')
+
     def test_format_multiple_refs_in_chapter(self):
         self.assertEqual(format([ref('/scriptures/ot/gen/40.1'), ref('/scriptures/ot/gen/40.1-5')]), u'Genesis 40:1–5')
         self.assertEqual(format([ref('/scriptures/ot/gen/40.1'), ref('/scriptures/ot/gen/40.3-5')]), u'Genesis 40:1, 3–5')

@@ -32,13 +32,26 @@ def format(ref_or_refs, lang='eng', include_book=True, book_format=FORMAT_LONG):
                 book = language_book['shortTitle']
 
             # Format the ref
-            response = book if include_book else ''
             if ref.chapter:
-                if response:
-                    response += ' '
-                response += str(ref.chapter)
-                if ref.verse_ranges:
-                    response += ':' + ', '.join(str(x[0]) if x[0] == x[1] else u'{}\u2013{}'.format(x[0], x[1]) for x in ref.verse_ranges) if ref.verse_ranges else None
+                if 'chapters' in language_book and str(ref.chapter) in language_book['chapters']:
+                    language_chapter = language_book['chapters'][str(ref.chapter)]
+                    chapter = language_chapter['title']
+                    if book_format == FORMAT_SHORT and 'shortTitle' in language_chapter:
+                        chapter = language_chapter['shortTitle']
+
+                    response = chapter
+                else:
+                    if book_format == FORMAT_LONG and 'singularTitle' in language_book:
+                        book = language_book['singularTitle']
+
+                    response = book if include_book else ''
+                    if response:
+                        response += ' '
+                    response += str(ref.chapter)
+                    if ref.verse_ranges:
+                        response += ':' + ', '.join(str(x[0]) if x[0] == x[1] else u'{}\u2013{}'.format(x[0], x[1]) for x in ref.verse_ranges) if ref.verse_ranges else None
+            else:
+                response = book if include_book else ''
         return response
     else:
         refs = merged(ref_or_refs)
