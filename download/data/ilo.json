@@ -1,9 +1,5 @@
 {
     "testaments": {
-        "bible": {
-            "books": {},
-            "title": "Ti Biblia"
-        },
         "bofm": {
             "books": {
                 "1-ne": {
@@ -90,14 +86,6 @@
                 }
             },
             "title": "Doktrina ken Katulagan"
-        },
-        "gs": {
-            "books": {},
-            "title": ""
-        },
-        "jst": {
-            "books": {},
-            "title": ""
         },
         "nt": {
             "books": {

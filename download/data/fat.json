@@ -1,9 +1,5 @@
 {
     "testaments": {
-        "bible": {
-            "books": {},
-            "title": "Nwoma Kr\u0254nkr\u0254n"
-        },
         "bofm": {
             "books": {
                 "1-ne": {
@@ -90,16 +86,6 @@
                 }
             },
             "title": "Nkyer\u025bkyer\u025b na Ahy\u025bmudzi"
-        },
-        "gs": {
-            "books": {},
-            "shortTitle": "Kyer\u025bws\u025bm no Kwankyer\u025b No",
-            "title": "Kyer\u025bws\u025bm no Kwankyer\u025b No"
-        },
-        "jst": {
-            "books": {},
-            "shortTitle": "Joseph Smith Nkyer\u025base",
-            "title": "Joseph Smith Nkyer\u025base"
         },
         "nt": {
             "books": {

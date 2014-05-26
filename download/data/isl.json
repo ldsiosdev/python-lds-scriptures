@@ -1,9 +1,5 @@
 {
     "testaments": {
-        "bible": {
-            "books": {},
-            "title": "Biblian"
-        },
         "bofm": {
             "books": {
                 "1-ne": {
@@ -90,14 +86,6 @@
                 }
             },
             "title": "Kenning og s\u00e1ttm\u00e1lar"
-        },
-        "gs": {
-            "books": {},
-            "title": ""
-        },
-        "jst": {
-            "books": {},
-            "title": ""
         },
         "nt": {
             "books": {

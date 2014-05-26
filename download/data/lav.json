@@ -1,9 +1,5 @@
 {
     "testaments": {
-        "bible": {
-            "books": {},
-            "title": "Bibele"
-        },
         "bofm": {
             "books": {
                 "1-ne": {
@@ -90,14 +86,6 @@
                 }
             },
             "title": "Ma\u0304ci\u0304ba un Deri\u0304bas"
-        },
-        "gs": {
-            "books": {},
-            "title": ""
-        },
-        "jst": {
-            "books": {},
-            "title": ""
         },
         "nt": {
             "books": {

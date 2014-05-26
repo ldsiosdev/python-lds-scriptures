@@ -1,9 +1,5 @@
 {
     "testaments": {
-        "bible": {
-            "books": {},
-            "title": "Koe Tohi Tabu Katoa"
-        },
         "bofm": {
             "books": {
                 "1-ne": {
@@ -90,14 +86,6 @@
                 }
             },
             "title": "Toka\u0304teline mo e Ngaahi Fuakav\u00e1"
-        },
-        "gs": {
-            "books": {},
-            "title": ""
-        },
-        "jst": {
-            "books": {},
-            "title": ""
         },
         "nt": {
             "books": {

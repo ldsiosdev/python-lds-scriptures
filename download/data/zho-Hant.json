@@ -1,9 +1,5 @@
 {
     "testaments": {
-        "bible": {
-            "books": {},
-            "title": "\u8056 \u7d93"
-        },
         "bofm": {
             "books": {
                 "1-ne": {
@@ -90,16 +86,6 @@
                 }
             },
             "title": "\u6559\u7fa9\u548c\u8056\u7d04\u200b"
-        },
-        "gs": {
-            "books": {},
-            "shortTitle": "\u7d93\u6587\u6307\u5357",
-            "title": "\u7d93\u6587\u6307\u5357"
-        },
-        "jst": {
-            "books": {},
-            "shortTitle": "\u7d04\u745f\u2027\u65af\u8a70\u8b6f\u672c",
-            "title": "\u7d04\u745f\u2027\u65af\u8a70\u8b6f\u672c"
         },
         "nt": {
             "books": {

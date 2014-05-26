@@ -1,9 +1,5 @@
 {
     "testaments": {
-        "bible": {
-            "books": {},
-            "title": "Bible Svat\u00e1"
-        },
         "bofm": {
             "books": {
                 "1-ne": {
@@ -90,16 +86,6 @@
                 }
             },
             "title": "Nauka a smlouvy"
-        },
-        "gs": {
-            "books": {},
-            "shortTitle": "Pr\u016fvodce k p\u00edsm\u016fm",
-            "title": "Pr\u016fvodce k p\u00edsm\u016fm"
-        },
-        "jst": {
-            "books": {},
-            "shortTitle": "P\u0159eklad Josepha Smitha",
-            "title": "P\u0159eklad Josepha Smitha"
         },
         "nt": {
             "books": {

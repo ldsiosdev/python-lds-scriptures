@@ -1,9 +1,5 @@
 {
     "testaments": {
-        "bible": {
-            "books": {},
-            "title": "Li Santil Hu"
-        },
         "bofm": {
             "books": {
                 "1-ne": {
@@ -90,14 +86,6 @@
                 }
             },
             "title": "Tzol\u02bcleb\u02bc ut Sumwank"
-        },
-        "gs": {
-            "books": {},
-            "title": ""
-        },
-        "jst": {
-            "books": {},
-            "title": ""
         },
         "nt": {
             "books": {

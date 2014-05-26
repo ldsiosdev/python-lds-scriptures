@@ -1,9 +1,5 @@
 {
     "testaments": {
-        "bible": {
-            "books": {},
-            "title": "Die Bybel"
-        },
         "bofm": {
             "books": {
                 "1-ne": {
@@ -90,15 +86,6 @@
                 }
             },
             "title": "Die Leer en Verbonde"
-        },
-        "gs": {
-            "books": {},
-            "shortTitle": "Gids tot die Skrifture",
-            "title": "Gids tot die Skrifture"
-        },
-        "jst": {
-            "books": {},
-            "title": ""
         },
         "nt": {
             "books": {

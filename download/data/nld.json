@@ -1,9 +1,5 @@
 {
     "testaments": {
-        "bible": {
-            "books": {},
-            "title": "De Bijbel"
-        },
         "bofm": {
             "books": {
                 "1-ne": {
@@ -90,16 +86,6 @@
                 }
             },
             "title": "Leer en Verbonden"
-        },
-        "gs": {
-            "books": {},
-            "shortTitle": "Gids bij de Schriften",
-            "title": "Gids bij de Schriften"
-        },
-        "jst": {
-            "books": {},
-            "shortTitle": "Bijbelvertaling van Joseph Smith",
-            "title": "Bijbelvertaling van Joseph Smith"
         },
         "nt": {
             "books": {

@@ -40,6 +40,14 @@ if __name__ == '__main__':
             # Check if translation is complete (length should be 184)
             compressed_list = list(find_key(file_dict, 'title'))
             if len(compressed_list) >= 184:
+                # Remove extraneous books (bible, gs, jst)
+                if 'bible' in file_dict['testaments']:
+                    del file_dict['testaments']['bible']
+                if 'gs' in file_dict['testaments']:
+                    del file_dict['testaments']['gs']
+                if 'jst' in file_dict['testaments']:
+                    del file_dict['testaments']['jst']
+
                 with codecs.open(output_filename, "wb", encoding='utf-8') as langFile:
                     output = json.dumps(file_dict, langFile, sort_keys=True, indent=4, separators=(',', ': '))
 

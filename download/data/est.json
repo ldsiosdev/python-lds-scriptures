@@ -1,9 +1,5 @@
 {
     "testaments": {
-        "bible": {
-            "books": {},
-            "title": "Piibel"
-        },
         "bofm": {
             "books": {
                 "1-ne": {
@@ -90,16 +86,6 @@
                 }
             },
             "title": "\u00d5petus ja Lepingud"
-        },
-        "gs": {
-            "books": {},
-            "shortTitle": "P\u00fchakirjajuht",
-            "title": "P\u00fchakirjajuht"
-        },
-        "jst": {
-            "books": {},
-            "shortTitle": "Joseph Smithi t\u00f5lge",
-            "title": "Joseph Smithi t\u00f5lge"
         },
         "nt": {
             "books": {

@@ -1,9 +1,5 @@
 {
     "testaments": {
-        "bible": {
-            "books": {},
-            "title": "Ang Biblia "
-        },
         "bofm": {
             "books": {
                 "1-ne": {
@@ -90,16 +86,6 @@
                 }
             },
             "title": "Doktrina ug Mga Pakigsaad"
-        },
-        "gs": {
-            "books": {},
-            "shortTitle": "Ang Giya ngadto sa mga Kasulatan",
-            "title": "Ang Giya ngadto sa mga Kasulatan"
-        },
-        "jst": {
-            "books": {},
-            "shortTitle": "Hubad ni Joseph Smith",
-            "title": "Hubad ni Joseph Smith"
         },
         "nt": {
             "books": {
