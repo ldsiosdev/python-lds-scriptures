@@ -1,0 +1,391 @@
+{
+    "testaments": {
+        "bofm": {
+            "books": {
+                "1-ne": {
+                    "shortTitle": "1\u00a0Ni\u0304fai",
+                    "title": "1\u00a0Ni\u0304fai"
+                },
+                "2-ne": {
+                    "shortTitle": "2\u00a0Ni\u0304fai",
+                    "title": "2\u00a0Ni\u0304fai"
+                },
+                "3-ne": {
+                    "shortTitle": "3\u00a0Ni\u0304fai",
+                    "title": "3\u00a0Ni\u0304fai"
+                },
+                "4-ne": {
+                    "shortTitle": "4\u00a0Ni\u0304fai",
+                    "title": "4\u00a0Ni\u0304fai"
+                },
+                "alma": {
+                    "shortTitle": "\u02bbAlama\u0304",
+                    "title": "\u02bbAlama\u0304"
+                },
+                "enos": {
+                    "shortTitle": "\u02bbI\u0304nosi",
+                    "title": "\u02bbI\u0304nosi"
+                },
+                "ether": {
+                    "shortTitle": "\u02bbEta",
+                    "title": "\u02bbEta"
+                },
+                "hel": {
+                    "shortTitle": "Hilam.",
+                    "title": "Hilamani"
+                },
+                "jacob": {
+                    "shortTitle": "Se\u0304kope",
+                    "title": "Se\u0304kope"
+                },
+                "jarom": {
+                    "shortTitle": "Seilomi",
+                    "title": "Seilomi"
+                },
+                "morm": {
+                    "shortTitle": "Molom.",
+                    "title": "Molomona"
+                },
+                "moro": {
+                    "shortTitle": "Molonai",
+                    "title": "Molonai"
+                },
+                "mosiah": {
+                    "shortTitle": "Mo\u0304saia",
+                    "title": "Mo\u0304saia"
+                },
+                "omni": {
+                    "shortTitle": "\u02bbAmenai",
+                    "title": "\u02bbAmenai"
+                },
+                "w-of-m": {
+                    "shortTitle": "Ng. Lea \u02bba M.",
+                    "title": "Ngaahi Lea \u02bba Molomona"
+                }
+            },
+            "title": "Tohi \u02bba Molomon\u00e1"
+        },
+        "dc-testament": {
+            "books": {
+                "dc": {
+                    "shortTitle": "T&F",
+                    "title": "Toka\u0304teline mo e Ngaahi Fuakav\u00e1"
+                },
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "FFkm\u20141",
+                            "title": "Fanongonongo Fakamafai\u02bbi\u20141"
+                        },
+                        "2": {
+                            "shortTitle": "FFkm\u20142",
+                            "title": "Fanongonongo Fakamafai\u02bbi\u20142"
+                        }
+                    },
+                    "title": ""
+                }
+            },
+            "title": "Toka\u0304teline mo e Ngaahi Fuakav\u00e1"
+        },
+        "nt": {
+            "books": {
+                "1-cor": {
+                    "shortTitle": "1\u00a0Kol.",
+                    "title": "1\u00a0Kolinito\u0304"
+                },
+                "1-jn": {
+                    "shortTitle": "1\u00a0Sione",
+                    "title": "1\u00a0Sione"
+                },
+                "1-pet": {
+                    "shortTitle": "1\u00a0Pita",
+                    "title": "1\u00a0Pita"
+                },
+                "1-thes": {
+                    "shortTitle": "1\u00a0Te\u0304sal.",
+                    "title": "1\u00a0Te\u0304salonika"
+                },
+                "1-tim": {
+                    "shortTitle": "1\u00a0Ti\u0304m.",
+                    "title": "1\u00a0Ti\u0304mote"
+                },
+                "2-cor": {
+                    "shortTitle": "2\u00a0Kol.",
+                    "title": "2\u00a0Kolinito\u0304"
+                },
+                "2-jn": {
+                    "shortTitle": "2\u00a0Sione",
+                    "title": "2\u00a0Sione"
+                },
+                "2-pet": {
+                    "shortTitle": "2\u00a0Pita",
+                    "title": "2\u00a0Pita"
+                },
+                "2-thes": {
+                    "shortTitle": "2\u00a0Te\u0304sal.",
+                    "title": "2\u00a0Te\u0304salonika"
+                },
+                "2-tim": {
+                    "shortTitle": "2\u00a0Ti\u0304m.",
+                    "title": "2\u00a0Ti\u0304mote"
+                },
+                "3-jn": {
+                    "shortTitle": "3\u00a0Sione",
+                    "title": "3\u00a0Sione"
+                },
+                "acts": {
+                    "shortTitle": "Nga\u0304ue",
+                    "title": "Nga\u0304ue \u02bba e Kau \u02bbAposetol\u00f3"
+                },
+                "col": {
+                    "shortTitle": "Kolose",
+                    "title": "Kolose"
+                },
+                "eph": {
+                    "shortTitle": "\u02bbEfeso\u0304",
+                    "title": "\u02bbEfeso\u0304"
+                },
+                "gal": {
+                    "shortTitle": "Kale\u0304tia",
+                    "title": "Kale\u0304tia"
+                },
+                "heb": {
+                    "shortTitle": "Hepelu\u0304",
+                    "title": "Hepelu\u0304"
+                },
+                "james": {
+                    "shortTitle": "Se\u0304misi",
+                    "title": "Se\u0304misi"
+                },
+                "john": {
+                    "shortTitle": "Sione",
+                    "title": "Sione"
+                },
+                "jude": {
+                    "shortTitle": "Sute",
+                    "title": "Sute"
+                },
+                "luke": {
+                    "shortTitle": "Luke",
+                    "title": "Luke"
+                },
+                "mark": {
+                    "shortTitle": "Ma\u02bbake",
+                    "title": "Ma\u02bbake"
+                },
+                "matt": {
+                    "shortTitle": "Ma\u0304tiu",
+                    "title": "Ma\u0304tiu"
+                },
+                "philem": {
+                    "shortTitle": "Filim.",
+                    "title": "Filimone"
+                },
+                "philip": {
+                    "shortTitle": "Filipai",
+                    "title": "Filipai"
+                },
+                "rev": {
+                    "shortTitle": "Fakaha\u0304",
+                    "title": "Fakaha\u0304"
+                },
+                "rom": {
+                    "shortTitle": "Loma",
+                    "title": "Loma"
+                },
+                "titus": {
+                    "shortTitle": "Taitusi",
+                    "title": "Taitusi"
+                }
+            },
+            "title": "Fuakava Fo\u02bbo\u00fa"
+        },
+        "ot": {
+            "books": {
+                "1-chr": {
+                    "shortTitle": "1\u00a0Fkmtl.",
+                    "title": "1\u00a0Fakamatala Me\u02bba Hokohoko"
+                },
+                "1-kgs": {
+                    "shortTitle": "1\u00a0Ng.",
+                    "title": "Tu\u02bbi 1 Ngaahi Tu\u02bbi"
+                },
+                "1-sam": {
+                    "shortTitle": "1\u00a0Sam.",
+                    "title": "1\u00a0Samuela"
+                },
+                "2-chr": {
+                    "shortTitle": "2\u00a0Fkmtl.",
+                    "title": "2\u00a0Fakamatala Me\u02bba Hokohoko"
+                },
+                "2-kgs": {
+                    "shortTitle": "2\u00a0Ng.",
+                    "title": "Tu\u02bbi 2 Ngaahi Tu\u02bbi"
+                },
+                "2-sam": {
+                    "shortTitle": "2\u00a0Sam.",
+                    "title": "2\u00a0Samuela"
+                },
+                "amos": {
+                    "shortTitle": "\u02bbA\u0304mosi",
+                    "title": "\u02bbA\u0304mosi"
+                },
+                "dan": {
+                    "shortTitle": "Taniela",
+                    "title": "Taniela"
+                },
+                "deut": {
+                    "shortTitle": "Teut.",
+                    "title": "Teutalo\u0304nome"
+                },
+                "eccl": {
+                    "shortTitle": "Tngt.",
+                    "title": "Tangata Malanga"
+                },
+                "esth": {
+                    "shortTitle": "\u02bbE\u0304seta",
+                    "title": "\u02bbE\u0304seta"
+                },
+                "ex": {
+                    "shortTitle": "\u02bbEke.",
+                    "title": "\u02bbEkeso\u0304tosi"
+                },
+                "ezek": {
+                    "shortTitle": "\u02bbIsikeli",
+                    "title": "\u02bbIsikeli"
+                },
+                "ezra": {
+                    "shortTitle": "\u02bbE\u0304sela",
+                    "title": "\u02bbE\u0304sela"
+                },
+                "gen": {
+                    "shortTitle": "Se\u0304nesi",
+                    "title": "Se\u0304nesi"
+                },
+                "hab": {
+                    "shortTitle": "Hap.",
+                    "title": "Hapakuki"
+                },
+                "hag": {
+                    "shortTitle": "Hakeai",
+                    "title": "Hakeai"
+                },
+                "hosea": {
+                    "shortTitle": "Ho\u0304sea",
+                    "title": "Ho\u0304sea"
+                },
+                "isa": {
+                    "shortTitle": "\u02bbI\u0304saia",
+                    "title": "\u02bbI\u0304saia"
+                },
+                "jer": {
+                    "shortTitle": "Selem.",
+                    "title": "Selemaia"
+                },
+                "job": {
+                    "shortTitle": "Siope",
+                    "title": "Siope"
+                },
+                "joel": {
+                    "shortTitle": "Sioeli",
+                    "title": "Sioeli"
+                },
+                "jonah": {
+                    "shortTitle": "Siona",
+                    "title": "Siona"
+                },
+                "josh": {
+                    "shortTitle": "Siosiua",
+                    "title": "Siosiua"
+                },
+                "judg": {
+                    "shortTitle": "Fakam.",
+                    "title": "Fakamaau"
+                },
+                "lam": {
+                    "shortTitle": "Tangi",
+                    "title": "Tangi La\u0304ulau"
+                },
+                "lev": {
+                    "shortTitle": "Lev.",
+                    "title": "Levitiko"
+                },
+                "mal": {
+                    "shortTitle": "Malakai",
+                    "title": "Malakai"
+                },
+                "micah": {
+                    "shortTitle": "Maika",
+                    "title": "Maika"
+                },
+                "nahum": {
+                    "shortTitle": "Ne\u0304humi",
+                    "title": "Ne\u0304humi"
+                },
+                "neh": {
+                    "shortTitle": "Neh.",
+                    "title": "Nehemaia"
+                },
+                "num": {
+                    "shortTitle": "No\u0304mipa",
+                    "title": "No\u0304mipa"
+                },
+                "obad": {
+                    "shortTitle": "\u02bbOpat.",
+                    "title": "\u02bbOpataia"
+                },
+                "prov": {
+                    "shortTitle": "LFkt.",
+                    "title": "Lea Fakata\u0304ta\u0304"
+                },
+                "ps": {
+                    "shortTitle": "Same",
+                    "singularTitle": "",
+                    "title": "Same"
+                },
+                "ruth": {
+                    "shortTitle": "Lute",
+                    "title": "Lute"
+                },
+                "song": {
+                    "shortTitle": "Hiva",
+                    "title": "Hiva \u02bba Solomone"
+                },
+                "zech": {
+                    "shortTitle": "Sa\u0304k.",
+                    "title": "Sa\u0304kalaia"
+                },
+                "zeph": {
+                    "shortTitle": "Se\u0304f.",
+                    "title": "Se\u0304fanaia"
+                }
+            },
+            "title": "Fuakava Motu\u02bb\u00e1"
+        },
+        "pgp": {
+            "books": {
+                "a-of-f": {
+                    "shortTitle": "TT",
+                    "title": "Ngaahi Tefito \u02bbo e Tu\u00ed"
+                },
+                "abr": {
+                    "shortTitle": "\u02bbE\u0304pa.",
+                    "title": "\u02bbE\u0304palahame"
+                },
+                "js-h": {
+                    "shortTitle": "SS\u2014H",
+                    "title": "Siosefa Sa\u0304mita\u2014Hisito\u0304lia"
+                },
+                "js-m": {
+                    "shortTitle": "SS\u2014M",
+                    "title": "Siosefa Sa\u0304mita\u2014Ma\u0304tiu"
+                },
+                "moses": {
+                    "shortTitle": "Mo\u0304sese",
+                    "title": "Mo\u0304sese"
+                }
+            },
+            "title": "Mata\u02bbitofe Mahu\u02bbing\u00e1"
+        }
+    }
+}

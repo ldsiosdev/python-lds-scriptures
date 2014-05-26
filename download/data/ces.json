@@ -1,0 +1,392 @@
+{
+    "testaments": {
+        "bofm": {
+            "books": {
+                "1-ne": {
+                    "shortTitle": "1. Nefi",
+                    "title": "1. Nefi"
+                },
+                "2-ne": {
+                    "shortTitle": "2. Nefi",
+                    "title": "2. Nefi"
+                },
+                "3-ne": {
+                    "shortTitle": "3. Nefi",
+                    "title": "3. Nefi"
+                },
+                "4-ne": {
+                    "shortTitle": "4. Nefi",
+                    "title": "4. Nefi"
+                },
+                "alma": {
+                    "shortTitle": "Alma.",
+                    "title": "Alma"
+                },
+                "enos": {
+                    "shortTitle": "Enos",
+                    "title": "Enos"
+                },
+                "ether": {
+                    "shortTitle": "Eter",
+                    "title": "Eter"
+                },
+                "hel": {
+                    "shortTitle": "Hel.",
+                    "title": "Helaman"
+                },
+                "jacob": {
+                    "shortTitle": "J\u00e1kob",
+                    "title": "J\u00e1kob"
+                },
+                "jarom": {
+                    "shortTitle": "Jarom",
+                    "title": "Jarom"
+                },
+                "morm": {
+                    "shortTitle": "Morm.",
+                    "title": "Mormon"
+                },
+                "moro": {
+                    "shortTitle": "Moroni",
+                    "title": "Moroni"
+                },
+                "mosiah": {
+                    "shortTitle": "Mos.",
+                    "title": "Mosi\u00e1\u0161"
+                },
+                "omni": {
+                    "shortTitle": "Omni",
+                    "title": "Omni"
+                },
+                "w-of-m": {
+                    "shortTitle": "Sl. Morm.",
+                    "title": "Slova Mormonova"
+                }
+            },
+            "title": "Kniha Mormonova"
+        },
+        "dc-testament": {
+            "books": {
+                "dc": {
+                    "shortTitle": "NaS",
+                    "title": "Nauka a smlouvy"
+                },
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "OP\u20131",
+                            "title": "Ofici\u00e1ln\u00ed prohl\u00e1\u0161en\u00ed\u20131"
+                        },
+                        "2": {
+                            "shortTitle": "OP\u20132",
+                            "title": "Ofici\u00e1ln\u00ed prohl\u00e1\u0161en\u00ed\u20132"
+                        }
+                    },
+                    "title": ""
+                }
+            },
+            "title": "Nauka a smlouvy"
+        },
+        "nt": {
+            "books": {
+                "1-cor": {
+                    "shortTitle": "1. Kor.",
+                    "title": "1. Korintsk\u00fdm"
+                },
+                "1-jn": {
+                    "shortTitle": "1. Jan.",
+                    "title": "1. Janova"
+                },
+                "1-pet": {
+                    "shortTitle": "1. Petr.",
+                    "title": "1. Petrova"
+                },
+                "1-thes": {
+                    "shortTitle": "1. Tes.",
+                    "title": "1. Tessalonicensk\u00fdm"
+                },
+                "1-tim": {
+                    "shortTitle": "1. Tim.",
+                    "title": "1. Timoteovi"
+                },
+                "2-cor": {
+                    "shortTitle": "2. Kor.",
+                    "title": "2. Korintsk\u00fdm"
+                },
+                "2-jn": {
+                    "shortTitle": "2. Jan.",
+                    "title": "2. Janova"
+                },
+                "2-pet": {
+                    "shortTitle": "2. Petr.",
+                    "title": "2. Petrova"
+                },
+                "2-thes": {
+                    "shortTitle": "2. Tes.",
+                    "title": "2. Tessalonicensk\u00fdm"
+                },
+                "2-tim": {
+                    "shortTitle": "2. Tim.",
+                    "title": "2. Timoteovi"
+                },
+                "3-jn": {
+                    "shortTitle": "3. Jan.",
+                    "title": "3. Janova"
+                },
+                "acts": {
+                    "shortTitle": "Skut.",
+                    "title": "Skutkov\u00e9 apo\u0161tol\u016f"
+                },
+                "col": {
+                    "shortTitle": "Kol.",
+                    "title": "Kolossensk\u00fdm"
+                },
+                "eph": {
+                    "shortTitle": "Efez.",
+                    "title": "Efezsk\u00fdm"
+                },
+                "gal": {
+                    "shortTitle": "Gal.",
+                    "title": "Galatsk\u00fdm"
+                },
+                "heb": {
+                    "shortTitle": "\u017did\u016fm",
+                    "title": "\u017did\u016fm"
+                },
+                "james": {
+                    "shortTitle": "Jakub",
+                    "title": "Jakub"
+                },
+                "john": {
+                    "shortTitle": "Jan",
+                    "title": "Jan"
+                },
+                "jude": {
+                    "shortTitle": "Judas",
+                    "title": "Judas"
+                },
+                "luke": {
+                    "shortTitle": "Luk\u00e1\u0161",
+                    "title": "Luk\u00e1\u0161"
+                },
+                "mark": {
+                    "shortTitle": "Marek",
+                    "title": "Marek"
+                },
+                "matt": {
+                    "shortTitle": "Mat.",
+                    "title": "Matou\u0161"
+                },
+                "philem": {
+                    "shortTitle": "Filem.",
+                    "title": "Filemonovi"
+                },
+                "philip": {
+                    "shortTitle": "Filip.",
+                    "title": "Filipensk\u00fdm"
+                },
+                "rev": {
+                    "shortTitle": "Zjev.",
+                    "title": "Zjeven\u00ed"
+                },
+                "rom": {
+                    "shortTitle": "\u0158\u00edm.",
+                    "title": "\u0158\u00edman\u016fm"
+                },
+                "titus": {
+                    "shortTitle": "Tit.",
+                    "title": "Titovi"
+                }
+            },
+            "title": "Nov\u00fd z\u00e1kon"
+        },
+        "ot": {
+            "books": {
+                "1-chr": {
+                    "shortTitle": "1. Par.",
+                    "title": "1. Paralipomenon"
+                },
+                "1-kgs": {
+                    "shortTitle": "1. Kr\u00e1l.",
+                    "title": "1. Kr\u00e1lovsk\u00e1"
+                },
+                "1-sam": {
+                    "shortTitle": "1. Sam.",
+                    "title": "1. Samuelova"
+                },
+                "2-chr": {
+                    "shortTitle": "2. Par.",
+                    "title": "2. Paralipomenon"
+                },
+                "2-kgs": {
+                    "shortTitle": "2. Kr\u00e1l.",
+                    "title": "2. Kr\u00e1lovsk\u00e1"
+                },
+                "2-sam": {
+                    "shortTitle": "2. Sam.",
+                    "title": "2. Samuelova"
+                },
+                "amos": {
+                    "shortTitle": "Amos",
+                    "title": "Amos"
+                },
+                "dan": {
+                    "shortTitle": "Dan.",
+                    "title": "Daniel"
+                },
+                "deut": {
+                    "shortTitle": "Deut.",
+                    "title": "Deuteronomium"
+                },
+                "eccl": {
+                    "shortTitle": "Kaz.",
+                    "title": "Kazatel"
+                },
+                "esth": {
+                    "shortTitle": "Est.",
+                    "title": "Ester"
+                },
+                "ex": {
+                    "shortTitle": "Ex.",
+                    "title": "Exodus"
+                },
+                "ezek": {
+                    "shortTitle": "Ezech.",
+                    "title": "Ezechiel"
+                },
+                "ezra": {
+                    "shortTitle": "Ezdr.",
+                    "title": "Ezdr\u00e1\u0161"
+                },
+                "gen": {
+                    "shortTitle": "Gen.",
+                    "title": "Genesis"
+                },
+                "hab": {
+                    "shortTitle": "Abak.",
+                    "title": "Abakuk"
+                },
+                "hag": {
+                    "shortTitle": "Aggeus",
+                    "title": "Aggeus"
+                },
+                "hosea": {
+                    "shortTitle": "Ose\u00e1\u0161",
+                    "title": "Ose\u00e1\u0161"
+                },
+                "isa": {
+                    "shortTitle": "Iz.",
+                    "title": "Izai\u00e1\u0161"
+                },
+                "jer": {
+                    "shortTitle": "Jer.",
+                    "title": "Jeremi\u00e1\u0161"
+                },
+                "job": {
+                    "shortTitle": "Job.",
+                    "title": "Job"
+                },
+                "joel": {
+                    "shortTitle": "Joel",
+                    "title": "Joel"
+                },
+                "jonah": {
+                    "shortTitle": "Jon\u00e1\u0161",
+                    "title": "Jon\u00e1\u0161"
+                },
+                "josh": {
+                    "shortTitle": "Jozue",
+                    "title": "Jozue"
+                },
+                "judg": {
+                    "shortTitle": "Soud.",
+                    "title": "Soudc\u016f"
+                },
+                "lam": {
+                    "shortTitle": "Pl\u00e1\u010d",
+                    "title": "Pl\u00e1\u010d Jeremi\u00e1\u0161\u016fv"
+                },
+                "lev": {
+                    "shortTitle": "Lev.",
+                    "title": "Leviticus"
+                },
+                "mal": {
+                    "shortTitle": "Mal.",
+                    "title": "Malachi\u00e1\u0161"
+                },
+                "micah": {
+                    "shortTitle": "Mich.",
+                    "title": "Miche\u00e1\u0161"
+                },
+                "nahum": {
+                    "shortTitle": "Nahum",
+                    "title": "Nahum"
+                },
+                "neh": {
+                    "shortTitle": "Neh.",
+                    "title": "Nehemi\u00e1\u0161"
+                },
+                "num": {
+                    "shortTitle": "Num.",
+                    "title": "Numeri"
+                },
+                "obad": {
+                    "shortTitle": "Abd.",
+                    "title": "Abdi\u00e1\u0161"
+                },
+                "prov": {
+                    "shortTitle": "P\u0159\u00edsl.",
+                    "title": "P\u0159\u00edslov\u00ed"
+                },
+                "ps": {
+                    "shortTitle": "\u017dalmy",
+                    "singularShortTitle": "\u017dalmy",
+                    "singularTitle": "\u017dalmy",
+                    "title": "\u017dalmy"
+                },
+                "ruth": {
+                    "shortTitle": "Rut",
+                    "title": "Rut"
+                },
+                "song": {
+                    "shortTitle": "P\u00edse\u0148",
+                    "title": "P\u00edse\u0148 \u0160alomounova"
+                },
+                "zech": {
+                    "shortTitle": "Zach.",
+                    "title": "Zachari\u00e1\u0161"
+                },
+                "zeph": {
+                    "shortTitle": "Sof.",
+                    "title": "Sofani\u00e1\u0161"
+                }
+            },
+            "title": "Star\u00fd z\u00e1kon"
+        },
+        "pgp": {
+            "books": {
+                "a-of-f": {
+                    "shortTitle": "\u010cl. v.",
+                    "title": "\u010cl\u00e1nky v\u00edry"
+                },
+                "abr": {
+                    "shortTitle": "Abr.",
+                    "title": "Abraham"
+                },
+                "js-h": {
+                    "shortTitle": "JS\u2013\u017d",
+                    "title": "Joseph Smith\u2013\u017divotopis"
+                },
+                "js-m": {
+                    "shortTitle": "JS\u2013M",
+                    "title": "Joseph Smith\u2013Matou\u0161"
+                },
+                "moses": {
+                    "shortTitle": "Moj\u017e.",
+                    "title": "Moj\u017e\u00ed\u0161"
+                }
+            },
+            "title": "Drahocenn\u00e1 perla"
+        }
+    }
+}

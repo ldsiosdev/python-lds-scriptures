@@ -1,0 +1,391 @@
+{
+    "testaments": {
+        "bofm": {
+            "books": {
+                "1-ne": {
+                    "shortTitle": "1\u00a0Ne.",
+                    "title": "1\u00a0Nefi"
+                },
+                "2-ne": {
+                    "shortTitle": "2\u00a0Ne.",
+                    "title": "2\u00a0Nefi"
+                },
+                "3-ne": {
+                    "shortTitle": "3\u00a0Ne.",
+                    "title": "3\u00a0Nefi"
+                },
+                "4-ne": {
+                    "shortTitle": "4\u00a0Ne.",
+                    "title": "4\u00a0Nefi"
+                },
+                "alma": {
+                    "shortTitle": "Alma",
+                    "title": "Alma"
+                },
+                "enos": {
+                    "shortTitle": "Enos",
+                    "title": "Enos"
+                },
+                "ether": {
+                    "shortTitle": "Eter",
+                    "title": "Eter"
+                },
+                "hel": {
+                    "shortTitle": "Hel.",
+                    "title": "Helaman"
+                },
+                "jacob": {
+                    "shortTitle": "Iacov",
+                    "title": "Iacov"
+                },
+                "jarom": {
+                    "shortTitle": "Iarom",
+                    "title": "Iarom"
+                },
+                "morm": {
+                    "shortTitle": "Morm.",
+                    "title": "Mormon"
+                },
+                "moro": {
+                    "shortTitle": "Moro.",
+                    "title": "Moroni"
+                },
+                "mosiah": {
+                    "shortTitle": "Mosia",
+                    "title": "Mosia"
+                },
+                "omni": {
+                    "shortTitle": "Omni",
+                    "title": "Omni"
+                },
+                "w-of-m": {
+                    "shortTitle": "C. lui M.",
+                    "title": "Cuvintele lui Mormon"
+                }
+            },
+            "title": "Cartea lui Mormon"
+        },
+        "dc-testament": {
+            "books": {
+                "dc": {
+                    "shortTitle": "D&L",
+                    "title": "Doctrin\u0103 \u0219i Leg\u0103minte"
+                },
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "DO\u20141",
+                            "title": "Declara\u021bia oficial\u0103\u20141"
+                        },
+                        "2": {
+                            "shortTitle": "DO\u20142",
+                            "title": "Declara\u021bia oficial\u0103\u20142"
+                        }
+                    },
+                    "title": ""
+                }
+            },
+            "title": "Doctrin\u0103 \u0219i Leg\u0103minte"
+        },
+        "nt": {
+            "books": {
+                "1-cor": {
+                    "shortTitle": "1\u00a0Cor.",
+                    "title": "1\u00a0Corinteni"
+                },
+                "1-jn": {
+                    "shortTitle": "1\u00a0Ioan",
+                    "title": "1\u00a0Ioan"
+                },
+                "1-pet": {
+                    "shortTitle": "1\u00a0Pet.",
+                    "title": "1\u00a0Petru"
+                },
+                "1-thes": {
+                    "shortTitle": "1\u00a0Tes.",
+                    "title": "1\u00a0Tesaloniceni"
+                },
+                "1-tim": {
+                    "shortTitle": "1\u00a0Tim.",
+                    "title": "1\u00a0Timotei"
+                },
+                "2-cor": {
+                    "shortTitle": "2\u00a0Cor.",
+                    "title": "2\u00a0Corinteni"
+                },
+                "2-jn": {
+                    "shortTitle": "2\u00a0Ioan",
+                    "title": "2\u00a0Ioan"
+                },
+                "2-pet": {
+                    "shortTitle": "2\u00a0Pet.",
+                    "title": "2\u00a0Petru"
+                },
+                "2-thes": {
+                    "shortTitle": "2\u00a0Tes.",
+                    "title": "2\u00a0Tesaloniceni"
+                },
+                "2-tim": {
+                    "shortTitle": "2\u00a0Tim.",
+                    "title": "2\u00a0Timotei"
+                },
+                "3-jn": {
+                    "shortTitle": "3\u00a0Ioan",
+                    "title": "3\u00a0Ioan"
+                },
+                "acts": {
+                    "shortTitle": "Fapte",
+                    "title": "Faptele Apostolilor"
+                },
+                "col": {
+                    "shortTitle": "Col.",
+                    "title": "Coloseni"
+                },
+                "eph": {
+                    "shortTitle": "Ef.",
+                    "title": "Efeseni"
+                },
+                "gal": {
+                    "shortTitle": "Gal.",
+                    "title": "Galateni"
+                },
+                "heb": {
+                    "shortTitle": "Evr.",
+                    "title": "Evrei"
+                },
+                "james": {
+                    "shortTitle": "Iacov",
+                    "title": "Iacov"
+                },
+                "john": {
+                    "shortTitle": "Ioan",
+                    "title": "Ioan"
+                },
+                "jude": {
+                    "shortTitle": "Iuda",
+                    "title": "Iuda"
+                },
+                "luke": {
+                    "shortTitle": "Luca",
+                    "title": "Luca"
+                },
+                "mark": {
+                    "shortTitle": "Marcu",
+                    "title": "Marcu"
+                },
+                "matt": {
+                    "shortTitle": "Mat.",
+                    "title": "Matei"
+                },
+                "philem": {
+                    "shortTitle": "Filim.",
+                    "title": "Filimon"
+                },
+                "philip": {
+                    "shortTitle": "Filip.",
+                    "title": "Filipeni"
+                },
+                "rev": {
+                    "shortTitle": "Apoc.",
+                    "title": "Apocalipsa"
+                },
+                "rom": {
+                    "shortTitle": "Rom.",
+                    "title": "Romani"
+                },
+                "titus": {
+                    "shortTitle": "Tit",
+                    "title": "Tit"
+                }
+            },
+            "title": "Noul Testament"
+        },
+        "ot": {
+            "books": {
+                "1-chr": {
+                    "shortTitle": "1\u00a0Cron.",
+                    "title": "1\u00a0Cronici"
+                },
+                "1-kgs": {
+                    "shortTitle": "1\u00a0Regi",
+                    "title": "1\u00a0\u00cemp\u0103ra\u021bi (1 Regi)"
+                },
+                "1-sam": {
+                    "shortTitle": "1\u00a0Sam.",
+                    "title": "1\u00a0Samuel"
+                },
+                "2-chr": {
+                    "shortTitle": "2\u00a0Cron.",
+                    "title": "2\u00a0Cronici"
+                },
+                "2-kgs": {
+                    "shortTitle": "2\u00a0Regi",
+                    "title": "2\u00a0\u00cemp\u0103ra\u021bi (2 Regi)"
+                },
+                "2-sam": {
+                    "shortTitle": "2\u00a0Sam.",
+                    "title": "2\u00a0Samuel"
+                },
+                "amos": {
+                    "shortTitle": "Amos",
+                    "title": "Amos"
+                },
+                "dan": {
+                    "shortTitle": "Dan.",
+                    "title": "Daniel"
+                },
+                "deut": {
+                    "shortTitle": "Deut.",
+                    "title": "Deuteronomul"
+                },
+                "eccl": {
+                    "shortTitle": "Ecl.",
+                    "title": "Eclesiastul"
+                },
+                "esth": {
+                    "shortTitle": "Est.",
+                    "title": "Estera"
+                },
+                "ex": {
+                    "shortTitle": "Ex.",
+                    "title": "Exodul (Ie\u0219irea)"
+                },
+                "ezek": {
+                    "shortTitle": "Ezec.",
+                    "title": "Ezechiel"
+                },
+                "ezra": {
+                    "shortTitle": "Ezra",
+                    "title": "Ezra"
+                },
+                "gen": {
+                    "shortTitle": "Gen.",
+                    "title": "Genesa (Facerea)"
+                },
+                "hab": {
+                    "shortTitle": "Hab.",
+                    "title": "Habacuc"
+                },
+                "hag": {
+                    "shortTitle": "Hag.",
+                    "title": "Hagai"
+                },
+                "hosea": {
+                    "shortTitle": "Osea",
+                    "title": "Osea"
+                },
+                "isa": {
+                    "shortTitle": "Isa.",
+                    "title": "Isaia"
+                },
+                "jer": {
+                    "shortTitle": "Ier.",
+                    "title": "Ieremia"
+                },
+                "job": {
+                    "shortTitle": "Iov",
+                    "title": "Iov"
+                },
+                "joel": {
+                    "shortTitle": "Ioel",
+                    "title": "Ioel"
+                },
+                "jonah": {
+                    "shortTitle": "Iona",
+                    "title": "Iona"
+                },
+                "josh": {
+                    "shortTitle": "Ios.",
+                    "title": "Iosua"
+                },
+                "judg": {
+                    "shortTitle": "Jud.",
+                    "title": "Judec\u0103torii"
+                },
+                "lam": {
+                    "shortTitle": "Pl\u00e2ng.",
+                    "title": "Pl\u00e2ngerile lui Ieremia"
+                },
+                "lev": {
+                    "shortTitle": "Lev.",
+                    "title": "Leviticul"
+                },
+                "mal": {
+                    "shortTitle": "Mal.",
+                    "title": "Maleahi"
+                },
+                "micah": {
+                    "shortTitle": "Mica",
+                    "title": "Mica"
+                },
+                "nahum": {
+                    "shortTitle": "Naum",
+                    "title": "Naum"
+                },
+                "neh": {
+                    "shortTitle": "Neemia",
+                    "title": "Neemia"
+                },
+                "num": {
+                    "shortTitle": "Num.",
+                    "title": "Numeri"
+                },
+                "obad": {
+                    "shortTitle": "Obad.",
+                    "title": "Obadia"
+                },
+                "prov": {
+                    "shortTitle": "Prov.",
+                    "title": "Proverbele (Pildele)"
+                },
+                "ps": {
+                    "shortTitle": "Ps.",
+                    "singularTitle": "",
+                    "title": "Psalmii"
+                },
+                "ruth": {
+                    "shortTitle": "Rut",
+                    "title": "Rut"
+                },
+                "song": {
+                    "shortTitle": "C\u00e2nt.",
+                    "title": "C\u00e2ntarea c\u00e2nt\u0103rilor"
+                },
+                "zech": {
+                    "shortTitle": "Zah.",
+                    "title": "Zaharia"
+                },
+                "zeph": {
+                    "shortTitle": "\u021aef.",
+                    "title": "\u021aefania"
+                }
+            },
+            "title": "Vechiul Testament"
+        },
+        "pgp": {
+            "books": {
+                "a-of-f": {
+                    "shortTitle": "A. de C.",
+                    "title": "Articolele de Credin\u021b\u0103"
+                },
+                "abr": {
+                    "shortTitle": "Avr.",
+                    "title": "Avraam"
+                },
+                "js-h": {
+                    "shortTitle": "JS\u2014I",
+                    "title": "Joseph Smith\u2014Istorie"
+                },
+                "js-m": {
+                    "shortTitle": "JS\u2014M",
+                    "title": "Joseph Smith\u2014Matei"
+                },
+                "moses": {
+                    "shortTitle": "Moise",
+                    "title": "Moise"
+                }
+            },
+            "title": "Perla de Mare Pre\u021b"
+        }
+    }
+}

@@ -1,0 +1,391 @@
+{
+    "testaments": {
+        "bofm": {
+            "books": {
+                "1-ne": {
+                    "shortTitle": "1\u00a0N\u00e9",
+                    "title": "1\u00a0N\u00e9phi"
+                },
+                "2-ne": {
+                    "shortTitle": "2\u00a0N\u00e9",
+                    "title": "2\u00a0N\u00e9phi"
+                },
+                "3-ne": {
+                    "shortTitle": "3\u00a0N\u00e9",
+                    "title": "3\u00a0N\u00e9phi"
+                },
+                "4-ne": {
+                    "shortTitle": "4\u00a0N\u00e9",
+                    "title": "4\u00a0N\u00e9phi"
+                },
+                "alma": {
+                    "shortTitle": "Al",
+                    "title": "Alma"
+                },
+                "enos": {
+                    "shortTitle": "\u00c9n",
+                    "title": "\u00c9nos"
+                },
+                "ether": {
+                    "shortTitle": "\u00c9t",
+                    "title": "\u00c9ther"
+                },
+                "hel": {
+                    "shortTitle": "H\u00e9l",
+                    "title": "H\u00e9laman"
+                },
+                "jacob": {
+                    "shortTitle": "Jcb",
+                    "title": "Jacob"
+                },
+                "jarom": {
+                    "shortTitle": "Jm",
+                    "title": "Jarom"
+                },
+                "morm": {
+                    "shortTitle": "Mrm",
+                    "title": "Mormon"
+                },
+                "moro": {
+                    "shortTitle": "Mro",
+                    "title": "Moroni"
+                },
+                "mosiah": {
+                    "shortTitle": "Mos",
+                    "title": "Mosiah"
+                },
+                "omni": {
+                    "shortTitle": "Om",
+                    "title": "Omni"
+                },
+                "w-of-m": {
+                    "shortTitle": "Pa",
+                    "title": "Paroles de Mormon"
+                }
+            },
+            "title": "Livre de Mormon"
+        },
+        "dc-testament": {
+            "books": {
+                "dc": {
+                    "shortTitle": "D&A",
+                    "title": "Doctrine et Alliances"
+                },
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "DO \u2014 1",
+                            "title": "D\u00e9claration officielle 1"
+                        },
+                        "2": {
+                            "shortTitle": "DO \u2014 2",
+                            "title": "D\u00e9claration officielle 2"
+                        }
+                    },
+                    "title": ""
+                }
+            },
+            "title": "Doctrine et Alliances"
+        },
+        "nt": {
+            "books": {
+                "1-cor": {
+                    "shortTitle": "1\u00a0Co",
+                    "title": "1\u00a0Corinthiens"
+                },
+                "1-jn": {
+                    "shortTitle": "1\u00a0Jn",
+                    "title": "1\u00a0Jean"
+                },
+                "1-pet": {
+                    "shortTitle": "1\u00a0Pi",
+                    "title": "1\u00a0Pierre"
+                },
+                "1-thes": {
+                    "shortTitle": "1\u00a0Th",
+                    "title": "1\u00a0Thessaloniciens"
+                },
+                "1-tim": {
+                    "shortTitle": "1\u00a0Ti",
+                    "title": "1\u00a0Timoth\u00e9e"
+                },
+                "2-cor": {
+                    "shortTitle": "2\u00a0Co",
+                    "title": "2\u00a0Corinthiens"
+                },
+                "2-jn": {
+                    "shortTitle": "2\u00a0Jn",
+                    "title": "2\u00a0Jean"
+                },
+                "2-pet": {
+                    "shortTitle": "2\u00a0Pi",
+                    "title": "2\u00a0Pierre"
+                },
+                "2-thes": {
+                    "shortTitle": "2\u00a0Th",
+                    "title": "2\u00a0Thessaloniciens"
+                },
+                "2-tim": {
+                    "shortTitle": "2\u00a0Ti",
+                    "title": "2\u00a0Timoth\u00e9e"
+                },
+                "3-jn": {
+                    "shortTitle": "3\u00a0Jn",
+                    "title": "3\u00a0Jean"
+                },
+                "acts": {
+                    "shortTitle": "Ac",
+                    "title": "Actes"
+                },
+                "col": {
+                    "shortTitle": "Col",
+                    "title": "Colossiens"
+                },
+                "eph": {
+                    "shortTitle": "\u00c9p",
+                    "title": "\u00c9ph\u00e9siens"
+                },
+                "gal": {
+                    "shortTitle": "Ga",
+                    "title": "Galates"
+                },
+                "heb": {
+                    "shortTitle": "H\u00e9",
+                    "title": "H\u00e9breux"
+                },
+                "james": {
+                    "shortTitle": "Ja",
+                    "title": "Jacques"
+                },
+                "john": {
+                    "shortTitle": "Jn",
+                    "title": "Jean"
+                },
+                "jude": {
+                    "shortTitle": "Jud",
+                    "title": "Jude"
+                },
+                "luke": {
+                    "shortTitle": "Lu",
+                    "title": "Luc"
+                },
+                "mark": {
+                    "shortTitle": "Mc",
+                    "title": "Marc"
+                },
+                "matt": {
+                    "shortTitle": "Mt",
+                    "title": "Matthieu"
+                },
+                "philem": {
+                    "shortTitle": "Phm",
+                    "title": "Phil\u00e9mon"
+                },
+                "philip": {
+                    "shortTitle": "Ph",
+                    "title": "Philippiens"
+                },
+                "rev": {
+                    "shortTitle": "Ap",
+                    "title": "Apocalypse"
+                },
+                "rom": {
+                    "shortTitle": "Ro",
+                    "title": "Romains"
+                },
+                "titus": {
+                    "shortTitle": "Tit",
+                    "title": "Tite"
+                }
+            },
+            "title": "Nouveau Testament"
+        },
+        "ot": {
+            "books": {
+                "1-chr": {
+                    "shortTitle": "1\u00a0Ch",
+                    "title": "1\u00a0Chroniques"
+                },
+                "1-kgs": {
+                    "shortTitle": "1\u00a0R",
+                    "title": "1\u00a0Rois"
+                },
+                "1-sam": {
+                    "shortTitle": "1\u00a0S",
+                    "title": "1\u00a0Samuel"
+                },
+                "2-chr": {
+                    "shortTitle": "2\u00a0Ch",
+                    "title": "2\u00a0Chroniques"
+                },
+                "2-kgs": {
+                    "shortTitle": "2\u00a0R",
+                    "title": "2\u00a0Rois"
+                },
+                "2-sam": {
+                    "shortTitle": "2\u00a0S",
+                    "title": "2\u00a0Samuel"
+                },
+                "amos": {
+                    "shortTitle": "Am",
+                    "title": "Amos"
+                },
+                "dan": {
+                    "shortTitle": "Da",
+                    "title": "Daniel"
+                },
+                "deut": {
+                    "shortTitle": "De",
+                    "title": "Deut\u00e9ronome"
+                },
+                "eccl": {
+                    "shortTitle": "Ec",
+                    "title": "Eccl\u00e9siaste"
+                },
+                "esth": {
+                    "shortTitle": "Est",
+                    "title": "Esther"
+                },
+                "ex": {
+                    "shortTitle": "Ex",
+                    "title": "Exode"
+                },
+                "ezek": {
+                    "shortTitle": "\u00c9z",
+                    "title": "\u00c9z\u00e9chiel"
+                },
+                "ezra": {
+                    "shortTitle": "Esd",
+                    "title": "Esdras"
+                },
+                "gen": {
+                    "shortTitle": "Ge",
+                    "title": "Gen\u00e8se"
+                },
+                "hab": {
+                    "shortTitle": "Ha",
+                    "title": "Habacuc"
+                },
+                "hag": {
+                    "shortTitle": "Ag",
+                    "title": "Agg\u00e9e"
+                },
+                "hosea": {
+                    "shortTitle": "Os",
+                    "title": "Os\u00e9e"
+                },
+                "isa": {
+                    "shortTitle": "\u00c9s",
+                    "title": "\u00c9sa\u00efe"
+                },
+                "jer": {
+                    "shortTitle": "J\u00e9",
+                    "title": "J\u00e9r\u00e9mie"
+                },
+                "job": {
+                    "shortTitle": "Job",
+                    "title": "Job"
+                },
+                "joel": {
+                    "shortTitle": "Jo\u00eb",
+                    "title": "Jo\u00ebl"
+                },
+                "jonah": {
+                    "shortTitle": "Jon",
+                    "title": "Jonas"
+                },
+                "josh": {
+                    "shortTitle": "Jos",
+                    "title": "Josu\u00e9"
+                },
+                "judg": {
+                    "shortTitle": "Jg",
+                    "title": "Juges"
+                },
+                "lam": {
+                    "shortTitle": "La",
+                    "title": "Lamentations"
+                },
+                "lev": {
+                    "shortTitle": "L\u00e9",
+                    "title": "L\u00e9vitique"
+                },
+                "mal": {
+                    "shortTitle": "Mal",
+                    "title": "Malachie"
+                },
+                "micah": {
+                    "shortTitle": "Mi",
+                    "title": "Mich\u00e9e"
+                },
+                "nahum": {
+                    "shortTitle": "Na",
+                    "title": "Nahum"
+                },
+                "neh": {
+                    "shortTitle": "N\u00e9",
+                    "title": "N\u00e9h\u00e9mie"
+                },
+                "num": {
+                    "shortTitle": "No",
+                    "title": "Nombres"
+                },
+                "obad": {
+                    "shortTitle": "Ab",
+                    "title": "Abdias"
+                },
+                "prov": {
+                    "shortTitle": "Pr",
+                    "title": "Proverbes"
+                },
+                "ps": {
+                    "shortTitle": "Ps",
+                    "singularTitle": "",
+                    "title": "Psaumes"
+                },
+                "ruth": {
+                    "shortTitle": "Ru",
+                    "title": "Ruth"
+                },
+                "song": {
+                    "shortTitle": "Ca",
+                    "title": "Cantique des Cantiques"
+                },
+                "zech": {
+                    "shortTitle": "Za",
+                    "title": "Zacharie"
+                },
+                "zeph": {
+                    "shortTitle": "So",
+                    "title": "Sophonie"
+                }
+            },
+            "title": "Ancien Testament"
+        },
+        "pgp": {
+            "books": {
+                "a-of-f": {
+                    "shortTitle": "AF",
+                    "title": "Articles de foi"
+                },
+                "abr": {
+                    "shortTitle": "Abr",
+                    "title": "Abraham"
+                },
+                "js-h": {
+                    "shortTitle": "JS \u2014 H",
+                    "title": "Joseph Smith, Histoire"
+                },
+                "js-m": {
+                    "shortTitle": "JS \u2014 M",
+                    "title": "Joseph Smith, Matthieu"
+                },
+                "moses": {
+                    "shortTitle": "Mo\u00ef",
+                    "title": "Mo\u00efse"
+                }
+            },
+            "title": "Perle de Grand Prix"
+        }
+    }
+}

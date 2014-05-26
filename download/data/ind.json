@@ -1,0 +1,391 @@
+{
+    "testaments": {
+        "bofm": {
+            "books": {
+                "1-ne": {
+                    "shortTitle": "1\u00a0Ne.",
+                    "title": "1\u00a0Nefi"
+                },
+                "2-ne": {
+                    "shortTitle": "2\u00a0Ne.",
+                    "title": "2\u00a0Nefi"
+                },
+                "3-ne": {
+                    "shortTitle": "3\u00a0Ne.",
+                    "title": "3\u00a0Nefi"
+                },
+                "4-ne": {
+                    "shortTitle": "4\u00a0Ne.",
+                    "title": "4\u00a0Nefi"
+                },
+                "alma": {
+                    "shortTitle": "Alma",
+                    "title": "Alma"
+                },
+                "enos": {
+                    "shortTitle": "Enos",
+                    "title": "Enos"
+                },
+                "ether": {
+                    "shortTitle": "Eter",
+                    "title": "Eter"
+                },
+                "hel": {
+                    "shortTitle": "Hel.",
+                    "title": "Helaman"
+                },
+                "jacob": {
+                    "shortTitle": "Yakub",
+                    "title": "Yakub"
+                },
+                "jarom": {
+                    "shortTitle": "Yarom",
+                    "title": "Yarom"
+                },
+                "morm": {
+                    "shortTitle": "Morm.",
+                    "title": "Mormon"
+                },
+                "moro": {
+                    "shortTitle": "Moro.",
+                    "title": "Moroni"
+                },
+                "mosiah": {
+                    "shortTitle": "Mosia",
+                    "title": "Mosia"
+                },
+                "omni": {
+                    "shortTitle": "Omni",
+                    "title": "Omni"
+                },
+                "w-of-m": {
+                    "shortTitle": "KKM",
+                    "title": "Kata-Kata Mormon"
+                }
+            },
+            "title": "Kitab Mormon"
+        },
+        "dc-testament": {
+            "books": {
+                "dc": {
+                    "shortTitle": "A&P",
+                    "title": "Ajaran dan Perjanjian"
+                },
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "MR\u20141",
+                            "title": "Maklumat Resmi\u20141"
+                        },
+                        "2": {
+                            "shortTitle": "MR\u20142",
+                            "title": "Maklumat Resmi\u20142"
+                        }
+                    },
+                    "title": ""
+                }
+            },
+            "title": "Ajaran dan Perjanjian"
+        },
+        "nt": {
+            "books": {
+                "1-cor": {
+                    "shortTitle": "1\u00a0Kor.",
+                    "title": "1\u00a0Korintus"
+                },
+                "1-jn": {
+                    "shortTitle": "1\u00a0Yoh.",
+                    "title": "1\u00a0Yohanes"
+                },
+                "1-pet": {
+                    "shortTitle": "1\u00a0Ptr.",
+                    "title": "1\u00a0Petrus"
+                },
+                "1-thes": {
+                    "shortTitle": "1\u00a0Tes.",
+                    "title": "1\u00a0Tesalonika"
+                },
+                "1-tim": {
+                    "shortTitle": "1\u00a0Tim.",
+                    "title": "1\u00a0Timotius"
+                },
+                "2-cor": {
+                    "shortTitle": "2\u00a0Kor.",
+                    "title": "2\u00a0Korintus"
+                },
+                "2-jn": {
+                    "shortTitle": "2\u00a0Yoh.",
+                    "title": "2\u00a0Yohanes"
+                },
+                "2-pet": {
+                    "shortTitle": "2\u00a0Ptr.",
+                    "title": "2\u00a0Petrus"
+                },
+                "2-thes": {
+                    "shortTitle": "2\u00a0Tes.",
+                    "title": "2\u00a0Tesalonika"
+                },
+                "2-tim": {
+                    "shortTitle": "2\u00a0Tim.",
+                    "title": "2\u00a0Timotius"
+                },
+                "3-jn": {
+                    "shortTitle": "3\u00a0Yoh.",
+                    "title": "3\u00a0Yohanes"
+                },
+                "acts": {
+                    "shortTitle": "Kis.",
+                    "title": "Kisah Para Rasul"
+                },
+                "col": {
+                    "shortTitle": "Kol.",
+                    "title": "Kolose"
+                },
+                "eph": {
+                    "shortTitle": "Ef.",
+                    "title": "Efesus"
+                },
+                "gal": {
+                    "shortTitle": "Gal.",
+                    "title": "Galatia"
+                },
+                "heb": {
+                    "shortTitle": "Ibr.",
+                    "title": "Ibrani"
+                },
+                "james": {
+                    "shortTitle": "Yak.",
+                    "title": "Yakobus"
+                },
+                "john": {
+                    "shortTitle": "Yoh.",
+                    "title": "Yohanes"
+                },
+                "jude": {
+                    "shortTitle": "Yud.",
+                    "title": "Yudas"
+                },
+                "luke": {
+                    "shortTitle": "Luk.",
+                    "title": "Lukas"
+                },
+                "mark": {
+                    "shortTitle": "Mrk.",
+                    "title": "Markus"
+                },
+                "matt": {
+                    "shortTitle": "Mat.",
+                    "title": "Matius"
+                },
+                "philem": {
+                    "shortTitle": "Flm.",
+                    "title": "Filemon"
+                },
+                "philip": {
+                    "shortTitle": "Flp.",
+                    "title": "Filipi"
+                },
+                "rev": {
+                    "shortTitle": "Why.",
+                    "title": "Wahyu"
+                },
+                "rom": {
+                    "shortTitle": "Rm.",
+                    "title": "Roma"
+                },
+                "titus": {
+                    "shortTitle": "Tit.",
+                    "title": "Titus"
+                }
+            },
+            "title": "Perjanjian Baru"
+        },
+        "ot": {
+            "books": {
+                "1-chr": {
+                    "shortTitle": "1\u00a0Taw.",
+                    "title": "1\u00a0Tawarikh"
+                },
+                "1-kgs": {
+                    "shortTitle": "1\u00a0Raj.",
+                    "title": "1\u00a0Raja-Raja"
+                },
+                "1-sam": {
+                    "shortTitle": "1\u00a0Sam.",
+                    "title": "1\u00a0Samuel"
+                },
+                "2-chr": {
+                    "shortTitle": "2\u00a0Taw.",
+                    "title": "2\u00a0Tawarikh"
+                },
+                "2-kgs": {
+                    "shortTitle": "2\u00a0Raj.",
+                    "title": "2\u00a0Raja-Raja"
+                },
+                "2-sam": {
+                    "shortTitle": "2\u00a0Sam.",
+                    "title": "2\u00a0Samuel"
+                },
+                "amos": {
+                    "shortTitle": "Am.",
+                    "title": "Amos"
+                },
+                "dan": {
+                    "shortTitle": "Dan.",
+                    "title": "Daniel"
+                },
+                "deut": {
+                    "shortTitle": "Ul.",
+                    "title": "Ulangan"
+                },
+                "eccl": {
+                    "shortTitle": "Pkh.",
+                    "title": "Pengkhotbah"
+                },
+                "esth": {
+                    "shortTitle": "Est.",
+                    "title": "Ester"
+                },
+                "ex": {
+                    "shortTitle": "Kel.",
+                    "title": "Keluaran"
+                },
+                "ezek": {
+                    "shortTitle": "Yeh.",
+                    "title": "Yehezkiel"
+                },
+                "ezra": {
+                    "shortTitle": "Ezr.",
+                    "title": "Ezra"
+                },
+                "gen": {
+                    "shortTitle": "Kej.",
+                    "title": "Kejadian"
+                },
+                "hab": {
+                    "shortTitle": "Hab.",
+                    "title": "Habakuk"
+                },
+                "hag": {
+                    "shortTitle": "Hag.",
+                    "title": "Hagai"
+                },
+                "hosea": {
+                    "shortTitle": "Hos.",
+                    "title": "Hosea"
+                },
+                "isa": {
+                    "shortTitle": "Yes.",
+                    "title": "Yesaya"
+                },
+                "jer": {
+                    "shortTitle": "Yer.",
+                    "title": "Yeremia"
+                },
+                "job": {
+                    "shortTitle": "Ayb.",
+                    "title": "Ayub"
+                },
+                "joel": {
+                    "shortTitle": "Yl.",
+                    "title": "Yoel"
+                },
+                "jonah": {
+                    "shortTitle": "Yun.",
+                    "title": "Yunus"
+                },
+                "josh": {
+                    "shortTitle": "Yos.",
+                    "title": "Yosua"
+                },
+                "judg": {
+                    "shortTitle": "Hak.",
+                    "title": "Hakim-Hakim"
+                },
+                "lam": {
+                    "shortTitle": "Rat.",
+                    "title": "Ratapan"
+                },
+                "lev": {
+                    "shortTitle": "Im.",
+                    "title": "Imamat"
+                },
+                "mal": {
+                    "shortTitle": "Mal.",
+                    "title": "Maleakhi"
+                },
+                "micah": {
+                    "shortTitle": "Mi.",
+                    "title": "Mikha"
+                },
+                "nahum": {
+                    "shortTitle": "Nah.",
+                    "title": "Nahum"
+                },
+                "neh": {
+                    "shortTitle": "Neh.",
+                    "title": "Nehemia"
+                },
+                "num": {
+                    "shortTitle": "Bil.",
+                    "title": "Bilangan"
+                },
+                "obad": {
+                    "shortTitle": "Ob.",
+                    "title": "Obaja"
+                },
+                "prov": {
+                    "shortTitle": "Ams.",
+                    "title": "Amsal"
+                },
+                "ps": {
+                    "shortTitle": "Mzm.",
+                    "singularTitle": "",
+                    "title": "Mazmur"
+                },
+                "ruth": {
+                    "shortTitle": "Rut",
+                    "title": "Rut"
+                },
+                "song": {
+                    "shortTitle": "Kid.",
+                    "title": "Kidung Agung"
+                },
+                "zech": {
+                    "shortTitle": "Za.",
+                    "title": "Zakharia"
+                },
+                "zeph": {
+                    "shortTitle": "Zef.",
+                    "title": "Zefanya"
+                }
+            },
+            "title": "Perjanjian Lama"
+        },
+        "pgp": {
+            "books": {
+                "a-of-f": {
+                    "shortTitle": "PK",
+                    "title": "Pasal-Pasal Kepercayaan"
+                },
+                "abr": {
+                    "shortTitle": "Abr.",
+                    "title": "Abraham"
+                },
+                "js-h": {
+                    "shortTitle": "JS\u2014S",
+                    "title": "Joseph Smith\u2014Sejarah"
+                },
+                "js-m": {
+                    "shortTitle": "JS\u2014M",
+                    "title": "Joseph Smith\u2014Matius"
+                },
+                "moses": {
+                    "shortTitle": "Musa",
+                    "title": "Musa"
+                }
+            },
+            "title": "Mutiara yang Sangat Berharga"
+        }
+    }
+}

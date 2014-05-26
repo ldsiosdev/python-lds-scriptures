@@ -1,0 +1,391 @@
+{
+    "testaments": {
+        "bofm": {
+            "books": {
+                "1-ne": {
+                    "shortTitle": "1\u00a0Ne",
+                    "title": "Nephis f\u00f6rsta bok"
+                },
+                "2-ne": {
+                    "shortTitle": "2\u00a0Ne",
+                    "title": "Nephis andra bok"
+                },
+                "3-ne": {
+                    "shortTitle": "3\u00a0Ne",
+                    "title": "Tredje Nephi"
+                },
+                "4-ne": {
+                    "shortTitle": "4\u00a0Ne",
+                    "title": "Fj\u00e4rde Nephi"
+                },
+                "alma": {
+                    "shortTitle": "Alma",
+                    "title": "Almas bok"
+                },
+                "enos": {
+                    "shortTitle": "Enos",
+                    "title": "Enos bok"
+                },
+                "ether": {
+                    "shortTitle": "Eth",
+                    "title": "Ethers bok"
+                },
+                "hel": {
+                    "shortTitle": "Hel",
+                    "title": "Helamans bok"
+                },
+                "jacob": {
+                    "shortTitle": "Jakob",
+                    "title": "Jakobs bok"
+                },
+                "jarom": {
+                    "shortTitle": "Jar",
+                    "title": "Jaroms bok"
+                },
+                "morm": {
+                    "shortTitle": "Morm",
+                    "title": "Mormons bok"
+                },
+                "moro": {
+                    "shortTitle": "Moro",
+                    "title": "Moronis bok"
+                },
+                "mosiah": {
+                    "shortTitle": "Mosiah",
+                    "title": "Mosiahs bok"
+                },
+                "omni": {
+                    "shortTitle": "Omni",
+                    "title": "Omnis bok"
+                },
+                "w-of-m": {
+                    "shortTitle": "Morm ord",
+                    "title": "Mormons ord"
+                }
+            },
+            "title": "Mormons bok"
+        },
+        "dc-testament": {
+            "books": {
+                "dc": {
+                    "shortTitle": "L&F",
+                    "title": "L\u00e4ran och f\u00f6rbunden"
+                },
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "OT\u20141",
+                            "title": "Officiellt tillk\u00e4nnagivande \u2014 1"
+                        },
+                        "2": {
+                            "shortTitle": "OT\u20142",
+                            "title": "Officiellt tillk\u00e4nnagivande \u2014 2"
+                        }
+                    },
+                    "title": ""
+                }
+            },
+            "title": "L\u00e4ran och f\u00f6rbunden"
+        },
+        "nt": {
+            "books": {
+                "1-cor": {
+                    "shortTitle": "1\u00a0Kor",
+                    "title": "F\u00f6rsta Korintierbrevet"
+                },
+                "1-jn": {
+                    "shortTitle": "1\u00a0Joh",
+                    "title": "F\u00f6rsta Johannesbrevet"
+                },
+                "1-pet": {
+                    "shortTitle": "1\u00a0Petr",
+                    "title": "F\u00f6rsta Petrusbrevet"
+                },
+                "1-thes": {
+                    "shortTitle": "1\u00a0Tess",
+                    "title": "F\u00f6rsta Tessalonikerbrevet"
+                },
+                "1-tim": {
+                    "shortTitle": "1\u00a0Tim",
+                    "title": "F\u00f6rsta Timoteosbrevet"
+                },
+                "2-cor": {
+                    "shortTitle": "2\u00a0Kor",
+                    "title": "Andra Korintierbrevet"
+                },
+                "2-jn": {
+                    "shortTitle": "2\u00a0Joh",
+                    "title": "Andra Johannesbrevet"
+                },
+                "2-pet": {
+                    "shortTitle": "2\u00a0Petr",
+                    "title": "Andra Petrusbrevet"
+                },
+                "2-thes": {
+                    "shortTitle": "2\u00a0Tess",
+                    "title": "Andra Tessalonikerbrevet"
+                },
+                "2-tim": {
+                    "shortTitle": "2\u00a0Tim",
+                    "title": "Andra Timoteosbrevet"
+                },
+                "3-jn": {
+                    "shortTitle": "3\u00a0Joh",
+                    "title": "Tredje Johannesbrevet"
+                },
+                "acts": {
+                    "shortTitle": "Apg",
+                    "title": "Apostlag\u00e4rningarna"
+                },
+                "col": {
+                    "shortTitle": "Kol",
+                    "title": "Kolosserbrevet"
+                },
+                "eph": {
+                    "shortTitle": "Ef",
+                    "title": "Efesierbrevet"
+                },
+                "gal": {
+                    "shortTitle": "Gal",
+                    "title": "Galaterbrevet"
+                },
+                "heb": {
+                    "shortTitle": "Hebr",
+                    "title": "Hebreerbrevet"
+                },
+                "james": {
+                    "shortTitle": "Jak",
+                    "title": "Jakobs brev"
+                },
+                "john": {
+                    "shortTitle": "Joh",
+                    "title": "Johannes"
+                },
+                "jude": {
+                    "shortTitle": "Jud",
+                    "title": "Judas brev"
+                },
+                "luke": {
+                    "shortTitle": "Luk",
+                    "title": "Lukas"
+                },
+                "mark": {
+                    "shortTitle": "Mark",
+                    "title": "Markus"
+                },
+                "matt": {
+                    "shortTitle": "Matt",
+                    "title": "Matteus"
+                },
+                "philem": {
+                    "shortTitle": "Filem",
+                    "title": "Brevet till Filemon"
+                },
+                "philip": {
+                    "shortTitle": "Fil",
+                    "title": "Filipperbrevet"
+                },
+                "rev": {
+                    "shortTitle": "Upp",
+                    "title": "Johannes Uppenbarelse"
+                },
+                "rom": {
+                    "shortTitle": "Rom",
+                    "title": "Romarbrevet"
+                },
+                "titus": {
+                    "shortTitle": "Tit",
+                    "title": "Brevet till Titus"
+                }
+            },
+            "title": "Nya testamentet"
+        },
+        "ot": {
+            "books": {
+                "1-chr": {
+                    "shortTitle": "1\u00a0Kr\u00f6n",
+                    "title": "F\u00f6rsta Kr\u00f6nikeboken"
+                },
+                "1-kgs": {
+                    "shortTitle": "1\u00a0Kung",
+                    "title": "F\u00f6rsta Kungaboken"
+                },
+                "1-sam": {
+                    "shortTitle": "1\u00a0Sam",
+                    "title": "F\u00f6rsta Samuelsboken"
+                },
+                "2-chr": {
+                    "shortTitle": "2\u00a0Kr\u00f6n",
+                    "title": "Andra Kr\u00f6nikeboken"
+                },
+                "2-kgs": {
+                    "shortTitle": "2\u00a0Kung",
+                    "title": "Andra Kungaboken"
+                },
+                "2-sam": {
+                    "shortTitle": "2\u00a0Sam",
+                    "title": "Andra Samuelsboken"
+                },
+                "amos": {
+                    "shortTitle": "Amos",
+                    "title": "Amos"
+                },
+                "dan": {
+                    "shortTitle": "Dan",
+                    "title": "Daniel"
+                },
+                "deut": {
+                    "shortTitle": "5\u00a0Mos",
+                    "title": "Femte Moseboken"
+                },
+                "eccl": {
+                    "shortTitle": "Pred",
+                    "title": "Predikaren"
+                },
+                "esth": {
+                    "shortTitle": "Est",
+                    "title": "Ester"
+                },
+                "ex": {
+                    "shortTitle": "2\u00a0Mos",
+                    "title": "Andra Moseboken"
+                },
+                "ezek": {
+                    "shortTitle": "Hes",
+                    "title": "Hesekiel"
+                },
+                "ezra": {
+                    "shortTitle": "Esra",
+                    "title": "Esra"
+                },
+                "gen": {
+                    "shortTitle": "1\u00a0Mos",
+                    "title": "F\u00f6rsta Moseboken"
+                },
+                "hab": {
+                    "shortTitle": "Hab",
+                    "title": "Habakkuk"
+                },
+                "hag": {
+                    "shortTitle": "Hagg",
+                    "title": "Haggai"
+                },
+                "hosea": {
+                    "shortTitle": "Hos",
+                    "title": "Hosea"
+                },
+                "isa": {
+                    "shortTitle": "Jos",
+                    "title": "Jesaja"
+                },
+                "jer": {
+                    "shortTitle": "Jer",
+                    "title": "Jeremia"
+                },
+                "job": {
+                    "shortTitle": "Job",
+                    "title": "Job"
+                },
+                "joel": {
+                    "shortTitle": "Joel",
+                    "title": "Joel"
+                },
+                "jonah": {
+                    "shortTitle": "Jona",
+                    "title": "Jonah"
+                },
+                "josh": {
+                    "shortTitle": "Jos",
+                    "title": "Josua"
+                },
+                "judg": {
+                    "shortTitle": "Dom",
+                    "title": "Domarboken"
+                },
+                "lam": {
+                    "shortTitle": "Klag",
+                    "title": "Klagovisorna"
+                },
+                "lev": {
+                    "shortTitle": "3\u00a0Mos",
+                    "title": "Tredje Moseboken"
+                },
+                "mal": {
+                    "shortTitle": "Mal",
+                    "title": "Malaki"
+                },
+                "micah": {
+                    "shortTitle": "Mika",
+                    "title": "Mika"
+                },
+                "nahum": {
+                    "shortTitle": "Nah",
+                    "title": "Nahum"
+                },
+                "neh": {
+                    "shortTitle": "Neh",
+                    "title": "Nehemja"
+                },
+                "num": {
+                    "shortTitle": "4\u00a0Mos",
+                    "title": "Fj\u00e4rde Moseboken"
+                },
+                "obad": {
+                    "shortTitle": "Ob",
+                    "title": "Obadja"
+                },
+                "prov": {
+                    "shortTitle": "Ords",
+                    "title": "Ordspr\u00e5ksboken"
+                },
+                "ps": {
+                    "shortTitle": "Ps",
+                    "singularTitle": "",
+                    "title": "Psaltaren"
+                },
+                "ruth": {
+                    "shortTitle": "Rut",
+                    "title": "Rut"
+                },
+                "song": {
+                    "shortTitle": "H\u00f6ga V",
+                    "title": "H\u00f6ga visan"
+                },
+                "zech": {
+                    "shortTitle": "Sak",
+                    "title": "Sakarja"
+                },
+                "zeph": {
+                    "shortTitle": "Sef",
+                    "title": "Sefanja"
+                }
+            },
+            "title": "Gamla testamentet"
+        },
+        "pgp": {
+            "books": {
+                "a-of-f": {
+                    "shortTitle": "TA",
+                    "title": "Trosartiklarna"
+                },
+                "abr": {
+                    "shortTitle": "Abr",
+                    "title": "Abrahams bok"
+                },
+                "js-h": {
+                    "shortTitle": "JS\u2014H",
+                    "title": "Joseph Smith \u2014 Historien"
+                },
+                "js-m": {
+                    "shortTitle": "JS\u2014M",
+                    "title": "Joseph Smith \u2014 Matteus"
+                },
+                "moses": {
+                    "shortTitle": "Mose",
+                    "title": "Moses bok"
+                }
+            },
+            "title": "Den kostbara p\u00e4rlan"
+        }
+    }
+}

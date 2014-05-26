@@ -1,0 +1,391 @@
+{
+    "testaments": {
+        "bofm": {
+            "books": {
+                "1-ne": {
+                    "shortTitle": "1\u00a0Ne.",
+                    "title": "1\u00a0Nephi"
+                },
+                "2-ne": {
+                    "shortTitle": "2\u00a0Ne.",
+                    "title": "2\u00a0Nephi"
+                },
+                "3-ne": {
+                    "shortTitle": "3\u00a0Ne.",
+                    "title": "3\u00a0Nephi"
+                },
+                "4-ne": {
+                    "shortTitle": "4\u00a0Ne.",
+                    "title": "4\u00a0Nephi"
+                },
+                "alma": {
+                    "shortTitle": "Alma",
+                    "title": "Alma"
+                },
+                "enos": {
+                    "shortTitle": "Enos",
+                    "title": "Enos"
+                },
+                "ether": {
+                    "shortTitle": "Ether",
+                    "title": "Ether"
+                },
+                "hel": {
+                    "shortTitle": "Hel.",
+                    "title": "Helaman"
+                },
+                "jacob": {
+                    "shortTitle": "Jacob",
+                    "title": "Jacob"
+                },
+                "jarom": {
+                    "shortTitle": "Jarom",
+                    "title": "Jarom"
+                },
+                "morm": {
+                    "shortTitle": "Morm.",
+                    "title": "Mormon"
+                },
+                "moro": {
+                    "shortTitle": "Moro.",
+                    "title": "Moroni"
+                },
+                "mosiah": {
+                    "shortTitle": "Mosiah",
+                    "title": "Mosiah"
+                },
+                "omni": {
+                    "shortTitle": "Omni",
+                    "title": "Omni"
+                },
+                "w-of-m": {
+                    "shortTitle": "DBM",
+                    "title": "Dagiti Balikas ni Mormon"
+                }
+            },
+            "title": "Libro ni Mormon"
+        },
+        "dc-testament": {
+            "books": {
+                "dc": {
+                    "shortTitle": "DkK",
+                    "title": "Doktrina ken Katulagan"
+                },
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "OP\u20141",
+                            "title": "Opisial a Palawag\u20141"
+                        },
+                        "2": {
+                            "shortTitle": "OP\u20142",
+                            "title": "Opisial a Palawag\u20142"
+                        }
+                    },
+                    "title": ""
+                }
+            },
+            "title": "Doktrina ken Katulagan"
+        },
+        "nt": {
+            "books": {
+                "1-cor": {
+                    "shortTitle": "1\u00a0Cor.",
+                    "title": "1\u00a0Taga-Corinto"
+                },
+                "1-jn": {
+                    "shortTitle": "1\u00a0Jn.",
+                    "title": "1\u00a0Juan"
+                },
+                "1-pet": {
+                    "shortTitle": "1\u00a0Ped.",
+                    "title": "1\u00a0Pedro"
+                },
+                "1-thes": {
+                    "shortTitle": "1\u00a0Tes.",
+                    "title": "1\u00a0Taga-Tesalonica"
+                },
+                "1-tim": {
+                    "shortTitle": "1\u00a0Tim.",
+                    "title": "1\u00a0Timoteo"
+                },
+                "2-cor": {
+                    "shortTitle": "2\u00a0Cor.",
+                    "title": "2\u00a0Taga-Corinto"
+                },
+                "2-jn": {
+                    "shortTitle": "2\u00a0Jn.",
+                    "title": "2\u00a0Juan"
+                },
+                "2-pet": {
+                    "shortTitle": "2\u00a0Ped.",
+                    "title": "2\u00a0Pedro"
+                },
+                "2-thes": {
+                    "shortTitle": "2\u00a0Tes.",
+                    "title": "2\u00a0Taga-Tesalonica"
+                },
+                "2-tim": {
+                    "shortTitle": "2\u00a0Tim.",
+                    "title": "2\u00a0Timoteo"
+                },
+                "3-jn": {
+                    "shortTitle": "3\u00a0Jn.",
+                    "title": "3\u00a0Juan"
+                },
+                "acts": {
+                    "shortTitle": "Ara.",
+                    "title": "Dagiti Aramid"
+                },
+                "col": {
+                    "shortTitle": "Col.",
+                    "title": "Taga-Colosas"
+                },
+                "eph": {
+                    "shortTitle": "Ef.",
+                    "title": "Taga-Efeso"
+                },
+                "gal": {
+                    "shortTitle": "Gal.",
+                    "title": "Taga-Galacia"
+                },
+                "heb": {
+                    "shortTitle": "Heb.",
+                    "title": "Hebreo"
+                },
+                "james": {
+                    "shortTitle": "San.",
+                    "title": "Santiago"
+                },
+                "john": {
+                    "shortTitle": "Jn.",
+                    "title": "Juan"
+                },
+                "jude": {
+                    "shortTitle": "Jd.",
+                    "title": "Judas"
+                },
+                "luke": {
+                    "shortTitle": "Luc.",
+                    "title": "Lucas"
+                },
+                "mark": {
+                    "shortTitle": "Mar.",
+                    "title": "Marcos"
+                },
+                "matt": {
+                    "shortTitle": "Mat.",
+                    "title": "Mateo"
+                },
+                "philem": {
+                    "shortTitle": "Filem.",
+                    "title": "Filemon"
+                },
+                "philip": {
+                    "shortTitle": "Fil.",
+                    "title": "Taga-Filipos"
+                },
+                "rev": {
+                    "shortTitle": "Apoc.",
+                    "title": "Apocalipsis"
+                },
+                "rom": {
+                    "shortTitle": "Rom.",
+                    "title": "Taga-Roma"
+                },
+                "titus": {
+                    "shortTitle": "Tit.",
+                    "title": "Tito"
+                }
+            },
+            "title": "Baro a Tulag"
+        },
+        "ot": {
+            "books": {
+                "1-chr": {
+                    "shortTitle": "1\u00a0Cro.",
+                    "title": "1\u00a0Cronicas"
+                },
+                "1-kgs": {
+                    "shortTitle": "1\u00a0Ari",
+                    "title": "1\u00a0Ar-ari"
+                },
+                "1-sam": {
+                    "shortTitle": "1\u00a0Sam.",
+                    "title": "1\u00a0Samuel"
+                },
+                "2-chr": {
+                    "shortTitle": "2\u00a0Cro.",
+                    "title": "2\u00a0Cronicas"
+                },
+                "2-kgs": {
+                    "shortTitle": "2\u00a0Ari",
+                    "title": "2\u00a0Ar-ari"
+                },
+                "2-sam": {
+                    "shortTitle": "2\u00a0Sam.",
+                    "title": "2\u00a0Samuel"
+                },
+                "amos": {
+                    "shortTitle": "Am.",
+                    "title": "Amos"
+                },
+                "dan": {
+                    "shortTitle": "Dan.",
+                    "title": "Daniel"
+                },
+                "deut": {
+                    "shortTitle": "Deut.",
+                    "title": "Deuteronomio"
+                },
+                "eccl": {
+                    "shortTitle": "Ecl.",
+                    "title": "Eclesiastes"
+                },
+                "esth": {
+                    "shortTitle": "Est.",
+                    "title": "Ester"
+                },
+                "ex": {
+                    "shortTitle": "Ex.",
+                    "title": "Exodo"
+                },
+                "ezek": {
+                    "shortTitle": "Eze.",
+                    "title": "Ezekiel"
+                },
+                "ezra": {
+                    "shortTitle": "Es.",
+                    "title": "Esdras"
+                },
+                "gen": {
+                    "shortTitle": "Gen.",
+                    "title": "Genesis"
+                },
+                "hab": {
+                    "shortTitle": "Hab.",
+                    "title": "Habakuk"
+                },
+                "hag": {
+                    "shortTitle": "Hag.",
+                    "title": "Haggeo"
+                },
+                "hosea": {
+                    "shortTitle": "Os.",
+                    "title": "Oseas"
+                },
+                "isa": {
+                    "shortTitle": "Isa.",
+                    "title": "Isaias"
+                },
+                "jer": {
+                    "shortTitle": "Jer.",
+                    "title": "Jeremias"
+                },
+                "job": {
+                    "shortTitle": "Job",
+                    "title": "Job"
+                },
+                "joel": {
+                    "shortTitle": "Jl.",
+                    "title": "Joel"
+                },
+                "jonah": {
+                    "shortTitle": "Jon.",
+                    "title": "Jonas"
+                },
+                "josh": {
+                    "shortTitle": "Jos.",
+                    "title": "Josue"
+                },
+                "judg": {
+                    "shortTitle": "Uk.",
+                    "title": "Uk-ukom"
+                },
+                "lam": {
+                    "shortTitle": "Un.",
+                    "title": "Dagiti Un-unnoy"
+                },
+                "lev": {
+                    "shortTitle": "Lev.",
+                    "title": "Levitico"
+                },
+                "mal": {
+                    "shortTitle": "Mal.",
+                    "title": "Malakias"
+                },
+                "micah": {
+                    "shortTitle": "Mk.",
+                    "title": "Mikias"
+                },
+                "nahum": {
+                    "shortTitle": "Nah.",
+                    "title": "Nahum"
+                },
+                "neh": {
+                    "shortTitle": "Neh.",
+                    "title": "Nehemias"
+                },
+                "num": {
+                    "shortTitle": "Num.",
+                    "title": "Numero"
+                },
+                "obad": {
+                    "shortTitle": "Abd.",
+                    "title": "Abdias"
+                },
+                "prov": {
+                    "shortTitle": "Prov.",
+                    "title": "Dagiti Proverbio"
+                },
+                "ps": {
+                    "shortTitle": "Sal.",
+                    "singularTitle": "",
+                    "title": "Dagiti Salmos"
+                },
+                "ruth": {
+                    "shortTitle": "Rt.",
+                    "title": "Ruth"
+                },
+                "song": {
+                    "shortTitle": "Canta",
+                    "title": "Canta ni Salomon"
+                },
+                "zech": {
+                    "shortTitle": "Zac.",
+                    "title": "Zacarias"
+                },
+                "zeph": {
+                    "shortTitle": "Sof.",
+                    "title": "Sofonias"
+                }
+            },
+            "title": "Daan a Tulag"
+        },
+        "pgp": {
+            "books": {
+                "a-of-f": {
+                    "shortTitle": "PP",
+                    "title": "Pagannurotan ti Pammati"
+                },
+                "abr": {
+                    "shortTitle": "Abr.",
+                    "title": "Abraham"
+                },
+                "js-h": {
+                    "shortTitle": "JS\u2014P",
+                    "title": "Joseph Smith\u2014Pakasaritaan"
+                },
+                "js-m": {
+                    "shortTitle": "JS\u2014M",
+                    "title": "Joseph Smith\u2014Mateo"
+                },
+                "moses": {
+                    "shortTitle": "Moises",
+                    "title": "Moises"
+                }
+            },
+            "title": "Perlas a Kapatgan"
+        }
+    }
+}
