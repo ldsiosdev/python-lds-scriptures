@@ -5,7 +5,7 @@ import sys
 import collections
 import os
 
-DESTINATION = 'data/{code}.json'
+DESTINATION = 'scriptures/data/{code}.json'
 
 SOURCE_URL = 'https://script.google.com/macros/s/AKfycbw_hA5vXFZr2KuhZFe4msmq0x2_N9fmrk17f8w9EMtRuRAXxJOc/exec?sheet_id=0AuWQ-iCrlReTdE9YeVJhdFk0NW4zZlpRZTYtQzN3a2c&sheet_name=Scriptures'
 
