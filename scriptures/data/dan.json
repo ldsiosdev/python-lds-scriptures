@@ -82,6 +82,7 @@
                             "title": "Officiel Erkl\u00e6ring\u20132"
                         }
                     },
+                    "shortTitle": "OD",
                     "title": ""
                 }
             },
@@ -340,7 +341,8 @@
                 },
                 "ps": {
                     "shortTitle": "Sl",
-                    "singularTitle": "",
+                    "singularShortTitle": "Sl",
+                    "singularTitle": "Salme",
                     "title": "Salmerne"
                 },
                 "ruth": {
