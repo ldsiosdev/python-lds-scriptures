@@ -82,7 +82,8 @@
                             "title": "Offisiell erkl\u00e6ring\u20142"
                         }
                     },
-                    "title": ""
+                    "shortTitle": "OE",
+                    "title": "Offisielle erkl\u00e6ringer"
                 }
             },
             "title": "L\u00e6re og pakter"
@@ -340,7 +341,8 @@
                 },
                 "ps": {
                     "shortTitle": "Sal",
-                    "singularTitle": "",
+                    "singularShortTitle": "Sal",
+                    "singularTitle": "Salme",
                     "title": "Salmenes bok"
                 },
                 "ruth": {
