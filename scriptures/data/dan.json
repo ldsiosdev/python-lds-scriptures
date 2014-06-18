@@ -82,8 +82,8 @@
                             "title": "Officiel Erkl\u00e6ring\u20132"
                         }
                     },
-                    "shortTitle": "OD",
-                    "title": ""
+                    "shortTitle": "OE",
+                    "title": "Officielle Erkl\u00e6ringer"
                 }
             },
             "title": "L\u00e6re og Pagter"
@@ -342,7 +342,7 @@
                 "ps": {
                     "shortTitle": "Sl",
                     "singularShortTitle": "Sl",
-                    "singularTitle": "Salme",
+                    "singularTitle": "",
                     "title": "Salmerne"
                 },
                 "ruth": {
