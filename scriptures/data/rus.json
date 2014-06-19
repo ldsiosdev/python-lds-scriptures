@@ -75,11 +75,11 @@
                     "chapters": {
                         "1": {
                             "shortTitle": "\u041e\u0444\u0417",
-                            "title": "\u041e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0435 \u0437\u0430\u044f\u0432\u043b\u0435\u043d\u0438\u0435"
+                            "title": "\u041e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0435 \u0437\u0430\u044f\u0432\u043b\u0435\u043d\u0438\u0435 1"
                         },
                         "2": {
                             "shortTitle": "\u041e\u0444\u0417",
-                            "title": "\u041e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0435 \u0437\u0430\u044f\u0432\u043b\u0435\u043d\u0438\u0435"
+                            "title": "\u041e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0435 \u0437\u0430\u044f\u0432\u043b\u0435\u043d\u0438\u0435 2"
                         }
                     },
                     "title": ""
@@ -340,8 +340,9 @@
                 },
                 "ps": {
                     "shortTitle": "\u041f\u0441.",
-                    "singularTitle": "",
-                    "title": "\u041f\u0441\u0430\u043b\u043e\u043c"
+                    "singularShortTitle": "\u041f\u0441.",
+                    "singularTitle": "\u041f\u0441\u0430\u043b\u043c\u043e\u043c",
+                    "title": "\u041f\u0441\u0430\u043b\u0442\u0438\u0440\u044c\n"
                 },
                 "ruth": {
                     "shortTitle": "\u0420\u0443\u0444\u044c",
