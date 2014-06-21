@@ -82,7 +82,8 @@
                             "title": "D\u00e9claration officielle 2"
                         }
                     },
-                    "title": ""
+                    "shortTitle": "DO",
+                    "title": "D\u00e9clarations officielles"
                 }
             },
             "title": "Doctrine et Alliances"
@@ -340,7 +341,8 @@
                 },
                 "ps": {
                     "shortTitle": "Ps",
-                    "singularTitle": "",
+                    "singularShortTitle": "Ps",
+                    "singularTitle": "Psaume",
                     "title": "Psaumes"
                 },
                 "ruth": {
