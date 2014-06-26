@@ -82,7 +82,8 @@
                             "title": "Dichiarazione Ufficiale \u2014 2"
                         }
                     },
-                    "title": ""
+                    "shortTitle": "DU",
+                    "title": "Dicharazioni Ufficiali"
                 }
             },
             "title": "Dottrina e Alleanze"
@@ -340,7 +341,8 @@
                 },
                 "ps": {
                     "shortTitle": "Sal.",
-                    "singularTitle": "",
+                    "singularShortTitle": "Sal.",
+                    "singularTitle": "Salmo",
                     "title": "Salmi"
                 },
                 "ruth": {
