@@ -11,7 +11,7 @@ STRUCTURE = json.loads(pkg_resources.resource_string(__name__, 'data/structure.j
 def ref(uri):
     return ScriptureRef(uri)
 
-def format(ref_or_refs, lang='eng', include_book=True, book_format=FORMAT_LONG):
+def format(ref_or_refs, lang='eng', include_book=True, book_format=FORMAT_LONG, formatter=None):
     # Load the language definition
     try:
         language = json.loads(pkg_resources.resource_string(__name__, 'data/{}.json'.format(lang)))
@@ -52,8 +52,13 @@ def format(ref_or_refs, lang='eng', include_book=True, book_format=FORMAT_LONG):
                         response += ':' + ', '.join(str(x[0]) if x[0] == x[1] else u'{}\u2013{}'.format(x[0], x[1]) for x in ref.verse_ranges) if ref.verse_ranges else None
             else:
                 response = book if include_book else ''
-        return response
+
+        if formatter is not None:
+            return formatter(response, ref)
+        else:
+            return response
     else:
+        # It's a list of references
         refs = merged(ref_or_refs)
 
         response = ''
@@ -71,7 +76,7 @@ def format(ref_or_refs, lang='eng', include_book=True, book_format=FORMAT_LONG):
 
                 if response:
                     response += '; '
-                response += format(ref, lang=lang, include_book=(prev_book != ref.book), book_format=book_format)
+                response += format(ref, lang=lang, include_book=(prev_book != ref.book), book_format=book_format, formatter=formatter)
 
                 prev_book = ref.book
                 if ref.chapter and not ref.verse_ranges:
