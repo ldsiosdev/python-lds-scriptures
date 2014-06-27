@@ -112,8 +112,15 @@ class TestRef(unittest.TestCase):
         self.assert_scripture_ref(ref, 'ot', 'isa', 40, [(1, 4), (6, 7), (10, 10)])
         self.assertEqual(ref.uri(), uri)
 
-    def assert_scripture_ref(self, ref, testament=None, book=None, chapter=None, verse_ranges=None):
+    def test_parentheticals(self):
+        uri = '/scriptures/dc-testament/dc/76.56-57(50-70)'
+        ref = scriptures.ref(uri)
+        self.assert_scripture_ref(ref, 'dc-testament', 'dc', 76, [(56, 57)], (50, 70))
+        self.assertEqual(ref.uri(), uri)
+
+    def assert_scripture_ref(self, ref, testament=None, book=None, chapter=None, verse_ranges=None, parens=None):
         self.assertEqual(ref.testament, testament)
         self.assertEqual(ref.book, book)
         self.assertEqual(ref.chapter, chapter)
         self.assertEqual(ref.verse_ranges, verse_ranges)
+        self.assertEqual(ref.parens, parens)

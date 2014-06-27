@@ -50,6 +50,10 @@ def format(ref_or_refs, lang='eng', include_book=True, book_format=FORMAT_LONG, 
                     response += str(ref.chapter)
                     if ref.verse_ranges:
                         response += ':' + ', '.join(str(x[0]) if x[0] == x[1] else u'{}\u2013{}'.format(x[0], x[1]) for x in ref.verse_ranges) if ref.verse_ranges else None
+
+                    if ref.parens:
+                        response += ' (%s)' % (str(ref.parens[0]) if ref.parens[0] == ref.parens[1] else u'{}\u2013{}'.format(ref.parens[0], ref.parens[1])) if ref.parens else None
+
             else:
                 response = book if include_book else ''
 
@@ -117,15 +121,17 @@ class ScriptureRef:
                 (?:,\d+(?:-\d+)?)*    # zero or more discontiguous verses and/or verse ranges
             ))?
         )?
+        (\((?P<parens>.+?)\))?        # optional parentheses
         $
     ''', re.VERBOSE)
 
-    def __init__(self, uri=None, testament=None, book=None, chapter=None, verse_ranges=None):
+    def __init__(self, uri=None, testament=None, book=None, chapter=None, verse_ranges=None, parens=None):
         if uri:
             match = ScriptureRef.SCRIPTURE_URI_REGEX.match(uri)
             if match:
                 testament = match.group(1)
                 book = match.group(2)
+
                 if match.group(3):
                     chapter = int(match.group(3))
 
@@ -147,6 +153,24 @@ class ScriptureRef:
 
                             verse_ranges.append((start, stop))
                             previous_stop = stop
+
+                if match.group('parens'):
+                    # Paren ranges (including those consisting of a single verse) are stored as a list of pairs
+                    parens = []
+
+                    previous_stop = 0
+                    parens_range_parts = match.group('parens').split('-')
+                    if len(parens_range_parts) == 1:
+                        start = int(parens_range_parts[0])
+                        stop = start
+                    else:
+                        start = int(parens_range_parts[0])
+                        stop = int(parens_range_parts[1])
+                        if stop == start:
+                            raise ValueError('range in parens_ranges is invalid')
+
+                    parens = (start, stop)
+                    previous_stop = stop
 
         if testament:
             # Get the testament
@@ -196,6 +220,18 @@ class ScriptureRef:
                             raise ValueError('range in verse_ranges is not valid for chapter')
 
                         previous_stop = stop
+
+            self.parens = None
+            if parens:
+                self.parens = parens
+
+                # Validate the verse ranges
+                start, stop = self.parens
+                if stop < start:
+                    raise ValueError('range in parens is invalid')
+
+                if stop > chapter_structure['verses']:
+                    raise ValueError('range in parens is not valid for chapter')
         else:
             if uri is not None:
                 raise ValueError('uri is not a valid scripture ref')
@@ -212,6 +248,8 @@ class ScriptureRef:
                     uri += '/' + str(self.chapter)
                     if self.verse_ranges:
                         uri += '.' + ','.join(str(x[0]) if x[0] == x[1] else '{}-{}'.format(x[0], x[1]) for x in self.verse_ranges) if self.verse_ranges else None
+                    if self.parens:
+                        uri += '(%s)' % (str(self.parens[0]) if self.parens[0] == self.parens[1] else '{}-{}'.format(self.parens[0], self.parens[1])) if self.parens else None
         return uri
 
     def __repr__(self):
