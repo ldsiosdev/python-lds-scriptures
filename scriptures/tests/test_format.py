@@ -105,3 +105,6 @@ class TestFormat(unittest.TestCase):
 
         self.assertEqual(format([ref('/scriptures/ot/gen/39.1'), ref('/scriptures/ot/ex/10.1-5')], formatter=formatter_test), u'<a href="/scriptures/ot/gen/39.1">Genesis 39:1</a>; <a href="/scriptures/ot/ex/10.1-5">Exodus 10:1–5</a>')
         self.assertEqual(format(ref('/scriptures/ot/gen/39.1'), formatter=formatter_test), u'<a href="/scriptures/ot/gen/39.1">Genesis 39:1</a>')
+
+    def test_parentheticals(self):
+        self.assertEqual(format(ref('/scriptures/dc-testament/dc/76.56-57,60(50-70)')), u'Doctrine and Covenants 76:56–57, 60 (50–70)')

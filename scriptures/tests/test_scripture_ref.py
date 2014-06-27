@@ -75,8 +75,12 @@ class TestScriptureRef(unittest.TestCase):
     def test_discontiguous_verse_ranges(self):
         self.assert_scripture_ref(ScriptureRef(testament='ot', book='isa', chapter=40, verse_ranges=[(1, 4), (6, 7), (10, 10)]), 'ot', 'isa', 40, [(1, 4), (6, 7), (10, 10)])
 
-    def assert_scripture_ref(self, ref, testament=None, book=None, chapter=None, verse_ranges=None):
+    def test_parentheticals(self):
+        self.assert_scripture_ref(ScriptureRef(testament='ot', book='isa', chapter=40, verse_ranges=[(1, 1)], parens=(2, 4)), 'ot', 'isa', 40, [(1, 1)], (2, 4))
+
+    def assert_scripture_ref(self, ref, testament=None, book=None, chapter=None, verse_ranges=None, parens=None):
         self.assertEqual(ref.testament, testament)
         self.assertEqual(ref.book, book)
         self.assertEqual(ref.chapter, chapter)
         self.assertEqual(ref.verse_ranges, verse_ranges)
+        self.assertEqual(ref.parens, parens)
