@@ -3,11 +3,11 @@
 import unittest
 from scriptures import ref, format, FORMAT_LONG, FORMAT_SHORT
 
-def formatter_test(label, ref):
-    return '<a href="%s">%s</a>' % (ref.uri(), label)
-
 class TestFormat(unittest.TestCase):
     def test_format_general(self):
+        def formatter_test(label, ref):
+            return '<a href="%s">%s</a>' % (ref.uri(), label)
+
         self.assertEqual(format(ref('/scriptures/ot/gen/40')), 'Genesis 40')
         self.assertEqual(format(ref('/scriptures/ot/gen/40.1')), 'Genesis 40:1')
         self.assertEqual(format(ref('/scriptures/ot/gen/40.1-3')), u'Genesis 40:1–3')
@@ -100,5 +100,8 @@ class TestFormat(unittest.TestCase):
         ], book_format=FORMAT_SHORT), u'Matt. 23–24; Acts 3; 6; 11; Rom. 8; 1\u00a0Cor. 4; Gal. 1; 2\u00a0Thes. 2; 2\u00a0Tim. 4; Titus 1; 1\u00a0Pet. 4; 1\u00a0Jn. 2; D&C 1; 102; 107; 115; JS—H 1')
 
     def test_format_closure(self):
+        def formatter_test(label, ref):
+            return '<a href="%s">%s</a>' % (ref.uri(), label)
+
         self.assertEqual(format([ref('/scriptures/ot/gen/39.1'), ref('/scriptures/ot/ex/10.1-5')], formatter=formatter_test), u'<a href="/scriptures/ot/gen/39.1">Genesis 39:1</a>; <a href="/scriptures/ot/ex/10.1-5">Exodus 10:1–5</a>')
         self.assertEqual(format(ref('/scriptures/ot/gen/39.1'), formatter=formatter_test), u'<a href="/scriptures/ot/gen/39.1">Genesis 39:1</a>')
