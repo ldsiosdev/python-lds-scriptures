@@ -81,8 +81,7 @@
                             "shortTitle": "OP\u20142",
                             "title": "Opisial a Palawag\u20142"
                         }
-                    },
-                    "title": ""
+                    }
                 }
             },
             "title": "Doktrina ken Katulagan"
@@ -340,7 +339,8 @@
                 },
                 "ps": {
                     "shortTitle": "Sal.",
-                    "singularTitle": "",
+                    "singularShortTitle": "Sal.",
+                    "singularTitle": "Dagiti Salmos",
                     "title": "Dagiti Salmos"
                 },
                 "ruth": {

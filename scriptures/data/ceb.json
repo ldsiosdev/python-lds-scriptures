@@ -81,8 +81,7 @@
                             "shortTitle": "OP\u20142",
                             "title": "Opisyal nga Pamahayag\u2014"
                         }
-                    },
-                    "title": ""
+                    }
                 }
             },
             "title": "Doktrina ug Mga Pakigsaad"
@@ -340,7 +339,8 @@
                 },
                 "ps": {
                     "shortTitle": "Sal.",
-                    "singularTitle": "",
+                    "singularShortTitle": "Sal.",
+                    "singularTitle": "Mga Salmo",
                     "title": "Mga Salmo"
                 },
                 "ruth": {

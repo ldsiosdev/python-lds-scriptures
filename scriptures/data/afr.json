@@ -81,8 +81,7 @@
                             "shortTitle": "AV\u20142",
                             "title": "Amptelike Verklaring\u20142"
                         }
-                    },
-                    "title": ""
+                    }
                 }
             },
             "title": "Die Leer en Verbonde"
@@ -340,7 +339,8 @@
                 },
                 "ps": {
                     "shortTitle": "Ps.",
-                    "singularTitle": "",
+                    "singularShortTitle": "Ps.",
+                    "singularTitle": "Psalms",
                     "title": "Psalms"
                 },
                 "ruth": {

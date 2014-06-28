@@ -81,8 +81,7 @@
                             "shortTitle": "FFkm\u20142",
                             "title": "Fanongonongo Fakamafai\u02bbi\u20142"
                         }
-                    },
-                    "title": ""
+                    }
                 }
             },
             "title": "Toka\u0304teline mo e Ngaahi Fuakava"
@@ -340,7 +339,8 @@
                 },
                 "ps": {
                     "shortTitle": "Same",
-                    "singularTitle": "",
+                    "singularShortTitle": "Same",
+                    "singularTitle": "Same",
                     "title": "Same"
                 },
                 "ruth": {

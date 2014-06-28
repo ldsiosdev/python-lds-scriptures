@@ -81,8 +81,7 @@
                             "shortTitle": "OT\u20142",
                             "title": "Officiellt tillk\u00e4nnagivande \u2014 2"
                         }
-                    },
-                    "title": ""
+                    }
                 }
             },
             "title": "L\u00e4ran och f\u00f6rbunden"
@@ -340,7 +339,8 @@
                 },
                 "ps": {
                     "shortTitle": "Ps",
-                    "singularTitle": "",
+                    "singularShortTitle": "Ps",
+                    "singularTitle": "Psaltaren",
                     "title": "Psaltaren"
                 },
                 "ruth": {

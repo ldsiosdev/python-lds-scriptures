@@ -81,8 +81,7 @@
                             "shortTitle": "FA\u20142",
                             "title": "Folafolaga Aloaia\u20142"
                         }
-                    },
-                    "title": ""
+                    }
                 }
             },
             "title": "Mataupu Faavae ma Feagaiga"
@@ -340,7 +339,8 @@
                 },
                 "ps": {
                     "shortTitle": "Sala.",
-                    "singularTitle": "",
+                    "singularShortTitle": "Sala.",
+                    "singularTitle": "Salamo",
                     "title": "Salamo"
                 },
                 "ruth": {
@@ -384,8 +384,7 @@
                     "shortTitle": "Mose",
                     "title": "Moses"
                 }
-            },
-            "title": ""
+            }
         }
     }
 }

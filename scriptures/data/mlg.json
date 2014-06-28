@@ -81,8 +81,7 @@
                             "shortTitle": "FO\u20142",
                             "title": "Filazana Ofisialy\u20142"
                         }
-                    },
-                    "title": ""
+                    }
                 }
             },
             "title": "Fotopampianarana sy Fanekempihavanana"
@@ -271,8 +270,7 @@
                     "title": "Hagay"
                 },
                 "hosea": {
-                    "shortTitle": "Hosea",
-                    "title": ""
+                    "shortTitle": "Hosea"
                 },
                 "isa": {
                     "shortTitle": "Isa.",
@@ -340,7 +338,8 @@
                 },
                 "ps": {
                     "shortTitle": "Sal.",
-                    "singularTitle": "",
+                    "singularShortTitle": "Sal.",
+                    "singularTitle": "Salamo",
                     "title": "Salamo"
                 },
                 "ruth": {

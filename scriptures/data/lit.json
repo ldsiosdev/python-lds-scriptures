@@ -81,8 +81,7 @@
                             "shortTitle": "1\u00a0OP",
                             "title": "2\u00a0Oficialus parei\u0161kimas"
                         }
-                    },
-                    "title": ""
+                    }
                 }
             },
             "title": "Doktrina ir Sandoros"
@@ -340,7 +339,8 @@
                 },
                 "ps": {
                     "shortTitle": "Ps",
-                    "singularTitle": "",
+                    "singularShortTitle": "Ps",
+                    "singularTitle": "Psalmynas",
                     "title": "Psalmynas"
                 },
                 "ruth": {

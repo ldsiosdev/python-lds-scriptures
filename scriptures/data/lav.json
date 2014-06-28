@@ -81,8 +81,7 @@
                             "shortTitle": "OD\u20142",
                             "title": "Oficia\u0304la\u0304 Deklara\u0304cija\u20142"
                         }
-                    },
-                    "title": ""
+                    }
                 }
             },
             "title": "Ma\u0304ci\u0304ba un Deri\u0304bas"
@@ -340,7 +339,8 @@
                 },
                 "ps": {
                     "shortTitle": "Psm.",
-                    "singularTitle": "",
+                    "singularShortTitle": "Psm.",
+                    "singularTitle": "Psalmi",
                     "title": "Psalmi"
                 },
                 "ruth": {

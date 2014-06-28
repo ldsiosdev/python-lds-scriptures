@@ -81,8 +81,7 @@
                             "shortTitle": "\u041e\u0414\u20142",
                             "title": "\u041e\u0444\u0456\u0446\u0456\u0439\u043d\u0430 \u0434\u0435\u043a\u043b\u0430\u0440\u0430\u0446\u0456\u044f\u20142"
                         }
-                    },
-                    "title": ""
+                    }
                 }
             },
             "title": "\u0423\u0447\u0435\u043d\u043d\u044f \u0456 \u0417\u0430\u0432\u0456\u0442\u0438"
@@ -340,7 +339,8 @@
                 },
                 "ps": {
                     "shortTitle": "\u041f\u0441.",
-                    "singularTitle": "",
+                    "singularShortTitle": "\u041f\u0441.",
+                    "singularTitle": "\u041a\u043d\u0438\u0433\u0430 \u041f\u0441\u0430\u043b\u043c\u0456\u0432",
                     "title": "\u041a\u043d\u0438\u0433\u0430 \u041f\u0441\u0430\u043b\u043c\u0456\u0432"
                 },
                 "ruth": {

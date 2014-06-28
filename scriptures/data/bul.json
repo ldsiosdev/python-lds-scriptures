@@ -81,8 +81,7 @@
                             "shortTitle": "\u041e. \u0418. \u2014 2",
                             "title": "\u041e\u0444\u0438\u0446\u0438\u0430\u043b\u043d\u043e \u0438\u0437\u044f\u0432\u043b\u0435\u043d\u0438\u0435 \u2014 2"
                         }
-                    },
-                    "title": ""
+                    }
                 }
             },
             "title": "\u0423\u0447\u0435\u043d\u0438\u0435 \u0438 \u0437\u0430\u0432\u0435\u0442\u0438"
@@ -340,7 +339,8 @@
                 },
                 "ps": {
                     "shortTitle": "\u041f\u0441\u0430\u043b\u043c\u0438",
-                    "singularTitle": "",
+                    "singularShortTitle": "\u041f\u0441\u0430\u043b\u043c\u0438",
+                    "singularTitle": "\u041f\u0441\u0430\u043b\u043c\u0438",
                     "title": "\u041f\u0441\u0430\u043b\u043c\u0438"
                 },
                 "ruth": {

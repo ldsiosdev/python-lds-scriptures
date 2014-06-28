@@ -81,8 +81,7 @@
                             "shortTitle": "MR\u20142",
                             "title": "Maklumat Resmi\u20142"
                         }
-                    },
-                    "title": ""
+                    }
                 }
             },
             "title": "Ajaran dan Perjanjian"
@@ -340,7 +339,8 @@
                 },
                 "ps": {
                     "shortTitle": "Mzm.",
-                    "singularTitle": "",
+                    "singularShortTitle": "Mzm.",
+                    "singularTitle": "Mazmur",
                     "title": "Mazmur"
                 },
                 "ruth": {

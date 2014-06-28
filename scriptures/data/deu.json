@@ -81,8 +81,7 @@
                             "shortTitle": "AE\u20142",
                             "title": "Amtliche Erkl\u00e4rung\u20142"
                         }
-                    },
-                    "title": ""
+                    }
                 }
             },
             "title": "Lehre und B\u00fcndnisse"
@@ -340,7 +339,8 @@
                 },
                 "ps": {
                     "shortTitle": "Ps",
-                    "singularTitle": "",
+                    "singularShortTitle": "Ps",
+                    "singularTitle": "Psalmen",
                     "title": "Psalmen"
                 },
                 "ruth": {
