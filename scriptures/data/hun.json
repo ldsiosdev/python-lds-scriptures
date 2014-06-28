@@ -81,8 +81,7 @@
                             "shortTitle": "2\u00a0HNy",
                             "title": "2. Hivatalos nyilatkozat"
                         }
-                    },
-                    "title": ""
+                    }
                 }
             },
             "title": "Tan \u00e9s a sz\u00f6vets\u00e9gek"
@@ -340,7 +339,8 @@
                 },
                 "ps": {
                     "shortTitle": "Zsolt.",
-                    "singularTitle": "",
+                    "singularShortTitle": "Zsolt.",
+                    "singularTitle": "Zsolt\u00e1rok",
                     "title": "Zsolt\u00e1rok"
                 },
                 "ruth": {

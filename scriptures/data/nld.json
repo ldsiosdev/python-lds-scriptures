@@ -81,8 +81,7 @@
                             "shortTitle": "OV 2",
                             "title": "Offici\u00eble Verklaring 2"
                         }
-                    },
-                    "title": ""
+                    }
                 }
             },
             "title": "Leer en Verbonden"
@@ -340,7 +339,8 @@
                 },
                 "ps": {
                     "shortTitle": "Ps.",
-                    "singularTitle": "",
+                    "singularShortTitle": "Ps.",
+                    "singularTitle": "Psalmen",
                     "title": "Psalmen"
                 },
                 "ruth": {

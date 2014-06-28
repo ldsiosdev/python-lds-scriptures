@@ -81,8 +81,7 @@
                             "shortTitle": "DZ\u20142",
                             "title": "Deklarata Zyrtare\u20142"
                         }
-                    },
-                    "title": ""
+                    }
                 }
             },
             "title": "Doktrina e Bes\u00eblidhje"
@@ -340,7 +339,8 @@
                 },
                 "ps": {
                     "shortTitle": "Psa.",
-                    "singularTitle": "",
+                    "singularShortTitle": "Psa.",
+                    "singularTitle": "Psalmet",
                     "title": "Psalmet"
                 },
                 "ruth": {

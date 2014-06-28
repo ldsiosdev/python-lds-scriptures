@@ -81,8 +81,7 @@
                             "shortTitle": "DO\u20142",
                             "title": "Deklarasyon Ofisy\u00e8l\u20142"
                         }
-                    },
-                    "title": ""
+                    }
                 }
             },
             "title": "Doktrin ak Alyans"
@@ -340,7 +339,8 @@
                 },
                 "ps": {
                     "shortTitle": "S\u00f2m",
-                    "singularTitle": "",
+                    "singularShortTitle": "S\u00f2m",
+                    "singularTitle": "S\u00f2m",
                     "title": "S\u00f2m"
                 },
                 "ruth": {

@@ -81,8 +81,7 @@
                             "shortTitle": "A.Y.\u20142",
                             "title": "Awa\u02bcb\u02bcejil Yehom\u20142"
                         }
-                    },
-                    "title": ""
+                    }
                 }
             },
             "title": "Tzol\u02bcleb\u02bc ut Sumwank"
@@ -340,7 +339,8 @@
                 },
                 "ps": {
                     "shortTitle": "Sal.",
-                    "singularTitle": "",
+                    "singularShortTitle": "Sal.",
+                    "singularTitle": "Salmos",
                     "title": "Salmos"
                 },
                 "ruth": {

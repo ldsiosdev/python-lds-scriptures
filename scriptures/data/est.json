@@ -81,8 +81,7 @@
                             "shortTitle": "At 2",
                             "title": "Ametlik teadaane nr 2"
                         }
-                    },
-                    "title": ""
+                    }
                 }
             },
             "title": "\u00d5petus ja Lepingud"
@@ -340,7 +339,8 @@
                 },
                 "ps": {
                     "shortTitle": "Ps",
-                    "singularTitle": "",
+                    "singularShortTitle": "Ps",
+                    "singularTitle": "Psalmid (Laulud)",
                     "title": "Psalmid (Laulud)"
                 },
                 "ruth": {

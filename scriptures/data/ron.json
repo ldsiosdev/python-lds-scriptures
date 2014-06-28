@@ -81,8 +81,7 @@
                             "shortTitle": "DO\u20142",
                             "title": "Declara\u021bia oficial\u0103\u20142"
                         }
-                    },
-                    "title": ""
+                    }
                 }
             },
             "title": "Doctrin\u0103 \u0219i Leg\u0103minte"
@@ -340,7 +339,8 @@
                 },
                 "ps": {
                     "shortTitle": "Ps.",
-                    "singularTitle": "",
+                    "singularShortTitle": "Ps.",
+                    "singularTitle": "Psalmii",
                     "title": "Psalmii"
                 },
                 "ruth": {

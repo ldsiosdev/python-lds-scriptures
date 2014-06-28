@@ -81,8 +81,7 @@
                             "shortTitle": "AD\u20142",
                             "title": "As\u0254r Dawurb\u0254\u20142"
                         }
-                    },
-                    "title": ""
+                    }
                 }
             },
             "title": "Nkyer\u025bkyer\u025b na Ahy\u025bmudzi"
@@ -340,7 +339,8 @@
                 },
                 "ps": {
                     "shortTitle": "Ndw.",
-                    "singularTitle": "",
+                    "singularShortTitle": "Ndw.",
+                    "singularTitle": "Ndwom",
                     "title": "Ndwom"
                 },
                 "ruth": {

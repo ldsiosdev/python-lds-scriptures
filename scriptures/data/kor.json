@@ -81,8 +81,7 @@
                             "shortTitle": "\uc120",
                             "title": "\uacf5\uc2dd\uc120\uc5b8"
                         }
-                    },
-                    "title": ""
+                    }
                 }
             },
             "title": "\uad50\ub9ac\uc640 \uc131\uc57d"
@@ -340,6 +339,7 @@
                 },
                 "ps": {
                     "shortTitle": "\uc2dc",
+                    "singularShortTitle": "\uc2dc",
                     "singularTitle": "\uc2dc\ud3b8",
                     "title": "\uc2dc\ud3b8"
                 },
