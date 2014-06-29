@@ -4,59 +4,59 @@
             "books": {
                 "1-ne": {
                     "shortTitle": "1\u00a0Nef",
-                    "title": "1\u00a0Nefio knyga"
+                    "title": "1\u00a0Nefio"
                 },
                 "2-ne": {
                     "shortTitle": "2\u00a0Nef",
-                    "title": "2\u00a0Nefio knyga"
+                    "title": "2\u00a0Nefio"
                 },
                 "3-ne": {
                     "shortTitle": "3\u00a0Nef",
-                    "title": "3\u00a0Nefio knyga"
+                    "title": "3\u00a0Nefio"
                 },
                 "4-ne": {
                     "shortTitle": "4\u00a0Nef",
-                    "title": "4\u00a0Nefio knyga"
+                    "title": "4\u00a0Nefio"
                 },
                 "alma": {
                     "shortTitle": "Al",
-                    "title": "Almos knyga"
+                    "title": "Almos"
                 },
                 "enos": {
                     "shortTitle": "En",
-                    "title": "Enoso knyga"
+                    "title": "Enoso"
                 },
                 "ether": {
                     "shortTitle": "Etr",
-                    "title": "Etero knyga"
+                    "title": "Etero"
                 },
                 "hel": {
                     "shortTitle": "Hel",
-                    "title": "Helamano knyga"
+                    "title": "Helamano"
                 },
                 "jacob": {
                     "shortTitle": "JokK",
-                    "title": "Jok\u016bbo knyga"
+                    "title": "Jok\u016bbo"
                 },
                 "jarom": {
                     "shortTitle": "Jar",
-                    "title": "Jaromo knyga"
+                    "title": "Jaromo"
                 },
                 "morm": {
                     "shortTitle": "Mrm",
-                    "title": "Mormono knyga"
+                    "title": "Mormono"
                 },
                 "moro": {
                     "shortTitle": "Mor",
-                    "title": "Moronio knyga"
+                    "title": "Moronio"
                 },
                 "mosiah": {
                     "shortTitle": "Mzj",
-                    "title": "Mozijo knyga"
+                    "title": "Mozijo"
                 },
                 "omni": {
                     "shortTitle": "Om",
-                    "title": "Omnio knyga"
+                    "title": "Omnio"
                 },
                 "w-of-m": {
                     "shortTitle": "M\u017d",
@@ -90,47 +90,47 @@
             "books": {
                 "1-cor": {
                     "shortTitle": "1\u00a0Kor",
-                    "title": "1\u00a0Lai\u0161kas korintie\u010diams"
+                    "title": "1\u00a0Korintie\u010diams"
                 },
                 "1-jn": {
                     "shortTitle": "1\u00a0Jn",
-                    "title": "1\u00a0Jono lai\u0161kas"
+                    "title": "1\u00a0Jono"
                 },
                 "1-pet": {
                     "shortTitle": "1\u00a0Pt",
-                    "title": "1\u00a0Petro lai\u0161kas"
+                    "title": "1\u00a0Petro"
                 },
                 "1-thes": {
                     "shortTitle": "1\u00a0Tes",
-                    "title": " Lai\u0161kas tesalonikie\u010diams"
+                    "title": "1\u00a0Tesalonikie\u010diams"
                 },
                 "1-tim": {
                     "shortTitle": "1\u00a0Tim",
-                    "title": "1\u00a0Lai\u0161kas Timotiejui"
+                    "title": "1\u00a0Timotiejui"
                 },
                 "2-cor": {
                     "shortTitle": "2\u00a0Kor",
-                    "title": "2\u00a0Lai\u0161kas korintie\u010diams"
+                    "title": "2\u00a0Korintie\u010diams"
                 },
                 "2-jn": {
                     "shortTitle": "2\u00a0Jn",
-                    "title": "2\u00a0Jono lai\u0161kas"
+                    "title": "2\u00a0Jono"
                 },
                 "2-pet": {
                     "shortTitle": "2\u00a0Pt",
-                    "title": "2\u00a0Petro lai\u0161kas"
+                    "title": "2\u00a0Petro"
                 },
                 "2-thes": {
                     "shortTitle": "2\u00a0Tes",
-                    "title": "2\u00a0Lai\u0161kas tesalonikie\u010diams"
+                    "title": "2\u00a0Tesalonikie\u010diams"
                 },
                 "2-tim": {
                     "shortTitle": "2\u00a0Tim",
-                    "title": "2\u00a0Lai\u0161kas Timotiejui"
+                    "title": "2\u00a0Timotiejui"
                 },
                 "3-jn": {
                     "shortTitle": "3\u00a0Jn",
-                    "title": "3\u00a0Jono lai\u0161kas"
+                    "title": "3\u00a0Jono"
                 },
                 "acts": {
                     "shortTitle": "ApD",
@@ -138,19 +138,19 @@
                 },
                 "col": {
                     "shortTitle": "Kol",
-                    "title": "Lai\u0161kas kolosie\u010diams"
+                    "title": "Kolosie\u010diams"
                 },
                 "eph": {
                     "shortTitle": "Ef",
-                    "title": "Lai\u0161kas efezie\u010diams"
+                    "title": "Efezie\u010diams"
                 },
                 "gal": {
                     "shortTitle": "Gal",
-                    "title": "Lai\u0161kas galatams"
+                    "title": "Galatams"
                 },
                 "heb": {
                     "shortTitle": "Hbr",
-                    "title": "Lai\u0161kas hebrajams"
+                    "title": "Hebrajams"
                 },
                 "james": {
                     "shortTitle": "Jok",
@@ -158,31 +158,31 @@
                 },
                 "john": {
                     "shortTitle": "Jn",
-                    "title": "Evangelija pagal Jon\u0105"
+                    "title": "Jono"
                 },
                 "jude": {
                     "shortTitle": "Jud",
-                    "title": "Judo lai\u0161kas"
+                    "title": "Judo"
                 },
                 "luke": {
                     "shortTitle": "Lk",
-                    "title": "Evangelija pagal Luk\u0105"
+                    "title": "Luko"
                 },
                 "mark": {
                     "shortTitle": "Mk",
-                    "title": "Evangelija pagal Mork\u0173"
+                    "title": "Morkaus"
                 },
                 "matt": {
                     "shortTitle": "Mt",
-                    "title": "Evangelija pagal Mat\u0105"
+                    "title": "Mato"
                 },
                 "philem": {
                     "shortTitle": "Flm",
-                    "title": "Lai\u0161kas Filemonui"
+                    "title": "Filemonui"
                 },
                 "philip": {
                     "shortTitle": "Fil",
-                    "title": "Lai\u0161kas filipie\u010diams"
+                    "title": "Filipie\u010diams"
                 },
                 "rev": {
                     "shortTitle": "Apr",
@@ -190,11 +190,11 @@
                 },
                 "rom": {
                     "shortTitle": "Rom",
-                    "title": "Lai\u0161kas romie\u010diams"
+                    "title": "Romie\u010diams"
                 },
                 "titus": {
                     "shortTitle": "Tit",
-                    "title": "Lai\u0161kas Titui"
+                    "title": "Titui"
                 }
             },
             "title": "Naujasis Testamentas"
@@ -203,149 +203,149 @@
             "books": {
                 "1-chr": {
                     "shortTitle": "1\u00a0Met",
-                    "title": "1\u00a0Metra\u0161\u010di\u0173 knyga"
+                    "title": "1\u00a0Metra\u0161\u010di\u0173"
                 },
                 "1-kgs": {
                     "shortTitle": "1\u00a0Kar",
-                    "title": "1\u00a0Karali\u0173 knyga"
+                    "title": "1\u00a0Karali\u0173"
                 },
                 "1-sam": {
                     "shortTitle": "1\u00a0Sam",
-                    "title": "1\u00a0Samuelio knyga"
+                    "title": "1\u00a0Samuelio"
                 },
                 "2-chr": {
                     "shortTitle": "2\u00a0Met",
-                    "title": "2\u00a0Metra\u0161\u010di\u0173 knyga"
+                    "title": "2\u00a0Metra\u0161\u010di\u0173"
                 },
                 "2-kgs": {
                     "shortTitle": "2\u00a0Kar",
-                    "title": "2\u00a0Karali\u0173 knyga"
+                    "title": "2\u00a0Karali\u0173"
                 },
                 "2-sam": {
                     "shortTitle": "2\u00a0Sam",
-                    "title": "2\u00a0Samuelio knyga"
+                    "title": "2\u00a0Samuelio"
                 },
                 "amos": {
                     "shortTitle": "Am",
-                    "title": "Amoso knyga"
+                    "title": "Amoso"
                 },
                 "dan": {
                     "shortTitle": "Dan",
-                    "title": "Danieliaus knyga"
+                    "title": "Danieliaus"
                 },
                 "deut": {
                     "shortTitle": "Pak\u012est",
-                    "title": "Pakartoto \u012fstatymo knyga"
+                    "title": "Pakartoto \u012fstatymo"
                 },
                 "eccl": {
                     "shortTitle": "Mok",
-                    "title": "Mokytojo knyga"
+                    "title": "Mokytojo"
                 },
                 "esth": {
                     "shortTitle": "Est",
-                    "title": "Esteros knyga"
+                    "title": "Esteros"
                 },
                 "ex": {
                     "shortTitle": "I\u0161",
-                    "title": "Is\u0117jimo knyga"
+                    "title": "Is\u0117jimo"
                 },
                 "ezek": {
                     "shortTitle": "Ez",
-                    "title": "Ezechielio knyga"
+                    "title": "Ezechielio"
                 },
                 "ezra": {
                     "shortTitle": "Ezr",
-                    "title": "Ezros knyga"
+                    "title": "Ezros"
                 },
                 "gen": {
                     "shortTitle": "Pr",
-                    "title": "Prad\u017eios knyga"
+                    "title": "Prad\u017eios"
                 },
                 "hab": {
                     "shortTitle": "Hab",
-                    "title": "Habakuko knyga"
+                    "title": "Habakuko"
                 },
                 "hag": {
                     "shortTitle": "Ag",
-                    "title": "Ag\u0117jo knyga"
+                    "title": "Ag\u0117jo"
                 },
                 "hosea": {
                     "shortTitle": "Oz",
-                    "title": "Oz\u0117jo knyga"
+                    "title": "Oz\u0117jo"
                 },
                 "isa": {
                     "shortTitle": "Iz",
-                    "title": "Izaijo knyga"
+                    "title": "Izaijo"
                 },
                 "jer": {
                     "shortTitle": "Jer",
-                    "title": "Jeremijo knyga"
+                    "title": "Jeremijo"
                 },
                 "job": {
                     "shortTitle": "Job",
-                    "title": "Jobo knyga"
+                    "title": "Jobo"
                 },
                 "joel": {
                     "shortTitle": "Jl",
-                    "title": "Joelio knyga"
+                    "title": "Joelio"
                 },
                 "jonah": {
                     "shortTitle": "Jon",
-                    "title": "Jonos knyga"
+                    "title": "Jonos"
                 },
                 "josh": {
                     "shortTitle": "Joz",
-                    "title": "Jozu\u0117s knyga"
+                    "title": "Jozu\u0117s"
                 },
                 "judg": {
                     "shortTitle": "Ts",
-                    "title": "Teis\u0117j\u0173 knyga"
+                    "title": "Teis\u0117j\u0173"
                 },
                 "lam": {
                     "shortTitle": "Rd",
-                    "title": "Raud\u0173 knyga"
+                    "title": "Raud\u0173"
                 },
                 "lev": {
                     "shortTitle": "Kun",
-                    "title": "Kunig\u0173 knyga"
+                    "title": "Kunig\u0173"
                 },
                 "mal": {
                     "shortTitle": "Mal",
-                    "title": "Malachijo knyga"
+                    "title": "Malachijo"
                 },
                 "micah": {
                     "shortTitle": "Mch",
-                    "title": "Mich\u0117jo knyga"
+                    "title": "Mich\u0117jo"
                 },
                 "nahum": {
                     "shortTitle": "Nah",
-                    "title": "Nahumo knyga"
+                    "title": "Nahumo"
                 },
                 "neh": {
                     "shortTitle": "Neh",
-                    "title": "Nehemijo knyga"
+                    "title": "Nehemijo"
                 },
                 "num": {
                     "shortTitle": "Sk",
-                    "title": "Skai\u010di\u0173 knyga"
+                    "title": "Skai\u010di\u0173"
                 },
                 "obad": {
                     "shortTitle": "Abd",
-                    "title": "Abdijo knyga"
+                    "title": "Abdijo"
                 },
                 "prov": {
                     "shortTitle": "Pat",
-                    "title": "Patarli\u0173 knyga"
+                    "title": "Patarli\u0173"
                 },
                 "ps": {
                     "shortTitle": "Ps",
                     "singularShortTitle": "Ps",
-                    "singularTitle": "Psalmynas",
+                    "singularTitle": "Psalmi\u0173",
                     "title": "Psalmynas"
                 },
                 "ruth": {
                     "shortTitle": "R\u016bt",
-                    "title": "R\u016btos knyga"
+                    "title": "R\u016btos"
                 },
                 "song": {
                     "shortTitle": "SalG",
@@ -353,11 +353,11 @@
                 },
                 "zech": {
                     "shortTitle": "Zch",
-                    "title": "Zacharijo knyga"
+                    "title": "Zacharijo"
                 },
                 "zeph": {
                     "shortTitle": "Sof",
-                    "title": "Sofonijo knyga"
+                    "title": "Sofonijo"
                 }
             },
             "title": "Senasis Testamentas"
@@ -370,7 +370,7 @@
                 },
                 "abr": {
                     "shortTitle": "Abr",
-                    "title": "Abraomo knyga"
+                    "title": "Abraomo"
                 },
                 "js-h": {
                     "shortTitle": "D\u017eS\u2014I",
@@ -382,7 +382,7 @@
                 },
                 "moses": {
                     "shortTitle": "Moz",
-                    "title": "Moz\u0117s knyga"
+                    "title": "Moz\u0117s"
                 }
             },
             "title": "Brangusis Perlas"

@@ -1,0 +1,393 @@
+{
+    "testaments": {
+        "bofm": {
+            "books": {
+                "1-ne": {
+                    "shortTitle": "\u17e1\u200b \u1793\u17b8\u17a0\u17d2\u179c\u17c3",
+                    "title": "\u1793\u17b8\u17a0\u17d2\u179c\u17c3\u1791\u17b8\u200b \u17e1"
+                },
+                "2-ne": {
+                    "shortTitle": "\u17e2 \u1793\u17b8\u17a0\u17d2\u179c\u17c3",
+                    "title": "\u1793\u17b8\u17a0\u17d2\u179c\u17c3\u1791\u17b8\u200b \u17e2"
+                },
+                "3-ne": {
+                    "shortTitle": "\u17e3 \u1793\u17b8\u17a0\u17d2\u179c\u17c3",
+                    "title": "\u1793\u17b8\u17a0\u17d2\u179c\u17c3 \u1791\u17b8 \u17e3"
+                },
+                "4-ne": {
+                    "shortTitle": "\u17e3 \u1793\u17b8\u17a0\u17d2\u179c\u17c3",
+                    "title": "\u1793\u17b8\u17a0\u17d2\u179c\u17c3 \u1791 \u17e4"
+                },
+                "alma": {
+                    "shortTitle": "\u17a2\u17b6\u179b\u1798\u17c9\u17b6",
+                    "title": "\u17a2\u17b6\u179b\u1798\u17c9\u17b6"
+                },
+                "enos": {
+                    "shortTitle": "\u17a2\u17c1\u178e\u17bb\u179f",
+                    "title": "\u17a2\u17c1\u178e\u17bb\u179f"
+                },
+                "ether": {
+                    "shortTitle": "\u17a2\u17c1\u1792\u17be\u179a",
+                    "title": "\u17a2\u17c1\u1792\u17be\u179a"
+                },
+                "hel": {
+                    "shortTitle": "\u17a0\u17c1\u179b\u17c1",
+                    "title": "\u17a0\u17c1\u179b\u17c1\u1798\u17b7\u1793"
+                },
+                "jacob": {
+                    "shortTitle": "\u1799\u17c9\u17b6\u1780\u17bb\u1794",
+                    "title": "\u1799\u17c9\u17b6\u1780\u17bb\u1794"
+                },
+                "jarom": {
+                    "shortTitle": "\u1799\u17c9\u17b6\u179a\u17c9\u17bb\u1798",
+                    "title": "\u1799\u17c9\u17b6\u179a\u17c9\u17bb\u1798"
+                },
+                "morm": {
+                    "shortTitle": "\u1798\u179a\u1798\u1793",
+                    "title": "\u1798\u179a\u1798\u1793"
+                },
+                "moro": {
+                    "shortTitle": "\u1798\u179a\u17c9\u17bc\u178e\u17c3",
+                    "title": "\u1798\u179a\u17c9\u17bc\u178e\u17c3"
+                },
+                "mosiah": {
+                    "shortTitle": "\u1798\u17c9\u17bc\u179f\u17b6\u1799",
+                    "title": "\u1798\u17c9\u17bc\u179f\u17b6\u1799"
+                },
+                "omni": {
+                    "shortTitle": "\u17a2\u17c4\u1798\u178e\u17c3",
+                    "title": "\u17a2\u17c4\u1798\u178e\u17c3"
+                },
+                "w-of-m": {
+                    "shortTitle": "\u1796.\u200b \u1793\u17c3 \u1798.",
+                    "title": "\u1796\u17b6\u1780\u17d2\u1799\u179f\u17c6\u178a\u17b8\u1793\u17c3\u1798\u179a\u1798\u1793"
+                }
+            },
+            "title": "\u1796\u17d2\u179a\u17c7\u1782\u1798\u17d2\u1796\u17b8\u179a\u1798\u179a\u1798\u1793"
+        },
+        "dc-testament": {
+            "books": {
+                "dc": {
+                    "shortTitle": "\u1782. \u1793\u17b7\u1784 \u179f.",
+                    "title": "\u1782\u17c4\u179b\u179b\u17b7\u1791\u17d2\u1792\u17b7\u1793\u17b7\u1784\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1789\u17d2\u1789\u17b6"
+                },
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u1794\u17d2\u179a\u1780\u17b6\u179f--\u17e1",
+                            "title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u1794\u17d2\u179a\u1780\u17b6\u179f\u1787\u17b6\u1795\u17d2\u179b\u17bc\u179c\u1780\u17b6\u179a \u1791\u17b8 \u17e1"
+                        },
+                        "2": {
+                            "shortTitle": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u1794\u17d2\u179a\u1780\u17b6\u179f--\u17e2",
+                            "title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u1794\u17d2\u179a\u1780\u17b6\u179f\u1787\u17b6\u1795\u17d2\u179b\u17bc\u179c\u1780\u17b6\u179a \u1791\u17b8 \u17e2"
+                        }
+                    },
+                    "shortTitle": "\u1794\u17d2\u179a.\u1795.",
+                    "title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u1794\u17d2\u179a\u1780\u17b6\u179f\u1787\u17b6\u1795\u17d2\u179b\u17bc\u179c\u1780\u17b6\u179a"
+                }
+            },
+            "title": "\u1782\u17c4\u179b\u179b\u17b7\u1791\u17d2\u1792\u17b7\u1793\u17b7\u1784\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1789\u17d2\u1789\u17b6"
+        },
+        "nt": {
+            "books": {
+                "1-cor": {
+                    "shortTitle": "\u17e1 \u1780\u17bc\u179a\u17b7\u1793.",
+                    "title": "\u1780\u17bc\u179a\u17b7\u1793\u1790\u17bc\u179f \u1791\u17b8\u17e1"
+                },
+                "1-jn": {
+                    "shortTitle": "\u17e1 \u1799\u17c9\u17bc\u17a0\u17b6\u1793",
+                    "title": "\u1799\u17c9\u17bc\u17a0\u17b6\u1793 \u1791\u17b8 \u17e1"
+                },
+                "1-pet": {
+                    "shortTitle": "\u17e1 \u1796\u17c1\u178f\u17d2\u179a\u17bb\u179f",
+                    "title": "\u1796\u17c1\u178f\u17d2\u179a\u17bb\u179f \u1791\u17b8\u200b \u17e1"
+                },
+                "1-thes": {
+                    "shortTitle": "\u17e1 \u1790\u17c2\u179f\u17d2\u179f\u17b6.",
+                    "title": "\u1790\u17c2\u179f\u17d2\u179f\u17b6\u17a1\u17bc\u1793\u17b8\u1785 \u1791\u17b8 \u17e1"
+                },
+                "1-tim": {
+                    "shortTitle": "\u17e1 \u1792\u17b8\u1798\u17c9\u17bc.",
+                    "title": "\u1792\u17b8\u1798\u17c9\u17bc\u1790\u17c1 \u1791\u17b8 \u17e1"
+                },
+                "2-cor": {
+                    "shortTitle": "\u17e2 \u1780\u17bc\u179a\u17b7\u1793.",
+                    "title": "\u1780\u17bc\u179a\u17b7\u1793\u1790\u17bc\u179f \u1791\u17b8\u17e2"
+                },
+                "2-jn": {
+                    "shortTitle": "\u17e2 \u1799\u17c9\u17bc\u17a0\u17b6\u1793",
+                    "title": "\u1799\u17c9\u17bc\u17a0\u17b6\u1793 \u1791\u17b8 \u17e2"
+                },
+                "2-pet": {
+                    "shortTitle": "\u17e2 \u1796\u17c1\u178f\u17d2\u179a\u17bb\u179f",
+                    "title": "\u1796\u17c1\u178f\u17d2\u179a\u17bb\u179f \u1791\u17b8\u200b \u17e2"
+                },
+                "2-thes": {
+                    "shortTitle": "\u17e2 \u1790\u17c2\u179f\u17d2\u179f\u17b6.",
+                    "title": "\u1790\u17c2\u179f\u17d2\u179f\u17b6\u17a1\u17bc\u1793\u17b8\u1785 \u1791\u17b8 \u17e2"
+                },
+                "2-tim": {
+                    "shortTitle": "\u17e2 \u1792\u17b8\u1798\u17c9\u17bc.",
+                    "title": "\u1792\u17b8\u1798\u17c9\u17bc\u1790\u17c1 \u1791\u17b8 \u17e2"
+                },
+                "3-jn": {
+                    "shortTitle": "\u17e3 \u1799\u17c9\u17bc\u17a0\u17b6\u1793",
+                    "title": "\u1799\u17c9\u17bc\u17a0\u17b6\u1793 \u1791\u17b8 \u17e3"
+                },
+                "acts": {
+                    "shortTitle": "\u1780\u17b7\u1785\u17d2\u1785\u1780\u17b6\u179a",
+                    "title": "\u1780\u17b7\u1785\u17d2\u1785\u1780\u17b6\u179a\u1796\u17bd\u1780\u179f\u17b6\u179c\u1780"
+                },
+                "col": {
+                    "shortTitle": "\u1780\u17bc\u179b\u17c9\u17bb\u179f",
+                    "title": "\u1780\u17bc\u179b\u17c9\u17bb\u179f"
+                },
+                "eph": {
+                    "shortTitle": "\u17a2\u17c1\u1797\u17c1.",
+                    "title": "\u17a2\u17c1\u1797\u17c1\u179f\u17bc"
+                },
+                "gal": {
+                    "shortTitle": "\u1780\u17b6\u17a1\u17b6\u1791\u17b8",
+                    "title": "\u1780\u17b6\u17a1\u17b6\u1791\u17b8"
+                },
+                "heb": {
+                    "shortTitle": "\u17a0\u17c1\u1796\u17d2\u179a\u17be\u179a",
+                    "title": "\u17a0\u17c1\u1796\u17d2\u179a\u17be\u179a"
+                },
+                "james": {
+                    "shortTitle": "\u1799\u17c9\u17b6\u1780\u17bb\u1794",
+                    "title": "\u1799\u17c9\u17b6\u1780\u17bb\u1794"
+                },
+                "john": {
+                    "shortTitle": "\u1799\u17c9\u17bc\u17a0\u17b6\u1793",
+                    "title": "\u1799\u17c9\u17bc\u17a0\u17b6\u1793"
+                },
+                "jude": {
+                    "shortTitle": "\u1799\u17bc\u178a\u17b6\u179f",
+                    "title": "\u1799\u17bc\u178a\u17b6\u179f"
+                },
+                "luke": {
+                    "shortTitle": "\u179b\u17bc\u1780\u17b6",
+                    "title": "\u179b\u17bc\u1780\u17b6"
+                },
+                "mark": {
+                    "shortTitle": "\u1798\u17c9\u17b6\u1780\u17bb\u179f",
+                    "title": "\u1798\u17c9\u17b6\u1780\u17bb\u179f"
+                },
+                "matt": {
+                    "shortTitle": "\u1798\u17c9\u17b6\u1790\u17b6\u1799",
+                    "title": "\u1798\u17c9\u17b6\u1790\u17b6\u1799"
+                },
+                "philem": {
+                    "shortTitle": "\u1797\u17b8\u179b\u17c1.",
+                    "title": "\u1797\u17b8\u179b\u17c1\u1798\u17c9\u17bc\u1793"
+                },
+                "philip": {
+                    "shortTitle": "\u1797\u17b8\u179b\u17b8\u1796",
+                    "title": "\u1797\u17b8\u179b\u17b8\u1796"
+                },
+                "rev": {
+                    "shortTitle": "\u179c\u17b7\u179c\u179a.",
+                    "title": "\u179c\u17b7\u179c\u179a\u178e\u17c8"
+                },
+                "rom": {
+                    "shortTitle": "\u179a\u17c9\u17bc\u1798",
+                    "title": "\u179a\u17c9\u17bc\u1798"
+                },
+                "titus": {
+                    "shortTitle": "\u1791\u17b8\u178f\u17bb\u179f",
+                    "title": "\u1791\u17b8\u178f\u17bb\u179f"
+                }
+            },
+            "title": "\u1796\u17d2\u179a\u17c7\u1782\u1798\u17d2\u1796\u17b8\u179a\u179f\u1789\u17d2\u1789\u17b6\u1790\u17d2\u1798\u17b8"
+        },
+        "ot": {
+            "books": {
+                "1-chr": {
+                    "shortTitle": "\u17e1 \u179a\u1794\u17b6.",
+                    "title": "\u179a\u1794\u17b6\u1780\u17d2\u179f\u178f\u17d2\u179a \u1791\u17b8\u17e1"
+                },
+                "1-kgs": {
+                    "shortTitle": "\u17e1 \u1796\u1784\u17d2\u179f\u17b6\u179c.",
+                    "title": "\u1796\u1784\u17d2\u179f\u17b6\u179c\u178f\u17b6\u179a\u1780\u17d2\u179f\u178f\u17d2\u179a \u1791\u17b8\u17e1"
+                },
+                "1-sam": {
+                    "shortTitle": "\u17e1 \u179f\u17b6\u17c6\u1799\u17bc.",
+                    "title": "\u179f\u17b6\u17c6\u1799\u17bc\u17a2\u17c2\u179b \u1791\u17b8\u17e1"
+                },
+                "2-chr": {
+                    "shortTitle": "\u17e2 \u179a\u1794\u17b6.",
+                    "title": "\u179a\u1794\u17b6\u1780\u17d2\u179f\u178f\u17d2\u179a \u1791\u17b8\u17e2"
+                },
+                "2-kgs": {
+                    "shortTitle": "\u17e2 \u1796\u1784\u17d2\u179f\u17b6\u179c.",
+                    "title": "\u1796\u1784\u17d2\u179f\u17b6\u179c\u178f\u17b6\u179a\u1780\u17d2\u179f\u178f\u17d2\u179a \u1791\u17b8\u17e2"
+                },
+                "2-sam": {
+                    "shortTitle": "\u17e2 \u179f\u17b6\u17c6\u1799\u17bc.",
+                    "title": "\u179f\u17b6\u17c6\u1799\u17bc\u17a2\u17c2\u179b \u1791\u17b8\u17e2"
+                },
+                "amos": {
+                    "shortTitle": "\u17a2\u17c1\u1798\u17c9\u17bb\u179f",
+                    "title": "\u17a2\u17c1\u1798\u17c9\u17bb\u179f"
+                },
+                "dan": {
+                    "shortTitle": "\u178a\u17b6\u1793\u17b8.",
+                    "title": "\u178a\u17b6\u1793\u17b8\u1799\u17c9\u17c2\u179b"
+                },
+                "deut": {
+                    "shortTitle": "\u1785\u17c4\u1791\u17b7.",
+                    "title": "\u1785\u17c4\u1791\u17b7\u1799\u1780\u1790\u17b6"
+                },
+                "eccl": {
+                    "shortTitle": "\u179f\u17b6\u179f\u17d2\u178f\u17b6",
+                    "title": "\u179f\u17b6\u179f\u17d2\u178f\u17b6"
+                },
+                "esth": {
+                    "shortTitle": "\u1793\u17b6\u1784\u17a2\u17c1\u179f",
+                    "title": "\u1793\u17b6\u1784\u17a2\u17c1\u179f\u1792\u17be\u179a"
+                },
+                "ex": {
+                    "shortTitle": "\u1793\u17b7\u1780\u17d2\u1781.",
+                    "title": "\u1793\u17b7\u1780\u17d2\u1781\u1798\u1793\u17c6"
+                },
+                "ezek": {
+                    "shortTitle": "\u17a2\u17c1\u179f\u17c1.",
+                    "title": "\u17a2\u17c1\u179f\u17c1\u1782\u17b6\u179b"
+                },
+                "ezra": {
+                    "shortTitle": "\u17a2\u17c2\u179f\u179a\u17c9\u17b6",
+                    "title": "\u17a2\u17c2\u179f\u179a\u17c9\u17b6"
+                },
+                "gen": {
+                    "shortTitle": "\u179b\u17c4\u1780\u17bb.",
+                    "title": "\u179b\u17c4\u1780\u17bb\u1794\u17d2\u1794\u178f\u17d2\u178f\u17b7"
+                },
+                "hab": {
+                    "shortTitle": "\u17a0\u17b6\u1794\u17b6.",
+                    "title": "\u17a0\u17b6\u1794\u17b6\u1782\u17bb\u1780"
+                },
+                "hag": {
+                    "shortTitle": "\u17a0\u17b6\u1780\u17b6\u1799",
+                    "title": "\u17a0\u17b6\u1780\u17b6\u1799"
+                },
+                "hosea": {
+                    "shortTitle": "\u17a0\u17bc\u179f\u17c1",
+                    "title": "\u17a0\u17bc\u179f\u17c1"
+                },
+                "isa": {
+                    "shortTitle": "\u17a2\u17c1\u179f\u17b6\u1799",
+                    "title": "\u17a2\u17c1\u179f\u17b6\u1799"
+                },
+                "jer": {
+                    "shortTitle": "\u1799\u17c1\u179a\u17c1.",
+                    "title": "\u1799\u17c1\u179a\u17c1\u1798\u17b6"
+                },
+                "job": {
+                    "shortTitle": "\u1799\u17c9\u17bc\u1794",
+                    "title": "\u1799\u17c9\u17bc\u1794"
+                },
+                "joel": {
+                    "shortTitle": "\u1799\u17c9\u17bc\u17a2\u17c2\u179b",
+                    "title": "\u1799\u17c9\u17bc\u17a2\u17c2\u179b"
+                },
+                "jonah": {
+                    "shortTitle": "\u1799\u17c9\u17bc\u178e\u17b6\u179f",
+                    "title": "\u1799\u17c9\u17bc\u178e\u17b6\u179f"
+                },
+                "josh": {
+                    "shortTitle": "\u1799\u17c9\u17bc\u179f\u17d2\u179c\u17c1",
+                    "title": "\u1799\u17c9\u17bc\u179f\u17d2\u179c\u17c1"
+                },
+                "judg": {
+                    "shortTitle": "\u1796\u17bd\u1780\u1785\u17c5.",
+                    "title": "\u1796\u17bd\u1780\u1785\u17c5\u17a0\u17d2\u179c\u17b6\u1799"
+                },
+                "lam": {
+                    "shortTitle": "\u1794\u179a\u17b7\u1791\u17c1\u179c",
+                    "title": "\u1794\u179a\u17b7\u1791\u17c1\u179c"
+                },
+                "lev": {
+                    "shortTitle": "\u179b\u17c1\u179c\u17b8.",
+                    "title": "\u179b\u17c1\u179c\u17b8\u179c\u17b7\u1793\u17d0\u1799"
+                },
+                "mal": {
+                    "shortTitle": "\u1798\u17c9\u17b6\u17a1\u17b6\u1782\u17b8",
+                    "title": "\u1798\u17c9\u17b6\u17a1\u17b6\u1782\u17b8"
+                },
+                "micah": {
+                    "shortTitle": "\u1798\u17b8\u1780\u17b6",
+                    "title": "\u1798\u17b8\u1780\u17b6"
+                },
+                "nahum": {
+                    "shortTitle": "\u178e\u17b6\u17a0\u17ca\u17bb\u1798",
+                    "title": "\u178e\u17b6\u17a0\u17ca\u17bb\u1798"
+                },
+                "neh": {
+                    "shortTitle": "\u1793\u17c1\u17a0\u17c1.",
+                    "title": "\u1793\u17c1\u17a0\u17c1\u1798\u17b6"
+                },
+                "num": {
+                    "shortTitle": "\u1787\u1793\u1782.",
+                    "title": "\u1787\u1793\u1782\u178e\u1793\u17b6"
+                },
+                "obad": {
+                    "shortTitle": "\u17a2\u17bc\u1794\u17b6.",
+                    "title": "\u17a2\u17bc\u1794\u17b6\u178c\u17b6"
+                },
+                "prov": {
+                    "shortTitle": "\u179f\u17bb\u1797\u17b6.",
+                    "title": "\u179f\u17bb\u1797\u17b6\u179f\u17b7\u178f"
+                },
+                "ps": {
+                    "shortTitle": "\u1791\u17c6\u1793\u17bb\u1780.",
+                    "singularShortTitle": "\u1791\u17c6\u1793\u17bb\u1780",
+                    "singularTitle": "\u1791\u17c6\u1793\u17bb\u1780\u178f\u1798\u17d2\u1780\u17be\u1784",
+                    "title": "\u1791\u17c6\u1793\u17bb\u1780\u178f\u1798\u17d2\u1780\u17be\u1784"
+                },
+                "ruth": {
+                    "shortTitle": "\u1793\u17b6\u1784\u179a\u179f\u17cb",
+                    "title": "\u1793\u17b6\u1784\u179a\u179f\u17cb"
+                },
+                "song": {
+                    "shortTitle": "\u1794\u1791\u1785\u1798\u17d2\u179a\u17c0\u1784.",
+                    "title": "\u1794\u1791\u1785\u1798\u17d2\u179a\u17c0\u1784\u179f\u17b6\u17a1\u17bc\u1798\u17c9\u17bc\u1793"
+                },
+                "zech": {
+                    "shortTitle": "\u179f\u17b6\u1780\u17b6\u179a\u17b8",
+                    "title": "\u179f\u17b6\u1780\u17b6\u179a\u17b8"
+                },
+                "zeph": {
+                    "shortTitle": "\u179f\u17c1\u1795\u17b6.",
+                    "title": "\u179f\u17c1\u1795\u17b6\u1793\u17b6"
+                }
+            },
+            "title": "\u1796\u17d2\u179a\u17c7\u1782\u1798\u17d2\u1796\u17b8\u179a\u179f\u1789\u17d2\u1789\u17b6\u1785\u17b6\u179f\u17cb"
+        },
+        "pgp": {
+            "books": {
+                "a-of-f": {
+                    "shortTitle": "\u1798. \u1793\u17c3 \u179f.",
+                    "title": "\u1798\u17b6\u178f\u17d2\u179a\u17b6\u1793\u17c3\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u1787\u17c6\u1793\u17bf"
+                },
+                "abr": {
+                    "shortTitle": "\u17a2\u17d0\u1794\u17d2\u179a\u17b6.",
+                    "title": "\u17a2\u17d0\u1794\u17d2\u179a\u17b6\u17a0\u17b6\u17c6"
+                },
+                "js-h": {
+                    "shortTitle": "\u1799.\u179f.--\u1798\u17c9\u17b6\u1790\u17b6\u1799",
+                    "title": "\u1799\u17c9\u17bc\u179f\u17c2\u1794 \u179f\u17d2\u1798\u17b8\u1792--\u1794\u17d2\u179a\u179c\u178f\u17d2\u178f\u17b7"
+                },
+                "js-m": {
+                    "shortTitle": "\u1799.\u179f.--\u1794\u17d2\u179a\u179c\u178f\u17d2\u178f\u17b7",
+                    "title": "\u1799\u17c9\u17bc\u179f\u17c2\u1794 \u179f\u17d2\u1798\u17b8\u1792--\u1798\u17c9\u17b6\u1790\u17b6\u1799"
+                },
+                "moses": {
+                    "shortTitle": "\u1798\u17c9\u17bc\u179f\u17c1",
+                    "title": "\u1798\u17c9\u17bc\u179f\u17c1"
+                }
+            },
+            "title": "\u1798\u17bb\u1780\u17d2\u178f\u178f\u17b6\u178a\u17cf\u1798\u17b6\u1793\u178f\u1798\u17d2\u179b\u17c3"
+        }
+    }
+}
