@@ -110,4 +110,4 @@ class TestFormat(unittest.TestCase):
         self.assertEqual(format(ref('/scriptures/dc-testament/dc/76.56-57,60(50-70)')), u'Doctrine and Covenants 76:56–57, 60 (50–70)')
 
     def test_chapter_ranges(self):
-        self.assertEqual(format(ref('/scriptures/dc-testament/dc/76.56-57,60(50-70)')), u'Doctrine and Covenants 76:56–57, 60 (50–70)')
+        self.assertEqual(format(ref('/scriptures/bofm/alma/56-57')), u'Alma 56–57')
