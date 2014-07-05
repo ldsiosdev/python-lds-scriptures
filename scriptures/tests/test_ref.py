@@ -118,6 +118,12 @@ class TestRef(unittest.TestCase):
         self.assert_scripture_ref(ref, 'dc-testament', 'dc', 76, [(56, 57)], (50, 70))
         self.assertEqual(ref.uri(), uri)
 
+    def test_chapter_ranges(self):
+        uri = '/scriptures/bofm/alma/56-57'
+        ref = scriptures.ref(uri)
+        self.assert_scripture_ref(ref, 'bofm', 'alma', (56, 57))
+        self.assertEqual(ref.uri(), uri)
+
     def assert_scripture_ref(self, ref, testament=None, book=None, chapter=None, verse_ranges=None, parens=None):
         self.assertEqual(ref.testament, testament)
         self.assertEqual(ref.book, book)
