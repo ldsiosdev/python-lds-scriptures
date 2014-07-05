@@ -47,7 +47,10 @@ def format(ref_or_refs, lang='eng', include_book=True, book_format=FORMAT_LONG, 
                     response = book if include_book else ''
                     if response:
                         response += ' '
-                    response += str(ref.chapter)
+                    if type(ref.chapter) is tuple:
+                        response += u'{}\u2013{}'.format(ref.chapter[0], ref.chapter[1])
+                    else:
+                        response += str(ref.chapter)
                     if ref.verse_ranges:
                         response += ':' + ', '.join(str(x[0]) if x[0] == x[1] else u'{}\u2013{}'.format(x[0], x[1]) for x in ref.verse_ranges) if ref.verse_ranges else None
 
