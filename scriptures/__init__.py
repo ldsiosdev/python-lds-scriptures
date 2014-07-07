@@ -47,7 +47,10 @@ def format(ref_or_refs, lang='eng', include_book=True, book_format=FORMAT_LONG, 
                     response = book if include_book else ''
                     if response:
                         response += ' '
-                    response += str(ref.chapter)
+                    if type(ref.chapter) is tuple:
+                        response += u'{}\u2013{}'.format(ref.chapter[0], ref.chapter[1])
+                    else:
+                        response += str(ref.chapter)
                     if ref.verse_ranges:
                         response += ':' + ', '.join(str(x[0]) if x[0] == x[1] else u'{}\u2013{}'.format(x[0], x[1]) for x in ref.verse_ranges) if ref.verse_ranges else None
 
@@ -115,7 +118,7 @@ class ScriptureRef:
         ^/scriptures
         /([^/]+)                      # testament
         /?([^/]+)?                    # book (optional)
-        (?:/(\d+)                     # chapter
+        (?:/(\d+(-(\d+))?)            # chapter with optional range
             (?:\.(
                 \d+(?:-\d+)?          # verse or verse range
                 (?:,\d+(?:-\d+)?)*    # zero or more discontiguous verses and/or verse ranges
@@ -133,14 +136,20 @@ class ScriptureRef:
                 book = match.group(2)
 
                 if match.group(3):
-                    chapter = int(match.group(3))
+                    chapter_range_parts = match.group(3).split('-')
+                    if len(chapter_range_parts) == 1:
+                        chapter = int(chapter_range_parts[0])
+                    else:
+                        chapter = (int(chapter_range_parts[0]), int(chapter_range_parts[1]))
+                        if chapter[0] == chapter[1]:
+                            raise ValueError('range in chapter_ranges is invalid')
 
-                    if match.group(4):
+                    if match.group(6):
                         # Verse ranges (including those consisting of a single verse) are stored as a list of pairs
                         verse_ranges = []
 
                         previous_stop = 0
-                        for verse_range in match.group(4).split(','):
+                        for verse_range in match.group(6).split(','):
                             verse_range_parts = verse_range.split('-')
                             if len(verse_range_parts) == 1:
                                 start = int(verse_range_parts[0])
@@ -194,14 +203,23 @@ class ScriptureRef:
             self.verse_ranges = None
 
             if chapter is not None:
-                # Get the chapter
                 self.chapter = chapter
-                if self.chapter <= 0:
-                    raise ValueError('chapter is not valid for book')
-                try:
-                    chapter_structure = book_structure['chapters'][self.chapter - 1]
-                except:
-                    raise ValueError('chapter is not valid for book')
+                if type(self.chapter) is tuple:
+                    start = self.chapter[0]
+                    stop = self.chapter[1]
+                    if stop < start:
+                        raise ValueError('range in chapter_ranges is invalid')
+                    if stop > book_structure['chapters']:
+                        raise ValueError('range in chapter_ranges is not valid for chapter')
+                else:
+                    # Single chapter
+                    # Get the chapter
+                    if self.chapter <= 0:
+                        raise ValueError('chapter is not valid for book')
+                    try:
+                        chapter_structure = book_structure['chapters'][self.chapter - 1]
+                    except:
+                        raise ValueError('chapter is not valid for book')
 
                 if verse_ranges:
                     self.verse_ranges = verse_ranges
@@ -245,7 +263,10 @@ class ScriptureRef:
             if self.book:
                 uri += '/' + self.book
                 if self.chapter:
-                    uri += '/' + str(self.chapter)
+                    if type(self.chapter) is tuple:
+                        uri += '/{}-{}'.format(self.chapter[0], self.chapter[1])
+                    else:
+                        uri += '/' + str(self.chapter)
                     if self.verse_ranges:
                         uri += '.' + ','.join(str(x[0]) if x[0] == x[1] else '{}-{}'.format(x[0], x[1]) for x in self.verse_ranges) if self.verse_ranges else None
                     if self.parens:

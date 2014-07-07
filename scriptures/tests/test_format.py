@@ -76,6 +76,7 @@ class TestFormat(unittest.TestCase):
         self.assertEqual(format([ref('/scriptures/ot/gen/39.1'), ref('/scriptures/ot/ex/10.1-5')]), u'Genesis 39:1; Exodus 10:1–5')
         self.assertEqual(format([ref('/scriptures/ot/gen/39'), ref('/scriptures/ot/ex/40.3-5')]), u'Genesis 39; Exodus 40:3–5')
         self.assertEqual(format([ref('/scriptures/ot/gen/39'), ref('/scriptures/ot/ex/21'), ref('/scriptures/ot/ex/22')]), u'Genesis 39; Exodus 21–22')
+        self.assertEqual(format([ref('/scriptures/ot/gen/39'), ref('/scriptures/ot/ex/21-22')]), u'Genesis 39; Exodus 21–22')
 
     def test_short_format(self):
         self.assertEqual(format([
@@ -108,3 +109,6 @@ class TestFormat(unittest.TestCase):
 
     def test_parentheticals(self):
         self.assertEqual(format(ref('/scriptures/dc-testament/dc/76.56-57,60(50-70)')), u'Doctrine and Covenants 76:56–57, 60 (50–70)')
+
+    def test_chapter_ranges(self):
+        self.assertEqual(format(ref('/scriptures/bofm/alma/56-57')), u'Alma 56–57')
