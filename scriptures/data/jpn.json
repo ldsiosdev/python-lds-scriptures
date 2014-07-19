@@ -1,0 +1,392 @@
+{
+    "testaments": {
+        "bofm": {
+            "books": {
+                "1-ne": {
+                    "shortTitle": "1\u30cb\u30d5",
+                    "title": "\u30cb\u30fc\u30d5\u30a1\u30a4\u7b2c\u4e00\u66f8"
+                },
+                "2-ne": {
+                    "shortTitle": "2\u30cb\u30d5",
+                    "title": "\u30cb\u30fc\u30d5\u30a1\u30a4\u7b2c\u4e8c\u66f8"
+                },
+                "3-ne": {
+                    "shortTitle": "2\u30cb\u30d5",
+                    "title": "\u7b2c\u4e09\u30cb\u30fc\u30d5\u30a1\u30a4"
+                },
+                "4-ne": {
+                    "shortTitle": "4\u30cb\u30d5",
+                    "title": "\u7b2c\u56db\u30cb\u30fc\u30d5\u30a1\u30a4"
+                },
+                "alma": {
+                    "shortTitle": "\u30a2\u30eb",
+                    "title": "\u30a2\u30eb\u30de\u66f8"
+                },
+                "enos": {
+                    "shortTitle": "\u30a8\u30ce",
+                    "title": "\u30a8\u30ce\u30b9\u66f8"
+                },
+                "ether": {
+                    "shortTitle": "\u30a8\u30c6",
+                    "title": "\u30a8\u30c6\u30eb\u66f8"
+                },
+                "hel": {
+                    "shortTitle": "\u30d2\u30e9",
+                    "title": "\u30d2\u30e9\u30de\u30f3\u66f8"
+                },
+                "jacob": {
+                    "shortTitle": "\u30e4\u30b3",
+                    "title": "\u30e4\u30b3\u30d6\u66f8\u200b"
+                },
+                "jarom": {
+                    "shortTitle": "\u30b8\u30a7\u30ed",
+                    "title": "\u30b8\u30a7\u30ed\u30e0\u66f8"
+                },
+                "morm": {
+                    "shortTitle": "\u30e2\u30eb",
+                    "title": "\u30e2\u30eb\u30e2\u30f3\u66f8"
+                },
+                "moro": {
+                    "shortTitle": "\u30e2\u30ed",
+                    "title": "\u30e2\u30ed\u30ca\u30a4\u66f8"
+                },
+                "mosiah": {
+                    "shortTitle": "\u30e2\u30b5",
+                    "title": "\u30e2\u30fc\u30b5\u30e4\u66f8"
+                },
+                "omni": {
+                    "shortTitle": "\u30aa\u30e0",
+                    "title": "\u30aa\u30e0\u30ca\u30a4\u66f8"
+                },
+                "w-of-m": {
+                    "shortTitle": "\u30e2\u30eb\u8a00",
+                    "title": "\u30e2\u30eb\u30e2\u30f3\u306e\u8a00\u8449"
+                }
+            },
+            "title": "\u30e2\u30eb\u30e2\u30f3\u66f8"
+        },
+        "dc-testament": {
+            "books": {
+                "dc": {
+                    "shortTitle": "\u6559\u8056",
+                    "title": "\u6559\u7fa9\u3068\u8056\u7d04\u200b"
+                },
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "\u516c\u5ba3\uff11",
+                            "title": "\u516c\u5f0f\u306e\u5ba3\u8a00\uff11"
+                        },
+                        "2": {
+                            "shortTitle": "\u516c\u5ba3\uff12",
+                            "title": "\u516c\u5f0f\u306e\u5ba3\u8a00\uff12"
+                        }
+                    },
+                    "shortTitle": "\u516c\u5ba3",
+                    "title": "\u516c\u5f0f\u306e\u5ba3\u8a00"
+                }
+            },
+            "title": "\u6559\u7fa9\u3068\u8056\u7d04"
+        },
+        "nt": {
+            "books": {
+                "1-cor": {
+                    "shortTitle": "\u4e00\u30b3\u30ea",
+                    "title": "\u30b3\u30ea\u30f3\u30c8\u306e\u4fe1\u5f92\u3078\u306e\u624b\u7d19\u4e00"
+                },
+                "1-jn": {
+                    "shortTitle": "\u4e00\u30e8\u30cf",
+                    "title": "\u30e8\u30cf\u30cd\u306e\u624b\u7d19\u4e00"
+                },
+                "1-pet": {
+                    "shortTitle": "\u4e00\u30da\u30c8",
+                    "title": "\u30da\u30c8\u30ed\u306e\u624b\u7d19\u4e00"
+                },
+                "1-thes": {
+                    "shortTitle": "\u4e00\u30c6\u30b5",
+                    "title": "\u30c6\u30b5\u30ed\u30cb\u30b1\u306e\u4fe1\u5f92\u3078\u306e\u624b\u7d19\u4e00"
+                },
+                "1-tim": {
+                    "shortTitle": "\u4e00\u30c6\u30e2",
+                    "title": "\u30c6\u30e2\u30c6\u3078\u306e\u624b\u7d19\u4e00"
+                },
+                "2-cor": {
+                    "shortTitle": "\u4e8c\u30b3\u30ea",
+                    "title": "\u30b3\u30ea\u30f3\u30c8\u306e\u4fe1\u5f92\u3078\u306e\u624b\u7d19\u4e8c"
+                },
+                "2-jn": {
+                    "shortTitle": "\u4e8c\u30e8\u30cf",
+                    "title": "\u30e8\u30cf\u30cd\u306e\u624b\u7d19\u4e8c"
+                },
+                "2-pet": {
+                    "shortTitle": "\u4e8c\u30da\u30c8",
+                    "title": "\u30da\u30c8\u30ed\u306e\u624b\u7d19\u4e8c"
+                },
+                "2-thes": {
+                    "shortTitle": "\u4e8c\u30c6\u30b5",
+                    "title": "\u30c6\u30b5\u30ed\u30cb\u30b1\u306e\u4fe1\u5f92\u3078\u306e\u624b\u7d19\u4e8c"
+                },
+                "2-tim": {
+                    "shortTitle": "\u4e8c\u30c6\u30e2",
+                    "title": "\u30c6\u30e2\u30c6\u3078\u306e\u624b\u7d19\u4e8c"
+                },
+                "3-jn": {
+                    "shortTitle": "\u4e09\u30e8\u30cf",
+                    "title": "\u30e8\u30cf\u30cd\u306e\u624b\u7d19\u4e09"
+                },
+                "acts": {
+                    "shortTitle": "\u4f7f",
+                    "title": "\u4f7f\u5f92\u8a00\u884c\u9332"
+                },
+                "col": {
+                    "shortTitle": "\u30b3\u30ed",
+                    "title": "\u30b3\u30ed\u30b5\u30a4\u306e\u4fe1\u5f92\u3078\u306e\u624b\u7d19"
+                },
+                "eph": {
+                    "shortTitle": "\u30a8\u30d5\u30a7",
+                    "title": "\u30a8\u30d5\u30a7\u30bd\u306e\u4fe1\u5f92\u3078\u306e\u624b\u7d19"
+                },
+                "gal": {
+                    "shortTitle": "\u30ac\u30e9",
+                    "title": "\u30ac\u30e9\u30c6\u30e4\u306e\u4fe1\u5f92\u3078\u306e\u624b\u7d19"
+                },
+                "heb": {
+                    "shortTitle": "\u30d8\u30d6",
+                    "title": "\u30d8\u30d6\u30e9\u30a4\u4eba\u3078\u306e\u624b\u7d19"
+                },
+                "james": {
+                    "shortTitle": "\u30e4\u30b3",
+                    "title": "\u30e4\u30b3\u30d6\u306e\u624b\u7d19"
+                },
+                "john": {
+                    "shortTitle": "\u30e8\u30cf",
+                    "title": "\u30e8\u30cf\u30cd\u306b\u3088\u308b\u798f\u97f3\u66f8"
+                },
+                "jude": {
+                    "shortTitle": "\u30e6\u30c0",
+                    "title": "\u30e6\u30c0\u306e\u624b\u7d19"
+                },
+                "luke": {
+                    "shortTitle": "\u30eb\u30ab",
+                    "title": "\u30eb\u30ab\u306b\u3088\u308b\u798f\u97f3\u66f8"
+                },
+                "mark": {
+                    "shortTitle": "\u30de\u30b3",
+                    "title": "\u30de\u30eb\u30b3\u306b\u3088\u308b\u798f\u97f3\u66f8"
+                },
+                "matt": {
+                    "shortTitle": "\u30de\u30bf",
+                    "title": "\u30de\u30bf\u30a4\u306b\u3088\u308b\u798f\u97f3\u66f8"
+                },
+                "philem": {
+                    "shortTitle": "\u30d5\u30a3\u30ec",
+                    "title": "\u30d5\u30a3\u30ec\u30e2\u30f3\u3078\u306e\u624b\u7d19"
+                },
+                "philip": {
+                    "shortTitle": "\u30d5\u30a3\u30ea",
+                    "title": "\u30d5\u30a3\u30ea\u30d4\u306e\u4fe1\u5f92\u3078\u306e\u624b\u7d19"
+                },
+                "rev": {
+                    "shortTitle": "\u9ed9",
+                    "title": "\u30e8\u30cf\u30cd\u306e\u9ed9\u793a\u9332"
+                },
+                "rom": {
+                    "shortTitle": "\u30ed\u30de",
+                    "title": "\u30ed\u30fc\u30de\u306e\u4fe1\u5f92\u3078\u306e\u624b\u7d19"
+                },
+                "titus": {
+                    "shortTitle": "\u30c6\u30c8",
+                    "title": "\u30c6\u30c8\u30b9\u3078\u306e\u624b\u7d19"
+                }
+            },
+            "shortTitle": ""
+        },
+        "ot": {
+            "books": {
+                "1-chr": {
+                    "shortTitle": "\u4ee3\u4e0a",
+                    "title": "\u6b74\u4ee3\u8a8c\u4e0a"
+                },
+                "1-kgs": {
+                    "shortTitle": "\u738b\u4e0a",
+                    "title": "\u5217\u738b\u8a18\u4e0a"
+                },
+                "1-sam": {
+                    "shortTitle": "\u30b5\u30e0\u4e0a",
+                    "title": "\u30b5\u30e0\u30a8\u30eb\u8a18\u4e0a"
+                },
+                "2-chr": {
+                    "shortTitle": "\u4ee3\u4e0b",
+                    "title": "\u6b74\u4ee3\u8a8c\u4e0b"
+                },
+                "2-kgs": {
+                    "shortTitle": "\u738b\u4e0b",
+                    "title": "\u5217\u738b\u8a18\u4e0b"
+                },
+                "2-sam": {
+                    "shortTitle": "\u30b5\u30e0\u4e0b",
+                    "title": "\u30b5\u30e0\u30a8\u30eb\u8a18\u4e0b"
+                },
+                "amos": {
+                    "shortTitle": "\u30a2\u30e2",
+                    "title": "\u30a2\u30e2\u30b9\u66f8"
+                },
+                "dan": {
+                    "shortTitle": "\u30c0\u30cb",
+                    "title": "\u30c0\u30cb\u30a8\u30eb\u66f8"
+                },
+                "deut": {
+                    "shortTitle": "\u7533",
+                    "title": "\u7533\u547d\u8a18"
+                },
+                "eccl": {
+                    "shortTitle": "\u30b3\u30d8",
+                    "title": "\u30b3\u30d8\u30ec\u30c8\u306e\u8a00\u8449"
+                },
+                "esth": {
+                    "shortTitle": "\u30a8\u30b9",
+                    "title": "\u30a8\u30b9\u30c6\u30eb\u8a18"
+                },
+                "ex": {
+                    "shortTitle": "\u51fa",
+                    "title": "\u51fa\u30a8\u30b8\u30d7\u30c8\u8a18"
+                },
+                "ezek": {
+                    "shortTitle": "\u30a8\u30bc",
+                    "title": "\u30a8\u30bc\u30ad\u30a8\u30eb\u66f8"
+                },
+                "ezra": {
+                    "shortTitle": "\u30a8\u30ba",
+                    "title": "\u30a8\u30ba\u30e9\u8a18"
+                },
+                "gen": {
+                    "shortTitle": "\u5275",
+                    "title": "\u5275\u4e16\u8a18"
+                },
+                "hab": {
+                    "shortTitle": "\u30cf\u30d0",
+                    "title": "\u30cf\u30d0\u30af\u30af\u66f8"
+                },
+                "hag": {
+                    "shortTitle": "\u30cf\u30ac",
+                    "title": "\u30cf\u30ac\u30a4\u66f8"
+                },
+                "hosea": {
+                    "shortTitle": "\u30db\u30bb",
+                    "title": "\u30db\u30bb\u30a2\u66f8"
+                },
+                "isa": {
+                    "shortTitle": "\u30a4\u30b6",
+                    "title": "\u30a4\u30b6\u30e4\u66f8"
+                },
+                "jer": {
+                    "shortTitle": "\u30a8\u30ec",
+                    "title": "\u30a8\u30ec\u30df\u30e4\u66f8"
+                },
+                "job": {
+                    "shortTitle": "\u30e8\u30d6",
+                    "title": "\u30e8\u30d6\u8a18"
+                },
+                "joel": {
+                    "shortTitle": "\u30e8\u30a8",
+                    "title": "\u30e8\u30a8\u30eb\u66f8"
+                },
+                "jonah": {
+                    "shortTitle": "\u30e8\u30ca",
+                    "title": "\u30e8\u30ca\u66f8"
+                },
+                "josh": {
+                    "shortTitle": "\u30e8\u30b7\u30e5",
+                    "title": "\u30e8\u30b7\u30e5\u30a2\u8a18"
+                },
+                "judg": {
+                    "shortTitle": "\u58eb",
+                    "title": "\u58eb\u5e2b\u8a18"
+                },
+                "lam": {
+                    "shortTitle": "\u54c0",
+                    "title": "\u54c0\u6b4c"
+                },
+                "lev": {
+                    "shortTitle": "\u30ec\u30d3",
+                    "title": "\u30ec\u30d3\u8a18"
+                },
+                "mal": {
+                    "shortTitle": "\u30de\u30e9",
+                    "title": "\u30de\u30e9\u30ad\u66f8"
+                },
+                "micah": {
+                    "shortTitle": "\u30df\u30ab",
+                    "title": "\u30df\u30ab\u66f8"
+                },
+                "nahum": {
+                    "shortTitle": "\u30ca\u30db",
+                    "title": "\u30ca\u30db\u30e0\u66f8"
+                },
+                "neh": {
+                    "shortTitle": "\u30cd\u30d8",
+                    "title": "\u30cd\u30d8\u30df\u30e4\u8a18"
+                },
+                "num": {
+                    "shortTitle": "\u6c11",
+                    "title": "\u6c11\u6570\u8a18"
+                },
+                "obad": {
+                    "shortTitle": "\u30aa\u30d0",
+                    "title": "\u30aa\u30d0\u30c7\u30e4\u66f8"
+                },
+                "prov": {
+                    "shortTitle": "\u7bb4",
+                    "title": "\u7bb4\u8a00"
+                },
+                "ps": {
+                    "shortTitle": "\u8a69",
+                    "singularShortTitle": "\u8a69",
+                    "singularTitle": "\u8a69\u7de8",
+                    "title": "\u8a69\u7bc7"
+                },
+                "ruth": {
+                    "shortTitle": "\u30eb\u30c4",
+                    "title": "\u30eb\u30c4\u8a18"
+                },
+                "song": {
+                    "shortTitle": "\u96c5",
+                    "title": "\u96c5\u6b4c"
+                },
+                "zech": {
+                    "shortTitle": "\u30bc\u30ab",
+                    "title": "\u30bc\u30ab\u30ea\u30e4\u66f8"
+                },
+                "zeph": {
+                    "shortTitle": "\u30bc\u30d5\u30a1",
+                    "title": "\u30bc\u30d5\u30a1\u30cb\u30e4\u66f8"
+                }
+            }
+        },
+        "pgp": {
+            "books": {
+                "a-of-f": {
+                    "shortTitle": "\u4fe1\u7b87",
+                    "title": "\u4fe1\u4ef0\u7b87\u6761"
+                },
+                "abr": {
+                    "shortTitle": "\u30a2\u30d6",
+                    "title": "\u30a2\u30d6\u30e9\u30cf\u30e0\u66f8\u200b"
+                },
+                "js-h": {
+                    "shortTitle": "JS\u6b74",
+                    "title": "\u30b8\u30e7\u30bb\u30d5\u30fb\u200b\u30b9\u30df\u30b9\u2015\u6b74\u53f2"
+                },
+                "js-m": {
+                    "shortTitle": "JS\u30de\u30bf",
+                    "title": "\u30b8\u30e7\u30bb\u30d5\u30fb\u200b\u30b9\u30df\u30b9\u2015\u30de\u30bf\u30a4"
+                },
+                "moses": {
+                    "shortTitle": "\u30e2\u30bb",
+                    "title": "\u30e2\u30fc\u30bb\u66f8"
+                }
+            },
+            "title": "\u9ad8\u4fa1\u306a\u771f\u73e0"
+        }
+    }
+}
