@@ -4,59 +4,59 @@
             "books": {
                 "1-ne": {
                     "shortTitle": "1. Nef.",
-                    "title": "Nefija Pirma\u0304 gra\u0304mata"
+                    "title": "1. Nefija"
                 },
                 "2-ne": {
                     "shortTitle": "2. Nef.",
-                    "title": "Nefija Otra\u0304 gra\u0304mata"
+                    "title": "2. Nefija"
                 },
                 "3-ne": {
                     "shortTitle": "3. Nef.",
-                    "title": "Tre\u0161ais Nefijs"
+                    "title": "3. Nefijs"
                 },
                 "4-ne": {
                     "shortTitle": "4. Nef.",
-                    "title": "Ceturtais Nefijs"
+                    "title": "4. Nefijs"
                 },
                 "alma": {
                     "shortTitle": "Al.",
-                    "title": "Almas gra\u0304mata"
+                    "title": "Almas"
                 },
                 "enos": {
                     "shortTitle": "E\u0304n.",
-                    "title": "E\u0304nosa gra\u0304mata"
+                    "title": "E\u0304nosa"
                 },
                 "ether": {
                     "shortTitle": "Et.",
-                    "title": "Etera gra\u0304mata"
+                    "title": "Etera"
                 },
                 "hel": {
                     "shortTitle": "Hel.",
-                    "title": "Helamana gra\u0304mata"
+                    "title": "Helamana"
                 },
                 "jacob": {
                     "shortTitle": "Je\u0304k.",
-                    "title": "Je\u0304kaba gra\u0304mata"
+                    "title": "Je\u0304kaba"
                 },
                 "jarom": {
                     "shortTitle": "Jar.",
-                    "title": "Jaroma gra\u0304mata"
+                    "title": "Jaroma"
                 },
                 "morm": {
                     "shortTitle": "Morm.",
-                    "title": "Mormona gra\u0304mata"
+                    "title": "Mormona"
                 },
                 "moro": {
                     "shortTitle": "Mor.",
-                    "title": "Moronija gra\u0304mata"
+                    "title": "Moronija"
                 },
                 "mosiah": {
                     "shortTitle": "Mos.",
-                    "title": "Mosijas gra\u0304mata"
+                    "title": "Mosijas"
                 },
                 "omni": {
                     "shortTitle": "Omn.",
-                    "title": "Omnija gra\u0304mata"
+                    "title": "Omnija"
                 },
                 "w-of-m": {
                     "shortTitle": "M. v.",
@@ -81,7 +81,9 @@
                             "shortTitle": "OD\u20142",
                             "title": "Oficia\u0304la\u0304 Deklara\u0304cija\u20142"
                         }
-                    }
+                    },
+                    "shortTitle": "OD",
+                    "title": "Oficia\u0304laie Deklara\u0304cijas"
                 }
             },
             "title": "Ma\u0304ci\u0304ba un Deri\u0304bas"
@@ -90,47 +92,47 @@
             "books": {
                 "1-cor": {
                     "shortTitle": "1. kor.",
-                    "title": "Pa\u0304vila 1. ve\u0304stule korintie\u0161iem"
+                    "title": "1. korintie\u0161iem"
                 },
                 "1-jn": {
                     "shortTitle": "1. Ja\u0304\u0146a v.",
-                    "title": "Ja\u0304\u0146a 1. ve\u0304stule"
+                    "title": "1, Ja\u0304\u0146a v."
                 },
                 "1-pet": {
                     "shortTitle": "1. Pe\u0304t. v.",
-                    "title": "Pe\u0304tera 1. ve\u0304stule"
+                    "title": "1. Pe\u0304tera"
                 },
                 "1-thes": {
                     "shortTitle": "1. tes.",
-                    "title": "Pa\u0304vila 1. ve\u0304stule tesaloni\u0137ie\u0161iem"
+                    "title": "1. tesaloni\u0137ie\u0161iem"
                 },
                 "1-tim": {
                     "shortTitle": "1. Tim.",
-                    "title": "Pa\u0304vila 1. ve\u0304stule Timotejam"
+                    "title": "1. Timotejam"
                 },
                 "2-cor": {
                     "shortTitle": "2. kor.",
-                    "title": "Pa\u0304vila 2. ve\u0304stule korintie\u0161iem"
+                    "title": "2. korintie\u0161iem"
                 },
                 "2-jn": {
                     "shortTitle": "2. Ja\u0304\u0146a v.",
-                    "title": "Ja\u0304\u0146a 2. ve\u0304stule"
+                    "title": "2. Ja\u0304\u0146a v."
                 },
                 "2-pet": {
                     "shortTitle": "2. Pe\u0304t. v.",
-                    "title": "Pe\u0304tera 2. ve\u0304stule"
+                    "title": "2. Pe\u0304tera"
                 },
                 "2-thes": {
                     "shortTitle": "2. tes.",
-                    "title": "Pa\u0304vila 2. ve\u0304stule tesaloni\u0137ie\u0161iem"
+                    "title": "2. tesaloni\u0137ie\u0161iem"
                 },
                 "2-tim": {
                     "shortTitle": "2. Tim.",
-                    "title": "Pa\u0304vila 2. ve\u0304stule Timotejam"
+                    "title": "2. Timotejam"
                 },
                 "3-jn": {
                     "shortTitle": "3. Ja\u0304\u0146a v.",
-                    "title": "Ja\u0304\u0146a 3. ve\u0304stule"
+                    "title": "3. Ja\u0304\u0146a v."
                 },
                 "acts": {
                     "shortTitle": "Ap. d.",
@@ -138,63 +140,63 @@
                 },
                 "col": {
                     "shortTitle": "Kol.",
-                    "title": "Pa\u0304vila ve\u0304stule kolosie\u0161iem"
+                    "title": "Kolosie\u0161iem"
                 },
                 "eph": {
                     "shortTitle": "Ef.",
-                    "title": "Pa\u0304vila ve\u0304stule efezie\u0161iem"
+                    "title": "Efezie\u0161iem"
                 },
                 "gal": {
                     "shortTitle": "Gal.",
-                    "title": "Pa\u0304vila ve\u0304stule galatie\u0161iem"
+                    "title": "Galatie\u0161iem"
                 },
                 "heb": {
                     "shortTitle": "Ebr.",
-                    "title": "Ve\u0304stule ebrejiem"
+                    "title": "Ebrejiem"
                 },
                 "james": {
                     "shortTitle": "Je\u0304k. v.",
-                    "title": "Je\u0304kaba ve\u0304stule"
+                    "title": "Je\u0304kaba v."
                 },
                 "john": {
                     "shortTitle": "Ja\u0304\u0146a",
-                    "title": "Ja\u0304\u0146a eva\u0146\u0123e\u0304lijs"
+                    "title": "Ja\u0304\u0146a"
                 },
                 "jude": {
                     "shortTitle": "Ju\u0304d. v.",
-                    "title": "Ju\u0304das ve\u0304stule"
+                    "title": "Ju\u0304das v."
                 },
                 "luke": {
                     "shortTitle": "Lu\u0304k.",
-                    "title": "Lu\u0304kas eva\u0146\u0123e\u0304lijs"
+                    "title": "Lu\u0304kas"
                 },
                 "mark": {
                     "shortTitle": "Marka",
-                    "title": "Marka eva\u0146\u0123e\u0304lijs"
+                    "title": "Marka"
                 },
                 "matt": {
                     "shortTitle": "Mat.",
-                    "title": "Mateja eva\u0146\u0123e\u0304lijs"
+                    "title": "Mateja"
                 },
                 "philem": {
                     "shortTitle": "Filem.",
-                    "title": "Pa\u0304vila ve\u0304stule Filemonam"
+                    "title": "Filemonam"
                 },
                 "philip": {
                     "shortTitle": "Fil.",
-                    "title": "Pa\u0304vila ve\u0304stule filipie\u0161iem"
+                    "title": "Filipie\u0161iem"
                 },
                 "rev": {
                     "shortTitle": "Ja\u0304\u0146a atkl.",
-                    "title": "Ja\u0304\u0146a atkla\u0304smes gra\u0304mata"
+                    "title": "Ja\u0304\u0146a atkla\u0304smes gra,"
                 },
                 "rom": {
                     "shortTitle": "Rom.",
-                    "title": "Pa\u0304vila ve\u0304stule romie\u0161iem"
+                    "title": "Romie\u0161iem"
                 },
                 "titus": {
                     "shortTitle": "Tit.",
-                    "title": "Pa\u0304vila ve\u0304stule Titam"
+                    "title": "Titam"
                 }
             },
             "title": "Jauna\u0304 Deri\u0304ba"
@@ -203,39 +205,39 @@
             "books": {
                 "1-chr": {
                     "shortTitle": "1. Laiku",
-                    "title": "Pirma\u0304 Laiku gra\u0304mata"
+                    "title": "1. Laiku"
                 },
                 "1-kgs": {
-                    "shortTitle": "1\u00a0\u0136e\u0304n.",
-                    "title": "Pirma\u0304 \u0136e\u0304ni\u0146u gra\u0304mata"
+                    "shortTitle": "1. \u0136e\u0304n.",
+                    "title": "1.\u0136e\u0304ni\u0146u"
                 },
                 "1-sam": {
-                    "shortTitle": "1\u00a0Sam.",
-                    "title": "Pirma\u0304 Samue\u0304la gra\u0304mata"
+                    "shortTitle": "1. Sam.",
+                    "title": "1. Samue\u0304la"
                 },
                 "2-chr": {
                     "shortTitle": "2. Laiku",
-                    "title": "Otra\u0304 Laiku gra\u0304mata"
+                    "title": "2. Laiku"
                 },
                 "2-kgs": {
-                    "shortTitle": "2\u00a0\u0136e\u0304n.",
-                    "title": "Otra\u0304 \u0136e\u0304ni\u0146u gra\u0304mata"
+                    "shortTitle": "2. \u0136e\u0304n.",
+                    "title": "2. \u0136e\u0304ni\u0146u"
                 },
                 "2-sam": {
-                    "shortTitle": "2\u00a0Sam.",
-                    "title": "Otra\u0304 Samue\u0304la gra\u0304mata"
+                    "shortTitle": "2. Sam.",
+                    "title": "2. Samue\u0304la"
                 },
                 "amos": {
                     "shortTitle": "Am.",
-                    "title": "Amosa gra\u0304mata"
+                    "title": "Amosa"
                 },
                 "dan": {
                     "shortTitle": "Dan.",
-                    "title": "Danie\u0304la gra\u0304mata"
+                    "title": "Danie\u0304la"
                 },
                 "deut": {
                     "shortTitle": "5. Moz.",
-                    "title": "Piekta\u0304 Mozus gra\u0304mata"
+                    "title": "5. Mozus"
                 },
                 "eccl": {
                     "shortTitle": "Sal. Ma\u0304c.",
@@ -243,63 +245,63 @@
                 },
                 "esth": {
                     "shortTitle": "Est.",
-                    "title": "Esteres gra\u0304mata"
+                    "title": "Esteres"
                 },
                 "ex": {
                     "shortTitle": "2. Moz.",
-                    "title": "Otra\u0304 Mozus gra\u0304mata"
+                    "title": "2. Mozus"
                 },
                 "ezek": {
                     "shortTitle": "Ec.",
-                    "title": "Ece\u0304hie\u0304la gra\u0304mata"
+                    "title": "Ece\u0304hie\u0304la"
                 },
                 "ezra": {
                     "shortTitle": "Ezr.",
-                    "title": "Ezras gra\u0304mata"
+                    "title": "Ezras"
                 },
                 "gen": {
                     "shortTitle": "1. Moz.",
-                    "title": "Pirma\u0304 Mozus gra\u0304mata"
+                    "title": "1. Mozus"
                 },
                 "hab": {
                     "shortTitle": "Hab.",
-                    "title": "Habakuka gra\u0304mata"
+                    "title": "Habakuka"
                 },
                 "hag": {
                     "shortTitle": "Hag.",
-                    "title": "Hagaja gra\u0304mata"
+                    "title": "Hagaja"
                 },
                 "hosea": {
                     "shortTitle": "Hoz.",
-                    "title": "Hozejas gra\u0304mata"
+                    "title": "Hozejas"
                 },
                 "isa": {
                     "shortTitle": "Jes.",
-                    "title": "Jesajas gra\u0304mata"
+                    "title": "Jesajas"
                 },
                 "jer": {
                     "shortTitle": "Jer.",
-                    "title": "Jeremijas gra\u0304mata"
+                    "title": "Jeremijas"
                 },
                 "job": {
                     "shortTitle": "I\u0304j.",
-                    "title": "I\u0304jaba gra\u0304mata"
+                    "title": "I\u0304jaba"
                 },
                 "joel": {
                     "shortTitle": "Joe\u0304la",
-                    "title": "Joe\u0304la gra\u0304mata"
+                    "title": "Joe\u0304la"
                 },
                 "jonah": {
                     "shortTitle": "Jon.",
-                    "title": "Jonas gra\u0304mata"
+                    "title": "Jonas"
                 },
                 "josh": {
                     "shortTitle": "Joz.",
-                    "title": "Jozuas gra\u0304mata"
+                    "title": "Jozuas"
                 },
                 "judg": {
                     "shortTitle": "So\u0123u",
-                    "title": "So\u0123u gra\u0304mata"
+                    "title": "So\u0123u"
                 },
                 "lam": {
                     "shortTitle": "Raudu Dz.",
@@ -307,31 +309,31 @@
                 },
                 "lev": {
                     "shortTitle": "3. Moz.",
-                    "title": "Tre\u0161a\u0304 Mozus gra\u0304mata"
+                    "title": "3. Mozus"
                 },
                 "mal": {
                     "shortTitle": "Mal.",
-                    "title": "Maleahija gra\u0304mata"
+                    "title": "Maleahija"
                 },
                 "micah": {
                     "shortTitle": "Mih.",
-                    "title": "Mihas gra\u0304mata"
+                    "title": "Mihas"
                 },
                 "nahum": {
                     "shortTitle": "Nah.",
-                    "title": "Nahuma gra\u0304mata"
+                    "title": "Nahuma"
                 },
                 "neh": {
                     "shortTitle": "Neh.",
-                    "title": "Nehemijas gra\u0304mata"
+                    "title": "Nehemijas"
                 },
                 "num": {
                     "shortTitle": "4. Moz.",
-                    "title": "Ceturta\u0304 Mozus gra\u0304mata"
+                    "title": "4. Mozus"
                 },
                 "obad": {
                     "shortTitle": "Ob.",
-                    "title": "Obadjas gra\u0304mata"
+                    "title": "Obadjas"
                 },
                 "prov": {
                     "shortTitle": "Sal. Pam.",
@@ -339,13 +341,13 @@
                 },
                 "ps": {
                     "shortTitle": "Psm.",
-                    "singularShortTitle": "Psm.",
+                    "singularShortTitle": "Ps.",
                     "singularTitle": "Psalmi",
                     "title": "Psalmi"
                 },
                 "ruth": {
                     "shortTitle": "Rut.",
-                    "title": "Rutes gra\u0304mata"
+                    "title": "Rutes"
                 },
                 "song": {
                     "shortTitle": "Augsta\u0304 Dz.",
@@ -353,11 +355,11 @@
                 },
                 "zech": {
                     "shortTitle": "Cak.",
-                    "title": "Cakarijas gra\u0304mata"
+                    "title": "Cakarijas"
                 },
                 "zeph": {
                     "shortTitle": "Cef.",
-                    "title": "Cefanjas gra\u0304mata"
+                    "title": "Cefanjas"
                 }
             },
             "title": "Veca\u0304 Deri\u0304ba"
@@ -370,7 +372,7 @@
                 },
                 "abr": {
                     "shortTitle": "A\u0304br.",
-                    "title": "A\u0304braha\u0304ma gra\u0304mata"
+                    "title": "A\u0304braha\u0304ma"
                 },
                 "js-h": {
                     "shortTitle": "D\u017eS\u2014V",
@@ -382,7 +384,7 @@
                 },
                 "moses": {
                     "shortTitle": "Moz.",
-                    "title": "Mozus gra\u0304mata"
+                    "title": "Mozus gr."
                 }
             },
             "title": "Da\u0304rga\u0304 Pe\u0304rle"
