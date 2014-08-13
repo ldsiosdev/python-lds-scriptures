@@ -81,7 +81,9 @@
                             "shortTitle": "VJ 2",
                             "title": "Virallinen julistus 2"
                         }
-                    }
+                    },
+                    "shortTitle": "VJ",
+                    "title": "Virallinen julistukset"
                 }
             },
             "title": "Oppi ja liitot"
