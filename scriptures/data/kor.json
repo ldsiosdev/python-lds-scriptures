@@ -74,14 +74,16 @@
                 "od": {
                     "chapters": {
                         "1": {
-                            "shortTitle": "\uc120",
-                            "title": "\uacf5\uc2dd\uc120\uc5b8"
+                            "shortTitle": "\uc1201",
+                            "title": "\uacf5\uc2dd\uc120\uc5b8\uff0d1"
                         },
                         "2": {
-                            "shortTitle": "\uc120",
-                            "title": "\uacf5\uc2dd\uc120\uc5b8"
+                            "shortTitle": "\uc1202",
+                            "title": "\uacf5\uc2dd\uc120\uc5b8\uff0d2"
                         }
-                    }
+                    },
+                    "shortTitle": "\uc120",
+                    "title": "\uacf5\uc2dd\uc120\uc5b8"
                 }
             },
             "title": "\uad50\ub9ac\uc640 \uc131\uc57d"
@@ -374,11 +376,11 @@
                 },
                 "js-h": {
                     "shortTitle": "\uc870\uc5ed",
-                    "title": "\uc870\uc149 \uc2a4\ubbf8\uc2a4-\uc5ed\uc0ac"
+                    "title": "\uc870\uc149 \uc2a4\ubbf8\uc2a4\uff0d\uc5ed\uc0ac"
                 },
                 "js-m": {
                     "shortTitle": "\uc870\ub9c8",
-                    "title": "\uc870\uc149 \uc2a4\ubbf8\uc2a4-\ub9c8\ud0dc"
+                    "title": "\uc870\uc149 \uc2a4\ubbf8\uc2a4\uff0d\ub9c8\ud0dc"
                 },
                 "moses": {
                     "shortTitle": "\ubaa8\uc138",
