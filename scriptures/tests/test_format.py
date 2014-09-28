@@ -23,6 +23,11 @@ class TestFormat(unittest.TestCase):
         self.assertEqual(format(ref('/scriptures/bofm/4-ne/1')), u'4\u00a0Nephi 1')
         self.assertEqual(format(ref('/scriptures/pgp/js-m/1')), u'Joseph Smith—Matthew 1')
 
+    def test_format_invalid_verses(self):
+        self.assertEqual(format(ref('/scriptures/bofm/1-ne/1.21', validate_verses=False)), u'1\u00a0Nephi 1:21')
+        self.assertEqual(format(ref('/scriptures/bofm/1-ne/1.20-21', validate_verses=False)), u'1\u00a0Nephi 1:20–21')
+        self.assertEqual(format(ref('/scriptures/bofm/1-ne/1.20,21', validate_verses=False)), u'1\u00a0Nephi 1:20, 21')
+
     def test_format_eng(self):
         self.assertEqual(format(ref('/scriptures/ot')), 'Old Testament')
         self.assertEqual(format(ref('/scriptures/ot/isa/40')), 'Isaiah 40')

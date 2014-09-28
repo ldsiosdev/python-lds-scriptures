@@ -8,8 +8,8 @@ FORMAT_SHORT = 1
 
 STRUCTURE = json.loads(pkg_resources.resource_string(__name__, 'data/structure.json'))
 
-def ref(uri):
-    return ScriptureRef(uri)
+def ref(uri, validate_verses=True):
+    return ScriptureRef(uri, validate_verses=validate_verses)
 
 def format(ref_or_refs, lang='eng', include_book=True, book_format=FORMAT_LONG, formatter=None):
     # Load the language definition
@@ -128,7 +128,7 @@ class ScriptureRef:
         $
     ''', re.VERBOSE)
 
-    def __init__(self, uri=None, testament=None, book=None, chapter=None, verse_ranges=None, parens=None):
+    def __init__(self, uri=None, testament=None, book=None, chapter=None, verse_ranges=None, parens=None, validate_verses=True):
         if uri:
             match = ScriptureRef.SCRIPTURE_URI_REGEX.match(uri)
             if match:
@@ -234,7 +234,7 @@ class ScriptureRef:
 
                         if start <= previous_stop:
                             raise ValueError('range in verse_ranges is invalid')
-                        if stop > chapter_structure['verses']:
+                        if validate_verses and stop > chapter_structure['verses']:
                             raise ValueError('range in verse_ranges is not valid for chapter')
 
                         previous_stop = stop
@@ -248,7 +248,7 @@ class ScriptureRef:
                 if stop < start:
                     raise ValueError('range in parens is invalid')
 
-                if stop > chapter_structure['verses']:
+                if validate_verses and stop > chapter_structure['verses']:
                     raise ValueError('range in parens is not valid for chapter')
         else:
             if uri is not None:

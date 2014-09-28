@@ -48,6 +48,22 @@ class TestRef(unittest.TestCase):
         with self.assertRaises(ValueError):
             scriptures.ref('/scriptures/bofm/1-ne/1.1,21')
 
+    def test_invalid_verses_without_validation(self):
+        uri = '/scriptures/bofm/1-ne/1.21'
+        ref = scriptures.ref(uri, validate_verses=False)
+        self.assert_scripture_ref(ref, 'bofm', '1-ne', 1, [(21, 21)])
+        self.assertEqual(ref.uri(), uri)
+
+        uri = '/scriptures/bofm/1-ne/1.20-21'
+        ref = scriptures.ref(uri, validate_verses=False)
+        self.assert_scripture_ref(ref, 'bofm', '1-ne', 1, [(20, 21)])
+        self.assertEqual(ref.uri(), uri)
+
+        uri = '/scriptures/bofm/1-ne/1.1,21'
+        ref = scriptures.ref(uri, validate_verses=False)
+        self.assert_scripture_ref(ref, 'bofm', '1-ne', 1, [(1, 1), (21, 21)])
+        self.assertEqual(ref.uri(), uri)
+
     def test_incorrectly_ordered_verses(self):
         with self.assertRaises(ValueError):
             scriptures.ref('/scriptures/bofm/1-ne/1.1,1')

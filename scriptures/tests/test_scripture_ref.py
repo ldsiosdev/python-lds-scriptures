@@ -37,6 +37,11 @@ class TestScriptureRef(unittest.TestCase):
         with self.assertRaises(ValueError):
             ScriptureRef(testament='bofm', book='1-ne', chapter=1, verse_ranges=[(1, 21)])
 
+    def test_invalid_verses_without_validation(self):
+        self.assert_scripture_ref(ScriptureRef(testament='bofm', book='1-ne', chapter=1, verse_ranges=[(21, 21)], validate_verses=False), 'bofm', '1-ne', 1, [(21, 21)])
+        self.assert_scripture_ref(ScriptureRef(testament='bofm', book='1-ne', chapter=1, verse_ranges=[(20, 21)], validate_verses=False), 'bofm', '1-ne', 1, [(20, 21)])
+        self.assert_scripture_ref(ScriptureRef(testament='bofm', book='1-ne', chapter=1, verse_ranges=[(1, 1), (21, 21)], validate_verses=False), 'bofm', '1-ne', 1, [(1, 1), (21, 21)])
+
     def test_incorrectly_ordered_verses(self):
         with self.assertRaises(ValueError):
             ScriptureRef(testament='bofm', book='1-ne', chapter=1, verse_ranges=[(1, 1), (1, 1)])
