@@ -309,7 +309,7 @@
                 },
                 "lev": {
                     "shortTitle": "\u041b\u0435\u0432.",
-                    "title": "\u041b\u0435\u0432\u0438\u0442\u043e\u0432"
+                    "title": "\u041b\u0435\u0432\u0438\u0442"
                 },
                 "mal": {
                     "shortTitle": "\u041c\u0430\u043b.",
@@ -342,8 +342,8 @@
                 "ps": {
                     "shortTitle": "\u041f\u0441.",
                     "singularShortTitle": "\u041f\u0441.",
-                    "singularTitle": "\u041f\u0441\u0430\u043b\u0442\u0438\u0440\u044c\n",
-                    "title": "\u041f\u0441\u0430\u043b\u0442\u0438\u0440\u044c\n"
+                    "singularTitle": "\u041f\u0441\u0430\u043b\u0442\u0438\u0440\u044c",
+                    "title": "\u041f\u0441\u0430\u043b\u0442\u0438\u0440\u044c"
                 },
                 "ruth": {
                     "shortTitle": "\u0420\u0443\u0444\u044c",
