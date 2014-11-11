@@ -4,59 +4,59 @@
             "books": {
                 "1-ne": {
                     "shortTitle": "1\u00a0Ne",
-                    "title": "Nephis f\u00f6rsta bok"
+                    "title": "1\u00a0Nephi"
                 },
                 "2-ne": {
                     "shortTitle": "2\u00a0Ne",
-                    "title": "Nephis andra bok"
+                    "title": "2\u00a0Nephi"
                 },
                 "3-ne": {
                     "shortTitle": "3\u00a0Ne",
-                    "title": "Tredje Nephi"
+                    "title": "3\u00a0Nephi"
                 },
                 "4-ne": {
                     "shortTitle": "4\u00a0Ne",
-                    "title": "Fj\u00e4rde Nephi"
+                    "title": "4\u00a0Nephi"
                 },
                 "alma": {
                     "shortTitle": "Alma",
-                    "title": "Almas bok"
+                    "title": "Alma"
                 },
                 "enos": {
                     "shortTitle": "Enos",
-                    "title": "Enos bok"
+                    "title": "Enos"
                 },
                 "ether": {
                     "shortTitle": "Eth",
-                    "title": "Ethers bok"
+                    "title": "Ether"
                 },
                 "hel": {
                     "shortTitle": "Hel",
-                    "title": "Helamans bok"
+                    "title": "Helaman"
                 },
                 "jacob": {
                     "shortTitle": "Jakob",
-                    "title": "Jakobs bok"
+                    "title": "Jakob"
                 },
                 "jarom": {
                     "shortTitle": "Jar",
-                    "title": "Jaroms bok"
+                    "title": "Jarom"
                 },
                 "morm": {
                     "shortTitle": "Morm",
-                    "title": "Mormons bok"
+                    "title": "Mormon"
                 },
                 "moro": {
                     "shortTitle": "Moro",
-                    "title": "Moronis bok"
+                    "title": "Moroni"
                 },
                 "mosiah": {
                     "shortTitle": "Mosiah",
-                    "title": "Mosiahs bok"
+                    "title": "Mosiah"
                 },
                 "omni": {
                     "shortTitle": "Omni",
-                    "title": "Omnis bok"
+                    "title": "Omni"
                 },
                 "w-of-m": {
                     "shortTitle": "Morm ord",
@@ -81,7 +81,9 @@
                             "shortTitle": "OT\u20142",
                             "title": "Officiellt tillk\u00e4nnagivande \u2014 2"
                         }
-                    }
+                    },
+                    "shortTitle": "OT",
+                    "title": "Officiellt tillk\u00e4nnagivande"
                 }
             },
             "title": "L\u00e4ran och f\u00f6rbunden"
@@ -90,47 +92,47 @@
             "books": {
                 "1-cor": {
                     "shortTitle": "1\u00a0Kor",
-                    "title": "F\u00f6rsta Korintierbrevet"
+                    "title": "1\u00a0Korintierbrevet"
                 },
                 "1-jn": {
                     "shortTitle": "1\u00a0Joh",
-                    "title": "F\u00f6rsta Johannesbrevet"
+                    "title": "1\u00a0Johannesbrevet"
                 },
                 "1-pet": {
                     "shortTitle": "1\u00a0Petr",
-                    "title": "F\u00f6rsta Petrusbrevet"
+                    "title": "1\u00a0Petrusbrevet"
                 },
                 "1-thes": {
                     "shortTitle": "1\u00a0Tess",
-                    "title": "F\u00f6rsta Tessalonikerbrevet"
+                    "title": "1\u00a0Tessalonikerbrevet"
                 },
                 "1-tim": {
                     "shortTitle": "1\u00a0Tim",
-                    "title": "F\u00f6rsta Timoteosbrevet"
+                    "title": "1\u00a0Timoteosbrevet"
                 },
                 "2-cor": {
                     "shortTitle": "2\u00a0Kor",
-                    "title": "Andra Korintierbrevet"
+                    "title": "2\u00a0Korintierbrevet"
                 },
                 "2-jn": {
                     "shortTitle": "2\u00a0Joh",
-                    "title": "Andra Johannesbrevet"
+                    "title": "2\u00a0Johannesbrevet"
                 },
                 "2-pet": {
                     "shortTitle": "2\u00a0Petr",
-                    "title": "Andra Petrusbrevet"
+                    "title": "2\u00a0Petrusbrevet"
                 },
                 "2-thes": {
                     "shortTitle": "2\u00a0Tess",
-                    "title": "Andra Tessalonikerbrevet"
+                    "title": "2\u00a0Tessalonikerbrevet"
                 },
                 "2-tim": {
                     "shortTitle": "2\u00a0Tim",
-                    "title": "Andra Timoteosbrevet"
+                    "title": "2\u00a0Timoteosbrevet"
                 },
                 "3-jn": {
                     "shortTitle": "3\u00a0Joh",
-                    "title": "Tredje Johannesbrevet"
+                    "title": "3\u00a0Johannesbrevet"
                 },
                 "acts": {
                     "shortTitle": "Apg",
@@ -178,7 +180,7 @@
                 },
                 "philem": {
                     "shortTitle": "Filem",
-                    "title": "Brevet till Filemon"
+                    "title": "Filemon"
                 },
                 "philip": {
                     "shortTitle": "Fil",
@@ -186,7 +188,7 @@
                 },
                 "rev": {
                     "shortTitle": "Upp",
-                    "title": "Johannes Uppenbarelse"
+                    "title": "Uppenbarelseboken"
                 },
                 "rom": {
                     "shortTitle": "Rom",
@@ -194,7 +196,7 @@
                 },
                 "titus": {
                     "shortTitle": "Tit",
-                    "title": "Brevet till Titus"
+                    "title": "Titus"
                 }
             },
             "title": "Nya testamentet"
@@ -203,27 +205,27 @@
             "books": {
                 "1-chr": {
                     "shortTitle": "1\u00a0Kr\u00f6n",
-                    "title": "F\u00f6rsta Kr\u00f6nikeboken"
+                    "title": "1\u00a0Kr\u00f6nikeboken"
                 },
                 "1-kgs": {
                     "shortTitle": "1\u00a0Kung",
-                    "title": "F\u00f6rsta Kungaboken"
+                    "title": "1\u00a0Kungaboken"
                 },
                 "1-sam": {
                     "shortTitle": "1\u00a0Sam",
-                    "title": "F\u00f6rsta Samuelsboken"
+                    "title": "1\u00a0Samuelsboken"
                 },
                 "2-chr": {
                     "shortTitle": "2\u00a0Kr\u00f6n",
-                    "title": "Andra Kr\u00f6nikeboken"
+                    "title": "2\u00a0Kr\u00f6nikeboken"
                 },
                 "2-kgs": {
                     "shortTitle": "2\u00a0Kung",
-                    "title": "Andra Kungaboken"
+                    "title": "2\u00a0Kungaboken"
                 },
                 "2-sam": {
                     "shortTitle": "2\u00a0Sam",
-                    "title": "Andra Samuelsboken"
+                    "title": "2\u00a0Samuelsboken"
                 },
                 "amos": {
                     "shortTitle": "Amos",
@@ -235,7 +237,7 @@
                 },
                 "deut": {
                     "shortTitle": "5\u00a0Mos",
-                    "title": "Femte Moseboken"
+                    "title": "5\u00a0Mosebok"
                 },
                 "eccl": {
                     "shortTitle": "Pred",
@@ -247,7 +249,7 @@
                 },
                 "ex": {
                     "shortTitle": "2\u00a0Mos",
-                    "title": "Andra Moseboken"
+                    "title": "2\u00a0Mosebok"
                 },
                 "ezek": {
                     "shortTitle": "Hes",
@@ -259,7 +261,7 @@
                 },
                 "gen": {
                     "shortTitle": "1\u00a0Mos",
-                    "title": "F\u00f6rsta Moseboken"
+                    "title": "1\u00a0Mosebok"
                 },
                 "hab": {
                     "shortTitle": "Hab",
@@ -307,7 +309,7 @@
                 },
                 "lev": {
                     "shortTitle": "3\u00a0Mos",
-                    "title": "Tredje Moseboken"
+                    "title": "3\u00a0Mosebok"
                 },
                 "mal": {
                     "shortTitle": "Mal",
@@ -327,7 +329,7 @@
                 },
                 "num": {
                     "shortTitle": "4\u00a0Mos",
-                    "title": "Fj\u00e4rde Moseboken"
+                    "title": "4\u00a0Mosebok"
                 },
                 "obad": {
                     "shortTitle": "Ob",
@@ -340,7 +342,7 @@
                 "ps": {
                     "shortTitle": "Ps",
                     "singularShortTitle": "Ps",
-                    "singularTitle": "Psaltaren",
+                    "singularTitle": "Psalm",
                     "title": "Psaltaren"
                 },
                 "ruth": {
@@ -370,7 +372,7 @@
                 },
                 "abr": {
                     "shortTitle": "Abr",
-                    "title": "Abrahams bok"
+                    "title": "Abraham"
                 },
                 "js-h": {
                     "shortTitle": "JS\u2014H",
@@ -382,7 +384,7 @@
                 },
                 "moses": {
                     "shortTitle": "Mose",
-                    "title": "Moses bok"
+                    "title": "Moses"
                 }
             },
             "title": "Den kostbara p\u00e4rlan"
