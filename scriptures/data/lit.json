@@ -69,7 +69,7 @@
             "books": {
                 "dc": {
                     "shortTitle": "DS",
-                    "title": "Doktrina ir Sandoros"
+                    "title": "Doktrinos ir Sandor\u0173"
                 },
                 "od": {
                     "chapters": {
@@ -136,7 +136,7 @@
                 },
                 "acts": {
                     "shortTitle": "ApD",
-                    "title": "Apa\u0161tal\u0173 darbai"
+                    "title": "Apa\u0161tal\u0173 darb\u0173"
                 },
                 "col": {
                     "shortTitle": "Kol",
@@ -249,7 +249,7 @@
                 },
                 "ex": {
                     "shortTitle": "I\u0161",
-                    "title": "Is\u0117jimo"
+                    "title": "I\u0161\u0117jimo"
                 },
                 "ezek": {
                     "shortTitle": "Ez",
@@ -342,8 +342,8 @@
                 "ps": {
                     "shortTitle": "Ps",
                     "singularShortTitle": "Ps",
-                    "singularTitle": "Psalm\u0117",
-                    "title": "Psalmynas"
+                    "singularTitle": "Psalmyno",
+                    "title": "Psalmyno"
                 },
                 "ruth": {
                     "shortTitle": "R\u016bt",
@@ -375,8 +375,8 @@
                     "title": "Abraomo"
                 },
                 "js-h": {
-                    "shortTitle": "D\u017eS\u2014I",
-                    "title": "D\u017eozefas Smitas\u2014Istorija"
+                    "shortTitle": "D\u017eS\u2013I",
+                    "title": "D\u017eozefas Smitas\u2013Istorija"
                 },
                 "js-m": {
                     "shortTitle": "D\u017eS\u2013M",
