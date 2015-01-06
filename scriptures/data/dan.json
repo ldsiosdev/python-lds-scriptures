@@ -100,7 +100,7 @@
                 },
                 "1-pet": {
                     "shortTitle": "1\u00a0Pet",
-                    "title": "1\u00a0Peters"
+                    "title": "1\u00a0Peter"
                 },
                 "1-thes": {
                     "shortTitle": "1\u00a0Thess",
@@ -120,7 +120,7 @@
                 },
                 "2-pet": {
                     "shortTitle": "2\u00a0Pet",
-                    "title": "2\u00a0Peters"
+                    "title": "2\u00a0Peter"
                 },
                 "2-thes": {
                     "shortTitle": "2\u00a0Thess",
@@ -136,27 +136,27 @@
                 },
                 "acts": {
                     "shortTitle": "ApG",
-                    "title": "Apostlene"
+                    "title": "Apostlenes Gerninger"
                 },
                 "col": {
                     "shortTitle": "Kol",
-                    "title": "Kolossenser"
+                    "title": "Kolossenserne"
                 },
                 "eph": {
                     "shortTitle": "Ef",
-                    "title": "Efeser"
+                    "title": "Efeserne"
                 },
                 "gal": {
                     "shortTitle": "Gal",
-                    "title": "Galater"
+                    "title": "Galaterne"
                 },
                 "heb": {
                     "shortTitle": "Hebr",
-                    "title": "Hebr\u00e6er"
+                    "title": "Hebr\u00e6erne"
                 },
                 "james": {
                     "shortTitle": "Jak",
-                    "title": "Jakobs"
+                    "title": "Jakob Brev"
                 },
                 "john": {
                     "shortTitle": "Joh",
@@ -184,7 +184,7 @@
                 },
                 "philip": {
                     "shortTitle": "Fil",
-                    "title": "Filipper"
+                    "title": "Filipperne"
                 },
                 "rev": {
                     "shortTitle": "\u00c5b",
@@ -192,7 +192,7 @@
                 },
                 "rom": {
                     "shortTitle": "Rom",
-                    "title": "Romer"
+                    "title": "Romerne"
                 },
                 "titus": {
                     "shortTitle": "Tit",
