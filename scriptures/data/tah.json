@@ -1,0 +1,391 @@
+{
+    "testaments": {
+        ", BofMSel": {
+            "books": {},
+            "title": "BofM"
+        },
+        "bofm": {
+            "books": {
+                "1-ne": {
+                    "shortTitle": "1\u00a0Nep.",
+                    "title": "I\u00a0Nephi"
+                },
+                "2-ne": {
+                    "shortTitle": "2\u00a0Nep.",
+                    "title": "II\u00a0Nephi"
+                },
+                "3-ne": {
+                    "shortTitle": "3\u00a0Nep.",
+                    "title": "III\u00a0Nephi"
+                },
+                "4-ne": {
+                    "shortTitle": "4\u00a0Nep.",
+                    "title": "IV Nephi"
+                },
+                "alma": {
+                    "shortTitle": "Al.",
+                    "title": "Alama"
+                },
+                "enos": {
+                    "shortTitle": "Enosa",
+                    "title": "Enosa"
+                },
+                "ether": {
+                    "shortTitle": "Etera",
+                    "title": "Etera"
+                },
+                "hel": {
+                    "shortTitle": "Hela.",
+                    "title": "Helamana"
+                },
+                "jacob": {
+                    "shortTitle": "Iakoba",
+                    "title": "Iakoba"
+                },
+                "jarom": {
+                    "shortTitle": "Iar.",
+                    "title": "Iaroma"
+                },
+                "morm": {
+                    "shortTitle": "Mor.",
+                    "title": "Moromona"
+                },
+                "moro": {
+                    "shortTitle": "Moro.",
+                    "title": "Moroni"
+                },
+                "mosiah": {
+                    "shortTitle": "Mos.",
+                    "title": "Mosia"
+                },
+                "omni": {
+                    "shortTitle": "Om.",
+                    "title": "Omoni"
+                },
+                "w-of-m": {
+                    "shortTitle": "P. a Mor.",
+                    "title": "Te Mau Parau A Moromona"
+                }
+            },
+            "title": "Buka a Moromona"
+        },
+        "dc-testament": {
+            "books": {
+                "dc": {
+                    "shortTitle": "D&C",
+                    "title": "Buka Fafau"
+                },
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "title": "Te Hoe Faaiteraa Mana"
+                        },
+                        "2": {}
+                    }
+                }
+            },
+            "title": "Buka Fafau"
+        },
+        "nt": {
+            "books": {
+                "1-cor": {
+                    "shortTitle": "1\u00a0Kor.",
+                    "title": "1\u00a0Korinetia"
+                },
+                "1-jn": {
+                    "shortTitle": "1\u00a0Ioa.",
+                    "title": "1\u00a0Ioane"
+                },
+                "1-pet": {
+                    "shortTitle": "1\u00a0Pet.",
+                    "title": "1\u00a0Petero"
+                },
+                "1-thes": {
+                    "shortTitle": "1\u00a0Tes.",
+                    "title": "1\u00a0Tesalonia"
+                },
+                "1-tim": {
+                    "shortTitle": "1\u00a0Tim.",
+                    "title": "1\u00a0Timoteo"
+                },
+                "2-cor": {
+                    "shortTitle": "2\u00a0Kor.",
+                    "title": "2\u00a0Korinetia"
+                },
+                "2-jn": {
+                    "shortTitle": "2\u00a0Ioa.",
+                    "title": "2\u00a0Ioane"
+                },
+                "2-pet": {
+                    "shortTitle": "2\u00a0Pet.",
+                    "title": "2\u00a0Petero"
+                },
+                "2-thes": {
+                    "shortTitle": "2\u00a0Tes.",
+                    "title": "2\u00a0Tesalonia"
+                },
+                "2-tim": {
+                    "shortTitle": "2\u00a0Tim.",
+                    "title": "2\u00a0Timoteo"
+                },
+                "3-jn": {
+                    "shortTitle": "3\u00a0Ioa.",
+                    "title": "3\u00a0Ioane"
+                },
+                "acts": {
+                    "shortTitle": "Ohi.",
+                    "title": "Ohipa"
+                },
+                "col": {
+                    "shortTitle": "Kol.",
+                    "title": "Kolosa"
+                },
+                "eph": {
+                    "shortTitle": "Eph.",
+                    "title": "Ephesia"
+                },
+                "gal": {
+                    "shortTitle": "Gala.",
+                    "title": "Galatia"
+                },
+                "heb": {
+                    "shortTitle": "Heb.",
+                    "title": "Hebera"
+                },
+                "james": {
+                    "shortTitle": "Iakobo",
+                    "title": "Iakobo"
+                },
+                "john": {
+                    "shortTitle": "Ioa.",
+                    "title": "Ioane"
+                },
+                "jude": {
+                    "shortTitle": "Iuda",
+                    "title": "Iuda"
+                },
+                "luke": {
+                    "shortTitle": "Luk.",
+                    "title": "Luka"
+                },
+                "mark": {
+                    "shortTitle": "Mar.",
+                    "title": "Mareko"
+                },
+                "matt": {
+                    "shortTitle": "Mat.",
+                    "title": "Mataio"
+                },
+                "philem": {
+                    "shortTitle": "Philem.",
+                    "title": "Philemona"
+                },
+                "philip": {
+                    "shortTitle": "Phili.",
+                    "title": "Philipi"
+                },
+                "rev": {
+                    "shortTitle": "Apok.",
+                    "title": "Apokalupo"
+                },
+                "rom": {
+                    "shortTitle": "Rom.",
+                    "title": "Roma"
+                },
+                "titus": {
+                    "shortTitle": "Tato",
+                    "title": "Tato"
+                }
+            },
+            "title": "Faufaa Ap\u00ee"
+        },
+        "ot": {
+            "books": {
+                "1-chr": {
+                    "shortTitle": "1\u00a0Para.",
+                    "title": "1\u00a0Paraleipomeno"
+                },
+                "1-kgs": {
+                    "shortTitle": "1\u00a0Arii",
+                    "title": "1\u00a0Arii"
+                },
+                "1-sam": {
+                    "shortTitle": "1\u00a0Sam.",
+                    "title": "1\u00a0Samuela"
+                },
+                "2-chr": {
+                    "shortTitle": "2\u00a0Para.",
+                    "title": "2\u00a0Paraleipomeno"
+                },
+                "2-kgs": {
+                    "shortTitle": "2\u00a0Arii",
+                    "title": "2\u00a0Arii"
+                },
+                "2-sam": {
+                    "shortTitle": "2\u00a0Sam.",
+                    "title": "2\u00a0Samuela"
+                },
+                "amos": {
+                    "shortTitle": "Amos.",
+                    "title": "Amosa"
+                },
+                "dan": {
+                    "shortTitle": "Dan.",
+                    "title": "Daniela"
+                },
+                "deut": {
+                    "shortTitle": "Deut.",
+                    "title": "Deuteronomi"
+                },
+                "eccl": {
+                    "shortTitle": "Koh.",
+                    "title": "Koheleta"
+                },
+                "esth": {
+                    "shortTitle": "Esetera",
+                    "title": "Esetera"
+                },
+                "ex": {
+                    "shortTitle": "Ex.",
+                    "title": "Exodo"
+                },
+                "ezek": {
+                    "shortTitle": "Ezek.",
+                    "title": "Ezekiela"
+                },
+                "ezra": {
+                    "shortTitle": "Ezera",
+                    "title": "Ezera"
+                },
+                "gen": {
+                    "shortTitle": "Gen.",
+                    "title": "Genese"
+                },
+                "hab": {
+                    "shortTitle": "Hab.",
+                    "title": "Habakuka"
+                },
+                "hag": {
+                    "shortTitle": "Hag.",
+                    "title": "Hagai"
+                },
+                "hosea": {
+                    "shortTitle": "Hos.",
+                    "title": "Hosea"
+                },
+                "isa": {
+                    "shortTitle": "Isa.",
+                    "title": "Isaia"
+                },
+                "jer": {
+                    "shortTitle": "Ier.",
+                    "title": "Ieremia"
+                },
+                "job": {
+                    "shortTitle": "Ioba",
+                    "title": "Ioba"
+                },
+                "joel": {
+                    "shortTitle": "Ioel.",
+                    "title": "Ioela"
+                },
+                "jonah": {
+                    "shortTitle": "Iona",
+                    "title": "Iona"
+                },
+                "josh": {
+                    "shortTitle": "Iosua",
+                    "title": "Iosua"
+                },
+                "judg": {
+                    "shortTitle": "Te mau Tavana",
+                    "title": "Te mau Tavana"
+                },
+                "lam": {
+                    "shortTitle": "Oto",
+                    "title": "Te Oto"
+                },
+                "lev": {
+                    "shortTitle": "Lev.",
+                    "title": "Levitiko"
+                },
+                "mal": {
+                    "shortTitle": "Mal.",
+                    "title": "Malaki"
+                },
+                "micah": {
+                    "shortTitle": "Mika",
+                    "title": "Mika"
+                },
+                "nahum": {
+                    "shortTitle": "Nah.",
+                    "title": "Nahuma"
+                },
+                "neh": {
+                    "shortTitle": "Neh.",
+                    "title": "Nehemia"
+                },
+                "num": {
+                    "shortTitle": "Num.",
+                    "title": "Numera"
+                },
+                "obad": {
+                    "shortTitle": "Abadia",
+                    "title": "Abadia"
+                },
+                "prov": {
+                    "shortTitle": "Masli",
+                    "title": "Maseli"
+                },
+                "ps": {
+                    "shortTitle": "Salamo",
+                    "singularShortTitle": "Salamo",
+                    "singularTitle": "Salamo",
+                    "title": "Salamo"
+                },
+                "ruth": {
+                    "shortTitle": "Ruta",
+                    "title": "Ruta"
+                },
+                "song": {
+                    "shortTitle": "Sire",
+                    "title": "Sire"
+                },
+                "zech": {
+                    "shortTitle": "Zek.",
+                    "title": "Zekaria"
+                },
+                "zeph": {
+                    "shortTitle": "Zeph.",
+                    "title": "Zephania"
+                }
+            },
+            "title": "Faufaa Tahito"
+        },
+        "pgp": {
+            "books": {
+                "a-of-f": {
+                    "shortTitle": "Hiroa F.",
+                    "title": "Hiroa Faaroo"
+                },
+                "abr": {
+                    "shortTitle": "Aber.",
+                    "title": "Aberahama"
+                },
+                "js-h": {
+                    "shortTitle": "IS - Aamu",
+                    "title": "Aamu - Iosepha Semita"
+                },
+                "js-m": {
+                    "shortTitle": "IS - Mat.",
+                    "title": "Mataio - Iosepha Semita"
+                },
+                "moses": {
+                    "shortTitle": "Mos.",
+                    "title": "Mose"
+                }
+            },
+            "title": "Poe Tao'a Rahi"
+        }
+    }
+}

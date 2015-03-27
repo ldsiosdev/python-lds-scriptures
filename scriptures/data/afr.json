@@ -1,5 +1,9 @@
 {
     "testaments": {
+        ", BofMSel": {
+            "books": {},
+            "title": "BofM"
+        },
         "bofm": {
             "books": {
                 "1-ne": {
