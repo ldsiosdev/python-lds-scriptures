@@ -81,7 +81,8 @@
                             "shortTitle": "OP\u20142",
                             "title": "Opisyal na Pahayag\u20142"
                         }
-                    }
+                    },
+                    "title": "Mga Opisyal na Pahayag"
                 }
             },
             "title": "Doktrina at mga Tipan"
@@ -340,7 +341,7 @@
                 "ps": {
                     "shortTitle": "Awit",
                     "singularShortTitle": "Awit",
-                    "singularTitle": "Mga Awit",
+                    "singularTitle": "Awit",
                     "title": "Mga Awit"
                 },
                 "ruth": {
