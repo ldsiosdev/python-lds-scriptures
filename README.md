@@ -2,7 +2,7 @@
 Python LDS Scriptures
 =====================
 
-[![Build Status](https://travis-ci.org/LDSMobileApps/python-lds-scriptures.svg?branch=master)](https://travis-ci.org/LDSMobileApps/python-lds-scriptures)
+[![Build Status](https://travis-ci.org/CrossWaterBridge/python-lds-scriptures.svg?branch=master)](https://travis-ci.org/CrossWaterBridge/python-lds-scriptures)
 
 python-lds-scriptures parses LDS scripture URIs and formats them
 as human-readable strings.
