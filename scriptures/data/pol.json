@@ -1,0 +1,391 @@
+{
+    "testaments": {
+        "bofm": {
+            "books": {
+                "1-ne": {
+                    "shortTitle": "1\u00a0Ne.",
+                    "title": "1\u00a0Nefi"
+                },
+                "2-ne": {
+                    "shortTitle": "2\u00a0Ne.",
+                    "title": "2\u00a0Nefi"
+                },
+                "3-ne": {
+                    "shortTitle": "3\u00a0Ne.",
+                    "title": "3\u00a0Nefi"
+                },
+                "4-ne": {
+                    "shortTitle": "4\u00a0Ne.",
+                    "title": "4\u00a0Nefi"
+                },
+                "alma": {
+                    "shortTitle": "Al.",
+                    "title": "Ksi\u0119ga Almy"
+                },
+                "enos": {
+                    "shortTitle": "Enos",
+                    "title": "Ksi\u0119ga Enosa"
+                },
+                "ether": {
+                    "shortTitle": "Et.",
+                    "title": "Ksi\u0119ga Etera"
+                },
+                "hel": {
+                    "shortTitle": "He.",
+                    "title": "Ksi\u0119ga Helamana"
+                },
+                "jacob": {
+                    "shortTitle": "Jak.",
+                    "title": "Ksi\u0119ga Jakuba"
+                },
+                "jarom": {
+                    "shortTitle": "Jar.",
+                    "title": "Ksi\u0119ga Jaroma"
+                },
+                "morm": {
+                    "shortTitle": "Morm.",
+                    "title": "Ksi\u0119ga Mormona"
+                },
+                "moro": {
+                    "shortTitle": "Moro.",
+                    "title": "Ksi\u0119ga Moroniego"
+                },
+                "mosiah": {
+                    "shortTitle": "Mos.",
+                    "title": "Ksi\u0119ga Mosjasza"
+                },
+                "omni": {
+                    "shortTitle": "Omn.",
+                    "title": "Ksi\u0119ga Omniego"
+                },
+                "w-of-m": {
+                    "shortTitle": "S\u0142. Morm.",
+                    "title": "S\u0142owa Mormona"
+                }
+            },
+            "title": "Ksi\u0119ga Mormona"
+        },
+        "dc-testament": {
+            "books": {
+                "dc": {
+                    "shortTitle": "N.i.P.",
+                    "title": "Nauki i Przymierza"
+                },
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "OD\u20141",
+                            "title": "Oficjalna Deklaracja\u20141"
+                        },
+                        "2": {
+                            "shortTitle": "OD\u20142",
+                            "title": "Oficjalna Deklaracja\u20142"
+                        }
+                    }
+                }
+            },
+            "title": "Nauki i Przymierza"
+        },
+        "nt": {
+            "books": {
+                "1-cor": {
+                    "shortTitle": "I\u00a0Kor.",
+                    "title": "Pierwszy list \u015bw. Paw\u0142a do Koryntian"
+                },
+                "1-jn": {
+                    "shortTitle": "I\u00a0Jan",
+                    "title": "Pierwszy list \u015bw. Jana"
+                },
+                "1-pet": {
+                    "shortTitle": "I\u00a0Piotr",
+                    "title": "Pierwszy list \u015bw. Piotra"
+                },
+                "1-thes": {
+                    "shortTitle": "I\u00a0Tes.",
+                    "title": "Pierwszy list \u015bw. Paw\u0142a do Tesaloniczan"
+                },
+                "1-tim": {
+                    "shortTitle": "I\u00a0Tym.",
+                    "title": "Pierwszy list \u015bw. Paw\u0142a do Tymoteusza"
+                },
+                "2-cor": {
+                    "shortTitle": "II\u00a0Kor.",
+                    "title": "Drugi list \u015bw. Paw\u0142a do Koryntian"
+                },
+                "2-jn": {
+                    "shortTitle": "II\u00a0Jan",
+                    "title": "Drugi list \u015bw. Jana"
+                },
+                "2-pet": {
+                    "shortTitle": "II\u00a0Piotr",
+                    "title": "Drugi list \u015bw. Piotra"
+                },
+                "2-thes": {
+                    "shortTitle": "II\u00a0Tes.",
+                    "title": "Drugi list \u015bw. Paw\u0142a do Tesaloniczan"
+                },
+                "2-tim": {
+                    "shortTitle": "II\u00a0Tym.",
+                    "title": "Drugi list \u015bw. Paw\u0142a do Tymoteusza"
+                },
+                "3-jn": {
+                    "shortTitle": "III\u00a0Jan",
+                    "title": "Trzeci list \u015bw. Jana"
+                },
+                "acts": {
+                    "shortTitle": "Dz.",
+                    "title": "Dzieje Apostolskie"
+                },
+                "col": {
+                    "shortTitle": "Kol.",
+                    "title": "List \u015bw. Paw\u0142a do Kolosan"
+                },
+                "eph": {
+                    "shortTitle": "Efez.",
+                    "title": "List \u015bw. Paw\u0142a do Efezjan"
+                },
+                "gal": {
+                    "shortTitle": "Gal.",
+                    "title": "List \u015bw. Paw\u0142a do Galacjan"
+                },
+                "heb": {
+                    "shortTitle": "Hebr.",
+                    "title": "List do Hebrajczyk\u00f3w"
+                },
+                "james": {
+                    "shortTitle": "Jak.",
+                    "title": "List \u015bw. Jakuba"
+                },
+                "john": {
+                    "shortTitle": "Ew. Jana",
+                    "title": "Ewangelia \u015bw. Jana"
+                },
+                "jude": {
+                    "shortTitle": "Judy",
+                    "title": "List \u015bw. Judy"
+                },
+                "luke": {
+                    "shortTitle": "Ew. \u0141uk.",
+                    "title": "Ewangelia \u015bw. \u0141ukasza"
+                },
+                "mark": {
+                    "shortTitle": "Ew. Mar.",
+                    "title": "Ewangelia \u015bw. Marka"
+                },
+                "matt": {
+                    "shortTitle": "Ew. Mat.",
+                    "title": "Ewangelia \u015bw. Mateusza"
+                },
+                "philem": {
+                    "shortTitle": "Filem.",
+                    "title": "List \u015bw. Paw\u0142a do Filemona"
+                },
+                "philip": {
+                    "shortTitle": "Fil.",
+                    "title": "List \u015bw. Paw\u0142a do Filipian"
+                },
+                "rev": {
+                    "shortTitle": "Obj.",
+                    "title": "Objawienie \u015bw. Jana"
+                },
+                "rom": {
+                    "shortTitle": "Rzym.",
+                    "title": "List \u015bw. Paw\u0142a do Rzymian"
+                },
+                "titus": {
+                    "shortTitle": "Tyt.",
+                    "title": "List \u015bw. Paw\u0142\u0105 do Tytusa"
+                }
+            },
+            "title": "Nowy Testament"
+        },
+        "ot": {
+            "books": {
+                "1-chr": {
+                    "shortTitle": "I\u00a0Kron.",
+                    "title": "I\u00a0Ksi\u0119ga Kronik"
+                },
+                "1-kgs": {
+                    "shortTitle": "I\u00a0Kr\u00f3l.",
+                    "title": "I\u00a0Ksi\u0119ga Kr\u00f3lewska"
+                },
+                "1-sam": {
+                    "shortTitle": "I\u00a0Sam.",
+                    "title": "I\u00a0Ksi\u0119ga Samuela"
+                },
+                "2-chr": {
+                    "shortTitle": "II\u00a0Kron.",
+                    "title": "II\u00a0Ksi\u0119ga Kronik"
+                },
+                "2-kgs": {
+                    "shortTitle": "II\u00a0Kr\u00f3l.",
+                    "title": "II\u00a0Ksi\u0119ga Kr\u00f3lewska"
+                },
+                "2-sam": {
+                    "shortTitle": "II\u00a0Sam.",
+                    "title": "II\u00a0Ksi\u0119ga Samuela"
+                },
+                "amos": {
+                    "shortTitle": "Am.",
+                    "title": "Ksi\u0119ga Amosa"
+                },
+                "dan": {
+                    "shortTitle": "Dan.",
+                    "title": "Ksi\u0119ga Daniela"
+                },
+                "deut": {
+                    "shortTitle": "V Moj\u017c.",
+                    "title": "V Ksi\u0119ga Moj\u017ceszowa"
+                },
+                "eccl": {
+                    "shortTitle": "Kazn.",
+                    "title": "Ksi\u0119ga Kaznodziei Salomona"
+                },
+                "esth": {
+                    "shortTitle": "Est.",
+                    "title": "Ksi\u0119ga Estery"
+                },
+                "ex": {
+                    "shortTitle": "II\u00a0Moj\u017c.",
+                    "title": "II\u00a0Ksi\u0119ga Moj\u017ceszowa"
+                },
+                "ezek": {
+                    "shortTitle": "Ez.",
+                    "title": "Ksi\u0119ga Ezechiela"
+                },
+                "ezra": {
+                    "shortTitle": "Ezdr.",
+                    "title": "Ksi\u0119ga Ezdrasza"
+                },
+                "gen": {
+                    "shortTitle": "I\u00a0Moj\u017c.",
+                    "title": "I\u00a0Ksi\u0119ga Moj\u017ceszowa"
+                },
+                "hab": {
+                    "shortTitle": "Hab.",
+                    "title": "K\u015biega Habakuka"
+                },
+                "hag": {
+                    "shortTitle": "Ag.",
+                    "title": "Ksi\u0119ga Aggeusza"
+                },
+                "hosea": {
+                    "shortTitle": "Oz.",
+                    "title": "Ksi\u0119ga Ozeasza"
+                },
+                "isa": {
+                    "shortTitle": "Izaj.",
+                    "title": "Ksi\u0119ga Izajasza"
+                },
+                "jer": {
+                    "shortTitle": "Jer.",
+                    "title": "Ksi\u0119ga Jeremiasza"
+                },
+                "job": {
+                    "shortTitle": "Job",
+                    "title": "Ksi\u0119ga Joba"
+                },
+                "joel": {
+                    "shortTitle": "Joel",
+                    "title": "Ksi\u0119ga Joela"
+                },
+                "jonah": {
+                    "shortTitle": "Jon.",
+                    "title": "Ksi\u0119ga Jonasza"
+                },
+                "josh": {
+                    "shortTitle": "Joz.",
+                    "title": "Ksi\u0119ga Jozuego"
+                },
+                "judg": {
+                    "shortTitle": "S\u0119dz.",
+                    "title": "Ksi\u0119ga S\u0119dzi\u00f3w"
+                },
+                "lam": {
+                    "shortTitle": "Treny",
+                    "title": "Treny"
+                },
+                "lev": {
+                    "shortTitle": "III\u00a0Moj\u017c.",
+                    "title": "III\u00a0Ksi\u0119ga Moj\u017ceszowa"
+                },
+                "mal": {
+                    "shortTitle": "Mal.",
+                    "title": "Ksi\u0119ga Malachiasza"
+                },
+                "micah": {
+                    "shortTitle": "Mich.",
+                    "title": "Ksi\u0119ga Micheasza"
+                },
+                "nahum": {
+                    "shortTitle": "Nah.",
+                    "title": "Ksi\u0119ga Nahuma"
+                },
+                "neh": {
+                    "shortTitle": "Neh.",
+                    "title": "Ksi\u0119ga Nehemiasza"
+                },
+                "num": {
+                    "shortTitle": "IV Moj\u017c.",
+                    "title": "IV Ksi\u0119ga Moj\u017ceszowa"
+                },
+                "obad": {
+                    "shortTitle": "Abd.",
+                    "title": "Ksi\u0119ga Abdiasza"
+                },
+                "prov": {
+                    "shortTitle": "Przyp.",
+                    "title": "Przypowie\u015bci Salomona"
+                },
+                "ps": {
+                    "shortTitle": "Ps.",
+                    "singularShortTitle": "Ps.",
+                    "singularTitle": "Psalm",
+                    "title": "Ksi\u0119ga Psalm\u00f3w"
+                },
+                "ruth": {
+                    "shortTitle": "Rut",
+                    "title": "Ksi\u0119ga Rut"
+                },
+                "song": {
+                    "shortTitle": "P.n.P.",
+                    "title": "Pie\u015b\u0144 nad Pie\u015bniami"
+                },
+                "zech": {
+                    "shortTitle": "Zach.",
+                    "title": "Ksi\u0119ga Zachariasza"
+                },
+                "zeph": {
+                    "shortTitle": "Sof.",
+                    "title": "Ksi\u0119ga Sofoniasza"
+                }
+            },
+            "title": "Stary Testament"
+        },
+        "pgp": {
+            "books": {
+                "a-of-f": {
+                    "shortTitle": "Z.W.",
+                    "title": "Zasady Wiary"
+                },
+                "abr": {
+                    "shortTitle": "Abr.",
+                    "title": "Ksi\u0119ga Abrahama"
+                },
+                "js-h": {
+                    "shortTitle": "JS\u2014H",
+                    "title": "J\u00f3zef Smith\u2014Historia"
+                },
+                "js-m": {
+                    "shortTitle": "JS\u2014M",
+                    "title": "J\u00f3zef Smith\u2014Mateusz"
+                },
+                "moses": {
+                    "shortTitle": "Moj\u017c.",
+                    "title": "Wyj\u0105tki z Ksi\u0119gi Moj\u017cesza"
+                }
+            },
+            "title": "Per\u0142a Wielkiej Warto\u015bci"
+        }
+    }
+}
