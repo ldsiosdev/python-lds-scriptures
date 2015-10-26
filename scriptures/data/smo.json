@@ -205,59 +205,59 @@
             "books": {
                 "1-chr": {
                     "shortTitle": "1\u00a0No.",
-                    "title": "1\u00a0Nofoaiga a Tupu"
+                    "title": "Kenese"
                 },
                 "1-kgs": {
                     "shortTitle": "1\u00a0Tu.",
-                    "title": "1\u00a0Tupu"
+                    "title": "Kenese"
                 },
                 "1-sam": {
                     "shortTitle": "1\u00a0Samu.",
-                    "title": "1\u00a0Samuelu"
+                    "title": "Kenese"
                 },
                 "2-chr": {
                     "shortTitle": "2\u00a0No.",
-                    "title": "2\u00a0Nofoaiga a Tupa"
+                    "title": "Kenese"
                 },
                 "2-kgs": {
                     "shortTitle": "2\u00a0Tu.",
-                    "title": "2\u00a0Tupu"
+                    "title": "Kenese"
                 },
                 "2-sam": {
                     "shortTitle": "2\u00a0Samu.",
-                    "title": "2\u00a0Samuelu"
+                    "title": "Kenese"
                 },
                 "amos": {
                     "shortTitle": "Amo.",
-                    "title": "Amosa"
+                    "title": "Kenese"
                 },
                 "dan": {
                     "shortTitle": "Tani.",
-                    "title": "Tanielu"
+                    "title": "Kenese"
                 },
                 "deut": {
                     "shortTitle": "Teu.",
-                    "title": "Teuteronome"
+                    "title": "Kenese"
                 },
                 "eccl": {
                     "shortTitle": "Fai.",
-                    "title": "Failauga"
+                    "title": "Kenese"
                 },
                 "esth": {
                     "shortTitle": "Ese.",
-                    "title": "Eseta"
+                    "title": "Kenese"
                 },
                 "ex": {
                     "shortTitle": "Esoto",
-                    "title": "Esoto"
+                    "title": "Kenese"
                 },
                 "ezek": {
                     "shortTitle": "Eseki.",
-                    "title": "Esekielu"
+                    "title": "Kenese"
                 },
                 "ezra": {
                     "shortTitle": "Esera",
-                    "title": "Esera"
+                    "title": "Kenese"
                 },
                 "gen": {
                     "shortTitle": "Kene.",
@@ -273,43 +273,43 @@
                 },
                 "hosea": {
                     "shortTitle": "Hosea",
-                    "title": "Hosea"
+                    "title": "Kenese"
                 },
                 "isa": {
                     "shortTitle": "Isai.",
-                    "title": "Isaia"
+                    "title": "Kenese"
                 },
                 "jer": {
                     "shortTitle": "Iere.",
-                    "title": "Ieremia"
+                    "title": "Kenese"
                 },
                 "job": {
                     "shortTitle": "Iopu",
-                    "title": "Iopu"
+                    "title": "Kenese"
                 },
                 "joel": {
                     "shortTitle": "Ioe.",
-                    "title": "Ioelu"
+                    "title": "Kenese"
                 },
                 "jonah": {
                     "shortTitle": "Iona",
-                    "title": "Iona"
+                    "title": "Kenese"
                 },
                 "josh": {
                     "shortTitle": "Iosua",
-                    "title": "Iosua"
+                    "title": "Kenese"
                 },
                 "judg": {
                     "shortTitle": "Fa'ama.",
-                    "title": "Fa'amasino"
+                    "title": "Kenese"
                 },
                 "lam": {
                     "shortTitle": "Aue.",
-                    "title": "Auega"
+                    "title": "Kenese"
                 },
                 "lev": {
                     "shortTitle": "Levi.",
-                    "title": "Levitiko"
+                    "title": "Kenese"
                 },
                 "mal": {
                     "shortTitle": "Mala.",
@@ -317,41 +317,41 @@
                 },
                 "micah": {
                     "shortTitle": "Mika",
-                    "title": "Mika"
+                    "title": "Kenese"
                 },
                 "nahum": {
                     "shortTitle": "Nau.",
-                    "title": "Nauma"
+                    "title": "Kenese"
                 },
                 "neh": {
                     "shortTitle": "Ne'e.",
-                    "title": "Ne'emia"
+                    "title": "Kenese"
                 },
                 "num": {
                     "shortTitle": "Numera",
-                    "title": "Numera"
+                    "title": "Kenese"
                 },
                 "obad": {
                     "shortTitle": "Ope.",
-                    "title": "Opetaia"
+                    "title": "Kenese"
                 },
                 "prov": {
                     "shortTitle": "Fa'ata.",
-                    "title": "Fa'ataoto"
+                    "title": "Kenese"
                 },
                 "ps": {
                     "shortTitle": "Sala.",
                     "singularShortTitle": "Sala.",
                     "singularTitle": "Salamo",
-                    "title": "Salamo"
+                    "title": "Kenese"
                 },
                 "ruth": {
                     "shortTitle": "Ruta",
-                    "title": "Ruta"
+                    "title": "Kenese"
                 },
                 "song": {
                     "shortTitle": "Pese",
-                    "title": "Pese a Solomona"
+                    "title": "Kenese"
                 },
                 "zech": {
                     "shortTitle": "Saka.",
