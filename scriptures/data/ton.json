@@ -63,7 +63,7 @@
                     "title": "Ngaahi Lea \u02bba Molomona"
                 }
             },
-            "title": "Tohi \u02bba Molomon\u00e1"
+            "title": "Ko e Tohi \u02bba Molomon\u00e1"
         },
         "dc-testament": {
             "books": {
@@ -81,7 +81,9 @@
                             "shortTitle": "FFkm\u20142",
                             "title": "Fanongonongo Fakamafai\u02bbi\u20142"
                         }
-                    }
+                    },
+                    "shortTitle": "FFkm",
+                    "title": "Fanongonongo Fakamafai\u02bbi"
                 }
             },
             "title": "Toka\u0304teline mo e Ngaahi Fuakava"

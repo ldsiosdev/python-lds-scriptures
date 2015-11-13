@@ -81,7 +81,9 @@
                             "shortTitle": "2\u00a0HNy",
                             "title": "2. Hivatalos nyilatkozat"
                         }
-                    }
+                    },
+                    "shortTitle": "HNy",
+                    "title": "Hivatalos nyilatkozatok"
                 }
             },
             "title": "Tan \u00e9s a sz\u00f6vets\u00e9gek"
@@ -378,7 +380,7 @@
                 },
                 "js-m": {
                     "shortTitle": "JS\u2013M",
-                    "title": "Joseph Smith \u2013\u00a0M\u00e1t\u00e9"
+                    "title": "Joseph Smith \u2013 M\u00e1t\u00e9"
                 },
                 "moses": {
                     "shortTitle": "M\u00f3z.",
