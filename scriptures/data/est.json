@@ -43,7 +43,7 @@
                     "title": "Jaaromi"
                 },
                 "morm": {
-                    "shortTitle": "Mrs",
+                    "shortTitle": "Mr",
                     "title": "Mormoni"
                 },
                 "moro": {
@@ -81,7 +81,9 @@
                             "shortTitle": "At 2",
                             "title": "Ametlik teadaane nr 2"
                         }
-                    }
+                    },
+                    "shortTitle": "At",
+                    "title": "Ametlikud teadaanded"
                 }
             },
             "title": "\u00d5petus ja Lepingud"
@@ -374,7 +376,7 @@
                 },
                 "js-h": {
                     "shortTitle": "JSA",
-                    "title": "Joseph Smith \u2013\u00a0ajalugu"
+                    "title": "Joseph Smith \u2013 ajalugu"
                 },
                 "js-m": {
                     "shortTitle": "JSM",
