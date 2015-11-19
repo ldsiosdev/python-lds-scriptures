@@ -63,7 +63,7 @@
                     "title": "Mormon ne Ns\u025bm"
                 }
             },
-            "title": "Mormon Nwoma"
+            "title": "Mormon Nwoma no"
         },
         "dc-testament": {
             "books": {
@@ -81,7 +81,9 @@
                             "shortTitle": "AD\u20142",
                             "title": "As\u0254r Dawurb\u0254\u20142"
                         }
-                    }
+                    },
+                    "shortTitle": "AD",
+                    "title": "As\u0254r Dawurb\u0254"
                 }
             },
             "title": "Nkyer\u025bkyer\u025b na Ahy\u025bmudzi"

@@ -63,7 +63,7 @@
                     "title": "Paw\u00f2l M\u00f2mon yo"
                 }
             },
-            "title": "Liv M\u00f2mon"
+            "title": "Liv M\u00f2mon an"
         },
         "dc-testament": {
             "books": {
@@ -81,7 +81,9 @@
                             "shortTitle": "DO\u20142",
                             "title": "Deklarasyon Ofisy\u00e8l\u20142"
                         }
-                    }
+                    },
+                    "shortTitle": "DO",
+                    "title": "Deklarasyon Ofisy\u00e8l"
                 }
             },
             "title": "Doktrin ak Alyans"

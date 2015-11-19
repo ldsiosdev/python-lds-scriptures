@@ -63,7 +63,7 @@
                     "title": "Palavras de M\u00f3rmon"
                 }
             },
-            "title": "Livro de M\u00f3rmon"
+            "title": "O Livro de M\u00f3rmon"
         },
         "dc-testament": {
             "books": {
@@ -91,48 +91,48 @@
         "nt": {
             "books": {
                 "1-cor": {
-                    "shortTitle": "I\u00a0Cor.",
-                    "title": "I\u00a0Cor\u00edntios"
+                    "shortTitle": "1\u00a0Cor.",
+                    "title": "1\u00a0Cor\u00edntios"
                 },
                 "1-jn": {
-                    "shortTitle": "I\u00a0Jo.",
-                    "title": "I\u00a0Jo\u00e3o"
+                    "shortTitle": "1\u00a0Jo.",
+                    "title": "1\u00a0Jo\u00e3o"
                 },
                 "1-pet": {
-                    "shortTitle": "I\u00a0Ped.",
-                    "title": "I\u00a0Pedro"
+                    "shortTitle": "1\u00a0Ped.",
+                    "title": "1\u00a0Pedro"
                 },
                 "1-thes": {
-                    "shortTitle": "I\u00a0Tess.",
-                    "title": "I\u00a0Tessalonicenses"
+                    "shortTitle": "1\u00a0Tess.",
+                    "title": "1\u00a0Tessalonicenses"
                 },
                 "1-tim": {
-                    "shortTitle": "I\u00a0Tim.",
-                    "title": "I\u00a0Tim\u00f3teo"
+                    "shortTitle": "1\u00a0Tim.",
+                    "title": "1\u00a0Tim\u00f3teo"
                 },
                 "2-cor": {
-                    "shortTitle": "II\u00a0Cor.",
-                    "title": "II\u00a0Cor\u00edntios"
+                    "shortTitle": "2\u00a0Cor.",
+                    "title": "2\u00a0Cor\u00edntios"
                 },
                 "2-jn": {
-                    "shortTitle": "II\u00a0Jo.",
-                    "title": "II\u00a0Jo\u00e3o"
+                    "shortTitle": "2\u00a0Jo.",
+                    "title": "2\u00a0Jo\u00e3o"
                 },
                 "2-pet": {
-                    "shortTitle": "II\u00a0Ped.",
-                    "title": "II\u00a0Pedro"
+                    "shortTitle": "2\u00a0Ped.",
+                    "title": "2\u00a0Pedro"
                 },
                 "2-thes": {
-                    "shortTitle": "II\u00a0Tess.",
-                    "title": "II\u00a0Tessalonicenses"
+                    "shortTitle": "2\u00a0Tess.",
+                    "title": "2\u00a0Tessalonicenses"
                 },
                 "2-tim": {
-                    "shortTitle": "II\u00a0Tim.",
-                    "title": "II\u00a0Tim\u00f3teo"
+                    "shortTitle": "2\u00a0Tim.",
+                    "title": "2\u00a0Tim\u00f3teo"
                 },
                 "3-jn": {
-                    "shortTitle": "III\u00a0Jo.",
-                    "title": "III\u00a0Jo\u00e3o"
+                    "shortTitle": "3\u00a0Jo.",
+                    "title": "3\u00a0Jo\u00e3o"
                 },
                 "acts": {
                     "shortTitle": "At.",
@@ -204,28 +204,28 @@
         "ot": {
             "books": {
                 "1-chr": {
-                    "shortTitle": "I\u00a0Cr\u00f4n.",
-                    "title": "I\u00a0Cr\u00f4nicas"
+                    "shortTitle": "1\u00a0Cr\u00f4n.",
+                    "title": "1\u00a0Cr\u00f4nicas"
                 },
                 "1-kgs": {
-                    "shortTitle": "I\u00a0Re.",
-                    "title": "I\u00a0Reis"
+                    "shortTitle": "1\u00a0Re.",
+                    "title": "1\u00a0Reis"
                 },
                 "1-sam": {
-                    "shortTitle": "I\u00a0Sam.",
-                    "title": "I\u00a0Samuel"
+                    "shortTitle": "1\u00a0Sam.",
+                    "title": "1\u00a0Samuel"
                 },
                 "2-chr": {
-                    "shortTitle": "II\u00a0Cr\u00f4n.",
-                    "title": "II\u00a0Cr\u00f4nicas"
+                    "shortTitle": "2\u00a0Cr\u00f4n.",
+                    "title": "2\u00a0Cr\u00f4nicas"
                 },
                 "2-kgs": {
-                    "shortTitle": "II\u00a0Re.",
-                    "title": "II\u00a0Reis"
+                    "shortTitle": "2\u00a0Re.",
+                    "title": "2\u00a0Reis"
                 },
                 "2-sam": {
-                    "shortTitle": "II\u00a0Sam.",
-                    "title": "II\u00a0Samuel"
+                    "shortTitle": "2\u00a0Sam.",
+                    "title": "2\u00a0Samuel"
                 },
                 "amos": {
                     "shortTitle": "Am\u00f3s",
@@ -273,7 +273,7 @@
                 },
                 "hosea": {
                     "shortTitle": "Os\u00e9.",
-                    "title": "Os\u00e9ias"
+                    "title": "Oseias"
                 },
                 "isa": {
                     "shortTitle": "Isa.",
@@ -305,7 +305,7 @@
                 },
                 "lam": {
                     "shortTitle": "Lam.",
-                    "title": "Lamenta\u00e7\u00f5es de Jeremias"
+                    "title": "Lamenta\u00e7\u00f5es"
                 },
                 "lev": {
                     "shortTitle": "Lev.",
@@ -317,7 +317,7 @@
                 },
                 "micah": {
                     "shortTitle": "Miq.",
-                    "title": "Miqu\u00e9ias"
+                    "title": "Miqueias"
                 },
                 "nahum": {
                     "shortTitle": "Naum",
