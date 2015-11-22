@@ -63,7 +63,7 @@
                     "title": "Dagiti Balikas ni Mormon"
                 }
             },
-            "title": "Libro ni Mormon"
+            "title": "Ti Libro ni Mormon"
         },
         "dc-testament": {
             "books": {
@@ -81,7 +81,9 @@
                             "shortTitle": "OP\u20142",
                             "title": "Opisial a Palawag\u20142"
                         }
-                    }
+                    },
+                    "shortTitle": "OP",
+                    "title": "Opisial a Palawag"
                 }
             },
             "title": "Doktrina ken Katulagan"
