@@ -4,72 +4,72 @@
             "books": {
                 "1-ne": {
                     "shortTitle": "\u8153\u4e00",
-                    "title": "\u5c3c\u8153\u4e00\u4e66\u200b"
+                    "title": "\u5c3c\u8153\u4e00\u4e66"
                 },
                 "2-ne": {
                     "shortTitle": "\u8153\u4e8c",
-                    "title": "\u5c3c\u8153\u4e8c\u4e66\u200b"
+                    "title": "\u5c3c\u8153\u4e8c\u4e66"
                 },
                 "3-ne": {
                     "shortTitle": "\u8153\u4e09",
-                    "title": "\u5c3c\u8153\u4e09\u4e66\u200b"
+                    "title": "\u5c3c\u8153\u4e09\u4e66"
                 },
                 "4-ne": {
                     "shortTitle": "\u8153\u56db",
-                    "title": "\u5c3c\u8153\u56db\u4e66\u200b"
+                    "title": "\u5c3c\u8153\u56db\u4e66"
                 },
                 "alma": {
                     "shortTitle": "\u963f",
-                    "title": "\u963f\u5c14\u739b\u4e66\u200b"
+                    "title": "\u963f\u5c14\u739b\u4e66"
                 },
                 "enos": {
                     "shortTitle": "\u632a",
-                    "title": "\u4ee5\u632a\u58eb\u4e66\u200b"
+                    "title": "\u4ee5\u632a\u58eb\u4e66"
                 },
                 "ether": {
                     "shortTitle": "\u4ee5",
-                    "title": "\u4ee5\u5e16\u4e66\u200b"
+                    "title": "\u4ee5\u5e16\u4e66"
                 },
                 "hel": {
                     "shortTitle": "\u66fc",
-                    "title": "\u5e0c\u62c9\u66fc\u4e66\u200b"
+                    "title": "\u5e0c\u62c9\u66fc\u4e66"
                 },
                 "jacob": {
                     "shortTitle": "\u5404",
-                    "title": "\u96c5\u5404\u4e66\u200b"
+                    "title": "\u96c5\u5404\u4e66"
                 },
                 "jarom": {
                     "shortTitle": "\u9f99",
-                    "title": "\u96c5\u9f99\u4e66\u200b"
+                    "title": "\u96c5\u9f99\u4e66"
                 },
                 "morm": {
                     "shortTitle": "\u6469\u5c14\u95e8",
-                    "title": "\u6469\u5c14\u95e8\u4e66\u200b"
+                    "title": "\u6469\u5c14\u95e8\u4e66"
                 },
                 "moro": {
                     "shortTitle": "\u4e43",
-                    "title": "\u6469\u7f57\u4e43\u4e66\u200b"
+                    "title": "\u6469\u7f57\u4e43\u4e66"
                 },
                 "mosiah": {
                     "shortTitle": "\u6469\u8d5b",
-                    "title": "\u6469\u8d5b\u4e9a\u4e66\u200b"
+                    "title": "\u6469\u8d5b\u4e9a\u4e66"
                 },
                 "omni": {
                     "shortTitle": "\u5965",
-                    "title": "\u5965\u59c6\u4e43\u4e66\u200b"
+                    "title": "\u5965\u59c6\u4e43\u4e66"
                 },
                 "w-of-m": {
                     "shortTitle": "\u8bed",
-                    "title": "\u6469\u5c14\u95e8\u8bed\u200b"
+                    "title": "\u6469\u5c14\u95e8\u8bed"
                 }
             },
-            "title": "\u6469\u5c14\u95e8\u7ecf\u200b"
+            "title": "\u6469\u5c14\u95e8\u7ecf"
         },
         "dc-testament": {
             "books": {
                 "dc": {
-                    "shortTitle": "\u6559\u7ea6\u200b",
-                    "title": "\u6559\u4e49\u548c\u5723\u7ea6\u200b"
+                    "shortTitle": "\u6559\u7ea6",
+                    "title": "\u6559\u4e49\u548c\u5723\u7ea6"
                 },
                 "od": {
                     "chapters": {
@@ -86,7 +86,7 @@
                     "title": "\u6b63\u5f0f\u200b\u5ba3\u8a00"
                 }
             },
-            "title": "\u6559\u4e49\u548c\u5723\u7ea6\u200b"
+            "title": "\u6559\u4e49\u548c\u5723\u7ea6"
         },
         "nt": {
             "books": {
@@ -372,22 +372,22 @@
                 },
                 "abr": {
                     "shortTitle": "\u7f55",
-                    "title": "\u4e9a\u4f2f\u62c9\u7f55\u4e66\u200b"
+                    "title": "\u4e9a\u4f2f\u62c9\u7f55\u4e66"
                 },
                 "js-h": {
                     "shortTitle": "\u7ea6\u53f2",
-                    "title": "\u7ea6\u745f\u00b7\u65af\u5bc6\u2014\u2014\u200b\u6b77\u53f2\u200b"
+                    "title": "\u7ea6\u745f\u00b7\u65af\u5bc6\u2014\u2014 \u6b77\u53f2"
                 },
                 "js-m": {
                     "shortTitle": "\u7ea6\u592a",
-                    "title": "\u7ea6\u745f\u00b7\u65af\u5bc6\u2014\u2014\u200b\u9a6c\u592a\u200b"
+                    "title": "\u7ea6\u745f\u00b7\u65af\u5bc6\u2014\u2014 \u9a6c\u592a"
                 },
                 "moses": {
                     "shortTitle": "\u6469\u897f",
-                    "title": "\u6469\u897f\u4e66\u200b"
+                    "title": "\u6469\u897f\u4e66"
                 }
             },
-            "title": "\u65e0\u4ef7\u73cd\u73e0\u200b"
+            "title": "\u65e0\u4ef7\u73cd\u73e0"
         }
     }
 }
