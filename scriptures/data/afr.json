@@ -63,7 +63,7 @@
                     "title": "Woorde van Mormon"
                 }
             },
-            "title": "Boek van Mormon"
+            "title": "Die Boek van Mormon"
         },
         "dc-testament": {
             "books": {
@@ -81,7 +81,9 @@
                             "shortTitle": "AV\u20142",
                             "title": "Amptelike Verklaring\u20142"
                         }
-                    }
+                    },
+                    "shortTitle": "AV",
+                    "title": "Amptelike Verklarings"
                 }
             },
             "title": "Die Leer en Verbonde"
@@ -339,8 +341,8 @@
                 },
                 "ps": {
                     "shortTitle": "Ps.",
-                    "singularShortTitle": "Ps.",
-                    "singularTitle": "Psalms",
+                    "singularShortTitle": "Spr.",
+                    "singularTitle": "Spreuke van Salomo",
                     "title": "Psalms"
                 },
                 "ruth": {

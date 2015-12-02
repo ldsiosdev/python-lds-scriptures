@@ -1,0 +1,391 @@
+{
+    "testaments": {
+        "bofm": {
+            "books": {
+                "1-ne": {
+                    "shortTitle": "1\u00a0Ne.",
+                    "title": "1\u00a0Nefi"
+                },
+                "2-ne": {
+                    "shortTitle": "2\u00a0Ne.",
+                    "title": "2\u00a0Nefi"
+                },
+                "3-ne": {
+                    "shortTitle": "3\u00a0Ne.",
+                    "title": "3\u00a0Nefi"
+                },
+                "4-ne": {
+                    "shortTitle": "4\u00a0Ne.",
+                    "title": "4\u00a0Nefi"
+                },
+                "alma": {
+                    "shortTitle": "Al.",
+                    "title": "Alma"
+                },
+                "enos": {
+                    "shortTitle": "Enos",
+                    "title": "Enos"
+                },
+                "ether": {
+                    "shortTitle": "Et.",
+                    "title": "Eter"
+                },
+                "hel": {
+                    "shortTitle": "He.",
+                    "title": "Helaman"
+                },
+                "jacob": {
+                    "shortTitle": "Jak.",
+                    "title": "Jakub"
+                },
+                "jarom": {
+                    "shortTitle": "Jar.",
+                    "title": "Jarom"
+                },
+                "morm": {
+                    "shortTitle": "Morm.",
+                    "title": "Mormon"
+                },
+                "moro": {
+                    "shortTitle": "Moro.",
+                    "title": "Moroni"
+                },
+                "mosiah": {
+                    "shortTitle": "Mos.",
+                    "title": "Mosjasz"
+                },
+                "omni": {
+                    "shortTitle": "Omn.",
+                    "title": "Omni"
+                },
+                "w-of-m": {
+                    "shortTitle": "S\u0142. Morm.",
+                    "title": "S\u0142owa Mormona"
+                }
+            },
+            "title": "Ksi\u0119ga Mormona"
+        },
+        "dc-testament": {
+            "books": {
+                "dc": {
+                    "shortTitle": "N.i P.",
+                    "title": "Nauki i Przymierza"
+                },
+                "od": {
+                    "chapters": {
+                        "1": {
+                            "shortTitle": "OD\u20141",
+                            "title": "Oficjalna Deklaracja\u20141"
+                        },
+                        "2": {
+                            "shortTitle": "OD\u20142",
+                            "title": "Oficjalna Deklaracja\u20142"
+                        }
+                    }
+                }
+            },
+            "title": "Nauki i Przymierza"
+        },
+        "nt": {
+            "books": {
+                "1-cor": {
+                    "shortTitle": "I\u00a0Kor.",
+                    "title": "I\u00a0List do Koryntian"
+                },
+                "1-jn": {
+                    "shortTitle": "I\u00a0Jan",
+                    "title": "I\u00a0List Jana"
+                },
+                "1-pet": {
+                    "shortTitle": "I\u00a0Piotr",
+                    "title": "I\u00a0List Piotra"
+                },
+                "1-thes": {
+                    "shortTitle": "I\u00a0Tes.",
+                    "title": "I\u00a0List do Tesaloniczan"
+                },
+                "1-tim": {
+                    "shortTitle": "I\u00a0Tym.",
+                    "title": "I\u00a0List do Tymoteusza"
+                },
+                "2-cor": {
+                    "shortTitle": "II\u00a0Kor.",
+                    "title": "II\u00a0List do Koryntian"
+                },
+                "2-jn": {
+                    "shortTitle": "II\u00a0Jan",
+                    "title": "II\u00a0List Jana"
+                },
+                "2-pet": {
+                    "shortTitle": "II\u00a0Piotr",
+                    "title": "II\u00a0List Piotra"
+                },
+                "2-thes": {
+                    "shortTitle": "II\u00a0Tes.",
+                    "title": "II\u00a0List do Tesaloniczan"
+                },
+                "2-tim": {
+                    "shortTitle": "II\u00a0Tym.",
+                    "title": "II\u00a0List do Tymoteusza"
+                },
+                "3-jn": {
+                    "shortTitle": "III\u00a0Jan",
+                    "title": "III\u00a0List Jana"
+                },
+                "acts": {
+                    "shortTitle": "Dz.",
+                    "title": "Dzieje Apostolskie"
+                },
+                "col": {
+                    "shortTitle": "Kol.",
+                    "title": "List do Kolosan"
+                },
+                "eph": {
+                    "shortTitle": "Efez.",
+                    "title": "List do Efezjan"
+                },
+                "gal": {
+                    "shortTitle": "Gal.",
+                    "title": "List do Galacjan"
+                },
+                "heb": {
+                    "shortTitle": "Hebr.",
+                    "title": "List do Hebrajczyk\u00f3w"
+                },
+                "james": {
+                    "shortTitle": "Jak.",
+                    "title": "List \u015bw. Jakuba"
+                },
+                "john": {
+                    "shortTitle": "Ew. Jana",
+                    "title": "Ew. Jana"
+                },
+                "jude": {
+                    "shortTitle": "Judy",
+                    "title": "List Judy"
+                },
+                "luke": {
+                    "shortTitle": "Ew. \u0141uk.",
+                    "title": "Ew. \u0141ukasza"
+                },
+                "mark": {
+                    "shortTitle": "Ew. Mar.",
+                    "title": "Ew. Marka"
+                },
+                "matt": {
+                    "shortTitle": "Ew. Mat.",
+                    "title": "Ew. Mateusza"
+                },
+                "philem": {
+                    "shortTitle": "Filem.",
+                    "title": "List do Filemona"
+                },
+                "philip": {
+                    "shortTitle": "Fil.",
+                    "title": "List do Filipian"
+                },
+                "rev": {
+                    "shortTitle": "Obj.",
+                    "title": "Objawienie"
+                },
+                "rom": {
+                    "shortTitle": "Rzym.",
+                    "title": "List do Rzymian"
+                },
+                "titus": {
+                    "shortTitle": "Tyt.",
+                    "title": "List do Tytusa"
+                }
+            },
+            "title": "Nowy Testament"
+        },
+        "ot": {
+            "books": {
+                "1-chr": {
+                    "shortTitle": "I\u00a0Kron.",
+                    "title": "I\u00a0Ks. Kronik"
+                },
+                "1-kgs": {
+                    "shortTitle": "I\u00a0Kr\u00f3l.",
+                    "title": "I\u00a0Ks. Kr\u00f3lewska"
+                },
+                "1-sam": {
+                    "shortTitle": "I\u00a0Sam.",
+                    "title": "I\u00a0Ks. Samuela"
+                },
+                "2-chr": {
+                    "shortTitle": "II\u00a0Kron.",
+                    "title": "II\u00a0Ks. Kronik"
+                },
+                "2-kgs": {
+                    "shortTitle": "II\u00a0Kr\u00f3l.",
+                    "title": "II\u00a0Ks. Kr\u00f3lewska"
+                },
+                "2-sam": {
+                    "shortTitle": "II\u00a0Sam.",
+                    "title": "II\u00a0Ks. Samuela"
+                },
+                "amos": {
+                    "shortTitle": "Am.",
+                    "title": "Ks. Amosa"
+                },
+                "dan": {
+                    "shortTitle": "Dan.",
+                    "title": "Ks. Daniela"
+                },
+                "deut": {
+                    "shortTitle": "V Moj\u017c.",
+                    "title": "V Ks. Moj\u017ceszowa"
+                },
+                "eccl": {
+                    "shortTitle": "Kazn.",
+                    "title": "Ks. Kaznodziei Salomona"
+                },
+                "esth": {
+                    "shortTitle": "Est.",
+                    "title": "Ks. Estery"
+                },
+                "ex": {
+                    "shortTitle": "II\u00a0Moj\u017c.",
+                    "title": "II\u00a0Ks. Moj\u017ceszowa"
+                },
+                "ezek": {
+                    "shortTitle": "Ez.",
+                    "title": "Ks. Ezechiela"
+                },
+                "ezra": {
+                    "shortTitle": "Ezdr.",
+                    "title": "Ks. Ezdrasza"
+                },
+                "gen": {
+                    "shortTitle": "I\u00a0Moj\u017c.",
+                    "title": "I\u00a0Ks. Moj\u017ceszowa"
+                },
+                "hab": {
+                    "shortTitle": "Hab.",
+                    "title": "Ks. Habakuka"
+                },
+                "hag": {
+                    "shortTitle": "Ag.",
+                    "title": "Ks. Aggeusza"
+                },
+                "hosea": {
+                    "shortTitle": "Oz.",
+                    "title": "Ks. Ozeasza"
+                },
+                "isa": {
+                    "shortTitle": "Izaj.",
+                    "title": "Ks. Izajasza"
+                },
+                "jer": {
+                    "shortTitle": "Jer.",
+                    "title": "Ks. Jeremiasza"
+                },
+                "job": {
+                    "shortTitle": "Job",
+                    "title": "Ks. Joba"
+                },
+                "joel": {
+                    "shortTitle": "Joel",
+                    "title": "Ks. Joela"
+                },
+                "jonah": {
+                    "shortTitle": "Jon.",
+                    "title": "Ks. Jonasza"
+                },
+                "josh": {
+                    "shortTitle": "Joz.",
+                    "title": "Ks. Jozuego"
+                },
+                "judg": {
+                    "shortTitle": "S\u0119dz.",
+                    "title": "Ks. S\u0119dzi\u00f3w"
+                },
+                "lam": {
+                    "shortTitle": "Treny",
+                    "title": "Treny"
+                },
+                "lev": {
+                    "shortTitle": "III\u00a0Moj\u017c.",
+                    "title": "III\u00a0Ks. Moj\u017ceszowa"
+                },
+                "mal": {
+                    "shortTitle": "Mal.",
+                    "title": "Ks. Malachiasza"
+                },
+                "micah": {
+                    "shortTitle": "Mich.",
+                    "title": "Ks. Micheasza"
+                },
+                "nahum": {
+                    "shortTitle": "Nah.",
+                    "title": "Ks. Nahuma"
+                },
+                "neh": {
+                    "shortTitle": "Neh.",
+                    "title": "Ks. Nehemiasza"
+                },
+                "num": {
+                    "shortTitle": "IV Moj\u017c.",
+                    "title": "IV Ks. Moj\u017ceszowa"
+                },
+                "obad": {
+                    "shortTitle": "Abd.",
+                    "title": "Ks. Abdiasza"
+                },
+                "prov": {
+                    "shortTitle": "Przyp.",
+                    "title": "Przypowie\u015bci Salomona"
+                },
+                "ps": {
+                    "shortTitle": "Ps.",
+                    "singularShortTitle": "Ps.",
+                    "singularTitle": "Psalm",
+                    "title": "Ks. Psalm\u00f3w"
+                },
+                "ruth": {
+                    "shortTitle": "Rut",
+                    "title": "Ks. Rut"
+                },
+                "song": {
+                    "shortTitle": "P.n.P.",
+                    "title": "Pie\u015b\u0144 nad Pie\u015bniami"
+                },
+                "zech": {
+                    "shortTitle": "Zach.",
+                    "title": "Ks. Zachariasza"
+                },
+                "zeph": {
+                    "shortTitle": "Sof.",
+                    "title": "Ks. Sofoniasza"
+                }
+            },
+            "title": "Stary Testament"
+        },
+        "pgp": {
+            "books": {
+                "a-of-f": {
+                    "shortTitle": "Z.W.",
+                    "title": "Zasady Wiary"
+                },
+                "abr": {
+                    "shortTitle": "Abr.",
+                    "title": "Ksi\u0119ga Abrahama"
+                },
+                "js-h": {
+                    "shortTitle": "JS\u2014H",
+                    "title": "J\u00f3zef Smith\u2014Historia"
+                },
+                "js-m": {
+                    "shortTitle": "JS\u2014M",
+                    "title": "J\u00f3zef Smith\u2014Mateusz"
+                },
+                "moses": {
+                    "shortTitle": "Moj\u017c.",
+                    "title": "Wyj\u0105tki z Ksi\u0119gi Moj\u017cesza"
+                }
+            },
+            "title": "Per\u0142a Wielkiej Warto\u015bci"
+        }
+    }
+}
