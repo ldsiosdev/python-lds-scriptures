@@ -81,7 +81,9 @@
                             "shortTitle": "DZ\u20142",
                             "title": "Deklarata Zyrtare\u20142"
                         }
-                    }
+                    },
+                    "shortTitle": "DZ",
+                    "title": "Deklaratat Zyrtare"
                 }
             },
             "title": "Doktrina e Bes\u00eblidhje"
@@ -259,7 +261,7 @@
                 },
                 "gen": {
                     "shortTitle": "Zan.",
-                    "title": "Zanafilla\n"
+                    "title": "Zanafilla"
                 },
                 "hab": {
                     "shortTitle": "Hab.",
@@ -353,7 +355,7 @@
                 },
                 "zech": {
                     "shortTitle": "Zak.",
-                    "title": "Zakaria\n"
+                    "title": "Zakaria"
                 },
                 "zeph": {
                     "shortTitle": "Sof.",

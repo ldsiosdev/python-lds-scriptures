@@ -63,7 +63,7 @@
                     "title": "Tenin' i M\u00f4rm\u00f4na"
                 }
             },
-            "title": "Bokin' i M\u00f4rm\u00f4na"
+            "title": "Ny Bokin\u2019 i M\u00f4rm\u00f4na"
         },
         "dc-testament": {
             "books": {
@@ -81,7 +81,9 @@
                             "shortTitle": "FO\u20142",
                             "title": "Filazana Ofisialy\u20142"
                         }
-                    }
+                    },
+                    "shortTitle": "FO",
+                    "title": "Filazana Ofisialy"
                 }
             },
             "title": "Fotopampianarana sy Fanekempihavanana"
@@ -270,7 +272,8 @@
                     "title": "Hagay"
                 },
                 "hosea": {
-                    "shortTitle": "Hosea"
+                    "shortTitle": "Hosea",
+                    "title": "Hosea"
                 },
                 "isa": {
                     "shortTitle": "Isa.",

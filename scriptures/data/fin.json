@@ -63,7 +63,7 @@
                     "title": "Mormonin kirja"
                 }
             },
-            "title": "Mormonin kirja"
+            "title": "Mormonin Kirja"
         },
         "dc-testament": {
             "books": {
@@ -160,7 +160,7 @@
                 },
                 "john": {
                     "shortTitle": "Joh.",
-                    "title": "Evankelium Johanneksen mukaan"
+                    "title": "Evankeliumi Johanneksen mukaan"
                 },
                 "jude": {
                     "shortTitle": "Juud.",
@@ -168,15 +168,15 @@
                 },
                 "luke": {
                     "shortTitle": "Luuk.",
-                    "title": "Evankelium Luukkaan mukaan"
+                    "title": "Evankeliumi Luukkaan mukaan"
                 },
                 "mark": {
                     "shortTitle": "Mark.",
-                    "title": "Evankelium Markuksen mukaan"
+                    "title": "Evankeliumi Markuksen mukaan"
                 },
                 "matt": {
                     "shortTitle": "Matt.",
-                    "title": "Evankelium Matteuksen mukaan"
+                    "title": "Evankeliumi Matteuksen mukaan"
                 },
                 "philem": {
                     "shortTitle": "Filem.",
