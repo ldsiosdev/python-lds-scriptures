@@ -63,7 +63,7 @@
                     "title": "Mga Pulong ni Mormon"
                 }
             },
-            "title": "Basahon ni Mormon"
+            "title": "Ang Basahon ni Mormon"
         },
         "dc-testament": {
             "books": {
@@ -81,7 +81,9 @@
                             "shortTitle": "OP\u20142",
                             "title": "Opisyal nga Pamahayag\u2014"
                         }
-                    }
+                    },
+                    "shortTitle": "OP",
+                    "title": "Opisyal nga Pamahayag"
                 }
             },
             "title": "Doktrina ug Mga Pakigsaad"
