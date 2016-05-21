@@ -4,7 +4,7 @@ import argparse
 import json
 import re
 import plistlib
-from pysqlite2 import dbapi2 as sqlite3
+import sqlite3
 import requests
 from StringIO import StringIO
 import tempfile
@@ -16,7 +16,7 @@ parser.add_argument('--structure', dest='structure_path', required=True)
 args = parser.parse_args()
 
 SCHEMA_VERSION = 2
-CDN_URL = 'http://broadcast3.lds.org/crowdsource/Mobile/GospelStudy/production/v1'
+CDN_URL = 'https://edge.ldscdn.org/mobile/gospelstudy/production/v1'
 
 ITEM_URIS = [
     '/scriptures/ot',

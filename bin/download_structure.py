@@ -11,7 +11,7 @@ import tempfile
 import zipfile
 
 SCHEMA_VERSION = 2
-CDN_URL = 'http://broadcast3.lds.org/crowdsource/Mobile/GospelStudy/production/v1'
+CDN_URL = 'https://edge.ldscdn.org/mobile/gospelstudy/production/v1'
 
 ITEM_URIS = [
     '/scriptures/ot',
@@ -57,7 +57,7 @@ else:
                     zip_file.extractall(item_package_path)
                 
                 item_xml_path = '%s/%s/item.xml' % (item_package_path, item_id,)
-                item_doc = bs4.BeautifulSoup(open(item_xml_path))
+                item_doc = bs4.BeautifulSoup(open(item_xml_path), 'lxml')
                 
                 for testament in item_doc.find_all('div', type='testament', uri=True):
                     testament_name = os.path.basename(testament['uri'])

@@ -1,7 +1,6 @@
 import codecs
 import requests
 import json
-import sys
 import collections
 import os
 
