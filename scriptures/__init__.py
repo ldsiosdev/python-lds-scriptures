@@ -273,10 +273,34 @@ class ScriptureRef:
                     else:
                         uri += '/' + str(self.chapter)
                     if self.verse_ranges:
-                        uri += '.' + ','.join(str(x[0]) if x[0] == x[1] else '{}-{}'.format(x[0], x[1]) for x in self.verse_ranges) if self.verse_ranges else None
+                        uri += '.' + ','.join(str(x[0]) if x[0] == x[1] else '{}-{}'.format(x[0], x[1]) for x in self.verse_ranges)
                     if self.parens:
-                        uri += '(%s)' % (str(self.parens[0]) if self.parens[0] == self.parens[1] else '{}-{}'.format(self.parens[0], self.parens[1])) if self.parens else None
+                        uri += '(%s)' % (str(self.parens[0]) if self.parens[0] == self.parens[1] else '{}-{}'.format(self.parens[0], self.parens[1]))
         return uri
+
+    def url_path(self):
+        path = '/scriptures'
+        if self.testament:
+            path += '/' + self.testament
+            if self.book:
+                path += '/' + self.book
+                if self.chapter:
+                    if type(self.chapter) is tuple:
+                        path += '/{}.html'.format(self.chapter[0])
+                    else:
+                        path += '/{}.html'.format(self.chapter)
+
+                    params = {}
+                    if self.verse_ranges:
+                        params['verse'] = ','.join(str(x[0]) if x[0] == x[1] else '{}-{}'.format(x[0], x[1]) for x in self.verse_ranges)
+                    if self.parens:
+                        params['context'] = (str(self.parens[0]) if self.parens[0] == self.parens[1] else '{}-{}'.format(self.parens[0], self.parens[1]))
+                    if params:
+                        path += '?' + '&'.join(['{}={}'.format(key, value) for (key, value) in params.iteritems()])
+
+                    if self.verse_ranges:
+                        path += '#p' + str(self.verse_ranges[0][0])
+        return path
 
     def __repr__(self):
         return 'ScriptureRef("{}")'.format(self.uri())
