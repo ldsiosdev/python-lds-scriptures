@@ -2,6 +2,7 @@ import itertools
 import json
 import pkg_resources
 import re
+from memoize import memoize
 from structure import Structure
 
 FORMAT_LONG = 0
@@ -12,12 +13,18 @@ def ref(uri, validate_verses=True):
     return ScriptureRef(uri, validate_verses=validate_verses)
 
 
-def format(ref_or_refs, lang='eng', include_book=True, book_format=FORMAT_LONG, formatter=None):
-    # Load the language definition
+@memoize
+def load_language_definition(lang):
     try:
-        language = json.loads(pkg_resources.resource_string(__name__, 'data/{}.json'.format(lang)))
+        return json.loads(pkg_resources.resource_string(__name__, 'data/{}.json'.format(lang)))
     except:
-        language = json.loads(pkg_resources.resource_string(__name__, 'data/{}.json'.format('eng')))
+        if lang != 'eng':
+            return load_language_definition('eng')
+        return None
+
+
+def format(ref_or_refs, lang='eng', include_book=True, book_format=FORMAT_LONG, formatter=None):
+    language = load_language_definition(lang)
 
     if isinstance(ref_or_refs, ScriptureRef):
         ref = ref_or_refs
@@ -116,6 +123,11 @@ def merged(refs):
     return merged_refs
 
 
+@memoize
+def load_structure():
+    return Structure().structure
+
+
 class ScriptureRef:
     SCRIPTURE_URI_REGEX = re.compile(r'''
         ^/scriptures
@@ -132,7 +144,7 @@ class ScriptureRef:
     ''', re.VERBOSE)
 
     def __init__(self, uri=None, testament=None, book=None, chapter=None, verse_ranges=None, parens=None, validate_verses=True):
-        self.structure = Structure().structure
+        self.structure = load_structure()
 
         if uri:
             match = ScriptureRef.SCRIPTURE_URI_REGEX.match(uri)
