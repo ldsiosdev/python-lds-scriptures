@@ -74,15 +74,15 @@
                 "od": {
                     "chapters": {
                         "1": {
-                            "shortTitle": "\u041e\u0444\u0417 \u2014 1",
+                            "shortTitle": "\u041e\u0417 \u2014 1",
                             "title": "\u041e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0435 \u0437\u0430\u044f\u0432\u043b\u0435\u043d\u0438\u0435 \u2014 1"
                         },
                         "2": {
-                            "shortTitle": "\u041e\u0444\u0417 \u2014 2",
+                            "shortTitle": "\u041e\u0417 \u2014 2",
                             "title": "\u041e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0435 \u0437\u0430\u044f\u0432\u043b\u0435\u043d\u0438\u0435 \u2014 2"
                         }
                     },
-                    "shortTitle": "\u041e\u0444\u0417",
+                    "shortTitle": "\u041e\u0417",
                     "title": "\u041e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u0437\u0430\u044f\u0432\u043b\u0435\u043d\u0438\u044f"
                 }
             },
@@ -140,19 +140,19 @@
                 },
                 "col": {
                     "shortTitle": "\u041a\u043e\u043b.",
-                    "title": "\u043a \u041a\u043e\u043b\u043e\u0441\u0441\u044f\u043d\u0430\u043c"
+                    "title": "\u041a \u041a\u043e\u043b\u043e\u0441\u0441\u044f\u043d\u0430\u043c"
                 },
                 "eph": {
                     "shortTitle": "\u0415\u0444.",
-                    "title": "\u043a \u0415\u0444\u0435\u0441\u044f\u043d\u0430\u043c"
+                    "title": "\u041a \u0415\u0444\u0435\u0441\u044f\u043d\u0430\u043c"
                 },
                 "gal": {
                     "shortTitle": "\u0413\u0430\u043b.",
-                    "title": "\u043a \u0413\u0430\u043b\u0430\u0442\u0430\u043c"
+                    "title": "\u041a \u0413\u0430\u043b\u0430\u0442\u0430\u043c"
                 },
                 "heb": {
                     "shortTitle": "\u0415\u0432\u0440.",
-                    "title": "\u043a \u0415\u0432\u0440\u0435\u044f\u043c"
+                    "title": "\u041a \u0415\u0432\u0440\u0435\u044f\u043c"
                 },
                 "james": {
                     "shortTitle": "\u0418\u0430\u043a\u043e\u0432\u0430",
@@ -160,7 +160,7 @@
                 },
                 "john": {
                     "shortTitle": "\u0418\u043d.",
-                    "title": "\u043e\u0442 \u0418\u043e\u0430\u043d\u043d\u0430"
+                    "title": "\u041e\u0442 \u0418\u043e\u0430\u043d\u043d\u0430"
                 },
                 "jude": {
                     "shortTitle": "\u0418\u0443\u0434.",
@@ -168,23 +168,23 @@
                 },
                 "luke": {
                     "shortTitle": "\u041b\u043a.",
-                    "title": "\u043e\u0442 \u041b\u0443\u043a\u0438"
+                    "title": "\u041e\u0442 \u041b\u0443\u043a\u0438"
                 },
                 "mark": {
                     "shortTitle": "\u041c\u043a.",
-                    "title": "\u043e\u0442 \u041c\u0430\u0440\u043a\u0430"
+                    "title": "\u041e\u0442 \u041c\u0430\u0440\u043a\u0430"
                 },
                 "matt": {
                     "shortTitle": "\u041c\u0444.",
-                    "title": "\u043e\u0442 \u041c\u0430\u0442\u0444\u0435\u044f"
+                    "title": "\u041e\u0442 \u041c\u0430\u0442\u0444\u0435\u044f"
                 },
                 "philem": {
                     "shortTitle": "\u0424\u043b\u043c.",
-                    "title": "\u043a \u0424\u0438\u043b\u0438\u043c\u043e\u043d\u0443"
+                    "title": "\u041a \u0424\u0438\u043b\u0438\u043c\u043e\u043d\u0443"
                 },
                 "philip": {
                     "shortTitle": "\u0424\u043b\u043f.",
-                    "title": "\u043a \u0424\u0438\u043b\u0438\u043f\u043f\u0438\u0439\u0446\u0430\u043c"
+                    "title": "\u041a \u0424\u0438\u043b\u0438\u043f\u043f\u0438\u0439\u0446\u0430\u043c"
                 },
                 "rev": {
                     "shortTitle": "\u041e\u0442\u043a\u0440.",
@@ -192,11 +192,11 @@
                 },
                 "rom": {
                     "shortTitle": "\u0420\u0438\u043c.",
-                    "title": "\u043a \u0420\u0438\u043c\u043b\u044f\u043d\u0430\u043c"
+                    "title": "\u041a \u0420\u0438\u043c\u043b\u044f\u043d\u0430\u043c"
                 },
                 "titus": {
-                    "shortTitle": "\u043a \u0422\u0438\u0442\u0443",
-                    "title": "\u043a \u0422\u0438\u0442\u0443"
+                    "shortTitle": "\u0422\u0438\u0442",
+                    "title": "\u041a \u0422\u0438\u0442\u0443"
                 }
             },
             "title": "\u041d\u043e\u0432\u044b\u0439 \u0417\u0430\u0432\u0435\u0442"
