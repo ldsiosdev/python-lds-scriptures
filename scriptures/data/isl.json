@@ -4,19 +4,19 @@
             "books": {
                 "1-ne": {
                     "shortTitle": "1\u00a0Ne",
-                    "title": "1. Nef\u00ed"
+                    "title": "1\u00a0Nef\u00ed"
                 },
                 "2-ne": {
                     "shortTitle": "2\u00a0Ne",
-                    "title": "2. Nef\u00ed"
+                    "title": "2\u00a0Nef\u00ed"
                 },
                 "3-ne": {
                     "shortTitle": "3\u00a0Ne",
-                    "title": "3. Nef\u00ed"
+                    "title": "3\u00a0Nef\u00ed"
                 },
                 "4-ne": {
                     "shortTitle": "4\u00a0Ne",
-                    "title": "4. Nef\u00ed"
+                    "title": "4\u00a0Nef\u00ed"
                 },
                 "alma": {
                     "shortTitle": "Al",
@@ -74,12 +74,12 @@
                 "od": {
                     "chapters": {
                         "1": {
-                            "shortTitle": "OY\u20141",
-                            "title": "Opinber yfirl\u00fdsing\u20141"
+                            "shortTitle": "OY \u2014 1",
+                            "title": "Opinber yfirl\u00fdsing \u2014 1"
                         },
                         "2": {
-                            "shortTitle": "OY\u20142",
-                            "title": "Opinber yfirl\u00fdsing\u20142"
+                            "shortTitle": "OY \u2014 2",
+                            "title": "Opinber yfirl\u00fdsing \u2014 2"
                         }
                     },
                     "shortTitle": "OY",
@@ -332,7 +332,7 @@
                     "title": "4. M\u00f3seb\u00f3k"
                 },
                 "obad": {
-                    "shortTitle": "Obad",
+                    "shortTitle": "\u00d3bad",
                     "title": "\u00d3bad\u00eda"
                 },
                 "prov": {
@@ -375,12 +375,12 @@
                     "title": "Abraham"
                 },
                 "js-h": {
-                    "shortTitle": "JS\u2014S",
-                    "title": "Joseph Smith\u2014Saga"
+                    "shortTitle": "JS \u2014 S",
+                    "title": "Joseph Smith \u2014 Saga"
                 },
                 "js-m": {
-                    "shortTitle": "JS\u2014M",
-                    "title": "Joseph Smith\u2014Matteus"
+                    "shortTitle": "JS \u2014 M",
+                    "title": "Joseph Smith \u2014 Matteus"
                 },
                 "moses": {
                     "shortTitle": "HDP M\u00f3se",

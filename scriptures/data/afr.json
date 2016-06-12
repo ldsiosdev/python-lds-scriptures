@@ -368,19 +368,19 @@
             "books": {
                 "a-of-f": {
                     "shortTitle": "Art.",
-                    "title": "Artikels van Geloof"
+                    "title": "Geloofsartikels"
                 },
                 "abr": {
                     "shortTitle": "Abr.",
                     "title": "Abraham"
                 },
                 "js-h": {
-                    "shortTitle": "JS\u20142",
-                    "title": "Joseph Smith\u20142"
+                    "shortTitle": "JS\u2014G",
+                    "title": "Joseph Smith\u2014Geskiedenis"
                 },
                 "js-m": {
-                    "shortTitle": "JS\u20141",
-                    "title": "Joseph Smith\u20141"
+                    "shortTitle": "JS\u2014M",
+                    "title": "Joseph Smith\u2014Matth\u00e9\u00fcs"
                 },
                 "moses": {
                     "shortTitle": "Moses",
