@@ -3,6 +3,7 @@
 import unittest
 from scriptures import ref, format, FORMAT_LONG, FORMAT_SHORT
 
+
 class TestFormat(unittest.TestCase):
     def test_format_general(self):
         def formatter_test(label, ref):
@@ -55,6 +56,22 @@ class TestFormat(unittest.TestCase):
         self.assertEqual(format(ref('/scriptures/dc-testament/od/1'), book_format=FORMAT_SHORT), u'OD—1')
         self.assertEqual(format(ref('/scriptures/dc-testament/od/2'), book_format=FORMAT_LONG), u'Official Declaration—2')
         self.assertEqual(format(ref('/scriptures/dc-testament/od/2'), book_format=FORMAT_SHORT), u'OD—2')
+
+    def test_format_w_of_m_variations(self):
+        self.assertEqual(format(ref('/scriptures/bofm/w-of-m/1'), book_format=FORMAT_LONG), 'Words of Mormon 1')
+        self.assertEqual(format(ref('/scriptures/bofm/w-of-m/1'), book_format=FORMAT_SHORT), 'W of M 1')
+
+    def test_format_js_m_variations(self):
+        self.assertEqual(format(ref('/scriptures/pgp/js-m/1'), book_format=FORMAT_LONG), u'Joseph Smith\u2014Matthew 1')
+        self.assertEqual(format(ref('/scriptures/pgp/js-m/1'), book_format=FORMAT_SHORT), u'JS\u2014M 1')
+
+    def test_format_js_h_variations(self):
+        self.assertEqual(format(ref('/scriptures/pgp/js-h/1'), book_format=FORMAT_LONG), u'Joseph Smith\u2014History 1')
+        self.assertEqual(format(ref('/scriptures/pgp/js-h/1'), book_format=FORMAT_SHORT), u'JS\u2014H 1')
+
+    def test_format_a_of_f_variations(self):
+        self.assertEqual(format(ref('/scriptures/pgp/a-of-f/1'), book_format=FORMAT_LONG), 'Articles of Faith 1')
+        self.assertEqual(format(ref('/scriptures/pgp/a-of-f/1'), book_format=FORMAT_SHORT), 'A of F 1')
 
     def test_format_psalms(self):
         self.assertEqual(format(ref('/scriptures/ot/ps'), book_format=FORMAT_LONG), 'Psalms')
