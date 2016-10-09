@@ -290,6 +290,26 @@ class ScriptureRef:
                         uri += '(%s)' % (str(self.parens[0]) if self.parens[0] == self.parens[1] else '{}-{}'.format(self.parens[0], self.parens[1]))
         return uri
 
+    def website_url(self):
+        url = 'https://www.lds.org/scriptures'
+        if self.testament:
+            url += '/' + self.testament
+            if self.book:
+                url += '/' + self.book
+                if self.chapter:
+                    if type(self.chapter) is tuple:
+                        url += '/{}-{}'.format(self.chapter[0], self.chapter[1])
+                    else:
+                        url += '/' + str(self.chapter)
+                        if self.verse_ranges:
+                            url += '.' + ','.join(str(x[0]) if x[0] == x[1] else '{}-{}'.format(x[0], x[1]) for x in self.verse_ranges)
+                        if self.parens:
+                            url += '(%s)' % (str(self.parens[0]) if self.parens[0] == self.parens[1] else '{}-{}'.format(self.parens[0], self.parens[1]))
+                        if self.verse_ranges:
+                            first_verse = self.verse_ranges[0][0]
+                            url += '#{}'.format(first_verse - 1 if first_verse > 1 else 'primary')
+        return url
+
     def url_path(self):
         path = '/scriptures'
         if self.testament:
