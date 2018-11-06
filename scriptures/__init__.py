@@ -4,6 +4,7 @@ import pkg_resources
 import re
 from memoize import memoize
 from structure import Structure
+from urlparse import urlparse, parse_qs
 
 FORMAT_LONG = 0
 FORMAT_SHORT = 1
@@ -143,7 +144,15 @@ class ScriptureRef:
         $
     ''', re.VERBOSE)
 
-    def __init__(self, uri=None, testament=None, book=None, chapter=None, verse_ranges=None, parens=None, validate_verses=True):
+    GOSPEL_LIBRARY_URL_PATH_REGEX = re.compile(r'''
+        ^/scriptures
+        /([^/]+)                      # testament
+        /?([^/]+)?                    # book (optional)
+        (?:/(\d+(-(\d+))?))?          # chapter with optional range
+        $
+    ''', re.VERBOSE)
+
+    def __init__(self, uri=None, gospel_library_url=None, testament=None, book=None, chapter=None, verse_ranges=None, parens=None, validate_verses=True):
         self.structure = load_structure()
 
         if uri:
@@ -197,6 +206,66 @@ class ScriptureRef:
 
                     parens = (start, stop)
                     previous_stop = stop
+
+        elif gospel_library_url:
+            result = urlparse(gospel_library_url)
+            if result.scheme != 'gospellibrary':
+                raise ValueError('scheme is invalid')
+
+            if result.netloc != 'content':
+                raise ValueError('path is invalid')
+
+            match = ScriptureRef.GOSPEL_LIBRARY_URL_PATH_REGEX.match(result.path)
+            if match:
+                testament = match.group(1)
+                book = match.group(2)
+
+                if match.group(3):
+                    chapter_range_parts = match.group(3).split('-')
+                    if len(chapter_range_parts) == 1:
+                        chapter = int(chapter_range_parts[0])
+                    else:
+                        chapter = (int(chapter_range_parts[0]), int(chapter_range_parts[1]))
+                        if chapter[0] == chapter[1]:
+                            raise ValueError('range in chapter_ranges is invalid')
+
+                    params = parse_qs(result.query)
+                    if 'verse' in params:
+                        verse = params['verse'][0]
+
+                        # Verse ranges (including those consisting of a single verse) are stored as a list of pairs
+                        verse_ranges = []
+
+                        for verse_range in verse.split(','):
+                            verse_range_parts = verse_range.split('-')
+                            if len(verse_range_parts) == 1:
+                                start = int(verse_range_parts[0])
+                                stop = start
+                            else:
+                                start = int(verse_range_parts[0])
+                                stop = int(verse_range_parts[1])
+                                if stop == start:
+                                    raise ValueError('range in verse_ranges is invalid')
+
+                            verse_ranges.append((start, stop))
+
+                    if 'context' in params:
+                        context = params['context'][0]
+
+                        # Paren ranges (including those consisting of a single verse) are stored as a list of pairs
+                        parens = []
+
+                        parens_range_parts = context.split('-')
+                        if len(parens_range_parts) == 1:
+                            start = int(parens_range_parts[0])
+                            stop = start
+                        else:
+                            start = int(parens_range_parts[0])
+                            stop = int(parens_range_parts[1])
+                            if stop == start:
+                                raise ValueError('range in parens_ranges is invalid')
+
+                        parens = (start, stop)
 
         if testament:
             # Get the testament
@@ -270,6 +339,8 @@ class ScriptureRef:
         else:
             if uri is not None:
                 raise ValueError('uri is not a valid scripture ref')
+            elif gospel_library_url is not None:
+                raise ValueError('gospel_library_url is not a valid scripture URL')
             else:
                 raise TypeError('missing required argument')
 
@@ -312,6 +383,32 @@ class ScriptureRef:
                         if self.verse_ranges:
                             first_verse = self.verse_ranges[0][0]
                             url += '#{}'.format(first_verse - 1 if first_verse > 1 else 'primary')
+        return url
+
+    def gospel_library_url(self):
+        url = 'gospellibrary://content/scriptures'
+        if self.testament:
+            url += '/' + self.testament
+            if self.book:
+                url += '/' + self.book
+                if self.chapter:
+                    if type(self.chapter) is tuple:
+                        url += '/{}-{}'.format(self.chapter[0], self.chapter[1])
+                    else:
+                        url += '/{}'.format(self.chapter)
+
+                    params = {}
+                    if self.verse_ranges:
+                        params['verse'] = ','.join(
+                            str(x[0]) if x[0] == x[1] else '{}-{}'.format(x[0], x[1]) for x in self.verse_ranges)
+                    if self.parens:
+                        params['context'] = (
+                            str(self.parens[0]) if self.parens[0] == self.parens[1] else '{}-{}'.format(self.parens[0], self.parens[1]))
+                    if params:
+                        url += '?' + '&'.join(['{}={}'.format(key, value) for (key, value) in params.iteritems()])
+
+                    if self.verse_ranges:
+                        url += '#p' + str(self.verse_ranges[0][0])
         return url
 
     def url_path(self):
