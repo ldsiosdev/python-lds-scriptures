@@ -385,6 +385,36 @@ class ScriptureRef:
                             url += '#{}'.format(first_verse - 1 if first_verse > 1 else 'primary')
         return url
 
+    def universal_url(self, lang=None):
+        url = 'https://www.lds.org/study/scriptures'
+        if self.testament:
+            url += '/' + self.testament
+            if self.book:
+                url += '/' + self.book
+                if self.chapter:
+                    if type(self.chapter) is tuple:
+                        url += '/{}-{}'.format(self.chapter[0], self.chapter[1])
+                        if lang is not None:
+                            url += '?lang={}'.format(lang)
+                    else:
+                        url += '/' + str(self.chapter)
+                        if self.verse_ranges or self.parens or lang is not None:
+                            parameters = []
+                            if self.verse_ranges:
+                                id_parameter = 'id=' + ','.join(('p' + str(x[0])) if x[0] == x[1] else 'p{}-p{}'.format(x[0], x[1]) for x in self.verse_ranges)
+                                parameters.append(id_parameter)
+                            if self.parens:
+                                context_parameter = 'context=' + (('p' + str(self.parens[0])) if self.parens[0] == self.parens[1] else 'p{}-p{}'.format(self.parens[0], self.parens[1]))
+                                parameters.append(context_parameter)
+                            if lang is not None:
+                                lang_parameter = 'lang={}'.format(lang)
+                                parameters.append(lang_parameter)
+                            url += '?' + '&'.join(parameters)
+                        if self.verse_ranges:
+                            first_verse = self.verse_ranges[0][0]
+                            url += '#p{}'.format(first_verse)
+        return url
+
     def gospel_library_url(self):
         url = 'gospellibrary://content/scriptures'
         if self.testament:
