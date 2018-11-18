@@ -1,12 +1,15 @@
 #!/usr/bin/env python
 
+from __future__ import print_function
+from future import standard_library
+standard_library.install_aliases()
 import bs4
 import json
 import os
 import re
 import plistlib
 import requests
-from StringIO import StringIO
+from io import StringIO
 import tempfile
 import zipfile
 
@@ -23,20 +26,20 @@ ITEM_URIS = [
 
 testaments_data = []
 
-print 'Getting the current schema {} catalog version...'.format(SCHEMA_VERSION)
+print('Getting the current schema {} catalog version...'.format(SCHEMA_VERSION))
 index_url = '{}/schemas/{}/index.json'.format(CDN_URL, SCHEMA_VERSION)
 r = requests.get(index_url)
 if r.status_code != 200:
-    print r.text
+    print(r.text)
 else:
     index = r.json()
     catalog_version = index['catalogVersion']
 
-    print 'Getting catalog {}...'.format(catalog_version)
+    print('Getting catalog {}...'.format(catalog_version))
     catalog_url = '{}/catalog/{}.xml'.format(CDN_URL, SCHEMA_VERSION)
     r = requests.get(catalog_url)
     if r.status_code != 200:
-        print r.text
+        print(r.text)
     else:
         catalog = plistlib.readPlistFromString(r.content)
         
@@ -46,11 +49,11 @@ else:
             item_id = item['itemID']
             item_version = item['version']
             
-            print 'Getting item {}...'.format(item_uri)
+            print('Getting item {}...'.format(item_uri))
             item_zip_url = '{}/content/{}/{}.zip'.format(CDN_URL, item_id, item_version)
             r = requests.get(item_zip_url)
             if r.status_code != 200:
-                print r.text
+                print(r.text)
             else:
                 item_package_path = tempfile.mkdtemp()
                 with zipfile.ZipFile(StringIO(r.content), 'r') as zip_file:
@@ -91,4 +94,4 @@ else:
                                 
                                 
 structure_data = dict(testaments=testaments_data)
-print json.dumps(structure_data, sort_keys=True, indent=4, separators=(',', ': '))
+print(json.dumps(structure_data, sort_keys=True, indent=4, separators=(',', ': ')))

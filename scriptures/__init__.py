@@ -1,10 +1,12 @@
+from future import standard_library
+standard_library.install_aliases()
 import itertools
 import json
 import pkg_resources
 import re
 from memoize import memoize
-from structure import Structure
-from urlparse import urlparse, parse_qs
+from .structure import Structure
+from urllib.parse import urlparse, parse_qs
 
 FORMAT_LONG = 0
 FORMAT_SHORT = 1
@@ -17,7 +19,7 @@ def ref(uri, validate_verses=True):
 @memoize
 def load_language_definition(lang):
     try:
-        return json.loads(pkg_resources.resource_string(__name__, 'data/{}.json'.format(lang)))
+        return json.loads(pkg_resources.resource_string(__name__, 'data/{}.json'.format(lang)).decode('utf-8'))
     except:
         if lang != 'eng':
             return load_language_definition('eng')
@@ -129,7 +131,7 @@ def load_structure():
     return Structure().structure
 
 
-class ScriptureRef:
+class ScriptureRef(object):
     SCRIPTURE_URI_REGEX = re.compile(r'''
         ^/scriptures
         /([^/]+)                      # testament
@@ -295,7 +297,7 @@ class ScriptureRef:
                     stop = self.chapter[1]
                     if stop < start:
                         raise ValueError('range in chapter_ranges is invalid')
-                    if stop > book_structure['chapters']:
+                    if stop > len(book_structure['chapters']):
                         raise ValueError('range in chapter_ranges is not valid for chapter')
                 else:
                     # Single chapter
@@ -435,7 +437,7 @@ class ScriptureRef:
                         params['context'] = (
                             str(self.parens[0]) if self.parens[0] == self.parens[1] else '{}-{}'.format(self.parens[0], self.parens[1]))
                     if params:
-                        url += '?' + '&'.join(['{}={}'.format(key, value) for (key, value) in params.iteritems()])
+                        url += '?' + '&'.join(['{}={}'.format(key, value) for (key, value) in params.items()])
 
                     if self.verse_ranges:
                         url += '#p' + str(self.verse_ranges[0][0])
@@ -459,7 +461,7 @@ class ScriptureRef:
                     if self.parens:
                         params['context'] = (str(self.parens[0]) if self.parens[0] == self.parens[1] else '{}-{}'.format(self.parens[0], self.parens[1]))
                     if params:
-                        path += '?' + '&'.join(['{}={}'.format(key, value) for (key, value) in params.iteritems()])
+                        path += '?' + '&'.join(['{}={}'.format(key, value) for (key, value) in params.items()])
 
                     if self.verse_ranges:
                         path += '#p' + str(self.verse_ranges[0][0])
@@ -472,36 +474,36 @@ class ScriptureRef:
         return format(self)
 
     def __lt__(self, other):
-        self_testament_index, self_testament_structure = next(((i, x) for i, x in enumerate(self.structure['testaments']) if x['name'] == self.testament), None)
-        self_book_index, self_book_structure = next(((i, x) for i, x in enumerate(self_testament_structure['books']) if x['name'] == self.book), None)
+        self_testament_index, self_testament_structure = next(((i, x) for i, x in enumerate(self.structure['testaments']) if x['name'] == self.testament), -1)
+        self_book_index, self_book_structure = next(((i, x) for i, x in enumerate(self_testament_structure['books']) if x['name'] == self.book), -1)
 
-        other_testament_index, other_testament_structure = next(((i, x) for i, x in enumerate(self.structure['testaments']) if x['name'] == other.testament), None)
-        other_book_index, other_book_structure = next(((i, x) for i, x in enumerate(other_testament_structure['books']) if x['name'] == other.book), None)
+        other_testament_index, other_testament_structure = next(((i, x) for i, x in enumerate(self.structure['testaments']) if x['name'] == other.testament), -1)
+        other_book_index, other_book_structure = next(((i, x) for i, x in enumerate(other_testament_structure['books']) if x['name'] == other.book), -1)
 
-        self_first_verse_range_start = self.verse_ranges[0][0] if self.verse_ranges else None
-        self_first_verse_range_stop = self.verse_ranges[0][1] if self.verse_ranges else None
+        self_first_verse_range_start = self.verse_ranges[0][0] if self.verse_ranges else -1
+        self_first_verse_range_stop = self.verse_ranges[0][1] if self.verse_ranges else -1
 
-        other_first_verse_range_start = other.verse_ranges[0][0] if other.verse_ranges else None
-        other_first_verse_range_stop = other.verse_ranges[0][1] if other.verse_ranges else None
+        other_first_verse_range_start = other.verse_ranges[0][0] if other.verse_ranges else -1
+        other_first_verse_range_stop = other.verse_ranges[0][1] if other.verse_ranges else -1
 
-        return ((self_testament_index, self_book_index, self.chapter, self_first_verse_range_start, self_first_verse_range_stop) <
-                (other_testament_index, other_book_index, other.chapter, other_first_verse_range_start, other_first_verse_range_stop))
+        return ((self_testament_index, self_book_index, self.chapter or -1, self_first_verse_range_start, self_first_verse_range_stop) <
+                (other_testament_index, other_book_index, other.chapter or -1, other_first_verse_range_start, other_first_verse_range_stop))
 
     def __eq__(self, other):
-        self_testament_index, self_testament_structure = next(((i, x) for i, x in enumerate(self.structure['testaments']) if x['name'] == self.testament), None)
-        self_book_index, self_book_structure = next(((i, x) for i, x in enumerate(self_testament_structure['books']) if x['name'] == self.book), None)
+        self_testament_index, self_testament_structure = next(((i, x) for i, x in enumerate(self.structure['testaments']) if x['name'] == self.testament), -1)
+        self_book_index, self_book_structure = next(((i, x) for i, x in enumerate(self_testament_structure['books']) if x['name'] == self.book), -1)
 
-        other_testament_index, other_testament_structure = next(((i, x) for i, x in enumerate(self.structure['testaments']) if x['name'] == other.testament), None)
-        other_book_index, other_book_structure = next(((i, x) for i, x in enumerate(other_testament_structure['books']) if x['name'] == other.book), None)
+        other_testament_index, other_testament_structure = next(((i, x) for i, x in enumerate(self.structure['testaments']) if x['name'] == other.testament), -1)
+        other_book_index, other_book_structure = next(((i, x) for i, x in enumerate(other_testament_structure['books']) if x['name'] == other.book), -1)
 
-        self_first_verse_range_start = self.verse_ranges[0][0] if self.verse_ranges else None
-        self_first_verse_range_stop = self.verse_ranges[0][1] if self.verse_ranges else None
+        self_first_verse_range_start = self.verse_ranges[0][0] if self.verse_ranges else -1
+        self_first_verse_range_stop = self.verse_ranges[0][1] if self.verse_ranges else -1
 
-        other_first_verse_range_start = other.verse_ranges[0][0] if other.verse_ranges else None
-        other_first_verse_range_stop = other.verse_ranges[0][1] if other.verse_ranges else None
+        other_first_verse_range_start = other.verse_ranges[0][0] if other.verse_ranges else -1
+        other_first_verse_range_stop = other.verse_ranges[0][1] if other.verse_ranges else -1
 
-        return ((self_testament_index, self_book_index, self.chapter, self_first_verse_range_start, self_first_verse_range_stop) ==
-                (other_testament_index, other_book_index, other.chapter, other_first_verse_range_start, other_first_verse_range_stop))
+        return ((self_testament_index, self_book_index, self.chapter or -1, self_first_verse_range_start, self_first_verse_range_stop) ==
+                (other_testament_index, other_book_index, other.chapter or -1, other_first_verse_range_start, other_first_verse_range_stop))
 
     def merged(self, other):
         if self.testament != other.testament or self.book != other.book or (self.chapter != other.chapter and self.chapter and other.chapter):
@@ -513,7 +515,7 @@ class ScriptureRef:
 
         verse_ranges = None
         if self.verse_ranges and other.verse_ranges:
-            verses = set(itertools.chain.from_iterable(range(start, stop + 1) for start, stop in itertools.chain(self.verse_ranges, other.verse_ranges)))
+            verses = set(itertools.chain.from_iterable(list(range(start, stop + 1)) for start, stop in itertools.chain(self.verse_ranges, other.verse_ranges)))
             if len(verses) > 0:
                 verse_ranges = list(ranges(sorted(verses)))
 
@@ -524,7 +526,7 @@ class ScriptureRef:
         book_structure = next((x for x in testament_structure['books'] if x['name'] == self.book), None)
 
         if not self.chapter:
-            return range(1, len(book_structure['chapters']) + 1)
+            return list(range(1, len(book_structure['chapters']) + 1))
 
         if not self.verse_ranges:
             return [ self.chapter ]
@@ -543,12 +545,12 @@ class ScriptureRef:
             testament_structure = next((x for x in self.structure['testaments'] if x['name'] == self.testament), None)
             book_structure = next((x for x in testament_structure['books'] if x['name'] == self.book), None)
             chapter_structure = book_structure['chapters'][self.chapter - 1]
-            return range(1, chapter_structure['verses'] + 1)
+            return list(range(1, chapter_structure['verses'] + 1))
 
-        return sorted(set(itertools.chain.from_iterable(range(start, stop + 1) for start, stop in self.verse_ranges)))
+        return sorted(set(itertools.chain.from_iterable(list(range(start, stop + 1)) for start, stop in self.verse_ranges)))
 
 
 def ranges(i):
-    for a, b in itertools.groupby(enumerate(i), lambda (x, y): y - x):
+    for a, b in itertools.groupby(enumerate(i), lambda range: range[1] - range[0]):
         b = list(b)
         yield b[0][1], b[-1][1]

@@ -2,7 +2,7 @@ import json
 import pkg_resources
 
 
-class Testament:
+class Testament(object):
     def __init__(self, uri):
         self.uri = uri
 
@@ -12,7 +12,7 @@ class Testament:
         return False
 
 
-class Book:
+class Book(object):
     def __init__(self, uri):
         self.uri = uri
 
@@ -22,7 +22,7 @@ class Book:
         return False
 
 
-class Chapter:
+class Chapter(object):
     def __init__(self, uri, verse_count):
         self.uri = uri
         self.verse_count = verse_count
@@ -33,9 +33,9 @@ class Chapter:
         return False
 
 
-class Structure:
+class Structure(object):
     def __init__(self):
-        self.structure = json.loads(pkg_resources.resource_string(__name__, 'data/structure.json'))
+        self.structure = json.loads(pkg_resources.resource_string(__name__, 'data/structure.json').decode('utf-8'))
 
         self._testaments = []
         self.books_by_testament_uri = {}

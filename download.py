@@ -1,3 +1,4 @@
+from __future__ import print_function
 import codecs
 import requests
 import json
@@ -11,7 +12,7 @@ SOURCE_URL = 'https://script.google.com/macros/s/AKfycbw_hA5vXFZr2KuhZFe4msmq0x2
 # list(find_key(file_dict, 'title'))
 # Used to make list of all values of 'title' keys (so we can assess completion)
 def find_key(dictionary, key):
-    for k, v in dictionary.iteritems():
+    for k, v in dictionary.items():
         if isinstance(v, collections.Mapping):
             for inner_value in find_key(v, key):
                 if inner_value != '':
@@ -21,19 +22,19 @@ def find_key(dictionary, key):
                 yield v
 
 if __name__ == '__main__':
-    print 'Loading book name spreadsheet data.'
+    print('Loading book name spreadsheet data.')
 
     r = requests.get(SOURCE_URL)
 
     if r.ok:
-        print 'Splitting out into individual files'
+        print('Splitting out into individual files')
 
         data = r.json()
 
         exported_list = []
         incomplete_list = []
 
-        for filename, file_dict in sorted(data.iteritems()):
+        for filename, file_dict in sorted(data.items()):
             output_filename = DESTINATION.format(code=filename)
 
             # Check if translation is complete (length should be 184)
@@ -61,5 +62,5 @@ if __name__ == '__main__':
 
                 incomplete_list.append(filename)
 
-        print 'Exported (%d): %s' % (len(exported_list), ', '.join(exported_list))
-        print 'Incomplete (%d): %s' % (len(incomplete_list), ', '.join(incomplete_list))
+        print('Exported (%d): %s' % (len(exported_list), ', '.join(exported_list)))
+        print('Incomplete (%d): %s' % (len(incomplete_list), ', '.join(incomplete_list)))
