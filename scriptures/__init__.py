@@ -470,6 +470,9 @@ class ScriptureRef(object):
     def __repr__(self):
         return 'ScriptureRef("{}")'.format(self.uri())
 
+    def __str__(self):
+        return format(self)
+
     def __unicode__(self):
         return format(self)
 
