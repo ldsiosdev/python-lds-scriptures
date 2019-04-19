@@ -9,7 +9,8 @@ from .structure import Structure
 from urllib.parse import urlparse, parse_qs
 
 FORMAT_LONG = 0
-FORMAT_SHORT = 1
+FORMAT_MEDIUM = 1
+FORMAT_SHORT = 2
 
 
 def ref(uri, validate_verses=True):
@@ -32,32 +33,34 @@ def format(ref_or_refs, lang='eng', include_book=True, book_format=FORMAT_LONG, 
     if isinstance(ref_or_refs, ScriptureRef):
         ref = ref_or_refs
 
+        def format_title(book_format, long_title, short_title):
+            if short_title:
+                if book_format == FORMAT_MEDIUM and len(short_title) / len(long_title) <= 0.25:
+                    return short_title
+                if book_format == FORMAT_SHORT:
+                    return short_title
+            return long_title
+
         # See if it's a testament
         if ref.testament and not ref.book:
             response = language['testaments'][ref.testament]['title']
         else:
             # Get the book
             language_book = language['testaments'][ref.testament]['books'][ref.book]
-            book = language_book['title']
-            if book_format == FORMAT_SHORT and 'shortTitle' in language_book:
-                book = language_book['shortTitle']
 
             # Format the ref
             if ref.chapter:
                 if 'chapters' in language_book and str(ref.chapter) in language_book['chapters']:
                     language_chapter = language_book['chapters'][str(ref.chapter)]
-                    chapter = language_chapter['title']
-                    if book_format == FORMAT_SHORT and 'shortTitle' in language_chapter:
-                        chapter = language_chapter['shortTitle']
-
-                    response = chapter
+                    response = format_title(book_format,
+                                            language_chapter['title'],
+                                            language_chapter.get('shortTitle'))
                 else:
-                    if book_format == FORMAT_LONG and 'singularTitle' in language_book:
-                        book = language_book['singularTitle']
+                    book = format_title(book_format,
+                                        language_book.get('singularTitle', language_book['title']),
+                                        language_book.get('singularShortTitle', language_book.get('shortTitle')))
 
-                    response = book if include_book else ''
-                    if response:
-                        response += ' '
+                    response = book + ' ' if include_book else ''
                     if type(ref.chapter) is tuple:
                         response += u'{}\u2013{}'.format(ref.chapter[0], ref.chapter[1])
                     else:
@@ -69,6 +72,9 @@ def format(ref_or_refs, lang='eng', include_book=True, book_format=FORMAT_LONG, 
                         response += ' (%s)' % (str(ref.parens[0]) if ref.parens[0] == ref.parens[1] else u'{}\u2013{}'.format(ref.parens[0], ref.parens[1])) if ref.parens else None
 
             else:
+                book = format_title(book_format,
+                                    language_book['title'],
+                                    language_book.get('shortTitle'))
                 response = book if include_book else ''
 
         if formatter is not None:
