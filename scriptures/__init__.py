@@ -394,7 +394,7 @@ class ScriptureRef(object):
         return url
 
     def universal_url(self, lang=None):
-        url = 'https://www.lds.org/study/scriptures'
+        url = 'https://www.churchofjesuschrist.org/study/scriptures'
         if self.testament:
             url += '/' + self.testament
             if self.book:
