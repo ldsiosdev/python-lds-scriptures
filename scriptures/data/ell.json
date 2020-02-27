@@ -1,0 +1,394 @@
+{
+    "testaments": {
+        "bofm": {
+            "books": {
+                "1-ne": {
+                    "title": "Νεφί Α΄",
+                    "shortTitle": "Α΄ Νεφ."
+                },
+                "2-ne": {
+                    "title": "Νεφί Β΄",
+                    "shortTitle": "Β΄ Νεφ."
+                },
+                "3-ne": {
+                    "title": "Νεφί Γ΄",
+                    "shortTitle": "Γ΄ Νεφ."
+                },
+                "4-ne": {
+                    "title": "Νεφί Δ΄",
+                    "shortTitle": "Δ΄ Νεφ."
+                },
+                "alma": {
+                    "title": "Άλμα"
+                    "shortTitle": "Άλμα"
+                },
+                "enos": {
+                    "title": "Ενώς"
+                    "shortTitle": "Ενώς"
+                },
+                "ether": {
+                    "title": "Εθέρ"
+                    "shortTitle": "Εθέρ"
+                },
+                "hel": {
+                    "title": "Ήλαμαν",
+                    "shortTitle": "Ηλ."
+                },
+                "jacob": {
+                    "title": "Ιακώβ"
+                    "shortTitle": "Ιακώβ"
+                },
+                "jarom": {
+                    "title": "Ιαρώμ"
+                    "shortTitle": "Ιαρώμ"
+                },
+                "morm": {
+                    "title": "Μόρμον",
+                    "shortTitle": "Μορμ."
+                },
+                "moro": {
+                    "title": "Μορόνι",
+                    "shortTitle": "Μορ."
+                },
+                "mosiah": {
+                    "title": "Μωσία"
+                    "shortTitle": "Μωσία"
+                },
+                "omni": {
+                    "title": "Όμνι"
+                    "shortTitle": "Όμνι"
+                },
+                "w-of-m": {
+                    "title": "Λόγια του Μόρμον",
+                    "shortTitle": "Λ.τ.Μ."
+                }
+            },
+            "title": "Βιβλίο του Μόρμον"
+        },
+        "dc-testament": {
+            "books": {
+                "dc": {
+                    "title": "Διδαχή και Διαθήκες",
+                    "shortTitle": "Δ&Δ"
+                },
+                "od": {
+                    "title": "Επίσημη Δήλωση",
+                    "shortTitle": "Ε.Δ.",
+                    "chapters": {
+                        "1": {
+                            "title": "Επίσημη Δήλωση 1",
+                            "shortTitle": "Ε.Δ. 1"
+                        },
+                        "2": {
+                            "title": "Επίσημη Δήλωση 2",
+                            "shortTitle": "Ε.Δ. 2"
+                        }
+                    }
+                }
+            },
+            "title": "Διδαχή και Διαθήκες",
+            "shortTitle": "Δ&Δ"
+        },
+        "nt": {
+            "books": {
+                "1-cor": {
+                    "title": "Προς Κορινθίους Α΄",
+                    "shortTitle": "Α΄ Κορ."
+                },
+                "1-jn": {
+                    "title": "Ιωάννη Α΄",
+                    "shortTitle": "Α΄ Ιν."
+                },
+                "1-pet": {
+                    "title": "Πέτρου Α΄",
+                    "shortTitle": "Α΄ Πετ."
+                },
+                "1-thes": {
+                    "title": "Προς Θεσσαλονικείς Α΄",
+                    "shortTitle": "Α΄ Θεσ."
+                },
+                "1-tim": {
+                    "title": "Προς Τιμόθεον Α΄",
+                    "shortTitle": "Α΄ Τιμ."
+                },
+                "2-cor": {
+                    "title": "Προς Κορινθίους Β΄",
+                    "shortTitle": "Β΄ Κορ."
+                },
+                "2-jn": {
+                    "title": "Ιωάννη Β΄",
+                    "shortTitle": "Β΄ Ιν."
+                },
+                "2-pet": {
+                    "title": "Πέτρου Β΄",
+                    "shortTitle": "Β΄ Πετ."
+                },
+                "2-thes": {
+                    "title": "Προς Θεσσαλονικείς Β΄",
+                    "shortTitle": "Β΄ Θεσ."
+                },
+                "2-tim": {
+                    "title": "Προς Τιμόθεον Β΄",
+                    "shortTitle": "Β΄ Τιμ."
+                },
+                "3-jn": {
+                    "title": "Ιωάννη Γ΄",
+                    "shortTitle": "Γ΄ Ιν."
+                },
+                "acts": {
+                    "title": "Πράξεις",
+                    "shortTitle": "Πρξ."
+                },
+                "col": {
+                    "title": "Προς Κολοσσαείς",
+                    "shortTitle": "Κολ."
+                },
+                "eph": {
+                    "title": "Προς Εφεσίους",
+                    "shortTitle": "Εφ."
+                },
+                "gal": {
+                    "title": "Προς Γαλάτες",
+                    "shortTitle": "Γαλ."
+                },
+                "heb": {
+                    "title": "Προς Εβραίους",
+                    "shortTitle": "Εβρ."
+                },
+                "james": {
+                    "title": "Ιακώβου",
+                    "shortTitle": "Ιακ."
+                },
+                "john": {
+                    "title": "Κατά Ιωάννην",
+                    "shortTitle": "Ιν."
+                },
+                "jude": {
+                    "title": "Ιούδα",
+                    "shortTitle": "Ιδ."
+                },
+                "luke": {
+                    "title": "Κατά Λουκάν",
+                    "shortTitle": "Λκ."
+                },
+                "mark": {
+                    "title": "Κατά Μάρκον",
+                    "shortTitle": "Μκ."
+                },
+                "matt": {
+                    "title": "Κατά Ματθαίον",
+                    "shortTitle": "Μθ."
+                },
+                "philem": {
+                    "title": "Προς Φιλήμονα",
+                    "shortTitle": "Φλν."
+                },
+                "philip": {
+                    "title": "Προς Φιλιππησίους",
+                    "shortTitle": "Φιλ."
+                },
+                "rev": {
+                    "title": "Αποκάλυψη",
+                    "shortTitle": "Αποκ."
+                },
+                "rom": {
+                    "title": "Προς Ρωμαίους",
+                    "shortTitle": "Ρωμ."
+                },
+                "titus": {
+                    "title": "Προς Τίτον",
+                    "shortTitle": "Τιτ.
+                }
+            },
+            "title": "Καινή Διαθήκη"
+        },
+        "ot": {
+            "books": {
+                "1-chr": {
+                    "title": "Α΄ Χρονικών",
+                    "shortTitle": "Α΄ Χρ."
+                },
+                "1-kgs": {
+                    "title": "Α΄ Βασιλέων",
+                    "shortTitle": "Α΄ Βασ."
+                },
+                "1-sam": {
+                    "title": "Α΄ Σαμουήλ",
+                    "shortTitle": "Α΄ Σαμ."
+                },
+                "2-chr": {
+                    "title": "Β΄ Χρονικών",
+                    "shortTitle": "Β΄ Χρ."
+                },
+                "2-kgs": {
+                    "title": "Β΄ Βασιλέων",
+                    "shortTitle": "Β΄ Βασ."
+                },
+                "2-sam": {
+                    "title": "Β΄ Σαμουήλ",
+                    "shortTitle": "Β΄ Σαμ."
+                },
+                "amos": {
+                    "title": "Αμώς",
+                    "shortTitle": "Αμ."
+                },
+                "dan": {
+                    "title": "Δανιήλ",
+                    "shortTitle": "Δαν."
+                },
+                "deut": {
+                    "title": "Δευτερονόμιο",
+                    "shortTitle": "Δευτ."
+                },
+                "eccl": {
+                    "title": "Εκκλησιαστής",
+                    "shortTitle": "Εκκλ."
+                },
+                "esth": {
+                    "title": "Εσθήρ",
+                    "shortTitle": "Εσθ."
+                },
+                "ex": {
+                    "title": "Έξοδος",
+                    "shortTitle": "Εξ."
+                },
+                "ezek": {
+                    "title": "Ιεζεκιήκ",
+                    "shortTitle": "Ιεζ."
+                },
+                "ezra": {
+                    "title": "Έσδρας",
+                    "shortTitle": "Εσδ."
+                },
+                "gen": {
+                    "title": "Γένεση",
+                    "shortTitle": "Γεν."
+                },
+                "hab": {
+                    "title": "Αββακούμ",
+                    "shortTitle": "Αββ."
+                },
+                "hag": {
+                    "title": "Αγγαίος",
+                    "shortTitle": "Αγγ."
+                },
+                "hosea": {
+                    "title": "Ωσηέ",
+                    "shortTitle": "Ωσ."
+                },
+                "isa": {
+                    "title": "Ησαΐας",
+                    "shortTitle": "Ησ."
+                },
+                "jer": {
+                    "title": "Ιερεμίας",
+                    "shortTitle": "Ιερ."
+                },
+                "job": {
+                    "title": "Ιώβ",
+                    "shortTitle": "Ιώβ"
+                },
+                "joel": {
+                    "title": "Ιωήλ",
+                    "shortTitle": "Ιωήλ"
+                },
+                "jonah": {
+                    "title": "Ιωνάς",
+                    "shortTitle": "Ιων."
+                },
+                "josh": {
+                    "title": "Ιησούς του Ναυή",
+                    "shortTitle": "Ιησ.Ν."
+                },
+                "judg": {
+                    "title": "Κριτές",
+                    "shortTitle": "Κριτ."
+                },
+                "lam": {
+                    "title": "Θρήνοι",
+                    "shortTitle": "Θρην."
+                },
+                "lev": {
+                    "title": "Λευτικό",
+                    "shortTitle": "Λευ."
+                },
+                "mal": {
+                    "title": "Μαλαχίας",
+                    "shortTitle": "Μαλ."
+                },
+                "micah": {
+                    "title": "Μιχαίας",
+                    "shortTitle": "Μιχ."
+                },
+                "nahum": {
+                    "title": "Ναούμ",
+                    "shortTitle": "Να."
+                },
+                "neh": {
+                    "title": "Νεεμίας",
+                    "shortTitle": "Νεε."
+                },
+                "num": {
+                    "title": "Αριθμοί",
+                    "shortTitle": "Αρθ."
+                },
+                "obad": {
+                    "title": "Αβδιού",
+                    "shortTitle": "Αβδ."
+                },
+                "prov": {
+                    "title": "Παροιμίες",
+                    "shortTitle": "Παρ."
+                },
+                "ps": {
+                    "title": "Ψαλμοί",
+                    "shortTitle": "Ψλμ."
+                    "singularShortTitle": "Ψλμ.",
+                    "singularTitle": "Ψαλμό",
+                },
+                "ruth": {
+                    "title": "Ρουθ",
+                    "shortTitle": "Ρουθ"
+                },
+                "song": {
+                    "title": "Άσμα Ασμάτων",
+                    "shortTitle": "Άσμα"
+                },
+                "zech": {
+                    "title": "Ζαχαρίας",
+                    "shortTitle": "Ζαχ."
+                },
+                "zeph": {
+                    "title": "Σοφονίας",
+                    "shortTitle": "Σοφ."
+                }
+            },
+            "title": "Παλαιά Διαθήκη"
+        },
+        "pgp": {
+            "books": {
+                "a-of-f": {
+                    "title": "Άρθρα της Πίστεως",
+                    "shortTitle": "Α.τ.Π."
+                },
+                "abr": {
+                    "title": "Αβραάμ",
+                    "shortTitle": "Αβρ."
+                },
+                "js-h": {
+                    "title": "Τζόζεφ Σμιθ–Ιστορία",
+                    "shortTitle": "Τ.Σ.–Ι."
+                },
+                "js-m": {
+                    "title": "Τζόζεφ Σμιθ–Κατά Ματθαίον",
+                    "shortTitle": "Τ.Σ.–Μ."
+                },
+                "moses": {
+                    "title": "Μωυσής"
+                    "shortTitle": "Μωυσ."
+                }
+            },
+            "title": "Πολύτιμο Μαργαριτάρι"
+        }
+    }
+}
